@@ -13,6 +13,8 @@
 .. |DescripcionIGTF| image:: resources/descripcionigtf.png
 .. |VisualizaDetalle| image:: resources/visualizadetalle.png
 .. |DetalleDocumento| image:: resources/detalledocumento.png
+.. |MenuGRetenciones| image:: resources/generarretenciones.png
+.. |VentanaGRetenciones| image:: resources/vgenerarretenciones.png
 
 
 
@@ -94,6 +96,9 @@ Proceda a vaciar la información necesaria.
             |DescripcionIGTF|
 
             Imagen 12. Mensaje Impreso en la Factura
+.. warning::
+
+      Repita este procedimiento de ser necesario, si existe más de un pago con diferente moneda contemplado en este decreto.
 
 Seleccione el icono "**Visualiza Detalle**" en la barra de herramientas para apreciar donde es usado el documento, en este caso la factura.
 
@@ -115,3 +120,14 @@ Podrá apreciar el menú desplegado por el icono "**Visualiza Detalle**", el mis
 
 **Generar Débito de IGTF para Factura**
 ===================================================
+
+Seleccione en el menú la opción "**Generar Retenciones**"
+
+      |MenuGRetenciones|
+
+      Imagen 15. Menú Generar Retenciones
+
+Se visualiza la siguiente ventana  "**Generar Retenciones**"
+      |VentanaGRetenciones|
+
+      Imagen 15. Menú Generar Retenciones
