@@ -11,7 +11,8 @@
 .. |MontoBase| image:: resources/montobase.png
 .. |OpcionOKP| image:: resources/opcionokproceso.png
 .. |DescripcionIGTF| image:: resources/descripcionigtf.png
-
+.. |VisualizaDetalle| image:: resources/visualizadetalle.png
+.. |DetalleDocumento| image:: resources/detalledocumento.png
 
 
 
@@ -93,3 +94,24 @@ Proceda a vaciar la información necesaria.
             |DescripcionIGTF|
 
             Imagen 12. Mensaje Impreso en la Factura
+
+Seleccione el icono "**Visualiza Detalle**" en la barra de herramientas para apreciar donde es usado el documento, en este caso la factura.
+
+      |VisualizaDetalle| 
+
+      Imagen 13. Icono Visualiza Detalle
+
+Podrá apreciar el menú desplegado por el icono "**Visualiza Detalle**", el mismo muestra los documentos donde es utilizada la factura.
+
+      |DetalleDocumento|
+
+      Imagen 14. Menú del Icono Visualiza Detalle
+
+      Seleccione La opción "**Retención Generada**" muestra el documento de retención aplicado a la factura número "**111**" seleccionada para el ejemplo.
+
+.. warning::
+
+      ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
+
+**Generar Débito de IGTF para Factura**
+===================================================
