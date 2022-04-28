@@ -90,8 +90,6 @@
 <li class="toctree-l3"><a class="reference internal" href="../withholding-municipality/index.html"><strong>Retención Municipal de Cuentas por Pagar en ADempiere</strong></a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>Retención IGTF de Cuentas por Cobrar en ADempiere</strong></a><ul class="current">
 <li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Ejecución de la Estimación de Retenciones IGTF</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#generar-retencion-municipal-fiscal"><strong>Generar Retención Municipal Fiscal</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio"><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../withholding-declaration-cxp/index.html"><strong>Declaración de Retenciones de Cuentas por Pagar en ADempiere</strong></a></li>
@@ -213,106 +211,6 @@
 <div><p><img alt="DescripcionIGTF" src="../../../../_images/descripcionigtf.png" /></p>
 <p>Imagen 12. Mensaje Impreso en la Factura</p>
 </div></blockquote>
-</div></blockquote>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>ADempiere le genera al usuario por medio del icono “<strong>Visualiza Detalle</strong>”, las alertas donde indica cuales fueron las retenciones aplicadas (<strong>Retención Generada</strong>) y cuales retenciones no fueron aplicadas (<strong>Log</strong>) según la configuración que tiene un socio del negocio determinado.</p>
-</div>
-</section>
-<section id="generar-retencion-municipal-fiscal">
-<h1><strong>Generar Retención Municipal Fiscal</strong><a class="headerlink" href="#generar-retencion-municipal-fiscal" title="Permalink to this headline"></a></h1>
-<p>Ubique en el menú de ADempiere la carpeta “<strong>Manejo de Retenciones</strong>” y seleccione la ventana de busqueda inteligente “<strong>Generar Retenciones</strong>”.</p>
-<blockquote>
-<div><p><a href="#id1"><span class="problematic" id="id2">|Menú de ADempiere 2|</span></a></p>
-<p>Imagen 15. Menú de ADempiere</p>
-</div></blockquote>
-<p>Podrá apreciar la ventana de busqueda inteligente con diferentes campos para filtrar la busqueda.</p>
-<blockquote>
-<div><p><a href="#id3"><span class="problematic" id="id4">|Ventana de Busqueda Inteligente|</span></a></p>
-<p>Imagen 16. Ventana de Busqueda Inteligente</p>
-</div></blockquote>
-<p>Seleccione el socio del negocio en el campo “<strong>Socio del Negocio</strong>”, para este ejemplo el socio del negocio es “<strong>Standard Standard</strong>”.</p>
-<blockquote>
-<div><p><a href="#id5"><span class="problematic" id="id6">|Filtrar por Socio del Negocio|</span></a></p>
-<p>Imagen 17. Filtrar por Socio del Negocio</p>
-</div></blockquote>
-<p>Seleccione la opción “<strong>Comenzar Busqueda</strong>” para buscar por los campos introducidos.</p>
-<blockquote>
-<div><p><a href="#id7"><span class="problematic" id="id8">|Opción Comenzar Busqueda|</span></a></p>
-<p>Imagen 18. Opción Comenzar Busqueda</p>
-</div></blockquote>
-<p>Podrá apreciar las retenciones que el socio del negocio tiene seleccionado en los diferentes documentos.</p>
-<blockquote>
-<div><p><a href="#id9"><span class="problematic" id="id10">|Retenciones del Socio del Negocio|</span></a></p>
-<p>Imagen 19. Retenciones del Socio del Negocio</p>
-</div></blockquote>
-<p>Seleccione la retención a generar y la opción “<strong>OK</strong>” para generar la retención al socio del negocio seleccionado.</p>
-<blockquote>
-<div><p><a href="#id11"><span class="problematic" id="id12">|Selección de Retención y Opción OK|</span></a></p>
-<p>Imagen 20. Selección de Retención y Opción OK</p>
-</div></blockquote>
-<p>Podrá apreciar que el proceso se realizó correctamente con el mensaje “OK” mostrado por ADempiere al final de la ventana de busqueda inteligente.</p>
-<blockquote>
-<div><p><a href="#id13"><span class="problematic" id="id14">|Mensaje OK|</span></a></p>
-<p>Imagen 21. Mensaje OK</p>
-</div></blockquote>
-</section>
-<section id="imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio">
-<h1><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong><a class="headerlink" href="#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio" title="Permalink to this headline"></a></h1>
-<p>Ubique en el menú de ADempiere la carpeta “<strong>Gestión de Compras</strong>” y seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
-<blockquote>
-<div><p><a href="#id15"><span class="problematic" id="id16">|Menú de ADempiere 3|</span></a></p>
-<p>Imagen 22. Menú de ADempiere</p>
-</div></blockquote>
-<p>Podrá apreciar la ventana “<strong>Documentos por Pagar</strong>” donde se encuentran todos los registros que posee la misma.</p>
-<blockquote>
-<div><p><a href="#id17"><span class="problematic" id="id18">|Ventana Documentos por Pagar|</span></a></p>
-<p>Imagen 23. Ventana Documentos por Pagar</p>
-</div></blockquote>
-<p>Seleccione el icono “<strong>Encontrar Registro</strong>” en la barra de herramientas de ADempiere, para realizar una busqueda avanzada del documento de retención generado.</p>
-<blockquote>
-<div><p><a href="#id19"><span class="problematic" id="id20">|Icono Encontrar Registro|</span></a></p>
-<p>Imagen 24. Icono Encontrar Registro</p>
-</div></blockquote>
-<p>Seleccione la pestaña “<strong>Avanzado</strong>” para filtrar la busqueda por “<strong>Socio del Negocio</strong>”, “<strong>Tipo de Documento de Retención de Cuentas por Pagar</strong>” y “<strong>Fecha de la Retención</strong>”.</p>
-<blockquote>
-<div><p><a href="#id21"><span class="problematic" id="id22">|Buscador Avanzado|</span></a></p>
-<p>Imagen 25. Buscador Avanzado</p>
-</div></blockquote>
-<p>Seleccione el icono “<strong>Nuevo</strong>” para generar el número de filas de busqueda que se necesitan, para este ejemplo se necesitan tres (3) filas.</p>
-<blockquote>
-<div><p><a href="#id23"><span class="problematic" id="id24">|Icono Nuevo|</span></a></p>
-<p>Imagen 26. Icono Nuevo</p>
-<p>Seleccione en la primera fila la opción “<strong>Socio del Negocio</strong>” y introduzca el nombre del socio del negocio en la columna “<strong>Valor Consulta</strong>”, para este ejemplo el socio del negocio es “<strong>Standard Standard</strong>”.</p>
-<blockquote>
-<div><p><a href="#id25"><span class="problematic" id="id26">|Selección Socio del Negocio|</span></a></p>
-<p>Imagen 27. Selección Socio del Negocio</p>
-</div></blockquote>
-<p>Seleccione en la segunda fila la opción “<strong>Tipo de Documento Destino</strong>” y seleccione en la columna “<strong>Valor Consulta</strong>” el tipo de documento destino, para este ejemplo el tipo de documento destino es “<strong>Retención de IVA para Factura de Cuentas por Pagar</strong>”.</p>
-<blockquote>
-<div><p><a href="#id27"><span class="problematic" id="id28">|Selección Tipo de Documento Destino|</span></a></p>
-<p>Imagen 28. Selección Tipo de Documento Destino</p>
-</div></blockquote>
-<p>Seleccione en la tercera fila la opción “<strong>Fecha Contable</strong>” y seleccione en la columna “<strong>Valor Consulta</strong>” la fecha en la que se realizo la retención, para este ejemplo la fecha es “<strong>25/09/2019</strong>”.</p>
-<blockquote>
-<div><p><a href="#id29"><span class="problematic" id="id30">|Selección Fecha Contable|</span></a></p>
-<p>Imagen 29. Selección Fecha Contable</p>
-</div></blockquote>
-<p>Seleccione la opción “<strong>OK</strong>” para realizar la busqueda filtrada por los campos seleccionados.</p>
-<blockquote>
-<div><p><a href="#id31"><span class="problematic" id="id32">|Opción OK|</span></a></p>
-<p>Imagen 30. Opción OK</p>
-</div></blockquote>
-</div></blockquote>
-<p>Seleccione en la barra de herramientas de ADempiere el icono “<strong>Imprimir</strong>”, para imprimir el documento de retención buscado.</p>
-<blockquote>
-<div><p><a href="#id33"><span class="problematic" id="id34">|Opción Imprimir|</span></a></p>
-<p>Imagen 31. Opción Imprimir</p>
-</div></blockquote>
-<p>Podrá apreciar el documento de retención de la siguiente manera.</p>
-<blockquote>
-<div><p><a href="#id35"><span class="problematic" id="id36">|Documento de Retención|</span></a></p>
-<p>Imagen 32. Documento de Retención</p>
 </div></blockquote>
 </section>
 
