@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Retención IGTF de Cuentas por Cobrar en ADempiere &mdash; ERPYA 1.0 Documentation</title>
+  <title>Retención IGTF en ADempiere &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
@@ -20,7 +20,7 @@
     <script src="../../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="Ejecución de la Estimación de Retenciones IGTF" href="withholding-igtf.html" />
+    <link rel="next" title="Retención IGTF de Cuenta por Cobrar" href="withholding-igtf.html" />
     <link rel="prev" title="Configuración Esencial de la Retención Municipal" href="../withholding-municipality/withholding-municipality.html" /> 
 </head>
 
@@ -88,9 +88,9 @@
 <li class="toctree-l3"><a class="reference internal" href="../withholding-iva/index.html"><strong>Retención de IVA de Cuentas por Pagar en ADempiere</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="../withholding-islr/index.html"><strong>Retención de ISLR de Cuentas por Pagar en ADempiere</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="../withholding-municipality/index.html"><strong>Retención Municipal de Cuentas por Pagar en ADempiere</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Retención IGTF de Cuentas por Cobrar en ADempiere</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="withholding-igtf.html"><strong>Ejecución de la Estimación de Retenciones IGTF</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="withholding-igtf.html#generar-debito-de-igtf-para-factura"><strong>Generar Débito de IGTF para Factura</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Retención IGTF en ADempiere</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="withholding-igtf.html"><strong>Retención IGTF de Cuenta por Cobrar</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="withholding-igtf.html#retencion-igtf-de-cuenta-por-pagar"><strong>Retención IGTF de Cuenta por Pagar</strong></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../withholding-declaration-cxp/index.html"><strong>Declaración de Retenciones de Cuentas por Pagar en ADempiere</strong></a></li>
@@ -137,7 +137,7 @@
       <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
           <li><a href="../index.html"><strong>Gestión de Retenciones</strong></a> &raquo;</li>
-      <li><strong>Retención IGTF de Cuentas por Cobrar en ADempiere</strong></li>
+      <li><strong>Retención IGTF en ADempiere</strong></li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../../_sources/lve/procedures/withholding-management/withholding-igtf/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -147,8 +147,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="retencion-igtf-de-cuentas-por-cobrar-en-adempiere">
-<span id="src-adempiere-withholding-management-withholding-igtf"></span><h1><strong>Retención IGTF de Cuentas por Cobrar en ADempiere</strong><a class="headerlink" href="#retencion-igtf-de-cuentas-por-cobrar-en-adempiere" title="Permalink to this headline"></a></h1>
+  <section id="retencion-igtf-en-adempiere">
+<span id="src-adempiere-withholding-management-withholding-igtf"></span><h1><strong>Retención IGTF en ADempiere</strong><a class="headerlink" href="#retencion-igtf-en-adempiere" title="Permalink to this headline"></a></h1>
 <p>El IGTF En Venezuela es un impuesto aplicado a transacciones financieras, expuesto en Gaceta Oficial de la República Bolivariana de Venezuela No. 6.210 Extraordinario, de fecha 30 de diciembre de 2015.</p>
 <p>Sin embargo, esta ley sufre una reforma en la cual, se implementa el impuesto de 3% sobre las operaciones en divisas o criptomonedas distintas al bolívar y al petro, realizadas por personas naturales y jurídicas.</p>
 <p>Siendo responsables del impuesto los contribuyentes especiales como “agentes de percepción”, encargados de cobrar el monto correspondiente al 3% del cobro de divisas o criptomonedas distintas al bolivar, declarar y transferir al Tesoro Nacional el impuesto recibido.</p>
@@ -156,8 +156,12 @@
 <p>El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a> pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar y obtener un resultado exitoso al momento de generar la estimación de retenciones y posteriormente el documento de retención IGTF en la versión 3.9.2 de ADempiere en la localización Venezuela.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="withholding-igtf.html"><strong>Ejecución de la Estimación de Retenciones IGTF</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="withholding-igtf.html#generar-debito-de-igtf-para-factura"><strong>Generar Débito de IGTF para Factura</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="withholding-igtf.html"><strong>Retención IGTF de Cuenta por Cobrar</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="withholding-igtf.html#ejecucion-de-la-estimacion-de-retenciones"><strong>Ejecución de la Estimación de Retenciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="withholding-igtf.html#generar-debito-de-igtf-para-factura"><strong>Generar Débito de IGTF para Factura</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="withholding-igtf.html#retencion-igtf-de-cuenta-por-pagar"><strong>Retención IGTF de Cuenta por Pagar</strong></a></li>
 </ul>
 </div>
 </section>
@@ -167,7 +171,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="../withholding-municipality/withholding-municipality.html" class="btn btn-neutral float-left" title="Configuración Esencial de la Retención Municipal" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="withholding-igtf.html" class="btn btn-neutral float-right" title="Ejecución de la Estimación de Retenciones IGTF" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="withholding-igtf.html" class="btn btn-neutral float-right" title="Retención IGTF de Cuenta por Cobrar" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
