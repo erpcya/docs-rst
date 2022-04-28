@@ -15,6 +15,19 @@
 .. |DetalleDocumento| image:: resources/detalledocumento.png
 .. |MenuGRetenciones| image:: resources/generarretenciones.png
 .. |VentanaGRetenciones| image:: resources/vgenerarretenciones.png
+.. |SeleccionSociodeNegocio| image:: resources/seleccionsociodenegocio.png
+.. |SeleccionFactura| image:: resources/seleccionfactura.png
+.. |SeleccionOrganizacion| image:: resources/seleccionorganizacion.png
+.. |SeleccionManual| image:: resources/seleccionmanual.png
+.. |SeleccionRetención| image:: resources/seleccionretencion.png
+.. |SeleccionMoneda| image:: resources/seleccionmoneda.png
+.. |SeleccionMonedaHacia| image:: resources/seleccionmonedahacia.png
+.. |SeleccionTipoConversion| image:: resources/selecciontipoconversion.png
+.. |BotonComenzarBusqueda| image:: resources/botoncomenzarbusqueda.png
+.. |ResultadoComprobante| image:: resources/resultadogcomprobante.png
+.. |SeleccionComprobante| image:: resources/seleccioncomprobante.png
+.. |SeleccionOKComprobante| image:: resources/seleccionokcomprobante.png
+     
 
 
 
@@ -128,6 +141,83 @@ Seleccione en el menú la opción "**Generar Retenciones**"
       Imagen 15. Menú Generar Retenciones
 
 Se visualiza la siguiente ventana  "**Generar Retenciones**"
+
       |VentanaGRetenciones|
 
       Imagen 15. Menú Generar Retenciones
+
+Indique el Cliente al cual le generará el comprobante de retención en el campo "**Socio de Negocio**"
+      
+      |SeleccionSociodeNegocio|
+
+      Imagen 16. Selección del Cliente
+
+
+Indique la Factura, en caso querer emitir el comprobante a una factura en especifico en el campo "**Factura Fuente**"
+
+      |SeleccionFactura|
+
+      Imagen 17. Selección de Factura
+
+Indique la organización en la que desea generar el comprobante en el campo "**Organización**"
+      
+      |SeleccionOrganizacion|
+
+      Imagen 18. Selección de Organización
+
+
+Para este caso se omite el campo "**Manual**" siendo de esta manera falso, puesto que, para el caso de esta retención es calculada desde ADempiere.
+
+      |SeleccionManual|
+
+      Imagen 19. Selección de Manual
+
+Indique el valor "**Impuesto IGTF (CxC)**" en el campo "**Retención**"
+
+      |SeleccionRetención|
+
+      Imagen 20. Selección de Retención
+
+Indique la moneda del pago en el campo "**Moneda**"
+
+      |SeleccionMoneda|
+
+      Imagen 21. Selección de Moneda de Cobro
+
+Indique la Moneda a Convertir para el comprobante y monto a declarar, en el campo "**Moneda Hacia**", por defecto encontrará la moneda "**VES**" por ser la moneda oficial en Venezuela.
+
+      |SeleccionMonedaHacia|
+
+      Imagen 22. Selección de Moneda para Comprobante
+
+
+Indique el tipo de conversión con el cúal será convertido la retención del IGTF, en el campo "**Tipo de Conversión**", por defecto encontrará el tipo de conversión "**BCV**" por ser la tasa oficial en Venezuela.
+
+      |SeleccionTipoConversion|
+
+      Imagen 23. Selección de Tipo de Conversión
+
+Seleccione la opción "**Comenzar Búsqueda**", para comenzar a ver los registros a generar como comprobantes.
+
+      |BotonComenzarBusqueda|
+
+      Imagen 24. Comenzar Búsqueda
+
+Visualizará los siguientes resultados
+      
+      |ResultadoComprobante|
+
+      Imagen 25. Resultados de Búsqueda
+
+Seleccione el registro al cúal generará el comprobante
+
+      |SeleccionComprobante|
+
+      Imagen 26. Selección de Búsqueda
+
+Seleccione la opción "**OK**" que indica que se emitirá el comprobante del IGTF, ó débito por concepto de retención de IGTF.
+
+      |SeleccionOKComprobante|
+
+      Imagen 26. Selección Botón OK
+
