@@ -33,8 +33,13 @@
 
 .. _documento/retención-igtf:
 
-**Ejecución de la Estimación de Retenciones IGTF**
-===================================================
+=========================================================
+**Retención IGTF de Cuenta por Cobrar**
+=========================================================
+
+
+**Ejecución de la Estimación de Retenciones**
+---------------------------------------------
 
 Ubique la factura de cuenta por cobrar ya realizada al cliente, la misma debe estar en estado "**Completo**", para este ejemplo se utiliza la factura número "**111**".
 
@@ -132,8 +137,7 @@ Podrá apreciar el menú desplegado por el icono "**Visualiza Detalle**", el mis
       ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
 **Generar Débito de IGTF para Factura**
-===================================================
-
+---------------------------------------------
 Seleccione en el menú la opción "**Generar Retenciones**"
 
       |MenuGRetenciones|
@@ -221,3 +225,6 @@ Seleccione la opción "**OK**" que indica que se emitirá el comprobante del IGT
 
       Imagen 26. Selección Botón OK
 
+=========================================================
+**Retención IGTF de Cuenta por Pagar**
+=========================================================
