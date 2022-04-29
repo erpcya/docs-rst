@@ -87,6 +87,7 @@
   - Change Setup Action on Invoice for payments on Setup Definition
   - Support to Payment Cash with invoice Reference TBTT Calculation
   - Add Support to Valid Business Partner
+  
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
