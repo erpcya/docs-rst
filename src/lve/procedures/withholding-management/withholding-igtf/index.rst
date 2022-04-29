@@ -4,6 +4,7 @@
 =========================================================
 **Retención IGTF en ADempiere**
 =========================================================
+
 El IGTF En Venezuela es un impuesto aplicado a transacciones financieras, expuesto en Gaceta Oficial de la República Bolivariana de Venezuela No. 6.210 Extraordinario, de fecha 30 de diciembre de 2015.
 
 Sin embargo, el pasado 17/03/2022 mediante  :download:`la Gaceta Oficial N° 42.339 <GACETAOFICIAL42339.pdf>`, esta ley sufre una reforma en la cual, se implementa el impuesto de 3% sobre las operaciones en divisas o criptomonedas distintas al bolívar y al petro, realizadas por personas naturales y jurídicas.
