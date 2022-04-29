@@ -41,6 +41,15 @@
 **Ejecución de la Estimación de Retenciones**
 ---------------------------------------------
 
+En la providencia Nº Snat/2022/000013 del Servicio Nacional Integrado de Administración Aduanera y Tributaria (Seniat), que entró en vigencia el 28 de marzo de este año, se designa a los contribuyentes especiales como agentes de percepción del IGTF.
+
+En este sentido, para el caso de la cuenta por cobrar el tributo es percibido en la factura, tomando como monto base el total de la cobranza en divisas o criptoactivos diferente al petro.
+
+De esta manera se estará generando un débito fiscal de IGTF que debe ser  declarado quincenalmente acorde al :download:`instructivo emitido por el SENIAT. <IGTF_QUINCENAL.pdf>`
+  
+
+
+
 Ubique la factura de cuenta por cobrar ya realizada al cliente, la misma debe estar en estado "**Completo**", para este ejemplo se utiliza la factura número "**111**".
 
       |Factura|
