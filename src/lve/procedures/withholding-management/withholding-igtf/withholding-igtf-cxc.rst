@@ -37,18 +37,15 @@
 **Retención IGTF de Cuenta por Cobrar**
 =========================================================
 
-
-**Ejecución de la Estimación de Retenciones**
----------------------------------------------
-
 En la providencia Nº Snat/2022/000013 del Servicio Nacional Integrado de Administración Aduanera y Tributaria (Seniat), que entró en vigencia el 28 de marzo de este año, se designa a los contribuyentes especiales como agentes de percepción del IGTF.
 
 En este sentido, para el caso de la cuenta por cobrar el tributo es percibido en la factura, tomando como monto base el total de la cobranza en divisas o criptoactivos diferente al petro.
 
-De esta manera se estará generando un débito fiscal de IGTF que debe ser  declarado quincenalmente acorde al :download:`instructivo emitido por el SENIAT. <IGTF_QUINCENAL.pdf>`
+De esta manera se estará generando un débito fiscal de IGTF, que debe ser  declarado quincenalmente acorde al :download:`instructivo emitido por el SENIAT. <IGTF_QUINCENAL.pdf>`
   
 
-
+**Ejecución de la Estimación de Retenciones**
+---------------------------------------------
 
 Ubique la factura de cuenta por cobrar ya realizada al cliente, la misma debe estar en estado "**Completo**", para este ejemplo se utiliza la factura número "**111**".
 
@@ -82,19 +79,19 @@ A continuación se desplegará la siguiente ventana.
 
 Proceda a vaciar la información necesaria.
 
-      Seleccione "**Tipo de Retención: Impuesto IGTF**".  
+      Seleccione "**Impuesto IGTF**" para el campo "**Tipo de Retención**".  
 
             |TipoRetencion|
 
             Imagen 6. Tipo de Retención
 
-      Seleccione "**Funcionalidades: Impuesto IGTF**".  
+      Seleccione "**Impuesto IGTF**" en el campo  "**Funcionalidades**".  
 
             |Funcionalidades|
 
             Imagen 7. Funcionalidades
 
-      Seleccione "**Retención: Impuesto IGTF (CxC)**".  
+      Seleccione "**Impuesto IGTF (CxC)**" en el campo "**Retención**".  
 
             |Retención|
 
@@ -125,8 +122,12 @@ Proceda a vaciar la información necesaria.
             Imagen 12. Mensaje Impreso en la Factura
 .. warning::
 
-      Repita este procedimiento de ser necesario, si existe más de un pago con diferente moneda contemplado en este decreto.
+      Repita el procedimiento desde el punto dos, para registrar un nuevo pago con una moneda o criptoactivo diferente a la anterior, de esta manera ADempiere generará tantas retenciones como cobros con diferentes monedas existan.
 
+.. note::
+
+      Si por algún motivo el monto del cobro debiera sufrir algún cambio, repita el procedimiento desde el punto dos, para registrar un nuevo cobro con la misma moneda anterior, de esta manera ADempiere anulará la retención anterior y generará la nueva retención.
+      
 Seleccione el icono "**Visualiza Detalle**" en la barra de herramientas para apreciar donde es usado el documento, en este caso la factura.
 
       |VisualizaDetalle| 
@@ -233,7 +234,3 @@ Seleccione la opción "**OK**" que indica que se emitirá el comprobante del IGT
       |SeleccionOKComprobante|
 
       Imagen 26. Selección Botón OK
-
-=========================================================
-**Retención IGTF de Cuenta por Pagar**
-=========================================================
