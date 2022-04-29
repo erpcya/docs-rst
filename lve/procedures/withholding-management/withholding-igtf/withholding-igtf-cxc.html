@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retención IGTF de Cuenta por Cobrar &mdash; ERPYA 1.0 Documentation</title>
+      <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+<h2>Tabla de Contenido</h2>
+
+              <p class="caption" role="heading"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../bot/index.html"><strong>Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../device/index.html"><strong>Dispositivos</strong></a></li>
+</ul>
+
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li><strong>Retención IGTF de Cuenta por Cobrar</strong></li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/lve/procedures/withholding-management/withholding-igtf/withholding-igtf-cxc.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="retencion-igtf-de-cuenta-por-cobrar">
+<span id="documento-retencion-igtf"></span><h1><strong>Retención IGTF de Cuenta por Cobrar</strong><a class="headerlink" href="#retencion-igtf-de-cuenta-por-cobrar" title="Permalink to this headline"></a></h1>
+<p>En la providencia Nº Snat/2022/000013 del Servicio Nacional Integrado de Administración Aduanera y Tributaria (Seniat), que entró en vigencia el 28 de marzo de este año, se designa a los contribuyentes especiales como agentes de percepción del IGTF.</p>
+<p>En este sentido, para el caso de la cuenta por cobrar el tributo es percibido en la factura, tomando como monto base el total de la cobranza en divisas o criptoactivos diferente al petro.</p>
+<p>De esta manera se estará generando un débito fiscal de IGTF, que debe ser  declarado quincenalmente acorde al <a class="reference download internal" download="" href="../../../../_downloads/b0078668648b4f60440cd6086059caa7/IGTF_QUINCENAL.pdf"><code class="xref download docutils literal notranslate"><span class="pre">instructivo</span> <span class="pre">emitido</span> <span class="pre">por</span> <span class="pre">el</span> <span class="pre">SENIAT.</span></code></a></p>
+<section id="ejecucion-de-la-estimacion-de-retenciones">
+<h2><strong>Ejecución de la Estimación de Retenciones</strong><a class="headerlink" href="#ejecucion-de-la-estimacion-de-retenciones" title="Permalink to this headline"></a></h2>
+<p>Ubique la factura de cuenta por cobrar ya realizada al cliente, la misma debe estar en estado “<strong>Completo</strong>”, para este ejemplo se utiliza la factura número “<strong>111</strong>”.</p>
+<blockquote>
+<div><p><img alt="Factura" src="../../../../_images/invoice.png" /></p>
+<p>Imagen 1. Factura Aplicada al Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Proceso</strong>” en la barra de herramientas para ejecutar la retención de IGTF.</p>
+<blockquote>
+<div><p><img alt="Proceso" src="../../../../_images/proceso2.png" /></p>
+<p>Imagen 2. Icono Proceso</p>
+</div></blockquote>
+<p>Podrá apreciar el menú desplegado por el icono “<strong>Proceso</strong>”, el mismo muestra los Procesos disponibles en su rol para la ejecución.</p>
+<blockquote>
+<div><p><img alt="DetalleProceso" src="../../../../_images/detalleprocesos.png" /></p>
+<p>Imagen 3. Menú de Procesos</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Procesar Retención de IGTF</strong>”.</p>
+<blockquote>
+<div><p><img alt="ProcesoIGTF" src="../../../../_images/procesoigtf.png" /></p>
+<p>Imagen 4. Proceso IGTF</p>
+</div></blockquote>
+<p>A continuación se desplegará la siguiente ventana.</p>
+<blockquote>
+<div><p><img alt="VentanaProcesoIGTF" src="../../../../_images/ventanaprocesoigtf.png" /></p>
+<p>Imagen 5. Ventana de Proceso Generar IGTF</p>
+</div></blockquote>
+<p>Proceda a vaciar la información necesaria.</p>
+<blockquote>
+<div><p>Seleccione “<strong>Impuesto IGTF</strong>” para el campo “<strong>Tipo de Retención</strong>”.</p>
+<blockquote>
+<div><p><img alt="TipoRetencion" src="../../../../_images/tipoderetencion.png" /></p>
+<p>Imagen 6. Tipo de Retención</p>
+</div></blockquote>
+<p>Seleccione “<strong>Impuesto IGTF</strong>” en el campo  “<strong>Funcionalidades</strong>”.</p>
+<blockquote>
+<div><p><img alt="Funcionalidades" src="../../../../_images/funcionalidades.png" /></p>
+<p>Imagen 7. Funcionalidades</p>
+</div></blockquote>
+<p>Seleccione “<strong>Impuesto IGTF (CxC)</strong>” en el campo “<strong>Retención</strong>”.</p>
+<blockquote>
+<div><p><img alt="Retención" src="../../../../_images/retencion.png" /></p>
+<p>Imagen 8. Retención</p>
+</div></blockquote>
+<p>Seleccione “<strong>Moneda</strong>”, para este caso indique la moneda del acuerdo del cobro, para el ejemplo utilizaremos USD ($).</p>
+<blockquote>
+<div><p><img alt="Moneda" src="../../../../_images/moneda4.png" /></p>
+<p>Imagen 9. Moneda de Acuerdo de cobro</p>
+</div></blockquote>
+<p>Indique el “<strong>Monto Base</strong>”, para este caso indique el monto del acuerdo del cobro, para el ejemplo indicaremos 70.</p>
+<blockquote>
+<div><p><img alt="MontoBase" src="../../../../_images/montobase.png" /></p>
+<p>Imagen 10. Monto del Cobro</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” Ubicada en el proceso para generar la retención.</p>
+<blockquote>
+<div><p><img alt="OpcionOKP" src="../../../../_images/opcionokproceso.png" /></p>
+<p>Imagen 11. Opción OK</p>
+</div></blockquote>
+<p>Al ejecutar el proceso, luego de unos segundos se visualiza en el campo descripción de la factura, el siguiente mensaje que será impreso en su documento en caso de trabajar con formato proforma.</p>
+<blockquote>
+<div><p><img alt="DescripcionIGTF" src="../../../../_images/descripcionigtf.png" /></p>
+<p>Imagen 12. Mensaje Impreso en la Factura</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Repita el procedimiento desde el punto dos, para registrar un nuevo pago con una moneda o criptoactivo diferente a la anterior, de esta manera ADempiere generará tantas retenciones como cobros con diferentes monedas existan.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si por algún motivo el monto del cobro debiera sufrir algún cambio, repita el procedimiento desde el punto dos, para registrar un nuevo cobro con la misma moneda anterior, de esta manera ADempiere anulará la retención anterior y generará la nueva retención.</p>
+</div>
+<p>Seleccione el icono “<strong>Visualiza Detalle</strong>” en la barra de herramientas para apreciar donde es usado el documento, en este caso la factura.</p>
+<blockquote>
+<div><p><img alt="VisualizaDetalle" src="../../../../_images/visualizadetalle.png" /></p>
+<p>Imagen 13. Icono Visualiza Detalle</p>
+</div></blockquote>
+<p>Podrá apreciar el menú desplegado por el icono “<strong>Visualiza Detalle</strong>”, el mismo muestra los documentos donde es utilizada la factura.</p>
+<blockquote>
+<div><p><img alt="DetalleDocumento" src="../../../../_images/detalledocumento.png" /></p>
+<p>Imagen 14. Menú del Icono Visualiza Detalle</p>
+<p>Seleccione La opción “<strong>Retención Generada</strong>” muestra el documento de retención aplicado a la factura número “<strong>111</strong>” seleccionada para el ejemplo.</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>ADempiere le genera al usuario por medio del icono “<strong>Visualiza Detalle</strong>”, las alertas donde indica cuales fueron las retenciones aplicadas (<strong>Retención Generada</strong>) y cuales retenciones no fueron aplicadas (<strong>Log</strong>) según la configuración que tiene un socio del negocio determinado.</p>
+</div>
+</section>
+<section id="generar-debito-de-igtf-para-factura">
+<h2><strong>Generar Débito de IGTF para Factura</strong><a class="headerlink" href="#generar-debito-de-igtf-para-factura" title="Permalink to this headline"></a></h2>
+<p>Seleccione en el menú la opción “<strong>Generar Retenciones</strong>”</p>
+<blockquote>
+<div><p><img alt="MenuGRetenciones" src="../../../../_images/generarretenciones.png" /></p>
+<p>Imagen 15. Menú Generar Retenciones</p>
+</div></blockquote>
+<p>Se visualiza la siguiente ventana  “<strong>Generar Retenciones</strong>”</p>
+<blockquote>
+<div><p><img alt="VentanaGRetenciones" src="../../../../_images/vgenerarretenciones.png" /></p>
+<p>Imagen 15. Menú Generar Retenciones</p>
+</div></blockquote>
+<p>Indique el Cliente al cual le generará el comprobante de retención en el campo “<strong>Socio de Negocio</strong>”</p>
+<blockquote>
+<div><p><img alt="SeleccionSociodeNegocio" src="../../../../_images/seleccionsociodenegocio.png" /></p>
+<p>Imagen 16. Selección del Cliente</p>
+</div></blockquote>
+<p>Indique la Factura, en caso querer emitir el comprobante a una factura en especifico en el campo “<strong>Factura Fuente</strong>”</p>
+<blockquote>
+<div><p><img alt="SeleccionFactura" src="../../../../_images/seleccionfactura.png" /></p>
+<p>Imagen 17. Selección de Factura</p>
+</div></blockquote>
+<p>Indique la organización en la que desea generar el comprobante en el campo “<strong>Organización</strong>”</p>
+<blockquote>
+<div><p><img alt="SeleccionOrganizacion" src="../../../../_images/seleccionorganizacion.png" /></p>
+<p>Imagen 18. Selección de Organización</p>
+</div></blockquote>
+<p>Para este caso se omite el campo “<strong>Manual</strong>” siendo de esta manera falso, puesto que, para el caso de esta retención es calculada desde ADempiere.</p>
+<blockquote>
+<div><p><img alt="SeleccionManual" src="../../../../_images/seleccionmanual.png" /></p>
+<p>Imagen 19. Selección de Manual</p>
+</div></blockquote>
+<p>Indique el valor “<strong>Impuesto IGTF (CxC)</strong>” en el campo “<strong>Retención</strong>”</p>
+<blockquote>
+<div><p><img alt="SeleccionRetención" src="../../../../_images/seleccionretencion.png" /></p>
+<p>Imagen 20. Selección de Retención</p>
+</div></blockquote>
+<p>Indique la moneda del pago en el campo “<strong>Moneda</strong>”</p>
+<blockquote>
+<div><p><img alt="SeleccionMoneda" src="../../../../_images/seleccionmoneda.png" /></p>
+<p>Imagen 21. Selección de Moneda de Cobro</p>
+</div></blockquote>
+<p>Indique la Moneda a Convertir para el comprobante y monto a declarar, en el campo “<strong>Moneda Hacia</strong>”, por defecto encontrará la moneda “<strong>VES</strong>” por ser la moneda oficial en Venezuela.</p>
+<blockquote>
+<div><p><img alt="SeleccionMonedaHacia" src="../../../../_images/seleccionmonedahacia.png" /></p>
+<p>Imagen 22. Selección de Moneda para Comprobante</p>
+</div></blockquote>
+<p>Indique el tipo de conversión con el cúal será convertido la retención del IGTF, en el campo “<strong>Tipo de Conversión</strong>”, por defecto encontrará el tipo de conversión “<strong>BCV</strong>” por ser la tasa oficial en Venezuela.</p>
+<blockquote>
+<div><p><img alt="SeleccionTipoConversion" src="../../../../_images/selecciontipoconversion.png" /></p>
+<p>Imagen 23. Selección de Tipo de Conversión</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para comenzar a ver los registros a generar como comprobantes.</p>
+<blockquote>
+<div><p><img alt="BotonComenzarBusqueda" src="../../../../_images/botoncomenzarbusqueda.png" /></p>
+<p>Imagen 24. Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Visualizará los siguientes resultados</p>
+<blockquote>
+<div><p><img alt="ResultadoComprobante" src="../../../../_images/resultadogcomprobante.png" /></p>
+<p>Imagen 25. Resultados de Búsqueda</p>
+</div></blockquote>
+<p>Seleccione el registro al cúal generará el comprobante</p>
+<blockquote>
+<div><p><img alt="SeleccionComprobante" src="../../../../_images/seleccioncomprobante.png" /></p>
+<p>Imagen 26. Selección de Búsqueda</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” que indica que se emitirá el comprobante del IGTF, ó débito por concepto de retención de IGTF.</p>
+<blockquote>
+<div><p><img alt="SeleccionOKComprobante" src="../../../../_images/seleccionokcomprobante.png" /></p>
+<p>Imagen 26. Selección Botón OK</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, ADempiere ERP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
