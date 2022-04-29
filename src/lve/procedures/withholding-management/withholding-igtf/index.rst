@@ -16,6 +16,7 @@ ADempiere permite auto-generar una estimación de retenciones IGTF a los documen
 El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar y obtener un resultado exitoso al momento de generar la estimación de retenciones y posteriormente el documento de retención IGTF en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     withholding-igtf
+    
