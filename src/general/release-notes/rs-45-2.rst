@@ -87,7 +87,7 @@
   - Change Setup Action on Invoice for payments on Setup Definition
   - Support to Payment Cash with invoice Reference TBTT Calculation
   - Add Support to Valid Business Partner
-  
+
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
@@ -100,4 +100,4 @@
 - Se agrega nueva formulación para todos los atributos de los granos para el cálculo del peso acondicionado
 - Se agrega Soporte a Validacion de Socio de Negocio y Tipo de Contribuyente en Retencion de IGTF
 - Se Marcan las Retenciones de IGTF Generadas
-- Se agrega soporte para procesar Retencion de IGTF al Completar un pago sobre una factura fiscal con el Tipo de Pago Efectivo 
+- Se agrega soporte para procesar Retencion de IGTF al Completar un pago sobre una factura fiscal con el Tipo de Pago Efectivo
