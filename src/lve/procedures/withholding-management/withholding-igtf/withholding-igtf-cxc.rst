@@ -160,14 +160,15 @@ Se visualiza la siguiente ventana  "**Generar Retenciones**"
 
       Imagen 15. Menú Generar Retenciones
 
-Indique el Cliente al cual le generará el comprobante de retención en el campo "**Socio de Negocio**"
+Indique el cliente al cual le generará el comprobante de retención en el campo "**Socio de Negocio**"
       
       |SeleccionSociodeNegocio|
 
       Imagen 16. Selección del Cliente
 
 
-Indique la Factura, en caso querer emitir el comprobante a una factura en especifico en el campo "**Factura Fuente**"
+Indique la Factura, en caso querer emitir el comprobante a una factura en especifico en el campo "**Factura Fuente**", caso contrario, omita el campo y podrá filtrar todas las facturas pendientes por emisión de retención.
+
 
       |SeleccionFactura|
 
@@ -180,7 +181,7 @@ Indique la organización en la que desea generar el comprobante en el campo "**O
       Imagen 18. Selección de Organización
 
 
-Para este caso se omite el campo "**Manual**" siendo de esta manera falso, puesto que, para el caso de esta retención es calculada desde ADempiere.
+Para este caso, se omite el campo "**Manual**" siendo de esta manera falso, puesto que, para el caso de esta retención es calculada desde ADempiere.
 
       |SeleccionManual|
 
