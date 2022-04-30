@@ -17,19 +17,19 @@
 .. |VisualizaDetalle| image:: resources/visualizadetallecxp.png
 .. |DetalleDocumento| image:: resources/detalledocumentocxp.png
 .. |MenuGRetenciones| image:: resources/generarretenciones.png
-.. |VentanaGRetenciones| image:: resources/vgenerarretenciones.png
-.. |SeleccionSociodeNegocio| image:: resources/seleccionsociodenegocio.png
-.. |SeleccionFactura| image:: resources/seleccionfactura.png
-.. |SeleccionOrganizacion| image:: resources/seleccionorganizacion.png
-.. |SeleccionManual| image:: resources/seleccionmanual.png
-.. |SeleccionRetención| image:: resources/seleccionretencion.png
-.. |SeleccionMoneda| image:: resources/seleccionmoneda.png
-.. |SeleccionMonedaHacia| image:: resources/seleccionmonedahacia.png
-.. |SeleccionTipoConversion| image:: resources/selecciontipoconversion.png
-.. |BotonComenzarBusqueda| image:: resources/botoncomenzarbusqueda.png
-.. |ResultadoComprobante| image:: resources/resultadogcomprobante.png
-.. |SeleccionComprobante| image:: resources/seleccioncomprobante.png
-.. |SeleccionOKComprobante| image:: resources/seleccionokcomprobante.png
+.. |VentanaGRetenciones| image:: resources/vgenerarretencionescxp.png
+.. |SeleccionSociodeNegocio| image:: resources/seleccionsociodenegociocxp.png
+.. |SeleccionFactura| image:: resources/seleccionfacturacxp.png
+.. |SeleccionOrganizacion| image:: resources/seleccionorganizacioncxp.png
+.. |SeleccionManual| image:: resources/seleccionmanualcxp.png
+.. |SeleccionRetención| image:: resources/seleccionretencioncxp.png
+.. |SeleccionMoneda| image:: resources/seleccionmonedacxp.png
+.. |SeleccionMonedaHacia| image:: resources/seleccionmonedahaciacxp.png
+.. |SeleccionTipoConversion| image:: resources/selecciontipodeconversioncxp.png
+.. |BotonComenzarBusqueda| image:: resources/botoncomenzarbusquedacxp.png
+.. |ResultadoComprobante| image:: resources/resultadogcomprobantecxp.png
+.. |SeleccionComprobante| image:: resources/seleccioncomprobantecxp.png
+.. |SeleccionOKComprobante| image:: resources/seleccionokcomprobantecxp.png
      
 
 
@@ -188,33 +188,33 @@ Se visualiza la siguiente ventana  "**Generar Retenciones**"
 
       Imagen 15. Menú Generar Retenciones
 
-Indique el Cliente al cual le generará el comprobante de retención en el campo "**Socio de Negocio**"
+Indique el proveedor al cual le generará el débito de cuenta por pagar por concepto de retención en el campo "**Socio de Negocio**"
       
       |SeleccionSociodeNegocio|
 
       Imagen 16. Selección del Cliente
 
 
-Indique la Factura, en caso querer emitir el comprobante a una factura en especifico en el campo "**Factura Fuente**"
+Indique la Factura, en caso querer registrar la retención a una factura en especifico en el campo "**Factura Fuente**", caso contrario, omita el campo y podrá filtrar todas las facturas pendientes por registro de retención.
 
       |SeleccionFactura|
 
       Imagen 17. Selección de Factura
 
-Indique la organización en la que desea generar el comprobante en el campo "**Organización**"
+Indique la organización en la que desea registrar el comprobante en el campo "**Organización**"
       
       |SeleccionOrganizacion|
 
       Imagen 18. Selección de Organización
 
 
-Para este caso se omite el campo "**Manual**" siendo de esta manera falso, puesto que, para el caso de esta retención es calculada desde ADempiere.
+Seleccione el campo "**Manual**", de esta manera podrá editar el monto de la retención emitida por el proveedor.
 
       |SeleccionManual|
 
       Imagen 19. Selección de Manual
 
-Indique el valor "**Impuesto IGTF (CxC)**" en el campo "**Retención**"
+Indique el valor "**Impuesto IGTF (CxP)**" en el campo "**Retención**"
 
       |SeleccionRetención|
 
@@ -226,7 +226,7 @@ Indique la moneda del pago en el campo "**Moneda**"
 
       Imagen 21. Selección de Moneda de Cobro
 
-Indique la Moneda a Convertir para el comprobante y monto a declarar, en el campo "**Moneda Hacia**", por defecto encontrará la moneda "**VES**" por ser la moneda oficial en Venezuela.
+Indique la moneda a convertir para el comprobante y monto a declarar, en el campo "**Moneda Hacia**", por defecto encontrará la moneda "**VES**" por ser la moneda oficial en Venezuela.
 
       |SeleccionMonedaHacia|
 
@@ -257,12 +257,9 @@ Seleccione el registro al cúal generará el comprobante
 
       Imagen 26. Selección de Búsqueda
 
-Seleccione la opción "**OK**" que indica que se emitirá el comprobante del IGTF, ó débito por concepto de retención de IGTF.
+Seleccione la opción "**OK**" que indica que se genera el registro del comprobante del IGTF, ó débito por concepto de retención de IGTF.
 
       |SeleccionOKComprobante|
 
       Imagen 26. Selección Botón OK
 
-=========================================================
-**Retención IGTF de Cuenta por Pagar**
-=========================================================
