@@ -1,11 +1,9 @@
-.. _documento/versión-45-8:
-.. _Reporte de Ventas que sea Resumen de los Totales de los Z: https://github.com/erpcya/Control-TODOAGRO/issues/82
-.. _Modificación de Reporte de "Estado de Cuentas": https://github.com/erpcya/Control-VEALCA/issues/98
+.. _documento/versión-45-9:
 
-**rs-45-8**
+**rs-45-9**
 ===========
 
-**Fecha de Liberación:** 2022-05-25
+**Fecha de Liberación:** 2022-05-27
 -----------------------------------
 
 .. data:: Soporte a Versiones
@@ -42,7 +40,7 @@
 - Material-Management-Improvements: 1.1.6
 - Warehouse-Management-System-Improvements: 1.1.6
 - Import-Export-Management: 1.0.3
-- Update-Management: 1.1.5
+- Update-Management: 1.1.9
 - Mini-Retail: 1.1.7
 - Print-Queue: 1.1.4
 - ERP-Payroll-Definition: 1.0.2
@@ -64,18 +62,10 @@
 
 .. data:: Detalle Técnico
 
-- Farmer-Assistance-Program:
+- Update-Management:
 
-  - Add Farmer Account Statement Detail report
-  - Add Process to Generate Purchase Order
-
-- Print-Queue:
-
-  - Fixed error when a document is reversed, this is send to print
-
-- LVE:
-
-  - Se agrega reporte Libro de Ventas (Impresora Fiscal)
+  - Add support to main release version attribute
+  - Aff process to change version
 
 .. data:: Requerimientos
 
@@ -83,9 +73,10 @@
 
 - Aplicar XMLS: 
 
-  - Farmer-Assistance-Program:
+  - Update-Management:
     
-    - 08010_Add_Farmer_Account_Statement_Detail.xml
+    - 07880_Add_Main_Version_support.xml
+    - 07890_Add_Change_Version_Process.xml
 
   - LVE:
 
@@ -93,12 +84,6 @@
 	
 .. data:: Novedades
 
-- Se agrega reporte para ver el estado de cuentas de un productor detallado por los insumos facturados
-- Se agrega proceso para generar orden de compra con un solo producto a un productor
-- Se agrega reporte Libro de Ventas (Impresora Fiscal): util para ver en resumen lo que se vendió a persona natural
-- Se corrige envío de documentos a cola de impresión cuando son reversados
+- Se agrega atributo para identificar la versión principal del despliegue en el actualizador de ADempiere
 
 .. data:: Reportes Relacionados
-
-  - `Reporte de Ventas que sea Resumen de los Totales de los Z`_
-  - `Modificación de Reporte de "Estado de Cuentas"`_
