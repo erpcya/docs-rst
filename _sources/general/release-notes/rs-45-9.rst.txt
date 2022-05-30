@@ -65,7 +65,7 @@
 - Update-Management:
 
   - Add support to main release version attribute
-  - Aff process to change version
+  - Add process to change version
 
 .. data:: Requerimientos
 
