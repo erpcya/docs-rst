@@ -1,0 +1,37 @@
+.. _documento/versión-14-9:
+
+**rs-14.9**
+===========
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase:
+
+    - Versión de Liberación: 3.9.3-rs-3.9
+
+- CST-STD
+
+    - Versión de Liberación: rs-19.0
+
+- Consigned-Material: 1.0.8
+
+.. data:: Nota Crítica:
+
+- Este cambio afecta la contabilización de los documentos cuando un documento está en negativo
+- La contabilización de los documentos en consignación quedan en cero para los siguientes:
+
+    - Recepción
+    - Entrega
+    - Cotejar Factura
+
+.. data:: Detalle Técnico:
+
+- CST-STD: Change Fixed error with build path
+- Consigned-Material: Remove fact records from consigned material
+
+.. data:: Novedades:
+
+.. data:: Correcciones:
+ 
+    - Ya los documentos no contabilizan en negativo cuando en el esquema contable no está seleccionada la opción "Permitir Contabilización en Negativo"
+    - Las recepciones, Entregas y Cotejo de Facturas no se contabilizan cuando los productos son en consignación
