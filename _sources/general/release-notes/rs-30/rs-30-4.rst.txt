@@ -1,0 +1,68 @@
+.. _documento/versión-30-4:
+
+**rs-30.4**
+===========
+
+**Fecha de Liberación:** 2021-10-06
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-26.3
+- Consigned-Material: 1.2.8
+- Exchange-Operation-System: 1.1.7
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.6
+- Farmer-Assistance-Program: 1.1.8
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.2
+- FiscalPrinter: 1.3.2
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.6
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Additional-Reports: 1.0.3
+- Migration-Tools: 1.0.3
+- LVE: 1.4.1
+- Performance-Analysis: 1.0.2
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.1.6
+- Kafka-Replicator-Client: 1.0.6
+- Core-Tools: 1.3.6
+- Get-Weight:1.0.9
+- Record-Weight: 1.0.3
+- Raw-Material-Receipt: 1.1.0
+- Additional-Reports: 1.0.7
+- adempiere-gRPC-Server: rt-23.5
+- Material-Management-Improvements: 1.0.1
+- Warehouse-Management-System-Improvements: 1.0.9
+- Import-Export-Management: 1.0.0
+- Update-Management: 1.1.1
+- Mini-Retail: 1.0.0
+
+.. data:: Detalle Técnico:
+  
+- Update-Management: Fixed error with match case for updates
+- Mini-Retail: Add support to automatic discount calculation
+- LVE: Fixed error with transaction name
+- Core-Tools: Add support to Tribute Unit
+- CST-STD: Fixed error with replication document status
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+
+.. data:: Mejoras
+
+- Se agrega funcionalidad para calculo automático de descuentos en venta
+- se agrega funcionalidad para calculo de precio de ventas de manera automática
+- Se agrega funcionalidad para crear precio de compras de manera automática
+
+.. data:: Correcciones
+
+- Coincidencia con nombre de actualizaciones
+- Corrección de nombre de transacción al obtener la unidad tributaria
+- Soporte a copia de unidad tributaria al reconvertir
+- Corrección de estados de documento en replicación

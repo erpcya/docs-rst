@@ -1,0 +1,92 @@
+.. _documento/versión-43-1:
+
+**rs-43-1**
+===========
+
+**Fecha de Liberación:** 2022-03-21
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-32.9
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.1
+- Cloud-Service-Management: 1.2.3
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.0.9
+- Farmer-Assistance-Program: 1.3.3
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.5
+- Fiscal-Printer: 1.5.1
+- Sales-Force-Management: 1.0.6
+- Delivery-Management-Service: 1.1.9
+- Travel-Agency-Management: 1.1.9
+- Withholding: 1.1.3
+- Migration-Tools: 1.0.4
+- LVE: 1.7.6
+- Performance-Analysis: 1.1.3
+- Queue-Manager: 1.0.6
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.4.3
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.8
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.6
+- Raw-Material-Receipt: 1.1.5
+- Additional-Reports: 1.2.3
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.5
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.3
+- Update-Management: 1.1.4
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.0.9
+- ERP-Payroll-Definition: 1.0.2
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.0.6
+- Vue-StoreFront-API: 1.0.4
+- Mercado-Libre-Venezuela-API: 1.0.5
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.0.0
+
+.. data:: Detalle Técnico
+
+- FAP-Venezuela-Location:
+  
+  - Add first commit for project with Venezuela Location
+  
+- Farmer-Assistance-Program:
+
+  - Add support to link column for Raw Material Conditioning to Transaction batch
+
+- Update-Management:
+
+  - Add main class for Updates from service
+
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+- Aplicar XML's:
+
+  - Farmer-Assistance-Program:
+
+    - 07860_Add_FAP_RawMaterialConditioning_ID_column_to_Transaction.xml
+    - 07870_Add_FarmerInvoiceInterest_ID_column_to_financial_product.xml
+    - 07880_Add_IsFarmerInvoiceInterest_column_to_document_type.xml
+    - 07890_Add_IsFarmerInvoiceInterest_column_to_charge.xml
+  
+.. data:: Novedades
+
+- Se agrega formulación para localización Venezuela en cálculo de Arroz, Granos y Girasol
+- Se agrega referencia a la liquidación en la transacción financiera
+- Se agrega soporte para ejecución separada del actualizador

@@ -1,0 +1,22 @@
+.. _ERPyA: http://erpya.com
+
+.. _documento/versión-24:
+
+**rs-24**
+=========
+
+Las notas de liberación muestran todo el histórico de cambios en las versiones liberadas bajo autoría de `ERPyA`_. Para ver en detalle cada versión liberada solo seleccione uno de los siguientes índices:
+
+.. toctree::
+    :maxdepth: 2
+
+    rs-24-9
+    rs-24-8
+    rs-24-7
+    rs-24-6
+    rs-24-5
+    rs-24-4
+    rs-24-3
+    rs-24-2
+    rs-24-1
+    rs-24-0

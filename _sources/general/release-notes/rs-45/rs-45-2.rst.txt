@@ -1,0 +1,103 @@
+.. _documento/versión-45-2:
+
+**rs-45-2**
+===========
+
+**Fecha de Liberación:** 2022-04-25
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-33.8
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.1
+- Cloud-Service-Management: 1.2.4
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.0.9
+- Farmer-Assistance-Program: 1.4.0
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.5
+- Fiscal-Printer: 1.5.3
+- Sales-Force-Management: 1.0.6
+- Delivery-Management-Service: 1.1.9
+- Travel-Agency-Management: 1.1.9
+- Withholding: 1.1.7
+- Migration-Tools: 1.0.4
+- LVE: 1.8.1
+- Performance-Analysis: 1.1.3
+- Queue-Manager: 1.0.6
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.4.3
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.9
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.6
+- Additional-Reports: 1.2.3
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.6
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.3
+- Update-Management: 1.1.5
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.1.3
+- ERP-Payroll-Definition: 1.0.2
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.1.1
+- Vue-StoreFront-API: 1.0.8
+- Mercado-Libre-Venezuela-API: 1.0.8
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.0.1
+- LVE-AdditionalTax: 1.0.4
+
+.. data:: Detalle Técnico
+
+- LVE:
+  
+  - Se aumenta el máximo de caracteres de referencia del débito y crédito en TXT de Banesco Pago Detallado
+
+- Fiscal-Printer:
+  
+  - Add support to FBTT based on AR Invoice and FBTT flag
+
+- CST-STD:
+  
+  - Add support to access role based on 0 records, a example is the ** New ** Document Type
+
+- FAP-Venezuela-Location:
+  
+  - Add support to calculation of bean for all attributes using the class:  org.erpya.lve.farming.engine.Bean_ConditionedWeightAllAttributes
+
+- Print-Queue:
+  
+  - Add login language to report from print format
+
+- LVE-AdditionalTax:
+
+  - Change Setup Action on Invoice for payments on Setup Definition
+  - Support to Payment Cash with invoice Reference TBTT Calculation
+  - Add Support to Valid Business Partner
+
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+
+.. data:: Novedades
+
+- Se aumenta el máximo de caracteres de referencia del débito y crédito en TXT de Banesco Pago Detallado
+- Se agrega soporte para envío de IGTF a la impresora fiscal cuando no proviene del punto de ventas
+- Se agrega funcionalidad que permite incluir registros en cero cuando se tiene bloqueo de acceso a registros
+- Se agrega nueva formulación para todos los atributos de los granos para el cálculo del peso acondicionado
+- Se agrega Soporte a Validacion de Socio de Negocio y Tipo de Contribuyente en Retencion de IGTF
+- Se Marcan las Retenciones de IGTF Generadas
+- Se agrega soporte para procesar Retencion de IGTF al Completar un pago sobre una factura fiscal con el Tipo de Pago Efectivo

@@ -1,0 +1,70 @@
+.. _documento/versión-31-8:
+
+**rs-31.8**
+===========
+
+**Fecha de Liberación:** 2021-10-20
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-26.9
+- Consigned-Material: 1.2.8
+- Exchange-Operation-System: 1.1.7
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.7
+- Farmer-Assistance-Program: 1.1.8
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.2
+- Fiscal-Printer: 1.3.3
+- Sales-Force-Management: 1.0.3
+- Delivery-Management-Service: 1.1.1
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Additional-Reports: 1.0.3
+- Migration-Tools: 1.0.3
+- LVE: 1.4.3
+- Performance-Analysis: 1.0.5
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.1.7
+- Kafka-Replicator-Client: 1.0.6
+- Core-Tools: 1.3.7
+- Get-Weight:1.0.9
+- Record-Weight: 1.0.3
+- Raw-Material-Receipt: 1.1.0
+- Additional-Reports: 1.0.7
+- adempiere-gRPC-Server: rt-24.3
+- Material-Management-Improvements: 1.0.1
+- Warehouse-Management-System-Improvements: 1.1.0
+- Import-Export-Management: 1.0.2
+- Update-Management: 1.1.2
+- Mini-Retail: 1.0.6
+
+.. data:: Detalle Técnico:
+
+- adempiere-gRPC-Server: Fixed error with shipment confirm
+- Core-Tools: Add functionality for load image for product
+- Currency-Convert-Documents: Add Model Validator for set Currency Type on Payment Selection and Payment
+- Mini-Retail: Add landed cost rates for product PO
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+- Aplicar los XML's:
+    - Core-Tools:
+        - 05200_Add_Product_Load_Attachment_Process.xml
+    -  Mini-Retail:
+        - 09520_Fixed_Price_List_for_Category_and_product.xml
+        - 09530_Add_columns_reference_to_Discount_break.xml
+        - 09540_Add_PO_Rates.xml
+
+.. data:: Correcciones
+
+- Corrección de carga de entrega para confirmación
+
+.. data:: Mejoras
+
+- Nueva funcionalidad para carga de imágenes a partir de código de productos
+- Se agrega porcentaje de costos adicionales al precio de compras de producto
