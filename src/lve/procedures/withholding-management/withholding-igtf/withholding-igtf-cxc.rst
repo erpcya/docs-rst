@@ -27,6 +27,11 @@
 .. |ResultadoComprobante| image:: resources/resultadogcomprobante.png
 .. |SeleccionComprobante| image:: resources/seleccioncomprobante.png
 .. |SeleccionOKComprobante| image:: resources/seleccionokcomprobante.png
+.. |AcercadorIGTFdeb| image:: resources/acercadordebigtf.png
+.. |DocAsignadosIGTF| image:: resources/docasignadosigtf.png
+.. |comprobanteIGTF| image:: resources/comprobanteIGTF.png
+
+
      
 
 
@@ -146,6 +151,21 @@ Podrá apreciar el menú desplegado por el icono "**Visualiza Detalle**", el mis
 
       ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
+**Re-Generar IGTF desde Caja/Cobro**
+------------------------------------
+
+Realice el procedimiento regular para generar un cobro, explicado en el documento :ref:`documento/cobro`, elaborado por `ERPyA`_. 
+
+.. note::
+
+      Este procedimiento solo aplica bajo las siguientes condiciones: 
+      "**Tipo de Pago Efectivo**"
+      "**Moneda: Diferente a la moneda de curso legal**"
+
+Al completar la caja se reversa de manera automática la estimación de retenciones anterior, para dar paso a la retención definitiva con la base del cobro definitivo, en este sentido, al consultar la factura podrá observar la estimación de retención anterior anulada, y una nueva en estado completo proveniente del cobro.
+
+      Vaya a la factura origen y ubique las "**Retenciones Generadas**" para validar los cálculos, si todo está correcto vaya al siguiente capitulo para generar el comprobante del cobro del "**IGTF**".
+
 **Generar Débito de IGTF para Factura**
 ---------------------------------------------
 Seleccione en el menú la opción "**Generar Retenciones**"
@@ -235,3 +255,18 @@ Seleccione la opción "**OK**" que indica que se emitirá el comprobante del IGT
       |SeleccionOKComprobante|
 
       Imagen 26. Selección Botón OK
+
+**Impresión de Comprobante de IGTF**
+------------------------------------
+Ubique la factura producto de "**Retención IGTF la opción**", seleccione el acercador.
+
+      |AcercadorIGTFdeb|
+
+Seleccione la opción "**Documentos por Cobrar (Asignados)"
+
+      |DocAsignadosIGTF|
+
+Seleccione la opción imprimir de manera regular y acontinuación verá el siguiente formato.
+
+      |comprobanteIGTF|
+
