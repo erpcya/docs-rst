@@ -262,7 +262,7 @@ Ubique la factura producto de "**Retención IGTF la opción**", seleccione el ac
 
       |AcercadorIGTFdeb|
 
-Seleccione la opción "**Documentos por Cobrar (Asignados)"
+Seleccione la opción "**Documentos por Cobrar (Asignados)**"
 
       |DocAsignadosIGTF|
 
