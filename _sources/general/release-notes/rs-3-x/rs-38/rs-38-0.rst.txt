@@ -1,0 +1,82 @@
+.. _documento/versión-38-0:
+
+**rs-38.0**
+===========
+
+**Fecha de Liberación:** 2021-12-07
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-30.0
+- Consigned-Material: 1.2.8
+- Exchange-Operation-System: 1.1.8
+- Cash-Management: 1.1.3
+- Currency-Convert-Documents: 1.0.8
+- Farmer-Assistance-Program: 1.1.9
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.4
+- Fiscal-Printer: 1.3.7
+- Sales-Force-Management: 1.0.4
+- Delivery-Management-Service: 1.1.8
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Migration-Tools: 1.0.3
+- LVE: 1.5.1
+- Performance-Analysis: 1.1.0
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.6
+- Point-Of-Sales-Improvements: 1.3.0
+- Kafka-Replicator-Client: 1.0.8
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.7
+- Get-Weight:1.0.9
+- Record-Weight: 1.0.4
+- Raw-Material-Receipt: 1.1.2
+- Additional-Reports: 1.2.1
+- adempiere-gRPC-Server: rt-28.1
+- Material-Management-Improvements: 1.1.0
+- Warehouse-Management-System-Improvements: 1.1.3
+- Import-Export-Management: 1.0.2
+- Update-Management: 1.1.3
+- Mini-Retail: 1.1.4
+- Print-Queue: 1.0.6
+- ERP-Payroll-Definition: 1.0.0
+- Internal-Store: 1.0.3
+- Telegram-Notifier: 1.0.2
+
+.. data:: Detalle Técnico:
+
+- Notification-Queue: Add support to message Type
+- Telegram-Notifier: Add support to:
+    - Confirmation message
+    - Base message
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+- Aplicar los XML's:
+    - Notification-Queue:
+        - 07830_Add_Message_Type.xml
+        - 07840_Add_Message_Type_for_WF.xml
+    - CST-STD:
+        - 09370_Add_Product_new_Product_Group.xml
+        - 09380_Add_UOM_Conversion_for_Physical_Inventory.xml
+        - 09390_Add_Attribute_Set_Intance_for_Basket.xml
+    - Telegram-Notifier:
+        - 09350_Add_Telegram_Notifier_Entity_Type.xml
+        - 09360_Add_Implementation_for_Telegram.xml
+        - 09370_Add_Setup_for_Telegram_Notifier.xml
+        - 09380_Add_Chat_ID_as_Parameter_for_Registration.xml
+
+.. data:: Novedades
+
+- Se agrega tiempo de espera entre notificación y notificación para cola de mensajería
+- Se agrega soporte para notificación de telegram en función de aprobación
+- Se agrega conversión en el inventario físico para los productos
+- Se agrega tipo de mensaje para la cola de notificación
+
+.. data:: Correcciones
+
+- Solo Mejoras

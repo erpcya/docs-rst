@@ -1,0 +1,68 @@
+.. _documento/versión-26-8:
+
+**rs-26.8**
+===========
+
+**Fecha de Liberación:** 2021-09-08
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-25.0
+- Consigned-Material: 1.2.4
+- Exchange-Operation-System: 1.1.7
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.5
+- Farmer-Assistance-Program: 1.1.6
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.2
+- FiscalPrinter: 1.3.2
+- RawMaterialReceipt: 1.0.7
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.1
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Additional-Reports: 1.0.3
+- Migration-Tools: 1.0.3
+- LVE: 1.3.8
+- Performance-Analysis: 1.0.2
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.1.3
+- Kafka-Replicator-Client: 1.0.6
+- Core-Tools: 1.1.1
+- Get-Weight:1.0.6
+- Additional-Reports: 1.0.7
+- adempiere-gRPC-Server: rt-23.0
+- Material-Management-Improvements: 1.0.0
+- Warehouse-Management-System-Improvements: 1.0.2
+
+.. data:: Detalle Técnico:
+
+- adempiere-gRPC-Server: Add auto write off amount for payments
+- Migration-Tools: Add support to access for copy process
+- Warehouse-Management-System-Improvements: Add product validation for inventory stocked
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+
+- Aplicar los XML's
+
+  - Warehouse-Management-System-Improvements:
+
+    - 09300_Add_IsBlockedForTakingInventory_flag.xml
+    - 09310_Add_Product_Validation_Setup.xml
+
+- Validar que la columna **IsBlockedForTakingInventory** de **M_Product** esté sincronizada
+
+.. data:: Correcciones
+
+- Problemas con ajuste de monto en reembolso o faltante de los pagos multi-moneda y facturas por cobrar en POS
+
+.. data:: Mejoras:
+
+- Se agrega validación para transacciones de inventario para evitar movimientos cuando un producto se encuentra en una lista de conteo sin procesar
+- Se permite copiar accesos de procesos cuando se copian tablas en el diccionario de aplicación, muy útil para la actualización de aplicaciones
+

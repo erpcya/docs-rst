@@ -1,0 +1,89 @@
+.. _documento/versión-39-4:
+
+**rs-39-4**
+===========
+
+**Fecha de Liberación:** 2022-02-01
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-31.2
+- Consigned-Material: 1.2.9
+- Exchange-Operation-System: 1.1.9
+- Cloud-Service-Management: 1.1.3
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.0.9
+- Farmer-Assistance-Program: 1.2.5
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.5
+- Fiscal-Printer: 1.4.5
+- Sales-Force-Management: 1.0.6
+- Delivery-Management-Service: 1.1.9
+- Travel-Agency-Management: 1.0.9
+- Withholding: 1.0.9
+- Migration-Tools: 1.0.4
+- LVE: 1.5.3
+- Performance-Analysis: 1.1.1
+- Queue-Manager: 1.0.6
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.3.4
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.8
+- Get-Weight:1.1.1
+- Record-Weight: 1.0.5
+- Raw-Material-Receipt: 1.1.4
+- Additional-Reports: 1.2.3
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.2
+- Warehouse-Management-System-Improvements: 1.1.4
+- Import-Export-Management: 1.0.3
+- Update-Management: 1.1.3
+- Mini-Retail: 1.1.5
+- Print-Queue: 1.0.8
+- ERP-Payroll-Definition: 1.0.1
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.0.1
+- Vue-StoreFront-API: 1.0.1
+
+.. data:: Detalle Técnico:
+
+- CST-STD: Remove Elastic search Integration from Vue StoreFront validator
+- e-Commerce-Queue: Add Queue for manage all related with e-Commerce API solution
+- Vue-StoreFront-API: Fisrt implementation of e-Commerce queue for Vue StoreFront API
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+- Aplicar XML's:
+    - e-Commerce-Queue:
+        - 09910_Add_e_Commerce_Queue_Entity_Type.xml
+        - 09920_Add_queue_Type_for_e_Commerce.xml
+        - 09930_Add_Store_Queue.xml
+        - 09940_Add_Setup_for_e_Commerce_Queue.xml
+        - 09950_Add_Event_Type_for_Store_Queue.xml
+        - 09960_Add_Processed_Column_to_Queue.xml
+    - Vue-StoreFront-API:
+        - 09920_Add_Vue_StoreFront_API_Entity_Type.xml
+        - 09930_Add_Application_Type_for_Vue_StoreFront.xml
+        - 09940_Add_setup_for_Vue_StoreFront.xml
+    
+.. data:: Novedades
+
+- Se remueven eventos innecesarios al momento de actualizar entidades relacionadas con Comercio Electrónico
+- Se agrega nueva cola para manejo de integraciones con Tiendas Web de terceros
+- Se realiza la primera implementación de la cola de Tienda Web para Vue StoreFront
+
+.. data:: Correcciones
+
+- Sólo Novedades

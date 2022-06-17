@@ -1,0 +1,77 @@
+.. _documento/versión-31-0:
+
+**rs-31.0**
+===========
+
+**Fecha de Liberación:** 2021-10-14
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-26.8
+- Consigned-Material: 1.2.8
+- Exchange-Operation-System: 1.1.7
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.6
+- Farmer-Assistance-Program: 1.1.8
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.2
+- FiscalPrinter: 1.3.2
+- Sales-Force-Management: 1.0.3
+- Delivery-Management-Service: 1.0.9
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Additional-Reports: 1.0.3
+- Migration-Tools: 1.0.3
+- LVE: 1.4.1
+- Performance-Analysis: 1.0.4
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.1.7
+- Kafka-Replicator-Client: 1.0.6
+- Core-Tools: 1.3.6
+- Get-Weight:1.0.9
+- Record-Weight: 1.0.3
+- Raw-Material-Receipt: 1.1.0
+- Additional-Reports: 1.0.7
+- adempiere-gRPC-Server: rt-23.8
+- Material-Management-Improvements: 1.0.1
+- Warehouse-Management-System-Improvements: 1.1.0
+- Import-Export-Management: 1.0.1
+- Update-Management: 1.1.1
+- Mini-Retail: 1.0.4
+
+.. data:: Detalle Técnico:
+  
+- adempiere-gRPC-Server:
+    Add support to services:
+    - CreateShipment
+    - CreateShipmentLine
+    - DeleteShipmentLine
+    - ListShipmentLines
+
+- Point-Of-Sales-Improvements: Add flag for IsAllowsConfirmShipment
+- CST-STD:
+    - Fixed error with reverse production
+    - Add support to calculate discount before save order line
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+- Aplicar los XML's:
+    - Point-Of-Sales-Improvements:
+        - 09310_Add_Flag_IsAllowsConfirmShipment.xml
+
+.. data:: Mejoras
+
+- Se agrega soporte a servicios de ebntrega de producto desde el POS:
+    - Crear Entrega
+    - Crear Linea de Entrega
+    - Eliminar Linea de Entrega
+    - Listar Lineas de Entrega
+
+.. data:: Correcciones
+
+- Error de Cantidad = 0 al reversar producción
+- Cálculo de descuento sólo funcionando desde la interfaz ZK o Swing

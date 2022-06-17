@@ -1,0 +1,91 @@
+.. _documento/versión-24-3:
+
+**rs-24.3**
+===========
+
+**Fecha de Liberación:** 2021-08-16
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-23.7
+- Consigned-Material: 1.2.4
+- Exchange-Operation-System: 1.1.7
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.5
+- Farmer-Assistance-Program: 1.1.6
+- RethinkDB-Replicator-Client: 1.1.4
+- Third-Party-Access: 1.0.2
+- FiscalPrinter: 1.3.2
+- RawMaterialReceipt: 1.0.7
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.1
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Additional-Reports: 1.0.4
+- Migration-Tools: 1.0.1
+- LVE: 1.3.7
+- Performance-Analysis: 1.0.2
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.0.4
+- Kafka-Replicator-Client: 1.0.3
+- Core-Tools: 1.0.7
+
+.. data:: Detalle Técnico:
+
+- CST-STD: Add support to get record weight from kafka service
+
+- Point-Of-Sales-Improvements: Add support to Maximum Daily Refund attribute
+
+- Core-Tools: 1.0.7: Add process to Create copy from Accounting Schema
+
+- Additional-Reports: 1.0.4: Add Scriptlet support
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+
+- Aplicar los XML's:
+
+    - Point-Of-Sales-Improvements:
+
+        - 07880_Add_Daily_Amount_to_Refunded.xml
+
+    - Core-Tools: 1.0.7:
+
+        - 05020_Add_Copy_Accounting_Schema.xml
+
+.. data:: Correcciones:
+
+
+.. data:: Mejoras:
+
+- Se implementa lectura de dispositivo de peso (Romana) usando el servicio de kafka
+
+- Se agregan atributos al punto de venta para control de:
+
+    - Permitir Cambiar Cantidades
+
+    - Permitir Cobrar Pedido
+
+    - Permitir Devolver Pedido
+
+    - Máximo de cambio Diario
+
+    - Solicitar PIN para operaciones específicas:
+
+        - Tipos de Documentos: dependiendo el tipo ya se puede decidir si se pide PIN o no
+
+        - Lista de Precios: dependiendo de la lista de precios se puede o no solicitar PIN
+
+        - Almacén: dependiendo del almacén se solicita PIN
+
+        - Tipo de Pago:
+
+            - Permite Establecer Máximos por día y operación
+
+            - Permite seleccionar cuales son los tipos de pago que se pueden usar para dar cambio en la caja
+
+- Se agrega scriplet que permite obtener los adjuntos desde ADempiere usando como reporteador iReport

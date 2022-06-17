@@ -1,0 +1,63 @@
+.. _documento/versión-35-6:
+
+**rs-35.6**
+===========
+
+**Fecha de Liberación:** 2021-11-10
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-28.0
+- Consigned-Material: 1.2.8
+- Exchange-Operation-System: 1.1.8
+- Cash-Management: 1.1.2
+- Currency-Convert-Documents: 1.0.8
+- Farmer-Assistance-Program: 1.1.8
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.4
+- Fiscal-Printer: 1.3.4
+- Sales-Force-Management: 1.0.3
+- Delivery-Management-Service: 1.1.8
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Migration-Tools: 1.0.3
+- LVE: 1.4.7
+- Performance-Analysis: 1.0.8
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.2.1
+- Kafka-Replicator-Client: 1.0.8
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.7
+- Get-Weight:1.0.9
+- Record-Weight: 1.0.4
+- Raw-Material-Receipt: 1.1.2
+- Additional-Reports: 1.1.5
+- adempiere-gRPC-Server: rt-25.4
+- Material-Management-Improvements: 1.0.8
+- Warehouse-Management-System-Improvements: 1.1.3
+- Import-Export-Management: 1.0.2
+- Update-Management: 1.1.3
+- Mini-Retail: 1.1.4
+- Print-Queue: 1.0.5
+
+.. data:: Detalle Técnico:
+
+- Additional-Reports: Add Delivery Note
+- LVE: Se agrega validación para no permitir cédulas sin prefijo
+- Record-Weight: Refactoring Record Weight
+- Raw-Material-Receipt: Refactoring Raw Material Receipt
+- Cash-Management: Fixed error with autoreconcile payment
+- Point-Of-Sales-Improvements: change order for column on SB for verify payments
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+
+.. data:: Novedades
+
+.. data:: Correcciones
+
+- Se corrige problema con librería de gRPC server
