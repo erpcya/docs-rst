@@ -1,0 +1,103 @@
+.. _documento/versión-46-3:
+.. _Reporte de Cobro se visualiza en blanco (sp-hcimport-407788-): https://github.com/erpcya/Control-HCIMPORT/issues/23
+.. _Parámetro en el reporte estado de cuenta socio de negocio: https://github.com/erpcya/Control-MIGO/issues/226
+.. _Acceso a los proveedores al Sistema Adempiere: https://github.com/erpcya/Control-MIGO/issues/224
+.. _355878 - Recibo de pagos no se puede imprimir: https://github.com/erpcya/Control-FPLE/issues/147
+.. _Reporte de Cobro se Visualiza en Blanco (sp-fple-355878-): https://github.com/erpcya/Control-FPLE/issues/150
+.. _Problemas con Saldo en Reporte de Pagos: https://github.com/erpcya/Control-FPLE/issues/152
+
+**rs-46-3**
+===========
+
+**Fecha de Liberación:** 2022-06-17
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-33.8
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.1
+- Cloud-Service-Management: 1.2.4
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.0.9
+- Farmer-Assistance-Program: 1.4.5
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.5
+- Fiscal-Printer: 1.5.3
+- Sales-Force-Management: 1.0.6
+- Delivery-Management-Service: 1.1.9
+- Travel-Agency-Management: 1.1.9
+- Withholding: 1.2.1
+- Migration-Tools: 1.0.4
+- LVE: 1.8.4
+- Performance-Analysis: 1.1.3
+- Queue-Manager: 1.0.6
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.4.4
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.4.0
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.6
+- Additional-Reports: 1.2.4
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.6
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.3
+- Update-Management: 1.1.9
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.1.4
+- ERP-Payroll-Definition: 1.0.3
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.1.2
+- Vue-StoreFront-API: 1.0.8
+- Mercado-Libre-Venezuela-API: 1.0.8
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.0.1
+- LVE-AdditionalTax: 1.0.7
+
+.. data:: Detalle Técnico
+
+- Additional-Reports:
+
+  - Add support to bank statement account by organization for business partner
+  
+- CST-STD:
+  
+  - Fixed error with role access for elements like CreatedBy and UpdatedBy
+  - Fixed error with over/under payment of payment selection created automatically from payment before print it
+
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+- Aplicar los XML's:
+
+  - Additional-Reports:
+    
+    - 05840_Add_Organization_for_Business_Partner_Bank_Account.xml
+
+	
+.. data:: Novedades
+
+- Se agrega parámetro Organización al reporte de Estado de Cuenta (Socio de Negocio)
+- Se corrige problemas con acceso a datos de rol para los elementos "Creado Por" y "Actualizado Por" para referencia de bloqueo
+- Se corrige problema al imprimir el reporte de comprobante de pago cuando un pago sobregira la factura
+
+.. data:: Reportes Relacionados
+
+  - `Reporte de Cobro se visualiza en blanco (sp-hcimport-407788-)`_
+  - `Parámetro en el reporte estado de cuenta socio de negocio`_
+  - `Acceso a los proveedores al Sistema Adempiere`_
+  - `355878 - Recibo de pagos no se puede imprimir`_
+  - `Reporte de Cobro se Visualiza en Blanco (sp-fple-355878-)`_
+  - `Problemas con Saldo en Reporte de Pagos`_
