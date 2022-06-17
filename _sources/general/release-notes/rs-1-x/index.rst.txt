@@ -15,4 +15,4 @@ Las notas de liberación muestran todo el histórico de cambios en las versiones
     rs-17/index
     rs-16/index
     rs-15/index
-    rs-14
+    rs-14/index
