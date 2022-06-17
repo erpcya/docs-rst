@@ -1,16 +1,19 @@
 .. _ERPyA: http://erpya.com
-.. _src/general/release-notes:
 
-=====================================
-**Notas de Liberación ADempiere ERP**
-=====================================
+.. _documento/versión-14:
+
+**rs-4.x**
+=========
 
 Las notas de liberación muestran todo el histórico de cambios en las versiones liberadas bajo autoría de `ERPyA`_. Para ver en detalle cada versión liberada solo seleccione uno de los siguientes índices:
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
-    rs-4-x/rs-4-x
-    rs-3-x/rs-3-x
-    rs-2-x/rs-2-x
-    rs-1-x/rs-1-x
+    rs-46/rs-46
+    rs-45/rs-45
+    rs-44/rs-44
+    rs-43/rs-43
+    rs-42/rs-42
+    rs-41/rs-41
+    rs-40/rs-40
