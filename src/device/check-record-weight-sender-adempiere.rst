@@ -7,6 +7,9 @@
 .. |Propiedades Acceso Directo| image:: resources/weight-sender-shortcut-properties.PNG
 .. |Leer peso(Désde Báscula)| image:: resources/weight-sender-folder-read-from-scale.png
 .. |Leer peso| image:: resources/weight-sender-folder-read-from-scale-reading.png
+.. |Servicio de Windows| image:: resources/weight-sender-folder-service.PNG
+.. |Propiedades Servicio de Windows| image:: resources/weight-sender-folder-service-properties.PNG
+.. |Error iniciando Servicio de Windows| image:: resources/weight-sender-folder-service-start-error.PNG
 .. _XCTU: https://erpya.ams3.digitaloceanspaces.com/public/XCTU_5.2.8.exe
 .. _documento/verificar-record-weight-sender:
 
@@ -16,24 +19,17 @@ Verificar el funcionamiento del Cliente de Lectura de Peso
 Verificar que la Aplicacion este ejecutando la version correcta
 ---------------------------------------------------------------
 
-Se debe acceder a las propiedades del Acceso Directo de la aplicacion que se encuentra en el escritorio.
+Verificar que existe un Servicio de Windows con el Nombre de **Record Weight EPRCYA**
 
-|Acceso directo|
+|Servicio de Windows|
 
-Por Ejemplo si la version instalada es la siguiente: **Record-Weight-Sender-DotNet-rs-1.7.exe**
+|Propiedades Servicio de Windows|
 
-Esta parte en el nombre del instalador **rs-1.7** corresponde a la version en la que se encuentra la aplicación.
+    Para verificar que el servicio funcione, abrir las Propiedades del servicio y presionar el boton iniciar el estado del servicio debe mantenerse **En Ejecución**, ademas la **Ruta de Acceso al Ejecutable** debe coincidir con la version instalada.
 
-|Propiedades Acceso Directo|
+    ::
 
-Se Deben verificar los siguiente campos viendo si corresponden con la versión instalada:
-
-- Ubicación de Destino: rs-1.7
-- Destino:  C:\Users\(Usuario de Windows)\AppData\Local\Record-Weight-Sender-DotNet\rs-1.7\StartPrintService.bat
-- Iniciar en:  C:\Users\(Usuario de Windows)\AppData\Local\Record-Weight-Sender-DotNet\rs-1.7
-
-En caso de que alguno de estos valores no coincida, se debe modificar el acceso directo colocando la version correcta en este caso **rs-1.7**.
-
+        C:\Users\(Usuario de Windows)\AppData\Local\Record-Weight-Sender-DotNet\rs-1.8-win-x64\Local-Printing-Service-DotNet-win-x64.exe
 
 Verificar que la Romana este enviando datos
 -------------------------------------------
@@ -69,8 +65,9 @@ Problemas al momento de leer el puerto Serial
 Verificar que Cliente de Lectura de Peso reciba datos desde el Puerto Serial
 ----------------------------------------------------------------------------
 
-1. Abrimos la aplicación **Record-Weight-Sender-DotNet**.
-2. Se abrira la consola de windows, y mostrara lo siguiente
+1. Para ello necesitamos ejecutar manualmente la aplicación **Record-Weight-Sender-DotNet**, es necesario ingresar a la siguiente ruta: **C:\Users\(Usuario de Windows)\AppData\Local\Record-Weight-Sender-DotNet\rs-1.8-win-x64**
+2. Ubicar el archivo **StartPrintService.bat** y ejecutarlo.
+3. Se abrira la consola de windows, y mostrara lo siguiente
 
 .. code-block:: batch
 
