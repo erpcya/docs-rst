@@ -90,7 +90,7 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Instalar Cliente de Lectura de Peso</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#requisitos">Requisitos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#instalacion">Instalación</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-imprimir">Configurar la aplicación para Imprimir</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-lectura-de-peso">Configurar la aplicación para Lectura de peso</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#problemas-luego-instalar">Problemas luego instalar</a></li>
 </ul>
 </li>
@@ -143,15 +143,16 @@
 <h2>Requisitos<a class="headerlink" href="#requisitos" title="Permalink to this headline"></a></h2>
 <ul class="simple">
 <li><p>Sistema operativo Windows 10</p></li>
-<li><p><a class="reference external" href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1">Dotnet SDK 3.1</a> (Instalar la version para 32 bit o x86)</p></li>
-<li><p>Instalador <a class="reference external" href="https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-rs-1.6.exe">Record-Weight-Sender-DotNet</a></p></li>
+<li><p><a class="reference external" href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">Dotnet SDK 6.0</a> (Instalar la versión que corresponda a la arquitectura del Sistema operativo x86 o x64)</p></li>
+<li><p>Instalador <a class="reference external" href="https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x86-rs-1.8.exe">Record-Weight-Sender-DotNet-x86</a> ó <a class="reference external" href="https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x64-rs-1.8.exe">Record-Weight-Sender-DotNet-x64</a></p></li>
 </ul>
+<p>Versiones anteriores a la versión <strong>rs-1.8</strong> requieren tener instalado <a class="reference external" href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1">Dotnet SDK 3.1</a> en su versión <strong>x86</strong></p>
 </section>
 <section id="instalacion">
 <h2>Instalación<a class="headerlink" href="#instalacion" title="Permalink to this headline"></a></h2>
-<p>Para efectos demostrativos se instala la versión de <strong>Record-Weight-Sender-DotNet-rs-1.6</strong>, para las versiónes posteriores se deben seguir los mismos pasos.</p>
+<p>Para efectos demostrativos se instala la versión de <strong>Record-Weight-Sender-DotNet-x64-rs-1.8</strong>, para las versiónes posteriores se deben seguir los mismos pasos.</p>
 <ol class="arabic">
-<li><p>Ejecutar el instalador</p>
+<li><p>Ejecutar el instalador como <strong>Administrador</strong></p>
 <p>Ejecutar Instalador</p>
 <blockquote>
 <div><p><img alt="Ejecutar instalador" src="../_images/weight-sender-start-installer.PNG" /></p>
@@ -194,10 +195,16 @@
 <div><p><img alt="Acceso directo" src="../_images/weight-sender-desktop-shortcut.PNG" /></p>
 </div></blockquote>
 </li>
+<li><p>Además se creara un Servicio de Windows con el Nombre de <strong>Record Weight EPRCYA</strong></p>
+<blockquote>
+<div><p><img alt="Servicio de Windows" src="../_images/weight-sender-folder-service.PNG" /></p>
+<p><img alt="Propiedades Servicio de Windows" src="../_images/weight-sender-folder-service-properties.PNG" /></p>
+</div></blockquote>
+</li>
 </ol>
 </section>
-<section id="configurar-la-aplicacion-para-imprimir">
-<h2>Configurar la aplicación para Imprimir<a class="headerlink" href="#configurar-la-aplicacion-para-imprimir" title="Permalink to this headline"></a></h2>
+<section id="configurar-la-aplicacion-para-lectura-de-peso">
+<h2>Configurar la aplicación para Lectura de peso<a class="headerlink" href="#configurar-la-aplicacion-para-lectura-de-peso" title="Permalink to this headline"></a></h2>
 <p>La aplicaión se configura en dos etapas la primera en el servicio de ADempiere y la segunda comprende a actualizar los datos de la apliación instalada, Siendo el orden el que se muestra a continuación.</p>
 </section>
 <section id="problemas-luego-instalar">
@@ -208,12 +215,29 @@
 <li><p>Verificar que este creada la siguiente Ruta: <strong>C:Users(Usuario de Windows)AppDataLocalRecord-Weight-Sender-DotNet</strong> y a su vez en dicha ubicación existan los siguientes directorios:</p>
 <blockquote>
 <div><p><img alt="Estrutura de Carpetas" src="../_images/weight-sender-folder-structure.PNG" /></p>
-<p>Debe Existir la carpeta <em>resources</em> y una carpeta que en su nombre incluya las siguientes siglas <em>rs-</em> (Ej. rs-2.3)</p>
+<p>Debe Existir la carpeta <strong>resources</strong> y una carpeta que en su nombre incluya las siguientes siglas <strong>rs-</strong> (Ej. rs-1.8-win-x64)</p>
 </div></blockquote>
 </li>
-<li><p>Si el directorio existe se debe ingresar a la carpeta <strong>rs-x.x</strong> y ubicar el archivo <strong>StartPrintService.bat</strong>, y proceder a crear un acceso directo en el escritorio de ese archivo.</p>
+<li><p>Si el directorio existe se debe ingresar a la carpeta <strong>rs-x.x-win-x64</strong> y ubicar el archivo <strong>StartPrintService.bat</strong>, y proceder a crear un acceso directo en el escritorio de ese archivo.</p>
 <blockquote>
-<div><p><img alt="Archivo para inicar la aplicación" src="../_images/weight-sender-start_app_file.PNG" /></p>
+<div><p><img alt="Estrutura de Carpeta con la version instalada" src="../_images/weight-sender-folder-rs-version-structure.PNG" /></p>
+</div></blockquote>
+</li>
+</ol>
+<p>Al iniciar el servicio <strong>Record Weight EPRCYA</strong> este se detiene de inmediato:</p>
+<p>Se deben seguir los siguientes pasos:</p>
+<ol class="arabic">
+<li><p>Verificar que este creada la siguiente Ruta: <strong>C:Users(Usuario de Windows)AppDataLocalRecord-Weight-Sender-DotNet</strong> y a su vez en dicha ubicación existan los siguientes directorios:</p>
+<blockquote>
+<div><p><img alt="Estrutura de Carpetas" src="../_images/weight-sender-folder-structure.PNG" /></p>
+<p>Debe Existir la carpeta <strong>resources</strong> y una carpeta que en su nombre incluya las siguientes siglas <strong>rs-</strong> (Ej. rs-1.8-win-x64)</p>
+</div></blockquote>
+</li>
+<li><p>Verificar lo datos de conexión de la aplicación en el archivo <strong>scale.yaml</strong> en la carpeta <strong>resources</strong>.</p></li>
+<li><p>Si luego de lo anterior el problema persiste, es necesario verificar en el <strong>Visor de Eventos</strong> en Windows cual es la falla.</p>
+<blockquote>
+<div><p><img alt="Error iniciando Servicio de Windows" src="../_images/weight-sender-folder-service-start-error.PNG" /></p>
+<p>Para el caso del ejemplo la aplicacion se instalo sin permisologia de <strong>Administrador</strong>, y por esa razon durante la instalacion no se creo el archivo de configuracion <strong>config_service.yaml</strong> que usar el servicio para iniciar. En este caso la solucion es copiar el archivo a <a href="#id1"><span class="problematic" id="id2">**</span></a>C:WINDOWSsystem32**</p>
 </div></blockquote>
 </li>
 </ol>

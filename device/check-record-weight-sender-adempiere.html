@@ -148,18 +148,15 @@
 <span id="documento-verificar-record-weight-sender"></span><h1>Verificar el funcionamiento del Cliente de Lectura de Peso<a class="headerlink" href="#verificar-el-funcionamiento-del-cliente-de-lectura-de-peso" title="Permalink to this headline"></a></h1>
 <section id="verificar-que-la-aplicacion-este-ejecutando-la-version-correcta">
 <h2>Verificar que la Aplicacion este ejecutando la version correcta<a class="headerlink" href="#verificar-que-la-aplicacion-este-ejecutando-la-version-correcta" title="Permalink to this headline"></a></h2>
-<p>Se debe acceder a las propiedades del Acceso Directo de la aplicacion que se encuentra en el escritorio.</p>
-<p><img alt="Acceso directo" src="../_images/weight-sender-desktop-shortcut.PNG" /></p>
-<p>Por Ejemplo si la version instalada es la siguiente: <strong>Record-Weight-Sender-DotNet-rs-1.7.exe</strong></p>
-<p>Esta parte en el nombre del instalador <strong>rs-1.7</strong> corresponde a la version en la que se encuentra la aplicación.</p>
-<p><img alt="Propiedades Acceso Directo" src="../_images/weight-sender-shortcut-properties.PNG" /></p>
-<p>Se Deben verificar los siguiente campos viendo si corresponden con la versión instalada:</p>
-<ul class="simple">
-<li><p>Ubicación de Destino: rs-1.7</p></li>
-<li><p>Destino:  C:Users(Usuario de Windows)AppDataLocalRecord-Weight-Sender-DotNetrs-1.7StartPrintService.bat</p></li>
-<li><p>Iniciar en:  C:Users(Usuario de Windows)AppDataLocalRecord-Weight-Sender-DotNetrs-1.7</p></li>
-</ul>
-<p>En caso de que alguno de estos valores no coincida, se debe modificar el acceso directo colocando la version correcta en este caso <strong>rs-1.7</strong>.</p>
+<p>Verificar que existe un Servicio de Windows con el Nombre de <strong>Record Weight EPRCYA</strong></p>
+<p><img alt="Servicio de Windows" src="../_images/weight-sender-folder-service.PNG" /></p>
+<p><img alt="Propiedades Servicio de Windows" src="../_images/weight-sender-folder-service-properties.PNG" /></p>
+<blockquote>
+<div><p>Para verificar que el servicio funcione, abrir las Propiedades del servicio y presionar el boton iniciar el estado del servicio debe mantenerse <strong>En Ejecución</strong>, ademas la <strong>Ruta de Acceso al Ejecutable</strong> debe coincidir con la version instalada.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">C</span><span class="p">:</span>\<span class="n">Users</span>\<span class="p">(</span><span class="n">Usuario</span> <span class="n">de</span> <span class="n">Windows</span><span class="p">)</span>\<span class="n">AppData</span>\<span class="n">Local</span>\<span class="n">Record</span><span class="o">-</span><span class="n">Weight</span><span class="o">-</span><span class="n">Sender</span><span class="o">-</span><span class="n">DotNet</span>\<span class="n">rs</span><span class="o">-</span><span class="mf">1.8</span><span class="o">-</span><span class="n">win</span><span class="o">-</span><span class="n">x64</span>\<span class="n">Local</span><span class="o">-</span><span class="n">Printing</span><span class="o">-</span><span class="n">Service</span><span class="o">-</span><span class="n">DotNet</span><span class="o">-</span><span class="n">win</span><span class="o">-</span><span class="n">x64</span><span class="o">.</span><span class="n">exe</span>
+</pre></div>
+</div>
+</div></blockquote>
 </section>
 <section id="verificar-que-la-romana-este-enviando-datos">
 <h2>Verificar que la Romana este enviando datos<a class="headerlink" href="#verificar-que-la-romana-este-enviando-datos" title="Permalink to this headline"></a></h2>
@@ -190,7 +187,8 @@
 <section id="verificar-que-cliente-de-lectura-de-peso-reciba-datos-desde-el-puerto-serial">
 <h2>Verificar que Cliente de Lectura de Peso reciba datos desde el Puerto Serial<a class="headerlink" href="#verificar-que-cliente-de-lectura-de-peso-reciba-datos-desde-el-puerto-serial" title="Permalink to this headline"></a></h2>
 <ol class="arabic simple">
-<li><p>Abrimos la aplicación <strong>Record-Weight-Sender-DotNet</strong>.</p></li>
+<li><p>Para ello necesitamos ejecutar manualmente la aplicación <strong>Record-Weight-Sender-DotNet</strong>, es necesario ingresar a la siguiente ruta: <strong>C:Users(Usuario de Windows)AppDataLocalRecord-Weight-Sender-DotNetrs-1.8-win-x64</strong></p></li>
+<li><p>Ubicar el archivo <strong>StartPrintService.bat</strong> y ejecutarlo.</p></li>
 <li><p>Se abrira la consola de windows, y mostrara lo siguiente</p></li>
 </ol>
 <div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>Waiting...

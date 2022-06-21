@@ -140,12 +140,12 @@
 <section id="requisitos">
 <h2>Requisitos<a class="headerlink" href="#requisitos" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>Instalador <a class="reference external" href="https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-rs-1.6.exe">Record-Weight-Sender-DotNet</a></p></li>
+<li><p>Instalador <a class="reference external" href="https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x86-rs-1.8.exe">Record-Weight-Sender-DotNet-x86</a> ó <a class="reference external" href="https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x64-rs-1.8.exe">Record-Weight-Sender-DotNet-x64</a></p></li>
 </ul>
 </section>
 <section id="instalacion">
 <h2>Instalación<a class="headerlink" href="#instalacion" title="Permalink to this headline"></a></h2>
-<p>Para efectos demostrativos se instala la versión de <strong>Record-Weight-Sender-DotNet-rs-1.6</strong>, para las versiónes posteriores se deben seguir los mismos pasos, es importante recalcar que al actualizar se mantienen los datos de configuración previos, por esa razon no es necescario configurar nuevamente la aplicación.</p>
+<p>Para efectos demostrativos se instala la versión de <strong>Record-Weight-Sender-DotNet-x64-rs-1.8</strong>, para las versiónes posteriores se deben seguir los mismos pasos, es importante recalcar que al actualizar se mantienen los datos de configuración previos, por esa razon no es necescario configurar nuevamente la aplicación.</p>
 <ol class="arabic">
 <li><p>Ejecutar el instalador</p>
 <p>Ejecutar Instalador</p>
@@ -190,13 +190,17 @@
 <div><p><img alt="Acceso directo" src="../_images/weight-sender-desktop-shortcut.PNG" /></p>
 </div></blockquote>
 </li>
-<li><p>Luego de actualizar se debe copiar nuevamente el Acceso Directo generado en el Escritorio a la carpeta Menu Inicio.</p></li>
-</ol>
-<p>Buscar el siguiente directorio y Copiar en su interior el acceso directo <strong>Record-Weight-Sender-DotNet</strong>.</p>
-<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\ProgramData\Microsoft\Windows\Start</span><span class="c1"> Menu\Programs\StartUp</span>
+<li><p>Al Finalizar la instalación se actualizara automaticamente el servio de Windows.</p>
+<blockquote>
+<div><p><a href="#id1"><span class="problematic" id="id2">|Servicio de Windows|</span></a></p>
+<p><a href="#id3"><span class="problematic" id="id4">|Propiedades Servicio de Windows|</span></a></p>
+<p>Modificando la <strong>Ruta de Acceso al Ejecutable</strong> con la siguiente ruta:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">C</span><span class="p">:</span>\<span class="n">Users</span>\<span class="p">(</span><span class="n">Usuario</span> <span class="n">de</span> <span class="n">Windows</span><span class="p">)</span>\<span class="n">AppData</span>\<span class="n">Local</span>\<span class="n">Record</span><span class="o">-</span><span class="n">Weight</span><span class="o">-</span><span class="n">Sender</span><span class="o">-</span><span class="n">DotNet</span>\<span class="n">rs</span><span class="o">-</span><span class="mf">1.8</span><span class="o">-</span><span class="n">win</span><span class="o">-</span><span class="n">x64</span>\<span class="n">Local</span><span class="o">-</span><span class="n">Printing</span><span class="o">-</span><span class="n">Service</span><span class="o">-</span><span class="n">DotNet</span><span class="o">-</span><span class="n">win</span><span class="o">-</span><span class="n">x64</span><span class="o">.</span><span class="n">exe</span>
 </pre></div>
 </div>
-<p><img alt="Copiar Acceso Directo" src="device/resources/weight-sender-folder-copy-shortcut.PNG" /></p>
+</div></blockquote>
+</li>
+</ol>
 </section>
 </section>
 

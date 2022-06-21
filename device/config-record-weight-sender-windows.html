@@ -270,19 +270,18 @@ waiting_time: 5000</p>
 <p>Esto sucede debido a que hay un error en los datos de conexión verificar los parametros <strong>host</strong> y <strong>port</strong>.</p>
 </div></blockquote>
 <ol class="arabic simple" start="4">
-<li><p>Copiar Acceso directo a Menú inicio, para que la aplicación inicie con el sistema operativo, este paso solo debe hacerse una vez confirmado que la aplicación funcióne correctamente.</p></li>
+<li><p>Verificar que existe un Servicio de Windows con el Nombre de <strong>Record Weight EPRCYA</strong></p></li>
 </ol>
-<p>Buscar el siguiente directorio y Copiar en su interior el acceso directo <strong>Record-Weight-Sender-DotNet</strong>.</p>
-<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\ProgramData\Microsoft\Windows\Start</span><span class="c1"> Menu\Programs\StartUp</span>
-</pre></div>
-</div>
-<p><img alt="Copiar Acceso Directo" src="device/resources/weight-sender-folder-copy-shortcut.PNG" /></p>
+<p><img alt="Servicio de Windows" src="../_images/weight-sender-folder-service.PNG" /></p>
+<p><img alt="Propiedades Servicio de Windows" src="../_images/weight-sender-folder-service-properties.PNG" /></p>
+<blockquote>
+<div><p>Para verificar que el servicio funcione, abrir las Propiedades del servicio y presionar el boton iniciar el estado del servicio debe mantenerse <strong>En Ejecución</strong></p>
+</div></blockquote>
 <ol class="arabic simple">
 <li><p>Prueba de reinicio.</p></li>
 </ol>
-<p>Se debe reiniciar el equipo, al iniciar nuevamente automaticamente debe iniciar la aplicación.</p>
-<p><img alt="Ejecutar Aplicación" src="../_images/weight-sender-folder-start-app.PNG" /></p>
-<p>De ser asi la aplicación esta Configurada y lista para su uso, en este punto se puede proceder a hacer la prueba de impresión desde ADempiere.</p>
+<p>Se debe reiniciar el equipo, al iniciar nuevamente automaticamente debe iniciar automaticamente el Servicio <strong>Record Weight EPRCYA</strong></p>
+<p>De ser asi la aplicación esta Configurada y lista para su uso, en este punto se puede proceder a hacer la prueba de Lectura de Peso desde ADempiere.</p>
 </section>
 </section>
 
