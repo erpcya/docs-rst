@@ -9,6 +9,8 @@
 .. |Estrutura de Carpetas| image:: resources/weight-sender-folder-structure.PNG
 .. |Archivo para inicar la aplicación| image:: resources/weight-sender-start_app_file.PNG
 .. |Copiar Acceso Directo| image:: resources/weight-sender-folder-copy-shortcut.PNG
+.. |Servicio de Windows| image:: resources/weight-sender-folder-service.PNG
+.. |Propiedades Servicio de Windows| image:: resources/weight-sender-folder-service-properties.PNG
 .. _Record-Weight-Sender-DotNet-x86: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x86-rs-1.8.exe
 .. _Record-Weight-Sender-DotNet-x64: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x64-rs-1.8.exe
 .. _documento/actualizar-record-weight-sender:

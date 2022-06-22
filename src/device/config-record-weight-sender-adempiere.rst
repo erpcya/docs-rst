@@ -11,8 +11,8 @@ Configuración Cliente de Lectura de Peso en ADempiere
 
 En ADempiere la Configuración (Record-Weight-Sender-DotNet) se realiza en la ventana Registro de Aplicación.
 
-Configurar la aplicación para Imprimir PDF (Documentos) desde ADempiere
------------------------------------------------------------------------
+Configurar la aplicación para Leer Peso de la balanza desde ADempiere
+---------------------------------------------------------------------
 
 1. Dirijase a la ventana registros de aplicación y cree un nuevo registro llenando los siguientes campos.
 

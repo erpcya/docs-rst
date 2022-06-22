@@ -49,31 +49,31 @@ Al modificar el archivo se deben respetar las identaciónes y espacios en blanco
 
 .. code-block:: yaml
 
-server:
-    host: 167.172.15.104
-    port: 32686
-    queue_name: "Romana-1-test"
-    timeout: 6000
-client_name: "Romana-1-test"
-scale:
-    name: "Romana-1-test"
-    folder:  "/tmp"
-    port_name: "COM10"
-    speed: 2400
-    data_bits: 8
-    stop_bits: "One"
-    parity: "None"
-    flow_control: "None"
-    start_character: 61
-    end_character: 13
-    start_word: ""
-    end_word: ""
-    string_length: 12
-    start_cut_position: 2
-    end_cut_position: 7
-    start_cut_screen_position: 2
-    end_cut_screen_position: 7
-    waiting_time: 5000
+    server:
+        host: 167.172.15.104
+        port: 32686
+        queue_name: "Romana-1-test"
+        timeout: 6000
+    client_name: "Romana-1-test"
+    scale:
+        name: "Romana-1-test"
+        folder:  "/tmp"
+        port_name: "COM10"
+        speed: 2400
+        data_bits: 8
+        stop_bits: "One"
+        parity: "None"
+        flow_control: "None"
+        start_character: 61
+        end_character: 13
+        start_word: ""
+        end_word: ""
+        string_length: 12
+        start_cut_position: 2
+        end_cut_position: 7
+        start_cut_screen_position: 2
+        end_cut_screen_position: 7
+        waiting_time: 5000
 
 
 A continuación se Describe cada campo:
