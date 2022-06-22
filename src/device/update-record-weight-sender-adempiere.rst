@@ -9,7 +9,8 @@
 .. |Estrutura de Carpetas| image:: resources/weight-sender-folder-structure.PNG
 .. |Archivo para inicar la aplicación| image:: resources/weight-sender-start_app_file.PNG
 .. |Copiar Acceso Directo| image:: resources/weight-sender-folder-copy-shortcut.PNG
-.. _Record-Weight-Sender-DotNet: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-rs-1.6.exe
+.. _Record-Weight-Sender-DotNet-x86: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x86-rs-1.8.exe
+.. _Record-Weight-Sender-DotNet-x64: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x64-rs-1.8.exe
 .. _documento/actualizar-record-weight-sender:
 
 Actualizar el Cliente de Lectura de Peso
@@ -20,12 +21,12 @@ Esta aplicación capturar la Lectura de peso proveniente de una balanza a conect
 Requisitos
 ----------
 
--  Instalador `Record-Weight-Sender-DotNet`_
+-  Instalador `Record-Weight-Sender-DotNet-x86`_ ó `Record-Weight-Sender-DotNet-x64`_
 
 Instalación
 -----------
 
-Para efectos demostrativos se instala la versión de **Record-Weight-Sender-DotNet-rs-1.6**, para las versiónes posteriores se deben seguir los mismos pasos, es importante recalcar que al actualizar se mantienen los datos de configuración previos, por esa razon no es necescario configurar nuevamente la aplicación.
+Para efectos demostrativos se instala la versión de **Record-Weight-Sender-DotNet-x64-rs-1.8**, para las versiónes posteriores se deben seguir los mismos pasos, es importante recalcar que al actualizar se mantienen los datos de configuración previos, por esa razon no es necescario configurar nuevamente la aplicación.
 
 1. Ejecutar el instalador
 
@@ -68,14 +69,15 @@ Para efectos demostrativos se instala la versión de **Record-Weight-Sender-DotN
 
     |Acceso directo|
 
-7. Luego de actualizar se debe copiar nuevamente el Acceso Directo generado en el Escritorio a la carpeta Menu Inicio.
+7. Al Finalizar la instalación se actualizara automaticamente el servio de Windows.
 
+    |Servicio de Windows|
 
-Buscar el siguiente directorio y Copiar en su interior el acceso directo **Record-Weight-Sender-DotNet**.
+    |Propiedades Servicio de Windows|
 
-.. code-block:: batch
+    Modificando la **Ruta de Acceso al Ejecutable** con la siguiente ruta:
 
-    C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
-    
-|Copiar Acceso Directo|
+    ::
+
+        C:\Users\(Usuario de Windows)\AppData\Local\Record-Weight-Sender-DotNet\rs-1.8-win-x64\Local-Printing-Service-DotNet-win-x64.exe
 
