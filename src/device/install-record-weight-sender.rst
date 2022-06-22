@@ -7,9 +7,15 @@
 .. |Finalizar instalación| image:: resources/weight-sender-install-finish.PNG
 .. |Acceso directo| image:: resources/weight-sender-desktop-shortcut.PNG
 .. |Estrutura de Carpetas| image:: resources/weight-sender-folder-structure.PNG
+.. |Estrutura de Carpeta con la version instalada| image:: resources/weight-sender-folder-rs-version-structure.PNG
 .. |Archivo para inicar la aplicación| image:: resources/weight-sender-start_app_file.PNG
+.. |Servicio de Windows| image:: resources/weight-sender-folder-service.PNG
+.. |Propiedades Servicio de Windows| image:: resources/weight-sender-folder-service-properties.PNG
+.. |Error iniciando Servicio de Windows| image:: resources/weight-sender-folder-service-start-error.PNG
+.. _Dotnet SDK 6.0: https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 .. _Dotnet SDK 3.1: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
-.. _Record-Weight-Sender-DotNet: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-rs-1.6.exe
+.. _Record-Weight-Sender-DotNet-x86: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x86-rs-1.8.exe
+.. _Record-Weight-Sender-DotNet-x64: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-x64-rs-1.8.exe
 .. _documento/instalar-record-weight-sender:
 
 Instalar Cliente de Lectura de Peso
@@ -21,16 +27,17 @@ Requisitos
 ----------
 
 -  Sistema operativo Windows 10
--  `Dotnet SDK 3.1`_ (Instalar la version para 32 bit o x86)
--  Instalador `Record-Weight-Sender-DotNet`_
+-  `Dotnet SDK 6.0`_ (Instalar la versión que corresponda a la arquitectura del Sistema operativo x86 o x64)
+-  Instalador `Record-Weight-Sender-DotNet-x86`_ ó `Record-Weight-Sender-DotNet-x64`_
 
+Versiones anteriores a la versión **rs-1.8** requieren tener instalado `Dotnet SDK 3.1`_ en su versión **x86**
 
 Instalación
 -----------
 
-Para efectos demostrativos se instala la versión de **Record-Weight-Sender-DotNet-rs-1.6**, para las versiónes posteriores se deben seguir los mismos pasos.
+Para efectos demostrativos se instala la versión de **Record-Weight-Sender-DotNet-x64-rs-1.8**, para las versiónes posteriores se deben seguir los mismos pasos.
 
-1. Ejecutar el instalador
+1. Ejecutar el instalador como **Administrador**.
 
    Ejecutar Instalador
 
@@ -71,8 +78,14 @@ Para efectos demostrativos se instala la versión de **Record-Weight-Sender-DotN
 
     |Acceso directo|
 
-Configurar la aplicación para Imprimir
---------------------------------------
+7. Además se creara un Servicio de Windows con el Nombre de **Record Weight EPRCYA**
+
+    |Servicio de Windows|
+
+    |Propiedades Servicio de Windows|
+
+Configurar la aplicación para Lectura de peso
+---------------------------------------------
 
 La aplicaión se configura en dos etapas la primera en el servicio de ADempiere y la segunda comprende a actualizar los datos de la apliación instalada, Siendo el orden el que se muestra a continuación.
 
@@ -92,8 +105,31 @@ Se deben seguir los siguientes pasos:
 
     |Estrutura de Carpetas|
 
-    Debe Existir la carpeta *resources* y una carpeta que en su nombre incluya las siguientes siglas *rs-* (Ej. rs-2.3)
+    Debe Existir la carpeta **resources** y una carpeta que en su nombre incluya las siguientes siglas **rs-** (Ej. rs-1.8-win-x64)
 
-2. Si el directorio existe se debe ingresar a la carpeta **rs-x.x** y ubicar el archivo **StartPrintService.bat**, y proceder a crear un acceso directo en el escritorio de ese archivo.
+2. Si el directorio existe se debe ingresar a la carpeta **rs-x.x-win-x64** y ubicar el archivo **StartPrintService.bat**, y proceder a crear un acceso directo en el escritorio de ese archivo.
 
-    |Archivo para inicar la aplicación|
+    |Estrutura de Carpeta con la version instalada|
+
+
+Al iniciar el servicio **Record Weight EPRCYA** este se detiene de inmediato:
+
+Se deben seguir los siguientes pasos:
+
+1. Verificar que este creada la siguiente Ruta: **C:\Users\(Usuario de Windows)\AppData\Local\Record-Weight-Sender-DotNet** y a su vez en dicha ubicación existan los siguientes directorios:
+
+    |Estrutura de Carpetas|
+
+    Debe Existir la carpeta **resources** y una carpeta que en su nombre incluya las siguientes siglas **rs-** (Ej. rs-1.8-win-x64)
+
+2. Verificar lo datos de conexión de la aplicación en el archivo **scale.yaml** en la carpeta **resources**.
+
+3. Si luego de lo anterior el problema persiste, es necesario verificar en el **Visor de Eventos** en Windows cual es la falla.
+
+    |Error iniciando Servicio de Windows|
+
+    Para el caso del ejemplo la aplicacion se instalo sin permisologia de **Administrador**, y por esa razon durante la instalacion no se creo el archivo de configuracion **config_service.yaml** que usar el servicio para iniciar. En este caso la solucion es copiar el archivo a: 
+    
+    ::
+
+        C:\WINDOWS\system32\

@@ -7,6 +7,8 @@
 .. |Archivo de Configuración| image:: resources/weight-sender-folder-config-files.PNG
 .. |Ir a Directorio de Aplicación| image:: resources/weight-sender-folder-go-to-folder.PNG
 .. |Copiar Acceso Directo| image:: resources/weight-sender-folder-copy-shortcut.PNG
+.. |Servicio de Windows| image:: resources/weight-sender-folder-service.PNG
+.. |Propiedades Servicio de Windows| image:: resources/weight-sender-folder-service-properties.PNG
 .. _documento/configurar-record-weight-sender-windows:
 
 
@@ -47,31 +49,31 @@ Al modificar el archivo se deben respetar las identaciónes y espacios en blanco
 
 .. code-block:: yaml
 
-server: 
-    host: 167.172.15.104
-    port: 32686
-    queue_name: "Romana-1-test"
-    timeout: 6000
-client_name: "Romana-1-test"
-scale: 
-    name: "Romana-1-test"
-    folder:  "/tmp"
-    port_name: "COM10"
-    speed: 2400
-    data_bits: 8
-    stop_bits: "One"
-    parity: "None"
-    flow_control: "None"
-    start_character: 61
-    end_character: 13
-    start_word: ""
-    end_word: ""
-    string_length: 12
-    start_cut_position: 2
-    end_cut_position: 7
-    start_cut_screen_position: 2
-    end_cut_screen_position: 7
-    waiting_time: 5000
+    server:
+        host: 167.172.15.104
+        port: 32686
+        queue_name: "Romana-1-test"
+        timeout: 6000
+    client_name: "Romana-1-test"
+    scale:
+        name: "Romana-1-test"
+        folder:  "/tmp"
+        port_name: "COM10"
+        speed: 2400
+        data_bits: 8
+        stop_bits: "One"
+        parity: "None"
+        flow_control: "None"
+        start_character: 61
+        end_character: 13
+        start_word: ""
+        end_word: ""
+        string_length: 12
+        start_cut_position: 2
+        end_cut_position: 7
+        start_cut_screen_position: 2
+        end_cut_screen_position: 7
+        waiting_time: 5000
 
 
 A continuación se Describe cada campo:
@@ -132,20 +134,16 @@ Si la apliciación esta correctamente configurada al iniciarla debe mostrar la s
 
     Esto sucede debido a que hay un error en los datos de conexión verificar los parametros **host** y **port**.
 
-4. Copiar Acceso directo a Menú inicio, para que la aplicación inicie con el sistema operativo, este paso solo debe hacerse una vez confirmado que la aplicación funcióne correctamente.
+4. Verificar que existe un Servicio de Windows con el Nombre de **Record Weight EPRCYA**
 
-Buscar el siguiente directorio y Copiar en su interior el acceso directo **Record-Weight-Sender-DotNet**.
+|Servicio de Windows|
 
-.. code-block:: batch
+|Propiedades Servicio de Windows|
 
-    C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
-
-|Copiar Acceso Directo|
+    Para verificar que el servicio funcione, abrir las Propiedades del servicio y presionar el boton iniciar el estado del servicio debe mantenerse **En Ejecución**
 
 1. Prueba de reinicio.
 
-Se debe reiniciar el equipo, al iniciar nuevamente automaticamente debe iniciar la aplicación.
+Se debe reiniciar el equipo, al iniciar nuevamente automaticamente debe iniciar automaticamente el Servicio **Record Weight EPRCYA**
 
-|Ejecutar Aplicación|
-
-De ser asi la aplicación esta Configurada y lista para su uso, en este punto se puede proceder a hacer la prueba de impresión desde ADempiere.
+De ser asi la aplicación esta Configurada y lista para su uso, en este punto se puede proceder a hacer la prueba de Lectura de Peso desde ADempiere.
