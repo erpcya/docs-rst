@@ -37,7 +37,7 @@ Instalación
 
 Para efectos demostrativos se instala la versión de **Record-Weight-Sender-DotNet-x64-rs-1.8**, para las versiónes posteriores se deben seguir los mismos pasos.
 
-1. Ejecutar el instalador como **Administrador** 
+1. Ejecutar el instalador como **Administrador**.
 
    Ejecutar Instalador
 
@@ -128,4 +128,8 @@ Se deben seguir los siguientes pasos:
 
     |Error iniciando Servicio de Windows|
 
-    Para el caso del ejemplo la aplicacion se instalo sin permisologia de **Administrador**, y por esa razon durante la instalacion no se creo el archivo de configuracion **config_service.yaml** que usar el servicio para iniciar. En este caso la solucion es copiar el archivo a **C:\WINDOWS\system32\**
+    Para el caso del ejemplo la aplicacion se instalo sin permisologia de **Administrador**, y por esa razon durante la instalacion no se creo el archivo de configuracion **config_service.yaml** que usar el servicio para iniciar. En este caso la solucion es copiar el archivo a: 
+    
+    ::
+
+        C:\WINDOWS\system32\

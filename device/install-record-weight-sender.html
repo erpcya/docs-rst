@@ -152,7 +152,7 @@
 <h2>Instalación<a class="headerlink" href="#instalacion" title="Permalink to this headline"></a></h2>
 <p>Para efectos demostrativos se instala la versión de <strong>Record-Weight-Sender-DotNet-x64-rs-1.8</strong>, para las versiónes posteriores se deben seguir los mismos pasos.</p>
 <ol class="arabic">
-<li><p>Ejecutar el instalador como <strong>Administrador</strong></p>
+<li><p>Ejecutar el instalador como <strong>Administrador</strong>.</p>
 <p>Ejecutar Instalador</p>
 <blockquote>
 <div><p><img alt="Ejecutar instalador" src="../_images/weight-sender-start-installer.PNG" /></p>
@@ -237,7 +237,10 @@
 <li><p>Si luego de lo anterior el problema persiste, es necesario verificar en el <strong>Visor de Eventos</strong> en Windows cual es la falla.</p>
 <blockquote>
 <div><p><img alt="Error iniciando Servicio de Windows" src="../_images/weight-sender-folder-service-start-error.PNG" /></p>
-<p>Para el caso del ejemplo la aplicacion se instalo sin permisologia de <strong>Administrador</strong>, y por esa razon durante la instalacion no se creo el archivo de configuracion <strong>config_service.yaml</strong> que usar el servicio para iniciar. En este caso la solucion es copiar el archivo a <a href="#id1"><span class="problematic" id="id2">**</span></a>C:WINDOWSsystem32**</p>
+<p>Para el caso del ejemplo la aplicacion se instalo sin permisologia de <strong>Administrador</strong>, y por esa razon durante la instalacion no se creo el archivo de configuracion <strong>config_service.yaml</strong> que usar el servicio para iniciar. En este caso la solucion es copiar el archivo a:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">C</span><span class="p">:</span>\<span class="n">WINDOWS</span>\<span class="n">system32</span>\
+</pre></div>
+</div>
 </div></blockquote>
 </li>
 </ol>

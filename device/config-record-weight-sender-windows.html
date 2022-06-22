@@ -156,38 +156,33 @@
 <p>Abrimos el siguiente archivo <strong>printer.yaml</strong> el cual tiene la siguiente estructura.</p>
 <p><img alt="Scale.yaml" src="../_images/weight-sender-folder-scale-yaml.PNG" /></p>
 <p>Al modificar el archivo se deben respetar las identaciónes y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">server</span><span class="p">:</span>
+    <span class="nt">host</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">167.172.15.104</span>
+    <span class="nt">port</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">32686</span>
+    <span class="nt">queue_name</span><span class="p">:</span> <span class="s">&quot;Romana-1-test&quot;</span>
+    <span class="nt">timeout</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">6000</span>
+<span class="nt">client_name</span><span class="p">:</span> <span class="s">&quot;Romana-1-test&quot;</span>
+<span class="nt">scale</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Romana-1-test&quot;</span>
+    <span class="nt">folder</span><span class="p">:</span>  <span class="s">&quot;/tmp&quot;</span>
+    <span class="nt">port_name</span><span class="p">:</span> <span class="s">&quot;COM10&quot;</span>
+    <span class="nt">speed</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2400</span>
+    <span class="nt">data_bits</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">8</span>
+    <span class="nt">stop_bits</span><span class="p">:</span> <span class="s">&quot;One&quot;</span>
+    <span class="nt">parity</span><span class="p">:</span> <span class="s">&quot;None&quot;</span>
+    <span class="nt">flow_control</span><span class="p">:</span> <span class="s">&quot;None&quot;</span>
+    <span class="nt">start_character</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">61</span>
+    <span class="nt">end_character</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">13</span>
+    <span class="nt">start_word</span><span class="p">:</span> <span class="s">&quot;&quot;</span>
+    <span class="nt">end_word</span><span class="p">:</span> <span class="s">&quot;&quot;</span>
+    <span class="nt">string_length</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">12</span>
+    <span class="nt">start_cut_position</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+    <span class="nt">end_cut_position</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">7</span>
+    <span class="nt">start_cut_screen_position</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+    <span class="nt">end_cut_screen_position</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">7</span>
+    <span class="nt">waiting_time</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">5000</span>
 </pre></div>
 </div>
-<dl class="simple">
-<dt>server:</dt><dd><p>host: 167.172.15.104
-port: 32686
-queue_name: “Romana-1-test”
-timeout: 6000</p>
-</dd>
-</dl>
-<p>client_name: “Romana-1-test”
-scale:</p>
-<blockquote>
-<div><p>name: “Romana-1-test”
-folder:  “/tmp”
-port_name: “COM10”
-speed: 2400
-data_bits: 8
-stop_bits: “One”
-parity: “None”
-flow_control: “None”
-start_character: 61
-end_character: 13
-start_word: “”
-end_word: “”
-string_length: 12
-start_cut_position: 2
-end_cut_position: 7
-start_cut_screen_position: 2
-end_cut_screen_position: 7
-waiting_time: 5000</p>
-</div></blockquote>
 <p>A continuación se Describe cada campo:</p>
 <p>Sección server:</p>
 <ul class="simple">
