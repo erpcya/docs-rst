@@ -1,12 +1,12 @@
-.. _documento/versión-46-9:
-.. _Verificar nueva estructura de cálculo de nómina: https://github.com/erpcya/Control-ERPYA/issues/540
-.. _Lentitud en Proceso de Nómina: https://github.com/erpcya/Control-PROSEIN/issues/227
+.. _documento/versión-47-0:
 .. _Registro de Peso del Frijol: https://github.com/erpcya/Control-VEALCA/issues/79
+.. |Proceso de Recalculo desde el Menú| image:: resources/rs-47-0-reprocess-invoices-from-purchase-orders-menu.png
+.. |Proceso de Recalculo desde la Ventana| image:: resources/rs-47-0-reprocess-invoices-from-purchase-orders-window.png
 
-**rs-46-9**
+**rs-47-0**
 ===========
 
-**Fecha de Liberación:** 2022-07-12
+**Fecha de Liberación:** 2022-07-18
 -----------------------------------
 
 .. data:: Soporte a Versiones
@@ -20,7 +20,7 @@
 - Currency-Convert-Documents: 1.0.9
 - Farmer-Assistance-Program: 1.4.5
 - RethinkDB-Replicator-Client: 1.1.5
-- Third-Party-Access: 1.0.5
+- Third-Party-Access: 1.0.6
 - Fiscal-Printer: 1.5.3
 - Sales-Force-Management: 1.0.6
 - Delivery-Management-Service: 1.1.9
@@ -34,7 +34,7 @@
 - Point-Of-Sales-Improvements: 1.4.4
 - Kafka-Replicator-Client: 1.0.9
 - Kafka-Util: 1.0.2
-- Core-Tools: 1.4.0
+- Core-Tools: 1.4.1
 - Get-Weight:1.2.4
 - Record-Weight: 1.0.7
 - Raw-Material-Receipt: 1.1.6
@@ -60,55 +60,47 @@
 - Vue-StoreFront-API: 1.0.9
 - Mercado-Libre-Venezuela-API: 1.0.8
 - Common-Functionalities: 1.0.0
-- FAP-Venezuela-Location: 1.0.3
+- FAP-Venezuela-Location: 1.0.4
 - LVE-AdditionalTax: 1.0.7
 
 .. data:: Detalle Técnico
 
-- CST-STD:
+- Third-Party-Access:
   
-  - Improve speed of payroll process using cache from old movements
+  - Fixed error with lock record for business partner
 
 - FAP-Venezuela-Location:
 
-  - Add support to new formula from customer
+  - Add support to new calculation for bean based on humidity between 9 and 10
 
-- Withholding:
+- Core-Tools:
 
-  - Fix Void or Reverse Withholding when have have Declarated Withholding
-
-- ERP-Payroll-Definition:
-  
-  - Add java support for:
-
-    - CD_DD
-    - CD_DT_NQR
-    - CR_PSV_NAV
-    - CR_PSV_NSM
-    - CS_SD
+  - Add Process "Re-Calculate Price Limit of Invoice (From Purchases)"
 
 
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
 
+- Aplicar XML's:
+
+  - Core-Tools:
+
+    - 05250_Add_Process_for_recalculate_Price_Limit_of_Sales_Invoices.xml
+
 	
 .. data:: Novedades
 
-- Se mejora la velocidad de consulta de movimientos históricos de nómina usando cache para modelo temporal de persistencia
-- Se corrige validación en la retención cuando tiene una declaración declarada y se intenta anular la retención
-- Se agrega formula personalizada para cálculo de frijol en Venezuela
-- Se agrega soporte nativo en java para las reglas de nómina:
+- Se corrige problema con bloqueo de acceso a terceros de manera automática para socios de negocios en la funcionalidad de Third-Party-Access
+- Se agrega soporte para cálculo de frijol basado en humedad entre 9 y 10 puntos para que no realice descuentos de humedad
+- Se agrega proceso para calcular el precio límite de compra en facturas de ventas en función de las órdenes de compra
 
-    - CD_DD
-    - CD_DT_NQR
-    - CR_PSV_NAV
-    - CR_PSV_NSM
-    - CS_SD
+Menú de Proceso para Re-Cálculo de Precio Límite
+|Proceso de Recalculo desde el Menú|
 
+Proceso desde Ventana de Documentos por Cobrar para Re-Cálculo de Precio Límite
+|Proceso de Recalculo desde la Ventana|
 
 .. data:: Reportes Relacionados
 
-  - `Verificar nueva estructura de cálculo de nómina`_
-  - `Lentitud en Proceso de Nómina`_
   - `Registro de Peso del Frijol`_
