@@ -10,7 +10,10 @@ La vida util de los activos fijos se representa en la utilidad que tienen para l
 
 Las empresas aplican a los activos fijos un método de depreciación para reconocer el desgaste sufrido por el activo en un determinado tiempo. Dicho desgaste puede deberse al uso que se le haya dado al activo, el tiempo que tenga el activo y la obsolescencia del mismo.
 
-En ADempiere los grupos de activos son registrados en la ventana "**Grupo de Activo Fijo**", con la finalidad de agrupar los activos fijos que posee la empresa, al momento de registrar los mismos en la ventan "**Activo Fijo**".
+En ADempiere la gestión de activos fijos favorece la labor contable, registrando mediante movimientos administrativos el valor de compra y vida útil de la activo fijo, en este sentido, permite realizar la depreciación o amortización contable, este proceso genera los asientos contables automáticamente.
+
+Los activos son agrupados mediante el "**Grupo de Activo Fijo**", con la finalidad de parametrizar mediante una categoría la contabilidad de dichos activos, al momento de registrar un movimiento de "**Activo Fijo**".
+
 
 .. toctree::
     :maxdepth: 2

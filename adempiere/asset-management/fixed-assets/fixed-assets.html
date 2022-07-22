@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ventana Grupo de Activos Fijos &mdash; ERPYA 1.0 Documentation</title>
+  <title>Grupo de Activos Fijos &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
@@ -73,9 +73,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Activos</strong></a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Activos Fijos</strong></a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Ventana Grupo de Activos Fijos</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#registro-nuevo-de-grupo-de-activo"><strong>Registro Nuevo de Grupo de Activo</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#pestana-grupo-cuenta"><strong>Pestaña Grupo Cuenta</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Grupo de Activos Fijos</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1"><strong>Grupo de Activos Fijos</strong></a></li>
 </ul>
 </li>
 </ul>
@@ -126,7 +125,7 @@
       <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../index.html"><strong>Gestión de Activos</strong></a> &raquo;</li>
           <li><a href="index.html"><strong>Activos Fijos</strong></a> &raquo;</li>
-      <li><strong>Ventana Grupo de Activos Fijos</strong></li>
+      <li><strong>Grupo de Activos Fijos</strong></li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../_sources/adempiere/asset-management/fixed-assets/fixed-assets.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -136,8 +135,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="ventana-grupo-de-activos-fijos">
-<span id="documento-activo-fijo"></span><h1><strong>Ventana Grupo de Activos Fijos</strong><a class="headerlink" href="#ventana-grupo-de-activos-fijos" title="Permalink to this headline"></a></h1>
+  <section id="grupo-de-activos-fijos">
+<span id="documento-activo-fijo"></span><h1><strong>Grupo de Activos Fijos</strong><a class="headerlink" href="#grupo-de-activos-fijos" title="Permalink to this headline"></a></h1>
+<p>El grupo de activo permite calificar a los productos como activos y definir su forma de contabilizar asociando el grupo a la categoria de productos, en este sentido podría tener varias categorias de productos asociadas a un grupo.
+Esto implicaría de igual manera, que al crear un producto cuya categoría esté asociado a un grupo de activo, este evento generará una transacción de activo, en este caso una adición de activo, que a su vez genera un hecho contable en la cuenta contable correspondiente.</p>
+<section id="id1">
+<h2><strong>Grupo de Activos Fijos</strong><a class="headerlink" href="#id1" title="Permalink to this headline"></a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Activos</strong>”, luego seleccione la ventana “<strong>Grupo de Activo Fijo</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere" src="../../../_images/menu.png" /></p>
@@ -148,14 +151,10 @@
 <div><p><img alt="Ventana Principal Grupo de Activo" src="../../../_images/ventana.png" /></p>
 <p>Imagen 2. Ventana Principal Grupo de Activo</p>
 </div></blockquote>
-</section>
-<section id="registro-nuevo-de-grupo-de-activo">
-<h1><strong>Registro Nuevo de Grupo de Activo</strong><a class="headerlink" href="#registro-nuevo-de-grupo-de-activo" title="Permalink to this headline"></a></h1>
 <p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
 <blockquote>
 <div><p><img alt="Icono Registro Nuevo" src="../../../_images/nuevo.png" /></p>
 <p>Imagen 3. Icono Registro Nuevo</p>
-</div></blockquote>
 <p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el registro de grupo de activo fijo.</p>
 <blockquote>
 <div><p><img alt="Campo Organización" src="../../../_images/org.png" /></p>
@@ -181,13 +180,14 @@
 <div><p><img alt="Checklist Depreciar" src="../../../_images/depreciar.png" /></p>
 <p>Imagen 8. Checklist Depreciar</p>
 </div></blockquote>
+</div></blockquote>
 <p>Para guardar el registro de los campos, seleccione el icono “<strong>Guardar Cambios</strong> “ubicado en la barra de herramientas de ADempiere.</p>
 <blockquote>
 <div><p><img alt="Icono Guardar Cambios" src="../../../_images/guardar.png" /></p>
 <p>Imagen 9. Icono Guardar Cambios</p>
 </div></blockquote>
-<section id="pestana-grupo-cuenta">
-<h2><strong>Pestaña Grupo Cuenta</strong><a class="headerlink" href="#pestana-grupo-cuenta" title="Permalink to this headline"></a></h2>
+<section id="grupo-cuenta">
+<h3><strong>Grupo Cuenta</strong><a class="headerlink" href="#grupo-cuenta" title="Permalink to this headline"></a></h3>
 <p>Seleccione la pestaña “<strong>Grupo Cuenta</strong>” y proceda al llenado de los campos correspondientes.</p>
 <blockquote>
 <div><p><img alt="Pestaña Grupo Cuenta" src="../../../_images/pest.png" /></p>
@@ -219,17 +219,17 @@
 <div><p><img alt="Campo Esquema Contable" src="../../../_images/esq.png" /></p>
 <p>Imagen 12. Esquema Contable</p>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Tipo de Aplicación</strong>”, el tipo de presupuesto o gravamen del grupo de activo fijo.</p>
+<p>Seleccione en el campo “<strong>Tipo de Aplicación</strong>”, generalmente actual, ver el documento “<strong>Tipo de Aplicación</strong>”, para tener una visión más clara.</p>
 <blockquote>
 <div><p><img alt="Campo Tipo de Aplicación" src="../../../_images/aplic.png" /></p>
 <p>Imagen 13. Campo Tipo de Aplicación</p>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Tipo de Depreciación</strong>”,</p>
+<p>Seleccione en el campo “<strong>Tipo de Depreciación</strong>” Línea recta, este tipo de depreciación supone una cuota constante e invariable en función de la vida útil del activo objeto de depreciación.,</p>
 <blockquote>
 <div><p><img alt="Campo Tipo de Depreciación" src="../../../_images/tipodepre.png" /></p>
 <p>Imagen 14. Campo Tipo de Depreciación</p>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Depreciación (Fiscal)</strong>”,</p>
+<p>Seleccione en el campo “<strong>Depreciación (Fiscal)</strong>” Línea recta, este tipo de depreciación supone una cuota constante e invariable en función de la vida útil del activo objeto de depreciación.</p>
 <blockquote>
 <div><p><img alt="Campo Depreciación (Fiscal)" src="../../../_images/deprefiscal.png" /></p>
 <p>Imagen 15. Campo Depreciación (Fiscal)</p>
@@ -243,31 +243,44 @@
 <p>Al ingresar un valor en el campo “<strong>Vida Útil - Años</strong>”, ADempiere refleja en los campos “<strong>Vida Útil - Años (Fiscal)</strong>”, “<strong>Vida Útil - Meses</strong>” y “<strong>Vida Útil - Meses (Fiscal)</strong>”, el equivalente al campo correspondiente.</p>
 </div>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Cuenta Costo Activo</strong>”,</p>
+<p>Seleccione en el campo “<strong>Cuenta Costo Activo</strong>”, se refiere a la cuenta de activo del plan de cuentas en la que desea reflejar el costo del activo fijo.</p>
 <blockquote>
 <div><p><img alt="Campo Cuenta Costo Activo" src="../../../_images/costo.png" /></p>
 <p>Imagen 17. Campo Cuenta Costo Activo</p>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Depreciación Acumulada</strong>”,</p>
+<p>Seleccione en el campo “<strong>Depreciación Acumulada</strong>”, se refiere a la cuenta compensatoria que reduce o disminuye la cuenta activos fijos.</p>
 <blockquote>
 <div><p><img alt="Campo Depreciación Acumulada" src="../../../_images/acumulada.png" /></p>
 <p>Imagen 18. Campo Depreciación Acumulada</p>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Cuenta Gastos Depreciación</strong>”,</p>
+<p>Seleccione en el campo “<strong>Cuenta Gastos Depreciación</strong>”, se refiere a una cuenta de gasto por concepto de desgaste resultante del uso o el deterioro físico del activo fijo.</p>
 <blockquote>
 <div><p><img alt="Campo Cuenta Gastos Depreciación" src="../../../_images/depre.png" /></p>
 <p>Imagen 19. Campo Cuenta Gastos Depreciación</p>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Ingresos por Disposición</strong>”,</p>
+<p>Seleccione en el campo “<strong>Ingresos por Disposición</strong>”, se refiere a la cuenta de ingreso por concepto de disposición del activo o venta del mismo.</p>
 <blockquote>
 <div><p><img alt="Campo Ingresos por Disposición" src="../../../_images/ingresos.png" /></p>
 <p>Imagen 20. Campo Ingresos por Disposición</p>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Perdidas por Disposición</strong>”,</p>
+<p>Seleccione en el campo “<strong>Perdidas por Disposición</strong>”, se refiere a la cuenta de gasto o perdida por concepto de disposición del activo o dar de baja.</p>
 <blockquote>
 <div><p><img alt="Campo Perdidas por Disposición" src="../../../_images/perdidas.png" /></p>
 <p>Imagen 21. Campo Perdidas por Disposición</p>
 </div></blockquote>
+</section>
+<section id="categoria-de-producto">
+<h3><strong>Categoría de Producto</strong><a class="headerlink" href="#categoria-de-producto" title="Permalink to this headline"></a></h3>
+<p>Ubique o cree de manera regular la categoría de producto a la que desea asociar el grupo de activo fijo, de esta manera podrá con los productos bajo esta categoría realizar operaciones de activo fijo, y seleccione en el campo “<strong>Grupo de Activo Fijos</strong>”, el grupo de activo previamente configurado.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al ingresar un valor en el campo “<strong>Grupo de Activo Fijos</strong>”, ADempiere generará un activo fijo al crear una recepción de un producto asociado a esta categoría.</p>
+</div>
+</section>
+<section id="producto">
+<h3><strong>Producto</strong><a class="headerlink" href="#producto" title="Permalink to this headline"></a></h3>
+<p>Ubique o cree de manera regular el producto al que desea asociar la categoría previamente configurado.</p>
+</section>
 </section>
 </section>
 
