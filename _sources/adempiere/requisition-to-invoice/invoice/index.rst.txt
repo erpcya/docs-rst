@@ -14,3 +14,5 @@ En ADempiere es posible generar una factura de cuentas por pagar de forma direct
 
     invoice
     create-document-payable-from-purchase-order
+    invoice-convert
+
