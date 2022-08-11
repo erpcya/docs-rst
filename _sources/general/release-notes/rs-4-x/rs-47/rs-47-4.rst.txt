@@ -1,9 +1,9 @@
 .. _documento/versión-47-3:
 
-**rs-47-3**
+**rs-47-4**
 ===========
 
-**Fecha de Liberación:** 2022-07-19
+**Fecha de Liberación:** 2022-08-10
 -----------------------------------
 
 .. data:: Soporte a Versiones
