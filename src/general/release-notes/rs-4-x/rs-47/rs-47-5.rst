@@ -1,9 +1,10 @@
-.. _documento/versión-47-4:
+.. _documento/versión-47-5:
+.. _Parámetro en el reporte estado de cuenta socio de negocio: https://github.com/erpcya/Control-MIGO/issues/226
 
-**rs-47-4**
+**rs-47-5**
 ===========
 
-**Fecha de Liberación:** 2022-08-10
+**Fecha de Liberación:** 2022-08-15
 -----------------------------------
 
 .. data:: Soporte a Versiones
@@ -35,7 +36,7 @@
 - Get-Weight:1.2.4
 - Record-Weight: 1.0.7
 - Raw-Material-Receipt: 1.1.6
-- Additional-Reports: 1.2.5
+- Additional-Reports: 1.2.6
 - adempiere-customer-backend: 1.2.1
 - Material-Management-Improvements: 1.1.6
 - Warehouse-Management-System-Improvements: 1.1.6
@@ -62,22 +63,31 @@
 
 .. data:: Detalle Técnico
 
+- Additional-Reports:
+
+  - Fixed error with organization ID for Statement Account (Business Partner)
+
 - LVE:
 
-  - Upgrade Withholding Version
-
-- Withholding:
-
-  - Change Method for get Invoice Without Cache
-
-- LVE-AdditionalTax:
-
-  - Upgrade Withholding Version
+  - Se corrige problema con totales de débitos y crétidos en TXT de Banco de Venezuela
+  - Se corrige problema con formato de fecha para pagos del banco BNC
 
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
+- Aplicar los XML's:
+
+  - Additional-Reports:
+
+    - 05870_ECA18_Add_57_mm_reports.xml
 	
 .. data:: Novedades
 
-- Se corrige metodo para escribir campos heredados desde el documento origen
+- Se agregan nuevos formatos para impresión en impresoras con formato 57 mm
+- Se corrige problemas con filtro de organización en reporte de Estado de Cuentas (Socio de Negocio)
+- Se corrige problema con totales de débitos y crétidos en TXT de Banco de Venezuela
+- Se corrige problema con formato de fecha para pagos del banco BNC
+
+.. data:: Reportes Relacionados
+
+  - `Parámetro en el reporte estado de cuenta socio de negocio`_
