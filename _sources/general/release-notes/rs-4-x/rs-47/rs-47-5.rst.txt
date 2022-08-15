@@ -1,5 +1,6 @@
 .. _documento/versión-47-5:
 .. _Parámetro en el reporte estado de cuenta socio de negocio: https://github.com/erpcya/Control-MIGO/issues/226
+.. _TxT Banco BNC pagos a Proveedores: https://github.com/erpcya/Control-FPLE/issues/193
 
 **rs-47-5**
 ===========
@@ -91,3 +92,4 @@
 .. data:: Reportes Relacionados
 
   - `Parámetro en el reporte estado de cuenta socio de negocio`_
+  - `TxT Banco BNC pagos a Proveedores`_
