@@ -8,7 +8,7 @@
 **rs-47-7**
 ===========
 
-**Fecha de Liberación:** 2022-08-15
+**Fecha de Liberación:** 2022-08-19
 -----------------------------------
 
 .. data:: Soporte a Versiones
