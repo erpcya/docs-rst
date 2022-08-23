@@ -97,4 +97,14 @@
 - Se agrega funcionalidad para cálculo de IGTF de manera automática en el Punto de Ventas
 |IGTF en POS|
 
+.. only:: html
+
+    .. figure:: resources/rs-47-9-fbtt-collect.mp4
+      
+
+.. only:: html
+
+    .. figure:: resources/rs-47-9-fbtt-generated.mp4
+
+
 .. data:: Reportes Relacionados
