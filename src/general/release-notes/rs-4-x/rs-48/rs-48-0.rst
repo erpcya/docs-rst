@@ -1,4 +1,4 @@
-.. _documento/versión-47-9:
+.. _documento/versión-48-0:
 
 **rs-48-0**
 ===========
@@ -12,7 +12,7 @@
 - CST-STD: Versión de Liberación: rs-35.1
 - Consigned-Material: 1.3.0
 - Exchange-Operation-System: 1.2.1
-- Cloud-Service-Management: 1.2.4
+- Cloud-Service-Management: 1.2.5
 - Cash-Management: 1.1.4
 - Currency-Convert-Documents: 1.1.2
 - Farmer-Assistance-Program: 1.4.6
@@ -70,6 +70,10 @@
 
   - Add invoice reference to FBTT generated from POS
 
+- Cloud-Service-Management:
+
+  - Add Support to Cluster And Node Definition for K8 Deployments 
+
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
@@ -78,9 +82,15 @@
   - Point-Of-Sales-Improvements:
 
     - 09800_ECA14_Add_Reference_Payment_fields.xml
+    
+  - Cloud-Service-Management:
+
+    - 033_Update_Parameters_For_Update_Client_Version_Process.xml
+    - 034_Add_Cluster_And_Node_Definition.xml
 	
 .. data:: Novedades
 
 - Se agrega referencia de factura en el IGTF generado desde el Punto de Ventas
+- Se agrega soporte a Definicion de Cluster y nodos para despliegues de Servicios en K8
 
 .. data:: Reportes Relacionados
