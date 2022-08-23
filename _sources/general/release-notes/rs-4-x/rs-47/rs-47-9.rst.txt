@@ -99,12 +99,12 @@
 
 .. only:: html
 
-    .. figure:: resources/rs-47-9-fbtt-collect.mp4
+    .. figure:: resources/rs-47-9-fbtt-collect.gif
       
 
 .. only:: html
 
-    .. figure:: resources/rs-47-9-fbtt-generated.mp4
+    .. figure:: resources/rs-47-9-fbtt-generated.gif
 
 
 .. data:: Reportes Relacionados
