@@ -143,7 +143,328 @@
              
   <section id="banco-nacional-de-credito">
 <span id="documento-banco-bnc"></span><h1><strong>Banco Nacional de Crédito</strong><a class="headerlink" href="#banco-nacional-de-credito" title="Permalink to this headline"></a></h1>
-<p>Para la exportación de los archivos desde ADempiere al banco nacional de crédito, <a class="reference external" href="http://erpya.com">ERPyA</a> soporta el siguiente formato facilitado por el banco, que puede ser descargado para su análisis y adaptación.</p>
+<p>Para la exportación de los archivos desde ADempiere al banco nacional de crédito, <a class="reference external" href="http://erpya.com">ERPyA</a> soporta el siguiente formato facilitado por el banco, que puede ser descargado para su análisis y adaptación.
+El banco cuenta con los documentos <a class="reference download internal" download="" href="../../../../../_downloads/9c5b3d897e2ed765386a6fa53cc10e8b/BNC_Estructura_TXT_RegPagos_2014.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Estructura</span> <span class="pre">TxT</span> <span class="pre">BNC</span></code></a></p>
+<section id="archivo-para-pagos-de-proveedores">
+<h2><strong>Archivo para Pagos de Proveedores</strong><a class="headerlink" href="#archivo-para-pagos-de-proveedores" title="Permalink to this headline"></a></h2>
+<p>Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:</p>
+<ul class="simple">
+<li><p>Factura “<strong>10007371</strong>” al socio del negocio “<strong>Proveedor Estándar</strong>” por monto total de “<strong>1.392,00</strong>”.</p></li>
+<li><p>Factura “<strong>10007381</strong>” al socio del negocio “<strong>Proveedor Estándar</strong>” por monto total de “<strong>1.554,00</strong>”.</p></li>
+<li><p>Factura “<strong>10007391</strong>” al socio del negocio “<strong>Proveedor Estándar2</strong>” por monto total de “<strong>3.480,00</strong>”.</p></li>
+<li><p>Factura “<strong>10007401</strong>” al socio del negocio “<strong>Proveedor Estándar3</strong>” por monto total de “<strong>2.200,00</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco BNC a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/185ac5641fb221107ba883e3126761aa/Banco_Nacional_de_Crdito_C.A_SOP-1001321.txt"><code class="xref download docutils literal notranslate"><span class="pre">Banco</span> <span class="pre">BNC</span></code></a> y visualizar de la siguiente manera:</p>
+<p>C000030000000008626000001001321SSS00
+D25082022019100600321601260820191111111111111111100000000029460010007371-10007381                                           V011111111Proveedor Estandar                                                                                                                                                                  V011111111
+D25082022019100600321601260820105111111111111111100000000034800010007391                                                    J111111111Proveedor Estndar2                                                                                                                                                                  J111111111
+D25082022019100600321601260820191111111111111111100000000022000010007401                                                    J111111111Proveedor Estndar3                                                                                                                                                                  J111111111</p>
+<p><strong>Descripción del Archivo</strong></p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 15%" />
+<col style="width: 6%" />
+<col style="width: 7%" />
+<col style="width: 4%" />
+<col style="width: 1%" />
+<col style="width: 6%" />
+<col style="width: 10%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="9"><p><strong>ESTRUCTURA DEL ARCHIVO DE CABECERA</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td colspan="5"><p><strong>TIPO DE ARCHIVO</strong></p></td>
+<td colspan="4"><p>TXT</p></td>
+</tr>
+<tr class="row-odd"><td colspan="5"><p><strong>LONGITUD DE REGISTRO</strong></p></td>
+<td colspan="4"><p>36</p></td>
+</tr>
+<tr class="row-even"><td colspan="5"><p><strong>NOMBRE DEL REGISTRO</strong></p></td>
+<td colspan="4"><p>Registro de Encabezado</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>#</strong></p></td>
+<td><p><strong>Nombre del Campo</strong></p></td>
+<td><p><strong>Tipo</strong></p></td>
+<td><p><strong>Lago</strong></p></td>
+<td colspan="2"><p><strong>Desde</strong></p></td>
+<td><p><strong>Hasta</strong></p></td>
+<td><p><strong>Obligatório</strong></p></td>
+<td><p><strong>Descripción</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>1</strong></p></td>
+<td><p>Tipo de Registro</p></td>
+<td><p>ALPHA</p></td>
+<td><p>1</p></td>
+<td colspan="2"><p>1</p></td>
+<td><p>1</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Valor:C = Cabecera (Valor fijo para el registro de encabezado)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>2</strong></p></td>
+<td><p>Cantidad de Registro</p></td>
+<td><p>NUM</p></td>
+<td><p>5</p></td>
+<td colspan="2"><p>2</p></td>
+<td><p>6</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: Solo números, hasta un largo máximo de 5 dígitos</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>Valor: Cantidad de registros de transferencia correspondiente a</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>el archivo de detalle</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>3</strong></p></td>
+<td><p>Monto Total</p></td>
+<td><p>NUM</p></td>
+<td><p>15</p></td>
+<td colspan="2"><p>7</p></td>
+<td><p>21</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: Solo números, hasta un largo máximo de 15 dígitos.</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>Las dos últimas posiciones corresponden a los decimales,no debe</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>tener espacios en blanco, rellenar con ceros “0”.Valor: Suma de</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>los montos de los pagos correspondientes a el archivo de detalle</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>4</strong></p></td>
+<td><p>Identificación  Lote</p></td>
+<td><p>NUM</p></td>
+<td><p>10</p></td>
+<td colspan="2"><p>22</p></td>
+<td><p>31</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: Solo números, hasta un largo máximo de 10 dígitos</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>Valor: Identificador de la transmisión. Este número debe ser</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>distinto (único) para cada transmisión</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>5</strong></p></td>
+<td><p>Rechazo Caso de Error</p></td>
+<td><p>ALPHA</p></td>
+<td><p>1</p></td>
+<td colspan="2"><p>32</p></td>
+<td><p>32</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Valor: S = Si (Valor fijo). En caso de errores en la validación</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>de uno o más registros, el lote será devuelto para su corrección</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>6</strong></p></td>
+<td><p>Enviar correo benef.</p></td>
+<td><p>ALPHA</p></td>
+<td><p>1</p></td>
+<td colspan="2"><p>33</p></td>
+<td><p>33</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Valor: S = Si (Valor fijo).</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>7</strong></p></td>
+<td><p>Verificar reg. benef.</p></td>
+<td><p>ALPHA</p></td>
+<td><p>1</p></td>
+<td colspan="2"><p>34</p></td>
+<td><p>34</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Valor: S = Si (Valor fijo).</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>8</strong></p></td>
+<td colspan="8"><p>Validar FD.(Hash)   | NUM     <a href="#id1"><span class="problematic" id="id2">|</span></a>2         <a href="#id3"><span class="problematic" id="id4">|</span></a>35       <a href="#id5"><span class="problematic" id="id6">|</span></a>36       <a href="#id7"><span class="problematic" id="id8">|</span></a><strong>SI</strong>         <a href="#id9"><span class="problematic" id="id10">|</span></a>Formato: Solo números, hasta un largo máximo de 2 dígitos.</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>Valor:00 = No validar firma digital (Hash).</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>Método estándar de encriptación:SHA1</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>01 = Validar firma digital (Hash)</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 15%" />
+<col style="width: 6%" />
+<col style="width: 7%" />
+<col style="width: 4%" />
+<col style="width: 1%" />
+<col style="width: 6%" />
+<col style="width: 10%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="9"><p><strong>ESTRUCTURA DEL ARCHIVO DE DETALLE</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td colspan="5"><p><strong>TIPO DE ARCHIVO</strong></p></td>
+<td colspan="4"><p>TXT</p></td>
+</tr>
+<tr class="row-odd"><td colspan="5"><p><strong>LONGITUD DE REGISTRO</strong></p></td>
+<td colspan="4"><p>324</p></td>
+</tr>
+<tr class="row-even"><td colspan="5"><p><strong>NOMBRE DEL REGISTRO</strong></p></td>
+<td colspan="4"><p>Registro del Detalle</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>#</strong></p></td>
+<td><p><strong>Nombre del Campo</strong></p></td>
+<td><p><strong>Tipo</strong></p></td>
+<td><p><strong>Lago</strong></p></td>
+<td colspan="2"><p><strong>Desde</strong></p></td>
+<td><p><strong>Hasta</strong></p></td>
+<td><p><strong>Obligatório</strong></p></td>
+<td><p><strong>Descripción</strong></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>1</strong></p></td>
+<td><p>Tipo de Registro</p></td>
+<td><p>ALPHA</p></td>
+<td><p>1</p></td>
+<td colspan="2"><p>1</p></td>
+<td><p>1</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Valor:D=Detalle (Valor fijo para todos los registros de detalle)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>2</strong></p></td>
+<td><p>Fecha pago Transf.</p></td>
+<td><p>NUM</p></td>
+<td><p>8</p></td>
+<td colspan="2"><p>2</p></td>
+<td><p>9</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: ddmmyyyy</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>Valor: Fecha en la que desea realizar el pago</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>3</strong></p></td>
+<td><p>Cuentas a Debitar</p></td>
+<td><p>NUM</p></td>
+<td><p>20</p></td>
+<td colspan="2"><p>10</p></td>
+<td><p>29</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: Solo dígitos (20)</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>Valor:Cuenta del emisor,donde debitarán los fondos del pago</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>4</strong></p></td>
+<td><p>Cuenta  Beneficiario</p></td>
+<td><p>NUM</p></td>
+<td><p>20</p></td>
+<td colspan="2"><p>20</p></td>
+<td><p>49</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: Solo dígitos (20)</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>Valor:Cuenta del beneficiario (en el BNC u otro Banco),donde se</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>abonarán los fondos del pago</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>5</strong></p></td>
+<td><p>Monto del Pago</p></td>
+<td><p>NUM</p></td>
+<td><p>15</p></td>
+<td colspan="2"><p>50</p></td>
+<td><p>64</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: Solo dígitos, hasta un largo máximo de 15 dígitos.</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>Las dos últimas posiciones corresponden a los decimales</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>no debe tener espacios en blanco, rellenar con ceros “0”</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>Valor: Monto del Pago</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>6</strong></p></td>
+<td><p>Descripción</p></td>
+<td><p>ALPHA</p></td>
+<td><p>60</p></td>
+<td colspan="2"><p>65</p></td>
+<td><p>124</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Valor: Descripción del pago. Ejemplo: Nro. de Factura</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>7</strong></p></td>
+<td><p>Letra Ident. Benef.</p></td>
+<td><p>ALPHA</p></td>
+<td><p>1</p></td>
+<td colspan="2"><p>125</p></td>
+<td><p>125</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Valor: Para Personas Naturales: V (Venezolano) ó E (Extranjero)</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>Para Personas Jurídicas: J (Jurídica) ó G (Gobierno)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>8</strong></p></td>
+<td><p>Número Ident.  Benef.</p></td>
+<td><p>NUM</p></td>
+<td colspan="3"><p>9        <a href="#id11"><span class="problematic" id="id12">|</span></a>126</p></td>
+<td><p>134</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: Solo dígitos, hasta un largo máximo de 9 dígitos.</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"></td>
+<td><p>Valor: Para Personas Naturales: Número de Cédula</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>Para Personas Jurídicas: Número de RIF</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>9</strong></p></td>
+<td><p>Nombre o RS Benef.</p></td>
+<td><p>ALPHA</p></td>
+<td><p>80</p></td>
+<td colspan="2"><p>135</p></td>
+<td><p>214</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato: Sin espacios a la izquierda</p></td>
+</tr>
+<tr class="row-odd"><td colspan="8"></td>
+<td><p>con una largo máximo de 80 caracteres.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>10</strong></p></td>
+<td><p>Correo Elect.Benef.</p></td>
+<td><p>ALPHA</p></td>
+<td><p>100</p></td>
+<td colspan="2"><p>215</p></td>
+<td><p>314</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Formato:Sin espacios a izquierda,máximo largo de 100 caracteres</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>11</strong></p></td>
+<td><p>Ref. del Cliente</p></td>
+<td><p>NUM</p></td>
+<td><p>10</p></td>
+<td colspan="2"><p>315</p></td>
+<td><p>324</p></td>
+<td><p><strong>SI</strong></p></td>
+<td><p>Valor: Referencia del cliente. Para su control interno</p></td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="archivo-para-pagos-de-nomina">
 <h2><strong>Archivo para Pagos de Nómina</strong><a class="headerlink" href="#archivo-para-pagos-de-nomina" title="Permalink to this headline"></a></h2>
 <p>Al ejecutar el proceso de selección de pago de la nómina quincenal “<strong>NQ-19</strong>” procesada en ADempiere, con los siguientes empleados:</p>
