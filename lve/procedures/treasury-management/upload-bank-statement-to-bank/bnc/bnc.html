@@ -155,10 +155,12 @@ El banco cuenta con los documentos <a class="reference download internal" downlo
 <li><p>Factura “<strong>10007401</strong>” al socio del negocio “<strong>Proveedor Estándar3</strong>” por monto total de “<strong>2.200,00</strong>”.</p></li>
 </ul>
 <p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco BNC a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/185ac5641fb221107ba883e3126761aa/Banco_Nacional_de_Crdito_C.A_SOP-1001321.txt"><code class="xref download docutils literal notranslate"><span class="pre">Banco</span> <span class="pre">BNC</span></code></a> y visualizar de la siguiente manera:</p>
-<p>C000030000000008626000001001321SSS00
-D25082022019100600321601260820191111111111111111100000000029460010007371-10007381                                           V011111111Proveedor Estandar                                                                                                                                                                  V011111111
-D25082022019100600321601260820105111111111111111100000000034800010007391                                                    J111111111Proveedor Estndar2                                                                                                                                                                  J111111111
-D25082022019100600321601260820191111111111111111100000000022000010007401                                                    J111111111Proveedor Estndar3                                                                                                                                                                  J111111111</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">C000030000000008626000001001321SSS00</span>
+<span class="n">D25082022019100600321601260820191111111111111111100000000029460010007371</span><span class="o">-</span><span class="mi">10007381</span>                                           <span class="n">V011111111Proveedor</span> <span class="n">Estandar</span>                                                                                                                                                                  <span class="n">V011111111</span>
+<span class="n">D25082022019100600321601260820105111111111111111100000000034800010007391</span>                                                    <span class="n">J111111111Proveedor</span> <span class="n">Estndar2</span>                                                                                                                                                                  <span class="n">J111111111</span>
+<span class="n">D25082022019100600321601260820191111111111111111100000000022000010007401</span>                                                    <span class="n">J111111111Proveedor</span> <span class="n">Estndar3</span>                                                                                                                                                                  <span class="n">J111111111</span>
+</pre></div>
+</div>
 <p><strong>Descripción del Archivo</strong></p>
 <table class="docutils align-default">
 <colgroup>
@@ -213,10 +215,22 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: Solo números, hasta un largo máximo de 5 dígitos</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>2</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Valor: Cantidad de registros de transferencia correspondiente a</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>2</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>el archivo de detalle</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>3</strong></p></td>
@@ -228,13 +242,31 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: Solo números, hasta un largo máximo de 15 dígitos.</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>3</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Las dos últimas posiciones corresponden a los decimales,no debe</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>3</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>tener espacios en blanco, rellenar con ceros “0”.Valor: Suma de</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>3</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>los montos de los pagos correspondientes a el archivo de detalle</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>4</strong></p></td>
@@ -246,10 +278,22 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: Solo números, hasta un largo máximo de 10 dígitos</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>4</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Valor: Identificador de la transmisión. Este número debe ser</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>4</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>distinto (único) para cada transmisión</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>5</strong></p></td>
@@ -261,7 +305,13 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Valor: S = Si (Valor fijo). En caso de errores en la validación</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>5</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>de uno o más registros, el lote será devuelto para su corrección</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>6</strong></p></td>
@@ -285,13 +335,31 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <tr class="row-odd"><td><p><strong>8</strong></p></td>
 <td colspan="8"><p>Validar FD.(Hash)   | NUM     <a href="#id1"><span class="problematic" id="id2">|</span></a>2         <a href="#id3"><span class="problematic" id="id4">|</span></a>35       <a href="#id5"><span class="problematic" id="id6">|</span></a>36       <a href="#id7"><span class="problematic" id="id8">|</span></a><strong>SI</strong>         <a href="#id9"><span class="problematic" id="id10">|</span></a>Formato: Solo números, hasta un largo máximo de 2 dígitos.</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>8</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Valor:00 = No validar firma digital (Hash).</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>8</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Método estándar de encriptación:SHA1</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>8</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>01 = Validar firma digital (Hash)</p></td>
 </tr>
 </tbody>
@@ -349,7 +417,13 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: ddmmyyyy</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>2</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Valor: Fecha en la que desea realizar el pago</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>3</strong></p></td>
@@ -361,7 +435,13 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: Solo dígitos (20)</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>3</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Valor:Cuenta del emisor,donde debitarán los fondos del pago</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>4</strong></p></td>
@@ -373,10 +453,22 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: Solo dígitos (20)</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>4</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Valor:Cuenta del beneficiario (en el BNC u otro Banco),donde se</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>4</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>abonarán los fondos del pago</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>5</strong></p></td>
@@ -388,13 +480,31 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: Solo dígitos, hasta un largo máximo de 15 dígitos.</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>5</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Las dos últimas posiciones corresponden a los decimales</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>5</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>no debe tener espacios en blanco, rellenar con ceros “0”</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>5</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Valor: Monto del Pago</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>6</strong></p></td>
@@ -415,7 +525,13 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Valor: Para Personas Naturales: V (Venezolano) ó E (Extranjero)</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>7</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Para Personas Jurídicas: J (Jurídica) ó G (Gobierno)</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>8</strong></p></td>
@@ -426,10 +542,22 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: Solo dígitos, hasta un largo máximo de 9 dígitos.</p></td>
 </tr>
-<tr class="row-even"><td colspan="8"></td>
+<tr class="row-even"><td><p><strong>8</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Valor: Para Personas Naturales: Número de Cédula</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>8</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>Para Personas Jurídicas: Número de RIF</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>9</strong></p></td>
@@ -441,7 +569,13 @@ D25082022019100600321601260820191111111111111111100000000022000010007401        
 <td><p><strong>SI</strong></p></td>
 <td><p>Formato: Sin espacios a la izquierda</p></td>
 </tr>
-<tr class="row-odd"><td colspan="8"></td>
+<tr class="row-odd"><td><p><strong>9</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
 <td><p>con una largo máximo de 80 caracteres.</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>10</strong></p></td>
