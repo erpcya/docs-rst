@@ -12,17 +12,17 @@ Para la exportación de los archivos desde ADempiere al banco nacional de crédi
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
-- Factura "**1000737**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.392,00**".
-- Factura "**1000738**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.554,00**". 
-- Factura "**1000739**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**3.480,00**". 
-- Factura "**1000740**" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**2.200,00**". 
+- Factura "**10007371**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.392,00**".
+- Factura "**10007381**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.554,00**". 
+- Factura "**10007391**" al socio del negocio "**Proveedor Estándar2**" por monto total de "**3.480,00**". 
+- Factura "**10007401**" al socio del negocio "**Proveedor Estándar3**" por monto total de "**2.200,00**". 
 
-Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco BNC a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Banco BNC <Banco_Nacional_de_Crdito_C.A_15571.txt>` y visualizar de la siguiente manera:
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco BNC a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Banco BNC <Banco_Nacional_de_Crdito_C.A_SOP-1001321.txt>` y visualizar de la siguiente manera:
 
-C000030000000008874640000015571SSS00
-D2408202201910060032160126082010500770610774768170000000003480001000739                                                     J002443731Dhl Express Aduanas Venezuela C.A.                                                                                                                                                  J002443731
-D2408202201910060032160126082019100600321601260440000000002200001000740                                                     2200163151Bolivariana de Puertos                                                                                                                                                              2200163151
-D2408202201910060032160126082019100600321601277890000000003194641000737-1000738                                             2026972401Proveedor Estandar                                                                                                                                                                  2026972401
+C000030000000008626000001001321SSS00
+D25082022019100600321601260820191111111111111111100000000029460010007371-10007381                                           V011111111Proveedor Estandar                                                                                                                                                                  V011111111
+D25082022019100600321601260820105111111111111111100000000034800010007391                                                    J111111111Proveedor Estndar2                                                                                                                                                                  J111111111
+D25082022019100600321601260820191111111111111111100000000022000010007401                                                    J111111111Proveedor Estndar3                                                                                                                                                                  J111111111
 
 
 **Descripción del Archivo**
