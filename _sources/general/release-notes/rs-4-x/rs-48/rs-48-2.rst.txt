@@ -59,7 +59,7 @@
 - Mercado-Libre-Venezuela-API: 1.0.8
 - Common-Functionalities: 1.0.0
 - FAP-Venezuela-Location: 1.0.5
-- LVE-AdditionalTax: 1.1.1
+- LVE-AdditionalTax: 1.1.2
 
 .. data:: Detalle Técnico
 
