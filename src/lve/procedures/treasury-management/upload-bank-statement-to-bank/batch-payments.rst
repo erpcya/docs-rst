@@ -98,8 +98,40 @@ Un ejemplo del archivo generado en formato "**.txt**", seleccionando el usuario 
 
 El archivo en formato "**.txt**" generado por ADempiere, debe ser cargado al banco desde el cual requiere que sean ejecutadas las transferencias bancarias.
 
-`ERPyA`_ pretende ofrecer una explicación eficiente a nuestros clientes del estándar de extracto bancario a través de una guía fácil y sencilla para así obtener resultados exitosos en la versión 3.9.2 de ADempiere en la localización Venezuela. A continuación se explica el estándar que se debe tener por banco para generar un extracto bancario desde ADempiere y poder cargar el mismo al banco requerido por el usuario.
+`ERPyA`_ pretende ofrecer una explicación eficiente a nuestros clientes del estándar de extracto bancario a través de una guía fácil y sencilla para así obtener resultados exitosos en la versión 3.9.2 de ADempiere en la localización Venezuela; por consiguiente,los bancos que posee hasta los momentos ADempiere el cual tiene soportado los pagos en lotes para nómina y proveedores sòn los siguientes:
 
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                    **BANCOS CON ARCHIVOS DE PAGOS EN LOTES**                                                                          |
++========================================================+=====================================+========================================================+
+| **Banco**                                              |**Archivo para Pagos Proveedores**   |    **Archivo para Pagos Nóminas**                      |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Banco del Caribe C.A. Banco Universal                   |  SI                                 |      NO                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Banesco Banco Universal C.A.                            |  SI                                 |      SI                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Banplus Banco Universal, C.A                            |  SI                                 |      SI                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|BFC Banco Fondo Común, C.A. Banco Universal             |  SI                                 |      NO                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Banco Occidental de Descuento BU C.A                    |  SI                                 |      SI                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Banco Exterior, C.A. Banco Universal                    |  SI                                 |      SI                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Banco de Venezuela, S.A. Banco Universal                |  SI                                 |      SI                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Banco Nacional de Crédito, C.A                          |  SI                                 |      SI                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Mercantil C.A. Banco Universal                          |  SI                                 |      SI                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+|Banco Provincial  S.A. Banco Universal                  |  SI                                 |      SI                                                |
++--------------------------------------------------------+-------------------------------------+--------------------------------------------------------+
+
+
+A continuación se explica el estándar que se debe tener por banco para generar un extracto bancario desde ADempiere y poder cargar el mismo al banco requerido por el usuario.
+
+ 
+ 
 .. toctree::
     :maxdepth: 2
 
