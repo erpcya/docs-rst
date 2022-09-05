@@ -24,11 +24,11 @@
 - Travel-Agency-Management: 1.1.9
 - Withholding-Engine: 1.2.8
 - Migration-Tools: 1.0.4
-- LVE: 1.9.7
+- LVE: 1.9.9
 - Performance-Analysis: 1.1.3
 - Queue-Manager: 1.0.7
 - Notification-Queue: 1.1.6
-- Point-Of-Sales-Improvements: 1.5.0
+- Point-Of-Sales-Improvements: 1.5.1
 - Kafka-Replicator-Client: 1.0.9
 - Kafka-Util: 1.0.2
 - Core-Tools: 1.4.4
@@ -58,7 +58,7 @@
 - Mercado-Libre-Venezuela-API: 1.0.8
 - Common-Functionalities: 1.0.0
 - FAP-Venezuela-Location: 1.0.5
-- LVE-AdditionalTax: 1.1.7
+- LVE-AdditionalTax: 1.1.8
 
 .. data:: Detalle Técnico
 
@@ -66,20 +66,35 @@
 
   - Se corrige problema al generar retención de manera automática desde el terminal de punto de ventas
   - Se agrega evento para procesar orden de venta y generar retención de manera automática
+  - Se agrega soporte para asignación de retenciones generadas desde el Punto de Ventas y con carga de comprobante desde el Punto de Ventas
+  - Se agrega bandera para olvidar referencia de pago después de procesar
 
 - LVE-AdditionalTax:
 
   - Fixed error with Tax Exempt Validation for withholding type
+  - Validate reference for FBTT as payment from POS
+
+- Point-Of-Sales-Improvements:
+
+  - Add Flag for keep payment reference after process
 
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
 - Aplicar los XML's:
 
+  - Point-Of-Sales-Improvements:
+    
+    - 09880_ECA14_Add_Flag_for_keep_payment_reference_after_process.xml
+
 .. data:: Novedades
 
 - Se corrige problema al generar retención de manera automática desde el terminal de punto de ventas
 - Se agrega evento para procesar orden de venta y generar retención de manera automática
+- Se agrega soporte para asignación de retenciones generadas desde el Punto de Ventas y con carga de comprobante desde el Punto de Ventas
 - Se corrige validación para excluir métodos de pago en el punto de ventas como parte de cálculo de IGTF
+- Se valida que solo sea tipo referencia la referencia de pago para IGTF generada desde el POS
+- Se agrega bandera para mantener referencia de pago después de procesar una referencia
+- Se agrega bandera para olvidar referencia de pago después de procesar una retención de IVA
 
 .. data:: Reportes Relacionados
