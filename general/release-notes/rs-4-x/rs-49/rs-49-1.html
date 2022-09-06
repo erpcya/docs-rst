@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>rs-49-0 &mdash; ERPYA 1.0 Documentation</title>
+  <title>rs-49-1 &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
@@ -20,8 +20,8 @@
     <script src="../../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="rs-48" href="../rs-48/index.html" />
-    <link rel="prev" title="rs-49-1" href="rs-49-1.html" /> 
+    <link rel="next" title="rs-49-0" href="rs-49-0.html" />
+    <link rel="prev" title="rs-49" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -55,8 +55,8 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Notas de Liberación ADempiere ERP</strong></a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>rs-4.x</strong></a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>rs-49</strong></a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="rs-49-1.html"><strong>rs-49-1</strong></a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>rs-49-0</strong></a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>rs-49-1</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="rs-49-0.html"><strong>rs-49-0</strong></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../rs-48/index.html"><strong>rs-48</strong></a></li>
@@ -137,9 +137,9 @@
           <li><a href="../../index.html"><strong>Notas de Liberación ADempiere ERP</strong></a> &raquo;</li>
           <li><a href="../index.html"><strong>rs-4.x</strong></a> &raquo;</li>
           <li><a href="index.html"><strong>rs-49</strong></a> &raquo;</li>
-      <li><strong>rs-49-0</strong></li>
+      <li><strong>rs-49-1</strong></li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../../../_sources/general/release-notes/rs-4-x/rs-49/rs-49-0.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../../_sources/general/release-notes/rs-4-x/rs-49/rs-49-1.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -147,10 +147,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="rs-49-0">
-<span id="documento-version-49-0"></span><h1><strong>rs-49-0</strong><a class="headerlink" href="#rs-49-0" title="Permalink to this headline"></a></h1>
-<section id="fecha-de-liberacion-2022-09-05">
-<h2><strong>Fecha de Liberación:</strong> 2022-09-05<a class="headerlink" href="#fecha-de-liberacion-2022-09-05" title="Permalink to this headline"></a></h2>
+  <section id="rs-49-1">
+<span id="documento-version-49-1"></span><h1><strong>rs-49-1</strong><a class="headerlink" href="#rs-49-1" title="Permalink to this headline"></a></h1>
+<section id="fecha-de-liberacion-2022-09-06">
+<h2><strong>Fecha de Liberación:</strong> 2022-09-06<a class="headerlink" href="#fecha-de-liberacion-2022-09-06" title="Permalink to this headline"></a></h2>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Soporte</span> <span class="pre">a</span> <span class="pre">Versiones</span></span></dt>
@@ -173,7 +173,7 @@
 <li><p>Travel-Agency-Management: 1.1.9</p></li>
 <li><p>Withholding-Engine: 1.2.8</p></li>
 <li><p>Migration-Tools: 1.0.4</p></li>
-<li><p>LVE: 2.0.0</p></li>
+<li><p>LVE: 2.0.1</p></li>
 <li><p>Performance-Analysis: 1.1.3</p></li>
 <li><p>Queue-Manager: 1.0.7</p></li>
 <li><p>Notification-Queue: 1.1.6</p></li>
@@ -207,7 +207,7 @@
 <li><p>Mercado-Libre-Venezuela-API: 1.0.8</p></li>
 <li><p>Common-Functionalities: 1.0.0</p></li>
 <li><p>FAP-Venezuela-Location: 1.0.5</p></li>
-<li><p>LVE-AdditionalTax: 1.2.0</p></li>
+<li><p>LVE-AdditionalTax: 1.2.1</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -217,17 +217,12 @@
 <ul class="simple">
 <li><p>LVE:</p>
 <ul>
-<li><p>Se corrige evento para cálculo de retención de IVA y posible duplicidad de comprobante</p></li>
+<li><p>Se corrige error en tiempo de ejecución para setup de IVA en el Terminal PDV</p></li>
 </ul>
 </li>
 <li><p>LVE-AdditionalTax:</p>
 <ul>
-<li><p>Fixed error with processed tax calculations</p></li>
-</ul>
-</li>
-<li><p>Point-Of-Sales-Improvements:</p>
-<ul>
-<li><p>Add flag to keep price list from customer</p></li>
+<li><p>Fixed error with search for values of payment method events</p></li>
 </ul>
 </li>
 </ul>
@@ -238,15 +233,6 @@
 
 <ul class="simple">
 <li><p>Aplicar binario de la aplicación</p></li>
-<li><p>Aplicar los XML’s:</p>
-<ul>
-<li><p>Point-Of-Sales-Improvements:</p>
-<ul>
-<li><p>09890_ECA14_Add_Flag_for_keep_price_from_customer_definition.xml</p></li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Novedades">
@@ -254,8 +240,8 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Se corrige evento para cálculo de retención de IVA y posible duplicidad de comprobante</p></li>
-<li><p>Se corrige error al modificar retenciones de IGTF después de procesado</p></li>
+<li><p>Se corrige error en tiempo de ejecución para setup de IVA en el Terminal PDV</p></li>
+<li><p>Se corrige búsqueda de eventos para setup inicial de IGTF en orden de venta</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -269,8 +255,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="rs-49-1.html" class="btn btn-neutral float-left" title="rs-49-1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../rs-48/index.html" class="btn btn-neutral float-right" title="rs-48" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="rs-49" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rs-49-0.html" class="btn btn-neutral float-right" title="rs-49-0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
