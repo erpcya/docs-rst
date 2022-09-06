@@ -19,7 +19,7 @@
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.6
 - Fiscal-Printer: 1.5.3
-- Sales-Force-Management: 1.0.9
+- Sales-Force-Management: 1.1.1
 - Delivery-Management-Service: 1.2.0
 - Travel-Agency-Management: 1.1.9
 - Withholding-Engine: 1.2.8
@@ -70,6 +70,10 @@
 
   - Fixed error with search for values of payment method events
 
+- Sales-Force-Management:
+
+  - Fixed error with default unit of measure
+
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
@@ -78,5 +82,6 @@
 
 - Se corrige error en tiempo de ejecución para setup de IVA en el Terminal PDV
 - Se corrige búsqueda de eventos para setup inicial de IGTF en orden de venta
+- Se corrige cambio de precio cuando se crea una linea asociada a un producto con unidad de medida por defecto
 
 .. data:: Reportes Relacionados
