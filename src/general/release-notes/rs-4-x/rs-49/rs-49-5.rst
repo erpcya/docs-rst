@@ -109,6 +109,10 @@
 - Ahora se puede predeterminar en el tipo de documento si un documento como Orden de Venta, Orden de Compra, Documento por Pagar, Documento por Cobrar, Pago y cobro es exento para retener
 - La bandera agregada se llama **IsWithholdingTaxExempt**
 
+.. data:: Tomar en Cuenta
+
+Estos cambios sincronizan la columna **IsWithholdingTaxExempt** en las tablas C_Order, C_Payment y C_DocType. Las tablas son del core y hay que verificar que realmente se encuentren sincronizadas y que se haga en un momento donde no se esté trabajando
+
 .. data:: Reportes Relacionados
 
   - `Formulación de Arroz`_
