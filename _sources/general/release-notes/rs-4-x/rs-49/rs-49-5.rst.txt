@@ -1,0 +1,115 @@
+.. _documento/versión-49-5:
+
+.. _Formulación de Arroz: https://stackoverflow.com/c/erpya/questions/349/350#350
+.. _Reporte Saldo en Banco: https://github.com/erpcya/CONTROL-ANCA/issues/220
+
+**rs-49-5**
+===========
+
+**Fecha de Liberación:** 2022-09-09
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-35.3
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.1
+- Cloud-Service-Management: 1.2.7
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.1.2
+- Farmer-Assistance-Program: 1.4.7
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.6
+- Fiscal-Printer: 1.5.6
+- Sales-Force-Management: 1.1.2
+- Delivery-Management-Service: 1.2.0
+- Travel-Agency-Management: 1.1.9
+- Withholding-Engine: 1.2.8
+- Migration-Tools: 1.0.4
+- LVE: 2.0.2
+- Performance-Analysis: 1.1.3
+- Queue-Manager: 1.0.7
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.5.1
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.4.4
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.6
+- Additional-Reports: 1.2.7
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.6
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.3
+- Update-Management: 1.1.9
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.1.4
+- ERP-Payroll-Definition: 1.0.6
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.1.5
+- Vue-StoreFront-API: 1.0.9
+- Mercado-Libre-Venezuela-API: 1.0.8
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.0.5
+- LVE-AdditionalTax: 1.2.2
+
+.. data:: Detalle Técnico
+
+- Additional-Reports:
+
+  - Fixed error with debt and credit for bank balance
+
+- CST-STD:
+
+  - Add Validation for Accounting Bank Interest in ZERO
+  - Add Validation for Accounting Tax Interest in ZERO
+
+- FAP-Venezuela-Location:
+
+  - Add support to new version for rice calculation based on 100% humidity
+
+- Currency-Convert-Documents:
+
+  - Fix Error on Conversion Type Value And Name Lenght
+
+- LVE-AdditionalTax:
+
+  - Add support to IsWithholdingTaxExempt field
+
+- LVE:
+
+  - Se agrega atributo para determinar si una orden de venta, factura, pago, cobro, orden de compra o documento por pagar es excento para retener en función del tipo de documento
+
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+- Aplicar los XML's:
+
+  - LVE:
+
+    - 1040_LVE_Se_agrega_Exento_de_Impuesto_como_atributo.xml
+
+.. data:: Novedades
+
+- Se agrega monto para **Ingresos Conciliados**, **Ingresos (No Conciliados)**, **Egresos Conciliados** y **Egresos (No Conciliados)** en el saldo del reporte **Saldo por Banco**
+- Se agrega nueva fórmula para el cálculo del peso acondicionado de arroz considerando un 100% de Humedad y valores condicionados para el % de Humedad e Impureza
+- Se agrega validación para no contabilizar monto en cero al momento de crear el asiento contable de documentos
+- Se corrige problema con longitud de código y nombre del tipo de conversión en la funcionalidad de tasa negociada
+- Se agrega atributo para determinar si una orden de venta, factura, pago, cobro, orden de compra o documento por pagar es excento para retener en función del tipo de documento.
+- Ahora se puede predeterminar en el tipo de documento si un documento como Orden de Venta, Orden de Compra, Documento por Pagar, Documento por Cobrar, Pago y cobro es exento para retener
+- La bandera agregada se llama **IsWithholdingTaxExempt**
+
+.. data:: Reportes Relacionados
+
+  - `Formulación de Arroz`_
+  - `Reporte Saldo en Banco`_
