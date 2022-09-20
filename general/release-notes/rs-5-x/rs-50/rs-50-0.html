@@ -131,13 +131,13 @@
 
 <ul class="simple">
 <li><p>ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3</p></li>
-<li><p>CST-STD: Versión de Liberación: rs-35.3</p></li>
+<li><p>CST-STD: Versión de Liberación: rs-35.6</p></li>
 <li><p>Consigned-Material: 1.3.0</p></li>
 <li><p>Exchange-Operation-System: 1.2.2</p></li>
 <li><p>Cloud-Service-Management: 1.2.7</p></li>
 <li><p>Cash-Management: 1.1.4</p></li>
 <li><p>Currency-Convert-Documents: 1.1.5</p></li>
-<li><p>Farmer-Assistance-Program: 1.4.7</p></li>
+<li><p>Farmer-Assistance-Program: 1.4.9</p></li>
 <li><p>RethinkDB-Replicator-Client: 1.1.5</p></li>
 <li><p>Third-Party-Access: 1.0.6</p></li>
 <li><p>Fiscal-Printer: 1.5.6</p></li>
@@ -147,7 +147,7 @@
 <li><p>Withholding-Engine: 1.2.8</p></li>
 <li><p>Migration-Tools: 1.0.4</p></li>
 <li><p>LVE: 2.0.2</p></li>
-<li><p>Performance-Analysis: 1.1.3</p></li>
+<li><p>Performance-Analysis: 1.1.4</p></li>
 <li><p>Queue-Manager: 1.0.7</p></li>
 <li><p>Notification-Queue: 1.1.6</p></li>
 <li><p>Point-Of-Sales-Improvements: 1.5.1</p></li>
@@ -156,7 +156,7 @@
 <li><p>Core-Tools: 1.4.6</p></li>
 <li><p>Get-Weight:1.2.4</p></li>
 <li><p>Record-Weight: 1.0.7</p></li>
-<li><p>Raw-Material-Receipt: 1.1.6</p></li>
+<li><p>Raw-Material-Receipt: 1.1.7</p></li>
 <li><p>Additional-Reports: 1.2.7</p></li>
 <li><p>adempiere-customer-backend: 1.2.1</p></li>
 <li><p>Material-Management-Improvements: 1.1.6</p></li>
@@ -179,7 +179,7 @@
 <li><p>Vue-StoreFront-API: 1.0.9</p></li>
 <li><p>Mercado-Libre-Venezuela-API: 1.0.8</p></li>
 <li><p>Common-Functionalities: 1.0.0</p></li>
-<li><p>FAP-Venezuela-Location: 1.0.7</p></li>
+<li><p>FAP-Venezuela-Location: 1.0.9</p></li>
 <li><p>LVE-AdditionalTax: 1.2.2</p></li>
 </ul>
 <dl class="py data">
@@ -193,6 +193,41 @@
 <li><p>Add support to copy withholding and model validators</p></li>
 </ul>
 </li>
+<li><p>CST-STD:</p>
+<ul>
+<li><p>Add Validation for Accounting Bank Interest in ZERO</p></li>
+<li><p>Add Validation for Accounting Tax Invoice in ZERO</p></li>
+<li><p>Fix Quantity Order When Receipt on Different Warehouse</p></li>
+<li><p>Support Set Warehouse on Shipment from InOutBound</p></li>
+</ul>
+</li>
+<li><p>Record-Weight:</p>
+<ul>
+<li><p>Add Locator on Record Weight Windows</p></li>
+</ul>
+</li>
+<li><p>Raw-Material-Receipt:</p>
+<ul>
+<li><p>Add Support to Set Locator in InOutBound and InOutBoundLine From Record Weight</p></li>
+</ul>
+</li>
+<li><p>Farmer-Assistance-Program:</p>
+<ul>
+<li><p>Add Support to Static Analysis Attributes by Business Partner And Product</p></li>
+</ul>
+</li>
+<li><p>FAP-Venezuela-Location:</p>
+<ul>
+<li><p>Add Support to Calculation for White and Yellow Corn</p></li>
+<li><p>Add Setup for Farming Categories</p></li>
+<li><p>Add Category Calculation for Paid Weight With Default Setting from Farmer Definition</p></li>
+</ul>
+</li>
+<li><p>Performance-Analysis:</p>
+<ul>
+<li><p>Change Search Cache from MTable to Doc class on Doc_NotPost logic</p></li>
+</ul>
+</li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Requerimientos">
@@ -201,9 +236,25 @@
 
 <ul class="simple">
 <li><p>Aplicar binario de la aplicación</p></li>
-<li><p>Aplicar los XML’s:</p>
+<li><p>Aplicar los XML’s:</p></li>
+<li><p>Core-Tools:</p>
 <ul>
 <li><p>05330_Add_Copy_Fiscal_Definition_Process.xml</p></li>
+</ul>
+</li>
+<li><p>Record-Weight:</p>
+<ul>
+<li><p>06950_Add_Locator_to_Record_Weight.xml</p></li>
+</ul>
+</li>
+<li><p>Farmer-Assistance-Program:</p>
+<ul>
+<li><p>08050_Add_Business_Partner_Attributes_Definition.xml</p></li>
+</ul>
+</li>
+<li><p>FAP-Venezuela-Location:</p>
+<ul>
+<li><p>10230_Add_Setup_for_Farming_Category.xml</p></li>
 </ul>
 </li>
 </ul>
@@ -214,6 +265,17 @@
 
 <ul class="simple">
 <li><p>Se agrega soporte a copia de validadores de modelo y definición de retentiones para la compañía</p></li>
+<li><p>Se Agrega validacion para evitar contabilidad en Cero en Estado de Cuenta Bancario</p></li>
+<li><p>Se Agrega validacion para evitar contabilidad en Cero en Factura CxC y CxP</p></li>
+<li><p>Se Corrige Bug en Cantidad Ordenada en Almacenamiento cuando se Recibe en un almacen o Ubicación distinta al ordenado</p></li>
+<li><p>Se Establece Almacen en Entrega/Recibo desde el encabezado del Recibo Express</p></li>
+<li><p>Se Agrega Referencia a la Ubicación en Ventanas de Registro de Peso</p></li>
+<li><p>Se agrega soporte a establecer la ubicacion en recibo express desde el registro de peso</p></li>
+<li><p>Se Agrega soporte a Definición de Atributos de Calculo por Rubro y Agricultor</p></li>
+<li><p>Se agrega Calculo de Peso Acondicionado y Peso a Pagar para los Rubros Maiz Blanco y Amarillo</p></li>
+<li><p>Se Agrega Configuración Inicial para los Rubros Soportados</p></li>
+<li><p>Se Agrega formula para caucular el peso a pagar con valores por defecto establecidos en la definicion del Agricultor</p></li>
+<li><p>Correción de Bug en Logica Contable para Documentos no Posteables</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">

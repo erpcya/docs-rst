@@ -9,13 +9,13 @@
 .. data:: Soporte a Versiones
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
-- CST-STD: Versión de Liberación: rs-35.3
+- CST-STD: Versión de Liberación: rs-35.6
 - Consigned-Material: 1.3.0
 - Exchange-Operation-System: 1.2.2
 - Cloud-Service-Management: 1.2.7
 - Cash-Management: 1.1.4
 - Currency-Convert-Documents: 1.1.5
-- Farmer-Assistance-Program: 1.4.7
+- Farmer-Assistance-Program: 1.4.9
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.6
 - Fiscal-Printer: 1.5.6
@@ -25,7 +25,7 @@
 - Withholding-Engine: 1.2.8
 - Migration-Tools: 1.0.4
 - LVE: 2.0.2
-- Performance-Analysis: 1.1.3
+- Performance-Analysis: 1.1.4
 - Queue-Manager: 1.0.7
 - Notification-Queue: 1.1.6
 - Point-Of-Sales-Improvements: 1.5.1
@@ -34,7 +34,7 @@
 - Core-Tools: 1.4.6
 - Get-Weight:1.2.4
 - Record-Weight: 1.0.7
-- Raw-Material-Receipt: 1.1.6
+- Raw-Material-Receipt: 1.1.7
 - Additional-Reports: 1.2.7
 - adempiere-customer-backend: 1.2.1
 - Material-Management-Improvements: 1.1.6
@@ -57,7 +57,7 @@
 - Vue-StoreFront-API: 1.0.9
 - Mercado-Libre-Venezuela-API: 1.0.8
 - Common-Functionalities: 1.0.0
-- FAP-Venezuela-Location: 1.0.7
+- FAP-Venezuela-Location: 1.0.9
 - LVE-AdditionalTax: 1.2.2
 
 .. data:: Detalle Técnico
@@ -65,17 +65,71 @@
 - Core-Tools:
 
   - Add support to copy withholding and model validators
+
+- CST-STD:
+
+  - Add Validation for Accounting Bank Interest in ZERO
+  - Add Validation for Accounting Tax Invoice in ZERO
+  - Fix Quantity Order When Receipt on Different Warehouse
+  - Support Set Warehouse on Shipment from InOutBound
+
+- Record-Weight:
+
+  - Add Locator on Record Weight Windows
+
+- Raw-Material-Receipt:
+
+  - Add Support to Set Locator in InOutBound and InOutBoundLine From Record Weight
   
+- Farmer-Assistance-Program:
+
+  - Add Support to Static Analysis Attributes by Business Partner And Product
+  
+- FAP-Venezuela-Location:
+
+  - Add Support to Calculation for White and Yellow Corn
+  - Add Setup for Farming Categories
+  - Add Category Calculation for Paid Weight With Default Setting from Farmer Definition
+  
+- Performance-Analysis:
+
+  - Change Search Cache from MTable to Doc class on Doc_NotPost logic
+
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
 - Aplicar los XML's:
 
+- Core-Tools:
+
   - 05330_Add_Copy_Fiscal_Definition_Process.xml
 
+- Record-Weight:
+
+  - 06950_Add_Locator_to_Record_Weight.xml
+  
+- Farmer-Assistance-Program:
+
+  - 08050_Add_Business_Partner_Attributes_Definition.xml
+
+- FAP-Venezuela-Location:
+
+  - 10230_Add_Setup_for_Farming_Category.xml
+  
 .. data:: Novedades
 
 - Se agrega soporte a copia de validadores de modelo y definición de retentiones para la compañía
+- Se Agrega validacion para evitar contabilidad en Cero en Estado de Cuenta Bancario
+- Se Agrega validacion para evitar contabilidad en Cero en Factura CxC y CxP
+- Se Corrige Bug en Cantidad Ordenada en Almacenamiento cuando se Recibe en un almacen o Ubicación distinta al ordenado
+- Se Establece Almacen en Entrega/Recibo desde el encabezado del Recibo Express
+- Se Agrega Referencia a la Ubicación en Ventanas de Registro de Peso 
+- Se agrega soporte a establecer la ubicacion en recibo express desde el registro de peso
+- Se Agrega soporte a Definición de Atributos de Calculo por Rubro y Agricultor
+- Se agrega Calculo de Peso Acondicionado y Peso a Pagar para los Rubros Maiz Blanco y Amarillo
+- Se Agrega Configuración Inicial para los Rubros Soportados
+- Se Agrega formula para caucular el peso a pagar con valores por defecto establecidos en la definicion del Agricultor
+- Correción de Bug en Logica Contable para Documentos no Posteables
 
 .. data:: Tomar en Cuenta
 
