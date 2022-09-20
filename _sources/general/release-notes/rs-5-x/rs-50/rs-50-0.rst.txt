@@ -39,7 +39,7 @@
 - adempiere-customer-backend: 1.2.1
 - Material-Management-Improvements: 1.1.6
 - Warehouse-Management-System-Improvements: 1.1.6
-- Import-Export-Management: 1.0.3
+- Import-Export-Management: 1.0.4
 - Update-Management: 1.1.9
 - Mini-Retail: 1.1.7
 - Print-Queue: 1.1.4
@@ -95,6 +95,10 @@
 
   - Change Search Cache from MTable to Doc class on Doc_NotPost logic
 
+- Import-Export-Management:
+
+  -  Add Import / Export Functionality
+  
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
@@ -116,6 +120,20 @@
 
   - 10230_Add_Setup_for_Farming_Category.xml
   
+- Import-Export-Management:
+
+  - 09480_Add_Support_to_Import_Expedient.xml
+  - 09490_Add_Import_Export_Expedient_Field_on_Documents.xml
+  - 09500_Add_Import_Export_Invoice_Reference.xml
+  - 09510_Add_Process_for_Update_Expedient_Balance.xml
+  - 09520_Add_Import_Export_Tax_Definition.xml
+  - 09530_Add_Documents_Related_to_Expedient.xml
+  - 09540_Add_Generate_Tax_Document_Process.xml
+  - 09550_Add_Fiscal_Currency_On_Expedient.xml
+  - 09560_Add_Validations_on_Fields_And_SmartBrowse.xml
+  - 09570_Add_Field_Tax_Amount_to_Smart_Browse_Generate_Tax.xml
+  - 09580_Round_Tax_Amount_on_SmartBrowse_for_Generate_Tax.xml
+  
 .. data:: Novedades
 
 - Se agrega soporte a copia de validadores de modelo y definición de retentiones para la compañía
@@ -130,6 +148,7 @@
 - Se Agrega Configuración Inicial para los Rubros Soportados
 - Se Agrega formula para caucular el peso a pagar con valores por defecto establecidos en la definicion del Agricultor
 - Correción de Bug en Logica Contable para Documentos no Posteables
+- Se Agrega funcionalidad para Menejos de Expedientes de Importación y Exportación
 
 .. data:: Tomar en Cuenta
 
