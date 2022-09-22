@@ -1,0 +1,110 @@
+.. _documento/versión-50-3:
+
+**rs-50-3**
+===========
+
+**Fecha de Liberación:** 2022-09-22
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-35.7
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.3
+- Cloud-Service-Management: 1.2.7
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.1.5
+- Farmer-Assistance-Program: 1.4.9
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.6
+- Fiscal-Printer: 1.5.7
+- Sales-Force-Management: 1.1.2
+- Delivery-Management-Service: 1.2.0
+- Travel-Agency-Management: 1.1.1
+- Withholding-Engine: 1.2.8
+- Migration-Tools: 1.0.4
+- LVE: 2.0.2
+- Performance-Analysis: 1.1.4
+- Queue-Manager: 1.0.7
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.5.1
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.4.7
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.7
+- Additional-Reports: 1.2.7
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.6
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.4
+- Update-Management: 1.1.9
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.1.4
+- ERP-Payroll-Definition: 1.0.6
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.1.5
+- Vue-StoreFront-API: 1.0.9
+- Mercado-Libre-Venezuela-API: 1.0.8
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.0.9
+- LVE-AdditionalTax: 1.2.2
+
+.. data:: Detalle Técnico
+
+- Fiscal-Printer:
+
+  - Add support to new fiscal commands
+
+    - Set Firmware Values
+    - Re-Print Invoice with Date Range
+    - Re-Print Credit Memo with Date Range
+    - Re-Print Debit Memo with Date Range
+    - Re-Print Invoice with Number Range
+    - Re-Print Credit Memo with Number Range
+    - Re-Print Debit Memo with Number Range
+    - Re-Print Documents with Tax ID
+  
+  - Set Fiscal Printer Serial No + Document No on Invoice Document No from **Fiscal Document Authorization** process
+  - Add support to get fiscal printer serial no from device and set on document instead app registration value
+  
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+- Aplicar los XML's:
+  
+  - Fiscal-Printer:
+
+    - 07100_ECA05_Add_Parameters_to_setup_fiscal_printer.xml
+
+
+.. data:: Novedades
+
+- Se agrega soporte a nuevos comandos fiscales
+
+  - Establecer valores de Firmware: Establece valores por defecto en el firmware de la impresora, ideal para un setup inicial antes de imprimir por primera vez
+  - Re-Imprimir Factura con rango de fecha
+  - Re-Imprimir Nota de Crédito con rango de fecha
+  - Re-Imprimir Nota de Débito con rango de fecha
+  - Re-Imprimir Factura con rango de número
+  - Re-Imprimir Nota de Crédito con rango de número
+  - Re-Imprimir Nota de Débito con rango de número
+
+- Se establece el número de serie de la impresora fiscal + el número de documento desde el proceso **Autorizar Documento Fiscal**
+- Se agrega soporte para obtener el número de serie de la impresora fiscal directamente desde el dispositivo para establecerlo en el documento en lugar de obtenerlo desde el registro de aplicación: Esto permite que al cambiar la impresora fiscal no sea necesario actualizar los datos en el registro de aplicación
+
+.. data:: Tomar en Cuenta
+
+- Todos los cambios de impresora fiscal funcionan dependiendo de la versión del cliente de impresora fiscal, considere utilizar la versión rs-3.6 o superior para que funcionen las mejoras
+
+.. data:: Reportes Relacionados
