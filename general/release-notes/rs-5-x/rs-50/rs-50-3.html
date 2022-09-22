@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>rs-50-2 &mdash; ERPYA 1.0 Documentation</title>
+  <title>rs-50-3 &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
@@ -20,8 +20,8 @@
     <script src="../../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="rs-50-1" href="rs-50-1.html" />
-    <link rel="prev" title="rs-50-3" href="rs-50-3.html" /> 
+    <link rel="next" title="rs-50-2" href="rs-50-2.html" />
+    <link rel="prev" title="rs-50" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -55,8 +55,8 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Notas de Liberación ADempiere ERP</strong></a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>rs-5.x</strong></a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>rs-50</strong></a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="rs-50-3.html"><strong>rs-50-3</strong></a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>rs-50-2</strong></a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>rs-50-3</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="rs-50-2.html"><strong>rs-50-2</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="rs-50-1.html"><strong>rs-50-1</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="rs-50-0.html"><strong>rs-50-0</strong></a></li>
 </ul>
@@ -131,9 +131,9 @@
           <li><a href="../../index.html"><strong>Notas de Liberación ADempiere ERP</strong></a> &raquo;</li>
           <li><a href="../index.html"><strong>rs-5.x</strong></a> &raquo;</li>
           <li><a href="index.html"><strong>rs-50</strong></a> &raquo;</li>
-      <li><strong>rs-50-2</strong></li>
+      <li><strong>rs-50-3</strong></li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../../../_sources/general/release-notes/rs-5-x/rs-50/rs-50-2.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../../_sources/general/release-notes/rs-5-x/rs-50/rs-50-3.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -141,10 +141,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="rs-50-2">
-<span id="documento-version-50-2"></span><h1><strong>rs-50-2</strong><a class="headerlink" href="#rs-50-2" title="Permalink to this headline"></a></h1>
-<section id="fecha-de-liberacion-2022-09-21">
-<h2><strong>Fecha de Liberación:</strong> 2022-09-21<a class="headerlink" href="#fecha-de-liberacion-2022-09-21" title="Permalink to this headline"></a></h2>
+  <section id="rs-50-3">
+<span id="documento-version-50-3"></span><h1><strong>rs-50-3</strong><a class="headerlink" href="#rs-50-3" title="Permalink to this headline"></a></h1>
+<section id="fecha-de-liberacion-2022-09-22">
+<h2><strong>Fecha de Liberación:</strong> 2022-09-22<a class="headerlink" href="#fecha-de-liberacion-2022-09-22" title="Permalink to this headline"></a></h2>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Soporte</span> <span class="pre">a</span> <span class="pre">Versiones</span></span></dt>
@@ -161,7 +161,7 @@
 <li><p>Farmer-Assistance-Program: 1.4.9</p></li>
 <li><p>RethinkDB-Replicator-Client: 1.1.5</p></li>
 <li><p>Third-Party-Access: 1.0.6</p></li>
-<li><p>Fiscal-Printer: 1.5.6</p></li>
+<li><p>Fiscal-Printer: 1.5.7</p></li>
 <li><p>Sales-Force-Management: 1.1.2</p></li>
 <li><p>Delivery-Management-Service: 1.2.0</p></li>
 <li><p>Travel-Agency-Management: 1.1.1</p></li>
@@ -209,14 +209,22 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>CST-STD:</p>
+<li><p>Fiscal-Printer:</p>
 <ul>
-<li><p>Fixed error with multi-tenant support of model validators</p></li>
+<li><p>Add support to new fiscal commands</p>
+<ul>
+<li><p>Set Firmware Values</p></li>
+<li><p>Re-Print Invoice with Date Range</p></li>
+<li><p>Re-Print Credit Memo with Date Range</p></li>
+<li><p>Re-Print Debit Memo with Date Range</p></li>
+<li><p>Re-Print Invoice with Number Range</p></li>
+<li><p>Re-Print Credit Memo with Number Range</p></li>
+<li><p>Re-Print Debit Memo with Number Range</p></li>
+<li><p>Re-Print Documents with Tax ID</p></li>
 </ul>
 </li>
-<li><p>Exchange-Operation-System:</p>
-<ul>
-<li><p>Fixed error with NPE for Conversion Rate</p></li>
+<li><p>Set Fiscal Printer Serial No + Document No on Invoice Document No from <strong>Fiscal Document Authorization</strong> process</p></li>
+<li><p>Add support to get fiscal printer serial no from device and set on document instead app registration value</p></li>
 </ul>
 </li>
 </ul>
@@ -227,7 +235,15 @@
 
 <ul class="simple">
 <li><p>Aplicar binario de la aplicación</p></li>
-<li><p>Aplicar los XML’s:</p></li>
+<li><p>Aplicar los XML’s:</p>
+<ul>
+<li><p>Fiscal-Printer:</p>
+<ul>
+<li><p>07100_ECA05_Add_Parameters_to_setup_fiscal_printer.xml</p></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Novedades">
@@ -235,14 +251,28 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Se agrega soporte a validadores de modelo para multi-compañías</p></li>
-<li><p>Se corrige error en tiempo de ejecución para el validador de modelo de tasa de conversión</p></li>
+<li><p>Se agrega soporte a nuevos comandos fiscales</p>
+<ul>
+<li><p>Establecer valores de Firmware: Establece valores por defecto en el firmware de la impresora, ideal para un setup inicial antes de imprimir por primera vez</p></li>
+<li><p>Re-Imprimir Factura con rango de fecha</p></li>
+<li><p>Re-Imprimir Nota de Crédito con rango de fecha</p></li>
+<li><p>Re-Imprimir Nota de Débito con rango de fecha</p></li>
+<li><p>Re-Imprimir Factura con rango de número</p></li>
+<li><p>Re-Imprimir Nota de Crédito con rango de número</p></li>
+<li><p>Re-Imprimir Nota de Débito con rango de número</p></li>
+</ul>
+</li>
+<li><p>Se establece el número de serie de la impresora fiscal + el número de documento desde el proceso <strong>Autorizar Documento Fiscal</strong></p></li>
+<li><p>Se agrega soporte para obtener el número de serie de la impresora fiscal directamente desde el dispositivo para establecerlo en el documento en lugar de obtenerlo desde el registro de aplicación: Esto permite que al cambiar la impresora fiscal no sea necesario actualizar los datos en el registro de aplicación</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Tomar</span> <span class="pre">en</span> <span class="pre">Cuenta</span></span></dt>
 <dd></dd></dl>
 
+<ul class="simple">
+<li><p>Todos los cambios de impresora fiscal funcionan dependiendo de la versión del cliente de impresora fiscal, considere utilizar la versión rs-3.6 o superior para que funcionen las mejoras</p></li>
+</ul>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Reportes</span> <span class="pre">Relacionados</span></span></dt>
@@ -255,8 +285,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="rs-50-3.html" class="btn btn-neutral float-left" title="rs-50-3" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="rs-50-1.html" class="btn btn-neutral float-right" title="rs-50-1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="rs-50" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rs-50-2.html" class="btn btn-neutral float-right" title="rs-50-2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
