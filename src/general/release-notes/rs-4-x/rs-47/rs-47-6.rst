@@ -4,6 +4,7 @@
 .. _Nueva Formulación del Arroz: https://github.com/erpcya/Control-VEALCA/issues/168
 .. _TXT Banco Bancaribe: https://github.com/erpcya/Control-PROSEIN/issues/259
 .. _TXT de Bancaribe v2022: https://github.com/adempiere/LVE/issues/51
+.. _Instructivo de TXT de Bancaribe v2022: https://stackoverflow.com/c/erpya/questions/326/327#327
 
 **rs-47-6**
 ===========
@@ -118,3 +119,4 @@
   - `Nueva Formulación del Arroz`_
   - `TXT Banco Bancaribe`_
   - `TXT de Bancaribe v2022`_
+  - `Instructivo de TXT de Bancaribe v2022`_
