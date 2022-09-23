@@ -1,5 +1,7 @@
 .. _documento/versión-50-3:
 
+.. _Problemas al Actualizar Correlativos Fiscal a través de "Autorizar Documento Fiscal": https://github.com/erpcya/Control-PROSEIN/issues/264
+
 **rs-50-3**
 ===========
 
@@ -108,3 +110,5 @@
 - Todos los cambios de impresora fiscal funcionan dependiendo de la versión del cliente de impresora fiscal, considere utilizar la versión rs-3.6 o superior para que funcionen las mejoras
 
 .. data:: Reportes Relacionados
+
+  - `Problemas al Actualizar Correlativos Fiscal a través de "Autorizar Documento Fiscal"`_
