@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Propuesta &mdash; ERPYA 1.0 Documentation</title>
+  <title>Registro de Pedido &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
@@ -20,8 +20,8 @@
     <script src="../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Registro de Propuesta" href="proposal.html" />
-    <link rel="prev" title="Crear Entradas de Productos en Lista de Precios" href="../price-list/create-product-entries.html" /> 
+    <link rel="next" title="Gestión de Relaciones con Clientes" href="../../customer-relations/index.html" />
+    <link rel="prev" title="Punto de Venta" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -67,10 +67,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../commission/index.html"><strong>Comisión de Ventas</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../sales-region/index.html"><strong>Región de Ventas</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../price-list/index.html"><strong>Lista de Precios</strong></a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Propuesta</strong></a><ul>
-<li class="toctree-l3"><a class="reference internal" href="proposal.html"><strong>Registro de Propuesta</strong></a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="../proposal/index.html"><strong>Propuesta</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../sales-order/index.html"><strong>Orden de Venta</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html"><strong>Documento por Cobrar</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html"><strong>Generar Factura desde Orden de Salida</strong></a></li>
@@ -78,7 +75,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../shipment/index.html"><strong>Entregas (Cliente)</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html"><strong>Nota de Crédito</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html"><strong>Nota de Débito</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../pos-new-ui/index.html"><strong>Punto de Venta</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Punto de Venta</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro de Pedido</strong></a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
@@ -130,9 +130,10 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../index.html"><strong>Gestión de Ventas</strong></a> &raquo;</li>
-      <li><strong>Propuesta</strong></li>
+          <li><a href="index.html"><strong>Punto de Venta</strong></a> &raquo;</li>
+      <li><strong>Registro de Pedido</strong></li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../../_sources/adempiere/quote-to-invoice/proposal/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../_sources/adempiere/quote-to-invoice/pos-new-ui/salesorder-pos.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -140,22 +141,68 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="propuesta">
-<span id="src-adempiere-quote-to-invoice-proposal"></span><h1><strong>Propuesta</strong><a class="headerlink" href="#propuesta" title="Permalink to this headline"></a></h1>
-<p>El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere una propuesta.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="proposal.html"><strong>Registro de Propuesta</strong></a></li>
-</ul>
+  <section id="registro-de-pedido">
+<span id="documento-puntodeventa-ui"></span><h1><strong>Registro de Pedido</strong><a class="headerlink" href="#registro-de-pedido" title="Permalink to this headline"></a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Grstión de Ventas</strong>”, por último seleccione la ventana “<strong>Punto de Ve0000000000nta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/menug.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Punto de Venta</strong>” en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Ventana POS" src="../../../_images/posnew.png" /></p>
+<p>Imagen 2. Ventana Punto de Venta</p>
+<p>Seleccione el icono “<strong>Nueva Orden</strong>”, ubicado en la barra de herramientas superior derecha.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo" src="../../../_images/neworder.png" /></p>
+<p>Imagen 3. Icono Registro Nueva Orden</p>
+</div></blockquote>
+<p>Si desea relacionar su venta a un cliente fiscalmente, puede seleccionar un cliente existente o crear un nuevo cliente:</p>
+<blockquote>
+<div><p>Para seleccionar cliente existente, proceda a tipear el nombre, RIF o cédula del cliente  como lo muetras la Imagen.</p>
+<blockquote>
+<div><p><img alt="Campo Cliente Existente" src="../../../_images/Clientexist.png" /></p>
+<p>Imagen 4. Búsqueda de Cliente</p>
+<p>Para seleccionar cliente existente, proceda a tipear el nombre, RIF o cédula del cliente  como lo muetras la Imagen.</p>
+<blockquote>
+<div><p><img alt="Campo Nuevo Cliente" src="../../../_images/newbartner.png" /></p>
+<p>Imagen 4. Nuevo Cliente</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Crear Nuevo Socio de Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Socio de Negocio" src="../../../_images/opcnewbpartner.png" /></p>
+<p>Imagen 5. Opción Nuevo Cliente</p>
+<p>A continuación Seleccione la opción “<strong>Crear Nuevo Socio de Negocio</strong>”, y se desplegará la siguiente ventana.</p>
+<blockquote>
+<div><p><img alt="Ventana Crear Socio de Negocio" src="../../../_images/windowbpartner.png" /></p>
+<p>Imagen 6. Ventana Crear Socio de Negocio</p>
+<p>A continuación indique el código del cliente (Cédula/RIF) en el campo “<strong>Código</strong>”.</p>
+<blockquote>
+<div><p><img alt="Codigo Cliente" src="../../../_images/codebpartner.png" /></p>
+<p>Imagen 7. Código Socio de Negocio</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>ADempiere actualiza de modo automático el campo “<strong>Número Identificación</strong>”, este campo es utilizado para reportes fiscales (Ejemplo:IGTF).</p>
 </div>
+</div></blockquote>
+<p>A continuación indique el nombre o razón social del cliente en el campo “<strong>Nombre</strong>”.</p>
+<blockquote>
+<div><p><a href="#id1"><span class="problematic" id="id2">|Nombre Cliente|</span></a></p>
+<p>Imagen 7. Nombre Socio de Negocio</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../price-list/create-product-entries.html" class="btn btn-neutral float-left" title="Crear Entradas de Productos en Lista de Precios" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="proposal.html" class="btn btn-neutral float-right" title="Registro de Propuesta" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Punto de Venta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../customer-relations/index.html" class="btn btn-neutral float-right" title="Gestión de Relaciones con Clientes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
