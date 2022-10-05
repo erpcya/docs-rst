@@ -21,7 +21,7 @@
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
     <link rel="next" title="rs-50-2" href="rs-50-2.html" />
-    <link rel="prev" title="rs-50-4" href="rs-50-4.html" /> 
+    <link rel="prev" title="rs-50" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -55,7 +55,6 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Notas de Liberación ADempiere ERP</strong></a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>rs-5.x</strong></a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>rs-50</strong></a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="rs-50-4.html"><strong>rs-50-4</strong></a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>rs-50-3</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="rs-50-2.html"><strong>rs-50-2</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="rs-50-1.html"><strong>rs-50-1</strong></a></li>
@@ -144,8 +143,8 @@
              
   <section id="rs-50-3">
 <h1><strong>rs-50-3</strong><a class="headerlink" href="#rs-50-3" title="Permalink to this headline"></a></h1>
-<section id="fecha-de-liberacion-2022-09-22">
-<h2><strong>Fecha de Liberación:</strong> 2022-09-22<a class="headerlink" href="#fecha-de-liberacion-2022-09-22" title="Permalink to this headline"></a></h2>
+<section id="fecha-de-liberacion-2022-10-05">
+<h2><strong>Fecha de Liberación:</strong> 2022-10-05<a class="headerlink" href="#fecha-de-liberacion-2022-10-05" title="Permalink to this headline"></a></h2>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Soporte</span> <span class="pre">a</span> <span class="pre">Versiones</span></span></dt>
@@ -155,11 +154,11 @@
 <li><p>ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3</p></li>
 <li><p>CST-STD: Versión de Liberación: rs-35.7</p></li>
 <li><p>Consigned-Material: 1.3.0</p></li>
-<li><p>Exchange-Operation-System: 1.2.3</p></li>
+<li><p>Exchange-Operation-System: 1.2.4</p></li>
 <li><p>Cloud-Service-Management: 1.2.7</p></li>
 <li><p>Cash-Management: 1.1.4</p></li>
 <li><p>Currency-Convert-Documents: 1.1.5</p></li>
-<li><p>Farmer-Assistance-Program: 1.4.9</p></li>
+<li><p>Farmer-Assistance-Program: 1.5.1</p></li>
 <li><p>RethinkDB-Replicator-Client: 1.1.5</p></li>
 <li><p>Third-Party-Access: 1.0.6</p></li>
 <li><p>Fiscal-Printer: 1.5.7</p></li>
@@ -201,7 +200,7 @@
 <li><p>Vue-StoreFront-API: 1.0.9</p></li>
 <li><p>Mercado-Libre-Venezuela-API: 1.0.8</p></li>
 <li><p>Common-Functionalities: 1.0.0</p></li>
-<li><p>FAP-Venezuela-Location: 1.0.9</p></li>
+<li><p>FAP-Venezuela-Location: 1.1.2</p></li>
 <li><p>LVE-AdditionalTax: 1.2.2</p></li>
 </ul>
 <dl class="py data">
@@ -210,6 +209,11 @@
 <dd></dd></dl>
 
 <ul class="simple">
+<li><p>Exchange-Operation-System:</p>
+<ul>
+<li><p>Add support to BCV Api Deno</p></li>
+</ul>
+</li>
 <li><p>Fiscal-Printer:</p>
 <ul>
 <li><p>Add support to new fiscal commands</p>
@@ -228,6 +232,24 @@
 <li><p>Add support to get fiscal printer serial no from device and set on document instead app registration value</p></li>
 </ul>
 </li>
+<li><p>Farmer-Assistance-Program:</p>
+<ul>
+<li><p>Fix Method for InOut Line Reference</p></li>
+<li><p>Fix Set Document type on Generate Order From Technical From Process</p></li>
+</ul>
+</li>
+<li><p>FAP-Venezuela-Location:</p>
+<ul>
+<li><p>Fix Nomenclature for PaidWeigh calculation</p>
+<ul>
+<li><p>Rice_PaidWeight_C01</p></li>
+<li><p>Rice_PaidWeight_v1</p></li>
+</ul>
+</li>
+<li><p>Change CategoryType Selection for Category Corn</p></li>
+<li><p>Fix Attributes Sequence</p></li>
+</ul>
+</li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Requerimientos">
@@ -243,6 +265,12 @@
 <li><p>07100_ECA05_Add_Parameters_to_setup_fiscal_printer.xml</p></li>
 </ul>
 </li>
+<li><p>Exchange-Operation-System:</p>
+<ul>
+<li><p>07310_Add_App_support_to_BCVApiDeno.xml</p></li>
+<li><p>07320_Rename_Package_for_EOS.xml</p></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -251,9 +279,9 @@
 <span class="sig-name descname"><span class="pre">Novedades</span></span><a class="headerlink" href="#Novedades" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
-<ul class="simple">
-<li><p>Se agrega soporte a nuevos comandos fiscales</p>
 <ul>
+<li><p>Se agrega soporte a nuevos comandos fiscales</p>
+<ul class="simple">
 <li><p>Establecer valores de Firmware: Establece valores por defecto en el firmware de la impresora, ideal para un setup inicial antes de imprimir por primera vez</p></li>
 <li><p>Re-Imprimir Factura con rango de fecha</p></li>
 <li><p>Re-Imprimir Nota de Crédito con rango de fecha</p></li>
@@ -265,6 +293,20 @@
 </li>
 <li><p>Se establece el número de serie de la impresora fiscal + el número de documento desde el proceso <strong>Autorizar Documento Fiscal</strong></p></li>
 <li><p>Se agrega soporte para obtener el número de serie de la impresora fiscal directamente desde el dispositivo para establecerlo en el documento en lugar de obtenerlo desde el registro de aplicación: Esto permite que al cambiar la impresora fiscal no sea necesario actualizar los datos en el registro de aplicación</p></li>
+<li><p>Se agrega funcionalidad para obtener tasas de cambio del Banco Central de Venezuela (BCV) a través de un REST Api.</p></li>
+<li><p>Esta actualización es ideal para evitar la carga manual de las tasas de cambio del BCV todos los días</p></li>
+<li><p>Corrección de Metodo de Referencia en Linea de Factura con Recepción</p></li>
+<li><p>Corrección de Procesos de Generar Orden desde Hoja Tecnica para establecer el tipo de documento seleccionado</p></li>
+<li><p>Cambio en Nomenclatura de Calculo de Peso a Pagar</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Rice_PaidWeight_C01</p></li>
+<li><p>Rice_PaidWeight_v1</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Cambio en Metodo de Seleccion de Tipo de Maiz</p></li>
+<li><p>Corrección en Sequencia de Atributos</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -273,12 +315,18 @@
 
 <ul class="simple">
 <li><p>Todos los cambios de impresora fiscal funcionan dependiendo de la versión del cliente de impresora fiscal, considere utilizar la versión rs-3.6 o superior para que funcionen las mejoras</p></li>
+<li><p>Ejecutar el setup: Create BCVApiDeno Rate Provider</p></li>
+<li><p>Asignar el registro de Aplicación BCV Api Deno al Tipo de Conversión BCV</p></li>
+<li><p>Ejecutar el proceso para obtener tasas</p></li>
+<li><p>De manera opcional se puede agregar el proceso al Scheduler para que se ejecute a diario y no se tenga que hacer manual.</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Reportes</span> <span class="pre">Relacionados</span></span></dt>
 <dd><ul class="simple">
 <li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/264">Problemas al Actualizar Correlativos Fiscal a través de “Autorizar Documento Fiscal”</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-ERPYA/issues/900">Obtener Tasas de Cambio BCV</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-VEALCA/issues/200">Proceso Generar Orden desde Hoja Tecnica</a></p></li>
 </ul>
 </dd></dl>
 
@@ -289,7 +337,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="rs-50-4.html" class="btn btn-neutral float-left" title="rs-50-4" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="rs-50" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="rs-50-2.html" class="btn btn-neutral float-right" title="rs-50-2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
