@@ -19,3 +19,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     shipment/index
     credit-note-cxc
     debit-note-cxc
+    pos-new-ui/index
