@@ -82,6 +82,7 @@
     - 10290_Add_Time_Control_Entity_Type.xml
     - 10330_ECA45_Add_Source_Order_Line_Reference.xml
     - 10300_ECA45_Add_Surcharge_Product_to_Resource.xml
+    - 10340_ECA45_Add_Time_Control_Form.xml
 
 
 .. data:: Novedades
