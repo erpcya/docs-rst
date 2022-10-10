@@ -1,11 +1,12 @@
 .. _documento/versión-50-4:
 
-.. _Obtener Tasas de Cambio BCV: https://github.com/erpcya/Control-ERPYA/issues/900
+.. _Manejo de Control de Parques: https://github.com/erpcya/Control-ERPYA/issues/909
+.. _Manejo de contról de tiempo en Parques: https://stackoverflow.com/c/erpya/questions/370/371#371
 
 **rs-50-4**
 ===========
 
-**Fecha de Liberación:** 2022-09-27
+**Fecha de Liberación:** 2022-10-05
 -----------------------------------
 
 .. data:: Soporte a Versiones
@@ -17,7 +18,7 @@
 - Cloud-Service-Management: 1.2.7
 - Cash-Management: 1.1.4
 - Currency-Convert-Documents: 1.1.5
-- Farmer-Assistance-Program: 1.4.9
+- Farmer-Assistance-Program: 1.5.1
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.6
 - Fiscal-Printer: 1.5.7
@@ -59,38 +60,40 @@
 - Vue-StoreFront-API: 1.0.9
 - Mercado-Libre-Venezuela-API: 1.0.8
 - Common-Functionalities: 1.0.0
-- FAP-Venezuela-Location: 1.0.9
+- FAP-Venezuela-Location: 1.1.2
 - LVE-AdditionalTax: 1.2.2
+- Time-Control: 1.0.0
 
 .. data:: Detalle Técnico
 
-- Exchange-Operation-System:
+- Time-Control:
 
-  - Add support to BCV Api Deno
-  
+  - Add new functionality for Time Control for Parkings
+
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
 - Aplicar los XML's:
   
-  - Exchange-Operation-System:
+  - Time-Control:
 
-    - 07310_Add_App_support_to_BCVApiDeno.xml
-    - 07320_Rename_Package_for_EOS.xml
+    - 10310_ECA45_Add_Setup_for_Time_Control.xml
+    - 10320_ECA45_Add_Maximum_Quantity.xml
+    - 10290_Add_Time_Control_Entity_Type.xml
+    - 10330_ECA45_Add_Source_Order_Line_Reference.xml
+    - 10300_ECA45_Add_Surcharge_Product_to_Resource.xml
 
 
 .. data:: Novedades
 
-- Se agrega funcionalidad para obtener tasas de cambio del Banco Central de Venezuela (BCV) a través de un REST Api.
-- Esta actualización es ideal para evitar la carga manual de las tasas de cambio del BCV todos los días
+- Se agrega nueva funcionalidad para el control de tiempo muy útil para manejo de estacionamientos, parques y otros con manejo de control de entrada y salida
 
 .. data:: Tomar en Cuenta
 
-- Ejecutar el setup: Create BCVApiDeno Rate Provider
-- Asignar el registro de Aplicación BCV Api Deno al Tipo de Conversión BCV
-- Ejecutar el proceso para obtener tasas
-- De manera opcional se puede agregar el proceso al Scheduler para que se ejecute a diario y no se tenga que hacer manual.
+- Al aplicar los XML's se agregan columnas en las tablas C_OrderLine y S_Resource, es importante que se valide la sincronización de las mismas
+- Estos proyectos únicamente funcionan con validadores de modelo y es necesario reiniciar el servicio para que se puedan aplicar los cambios
 
 .. data:: Reportes Relacionados
 
-  - `Obtener Tasas de Cambio BCV`_
+  - `Manejo de Control de Parques`_
+  - `Manejo de contról de tiempo en Parques`_

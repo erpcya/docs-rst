@@ -144,8 +144,8 @@
              
   <section id="rs-50-4">
 <h1><strong>rs-50-4</strong><a class="headerlink" href="#rs-50-4" title="Permalink to this headline"></a></h1>
-<section id="fecha-de-liberacion-2022-09-27">
-<h2><strong>Fecha de Liberación:</strong> 2022-09-27<a class="headerlink" href="#fecha-de-liberacion-2022-09-27" title="Permalink to this headline"></a></h2>
+<section id="fecha-de-liberacion-2022-10-05">
+<h2><strong>Fecha de Liberación:</strong> 2022-10-05<a class="headerlink" href="#fecha-de-liberacion-2022-10-05" title="Permalink to this headline"></a></h2>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Soporte</span> <span class="pre">a</span> <span class="pre">Versiones</span></span></dt>
@@ -159,7 +159,7 @@
 <li><p>Cloud-Service-Management: 1.2.7</p></li>
 <li><p>Cash-Management: 1.1.4</p></li>
 <li><p>Currency-Convert-Documents: 1.1.5</p></li>
-<li><p>Farmer-Assistance-Program: 1.4.9</p></li>
+<li><p>Farmer-Assistance-Program: 1.5.1</p></li>
 <li><p>RethinkDB-Replicator-Client: 1.1.5</p></li>
 <li><p>Third-Party-Access: 1.0.6</p></li>
 <li><p>Fiscal-Printer: 1.5.7</p></li>
@@ -201,8 +201,9 @@
 <li><p>Vue-StoreFront-API: 1.0.9</p></li>
 <li><p>Mercado-Libre-Venezuela-API: 1.0.8</p></li>
 <li><p>Common-Functionalities: 1.0.0</p></li>
-<li><p>FAP-Venezuela-Location: 1.0.9</p></li>
+<li><p>FAP-Venezuela-Location: 1.1.2</p></li>
 <li><p>LVE-AdditionalTax: 1.2.2</p></li>
+<li><p>Time-Control: 1.0.0</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -210,9 +211,9 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Exchange-Operation-System:</p>
+<li><p>Time-Control:</p>
 <ul>
-<li><p>Add support to BCV Api Deno</p></li>
+<li><p>Add new functionality for Time Control for Parkings</p></li>
 </ul>
 </li>
 </ul>
@@ -225,10 +226,13 @@
 <li><p>Aplicar binario de la aplicación</p></li>
 <li><p>Aplicar los XML’s:</p>
 <ul>
-<li><p>Exchange-Operation-System:</p>
+<li><p>Time-Control:</p>
 <ul>
-<li><p>07310_Add_App_support_to_BCVApiDeno.xml</p></li>
-<li><p>07320_Rename_Package_for_EOS.xml</p></li>
+<li><p>10310_ECA45_Add_Setup_for_Time_Control.xml</p></li>
+<li><p>10320_ECA45_Add_Maximum_Quantity.xml</p></li>
+<li><p>10290_Add_Time_Control_Entity_Type.xml</p></li>
+<li><p>10330_ECA45_Add_Source_Order_Line_Reference.xml</p></li>
+<li><p>10300_ECA45_Add_Surcharge_Product_to_Resource.xml</p></li>
 </ul>
 </li>
 </ul>
@@ -240,8 +244,7 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Se agrega funcionalidad para obtener tasas de cambio del Banco Central de Venezuela (BCV) a través de un REST Api.</p></li>
-<li><p>Esta actualización es ideal para evitar la carga manual de las tasas de cambio del BCV todos los días</p></li>
+<li><p>Se agrega nueva funcionalidad para el control de tiempo muy útil para manejo de estacionamientos, parques y otros con manejo de control de entrada y salida</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -249,16 +252,15 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Ejecutar el setup: Create BCVApiDeno Rate Provider</p></li>
-<li><p>Asignar el registro de Aplicación BCV Api Deno al Tipo de Conversión BCV</p></li>
-<li><p>Ejecutar el proceso para obtener tasas</p></li>
-<li><p>De manera opcional se puede agregar el proceso al Scheduler para que se ejecute a diario y no se tenga que hacer manual.</p></li>
+<li><p>Al aplicar los XML’s se agregan columnas en las tablas C_OrderLine y S_Resource, es importante que se valide la sincronización de las mismas</p></li>
+<li><p>Estos proyectos únicamente funcionan con validadores de modelo y es necesario reiniciar el servicio para que se puedan aplicar los cambios</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Reportes</span> <span class="pre">Relacionados</span></span></dt>
 <dd><ul class="simple">
-<li><p><a class="reference external" href="https://github.com/erpcya/Control-ERPYA/issues/900">Obtener Tasas de Cambio BCV</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-ERPYA/issues/909">Manejo de Control de Parques</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/c/erpya/questions/370/371#371">Manejo de contról de tiempo en Parques</a></p></li>
 </ul>
 </dd></dl>
 
