@@ -85,7 +85,7 @@
 
 - Al aplicar estos cambios se debe validar que el cálculo del IVA en el Punto de Ventas funcione correctamente
 
-.. data:: Context
+.. data:: Contexto
 
 - Venta por Punto de Ventas con agentes de retención como clientes
 - Generación de TXT desde el reporte de nómina para el caso de BANAVIH
