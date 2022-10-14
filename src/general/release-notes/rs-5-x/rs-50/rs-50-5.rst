@@ -62,7 +62,7 @@
 - Common-Functionalities: 1.0.0
 - FAP-Venezuela-Location: 1.1.2
 - LVE-AdditionalTax: 1.2.2
-- Time-Control: 1.0.0
+- Time-Control: 1.0.1
 
 .. data:: Detalle Técnico
 
@@ -70,6 +70,10 @@
 
   - Se corrige error con NPE en export de BANAVIH con empleados sin apellido registrado
   - Se corrige error con NPE en el cálculo de IVA desde el POS
+
+- Time-Control:
+
+  - Add support to description line of surcharge product
 
 .. data:: Requerimientos
 
@@ -80,6 +84,7 @@
 
 - Se corrige error con NPE en export de BANAVIH con empleados sin apellido registrado
 - Se corrige error con NPE en el cálculo de IVA desde el POS
+- Se agrega descripción de la línea original para los recargos de tiempo en contról de entrada y salida o estacionamientos
 
 .. data:: Tomar en Cuenta
 
@@ -89,6 +94,7 @@
 
 - Venta por Punto de Ventas con agentes de retención como clientes
 - Generación de TXT desde el reporte de nómina para el caso de BANAVIH
+- Venta por Punto de Ventas para productos del tipo recurso y contról de tiempo
 
 .. data:: Reportes Relacionados
 
