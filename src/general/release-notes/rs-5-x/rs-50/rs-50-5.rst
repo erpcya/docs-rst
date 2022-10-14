@@ -6,7 +6,7 @@
 **rs-50-5**
 ===========
 
-**Fecha de Liberación:** 2022-10-05
+**Fecha de Liberación:** 2022-10-13
 -----------------------------------
 
 .. data:: Soporte a Versiones
