@@ -80,6 +80,11 @@
 - Se actualiza librería de envío de correo electrónico, corrigiendo errores de conexión para TLS
 - Ya se puede enviar correo a través de servicios con soporte TLS y STARTTLS
 
+.. data:: Contexto
+
+- Envío de Correo desde cualquier punto de ADempiere
+
+
 |Procesos Appwrite|
 
 .. data:: Reportes Relacionados
