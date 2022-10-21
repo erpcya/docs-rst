@@ -91,5 +91,4 @@
 
 .. data:: Reportes Relacionados
 
-  - `Error al Generar TXT FAOV`_
   - `Javalang al Exportar txt Banco del Caribe`_
