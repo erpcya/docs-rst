@@ -1,4 +1,4 @@
-.. _documento/versión-50-5:
+.. _documento/versión-50-6:
 
 .. |Procesos Appwrite| image:: resources/rs-50-6-appwrite-integration.png
 .. _Javalang al Exportar txt Banco del Caribe: https://github.com/adempiere/LVE/issues/57
