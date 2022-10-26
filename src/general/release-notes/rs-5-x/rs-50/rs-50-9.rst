@@ -28,7 +28,7 @@
 - Travel-Agency-Management: 1.1.1
 - Withholding-Engine: 1.2.8
 - Migration-Tools: 1.0.4
-- LVE: 2.0.7
+- LVE: 2.0.8
 - Performance-Analysis: 1.1.4
 - Queue-Manager: 1.0.7
 - Notification-Queue: 1.1.6
@@ -72,6 +72,7 @@
   - Se agrega nueva versión del TXT del BNC
   - Se agrega nueva versión del Cargador de Extracto bancario de l Banco del Tesoro
   - Se corrige problemas con formato de TXT de BANAVIH para segundo nombre de empleado
+  - Se agrega algoritmo de coincidencia para lotes de puntos de ventas de débito directo con coincidencia sólo por (Moneda, Pago / Cobro, Número de Lote exacto)
 
 .. data:: Requerimientos
 
