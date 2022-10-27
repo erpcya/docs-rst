@@ -73,6 +73,8 @@
   - Se agrega nueva versión del Cargador de Extracto bancario de l Banco del Tesoro
   - Se corrige problemas con formato de TXT de BANAVIH para segundo nombre de empleado
   - Se agrega algoritmo de coincidencia para lotes de puntos de ventas de débito directo con coincidencia sólo por (Moneda, Pago / Cobro, Número de Lote exacto)
+  - Se corrige problema con monto cero en TXT de BANAVIH, referencia a http://www.sofitasa.com/portales/Sofitasa/uploads/file/guia_rapida_faov2.pdf
+  - Se corrige problema con TXT del BNC en la última columna para enviar sólo números
 
 .. data:: Requerimientos
 
@@ -83,6 +85,9 @@
 - Se agrega nueva versión del TXT del BNC
 - Se agrega nueva versión del Cargador de Extracto bancario de l Banco del Tesoro
 - Se corrige problemas con formato de TXT de BANAVIH para segundo nombre de empleado
+- Se agrega algoritmo de coincidencia para lotes de puntos de ventas de débito directo con coincidencia sólo por (Moneda, Pago / Cobro, Número de Lote exacto)
+- Se corrige problema con monto cero en TXT de BANAVIH, referencia a http://www.sofitasa.com/portales/Sofitasa/uploads/file/guia_rapida_faov2.pdf
+- Se corrige problema con TXT del BNC en la última columna para enviar sólo números
 
 .. data:: Contexto
 
