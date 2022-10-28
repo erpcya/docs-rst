@@ -130,6 +130,8 @@
 - Exportación de TXT con el Banco BNC
 - Exportación de TXT desde nómina para BANAVIH
 - Planificación de Visita
+- Carga de Orden de Venta
+- Envío de correo para protolo SSL / TLS / STARTTLS
 
 .. data:: Reportes Relacionados
 
