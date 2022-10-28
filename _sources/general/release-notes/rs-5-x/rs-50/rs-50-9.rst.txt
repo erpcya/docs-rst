@@ -15,7 +15,7 @@
 **rs-50-9**
 ===========
 
-**Fecha de Liberación:** 2022-10-26
+**Fecha de Liberación:** 2022-10-28
 -----------------------------------
 
 .. data:: Soporte a Versiones
@@ -105,6 +105,7 @@
   - Point-Of-Sales-Improvements:
 
     - 09900_ECA14_Add_some_fields_of_control.xml
+    - 09910_ECA14_Add_source_payment_method_for_reference.xml
 
   - Sales-Force-Management:
 
