@@ -44,7 +44,6 @@
 - Record-Weight: 1.0.7
 - Raw-Material-Receipt: 1.1.7
 - Additional-Reports: 1.2.7
-- adempiere-customer-backend: 1.7.8
 - Material-Management-Improvements: 1.1.6
 - Warehouse-Management-System-Improvements: 1.1.6
 - Import-Export-Management: 1.0.5
@@ -68,6 +67,12 @@
 - FAP-Venezuela-Location: 1.1.2
 - LVE-AdditionalTax: 1.2.3
 - Time-Control: 1.0.2
+
+.. data:: Servicios
+
+  - adempiere-customer-backend: 1.7.9
+  - gateway-customer-api: solop-rs-1.2.1
+  - frontend-core: 1.7.9
 
 .. data:: Detalle Técnico
 
