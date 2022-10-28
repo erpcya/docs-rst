@@ -1,4 +1,4 @@
-.. _documento/versión-50-8:
+.. _documento/versión-50-9:
 
 .. _TXT del Banco Nacional de Crédito: https://github.com/erpcya/Control-PROSEIN/issues/309
 .. _Ingresos se muestran en cero en el estado de cuenta de ADempiere: https://github.com/erpcya/Control-PROSEIN/issues/307

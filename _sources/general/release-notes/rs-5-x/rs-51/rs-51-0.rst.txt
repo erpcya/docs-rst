@@ -1,0 +1,107 @@
+.. _documento/versión-51-0:
+
+.. _Límite de porcentaje de descuento por asignación de usuario: https://github.com/erpcya/Control-PROSEIN/issues/302
+.. _Cálculo de IGTF sobre el monto realmente pagado: https://github.com/erpcya/Control-ERPYA/issues/925
+.. _Pago Móvil, Transferencia y Punto de Venta no establecen el número: https://github.com/erpcya/Control-PROSEIN/issues/304
+.. _Agregar Información confidencial al terminal: https://github.com/erpcya/Control-PROSEIN/issues/314
+.. _Permitir Asignar Vendedor en el POS: https://github.com/erpcya/Control-PROSEIN/issues/315
+.. _Agregar funcionalidad para bloquear la opción de modificar un cliente: https://github.com/erpcya/Control-PROSEIN/issues/316
+
+
+**rs-51-0**
+===========
+
+**Fecha de Liberación:** 2022-10-28
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-35.8
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.4
+- Cloud-Service-Management: 1.2.7
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.1.6
+- Farmer-Assistance-Program: 1.5.1
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.6
+- Fiscal-Printer: 1.5.7
+- Sales-Force-Management: 1.1.6
+- Delivery-Management-Service: 1.2.0
+- Travel-Agency-Management: 1.1.1
+- Withholding-Engine: 1.2.8
+- Migration-Tools: 1.0.4
+- LVE: 2.0.8
+- Performance-Analysis: 1.1.4
+- Queue-Manager: 1.0.7
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.5.2
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.4.7
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.7
+- Additional-Reports: 1.2.7
+- adempiere-customer-backend: 1.7.8
+- Material-Management-Improvements: 1.1.6
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.5
+- Update-Management: 1.1.9
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.1.4
+- ERP-Payroll-Definition: 1.0.6
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.1.5
+- Vue-StoreFront-API: 1.0.9
+- Mercado-Libre-Venezuela-API: 1.0.8
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.1.2
+- LVE-AdditionalTax: 1.2.3
+- Time-Control: 1.0.2
+
+.. data:: Detalle Técnico
+
+- LVE-AdditionalTax:
+
+  - Add support to generate FBTT based on real amount (Payment Amount - Refund Amount)
+
+- adempiere-customer-backend:
+
+  - Se valida Límite de 
+
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+  
+.. data:: Novedades
+
+- Se agrega soporte para cálculo de IGTF en función del monto real (Monto del Pago - el Reembolso)
+- Se valida límite de porcentaje de descuento por asignación de usuario
+- Se establece el número de referencia al número de documento del cobro al momento de cargar un cobro por punto de ventas del tipo transferencia, Pago Movil
+- Se agrega soporte para la bandera de información confidencial, esto permite que sólo los vendedores puedan ver sus ventas y no ver las de nadie mas
+- Se agrega funcionalidad para poder cambiar el vendedor asignado a la orden
+- Se agrega funcionalidad para bloquear la modificación de clientes después de crearlos
+
+.. data:: Contexto
+
+- Punto de Ventas, operaciones
+- Punto de Ventas, cobro en otra moneda
+
+.. data:: Reportes Relacionados
+
+  - `Cálculo de IGTF sobre el monto realmente pagado`_
+  - `Límite de porcentaje de descuento por asignación de usuario`_
+  - `Pago Móvil, Transferencia y Punto de Venta no establecen el número`_
+  - `Agregar Información confidencial al terminal`_
+  - `Permitir Asignar Vendedor en el POS`_
+  - `Agregar funcionalidad para bloquear la opción de modificar un cliente`_
