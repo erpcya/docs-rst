@@ -168,7 +168,7 @@
 <li><p>RethinkDB-Replicator-Client: 1.1.5</p></li>
 <li><p>Third-Party-Access: 1.0.6</p></li>
 <li><p>Fiscal-Printer: 1.5.7</p></li>
-<li><p>Sales-Force-Management: 1.1.5</p></li>
+<li><p>Sales-Force-Management: 1.1.6</p></li>
 <li><p>Delivery-Management-Service: 1.2.0</p></li>
 <li><p>Travel-Agency-Management: 1.1.1</p></li>
 <li><p>Withholding-Engine: 1.2.8</p></li>
@@ -177,7 +177,7 @@
 <li><p>Performance-Analysis: 1.1.4</p></li>
 <li><p>Queue-Manager: 1.0.7</p></li>
 <li><p>Notification-Queue: 1.1.6</p></li>
-<li><p>Point-Of-Sales-Improvements: 1.5.1</p></li>
+<li><p>Point-Of-Sales-Improvements: 1.5.2</p></li>
 <li><p>Kafka-Replicator-Client: 1.0.9</p></li>
 <li><p>Kafka-Util: 1.0.2</p></li>
 <li><p>Core-Tools: 1.4.7</p></li>
@@ -226,6 +226,21 @@
 <li><p>Se corrige problema con TXT del BNC en la última columna para enviar sólo números</p></li>
 </ul>
 </li>
+<li><p>Point-Of-Sales-Improvements:</p>
+<ul>
+<li><p>Se agrega configuración para bloquear órdenes por vendedor como “Información Confidencial”</p></li>
+<li><p>Se agrega configuración para permitir modificar clientes desde el POS</p></li>
+<li><p>Se agrega moneda para el monto de ajuste de documentos</p></li>
+<li><p>Se agrega configuración basada en porcentaje de ajuste de documento: Esto permitirá definir un porcentaje para ajustar documentos en lugar de un monto</p></li>
+</ul>
+</li>
+<li><p>Sales-Force-Management:</p>
+<ul>
+<li><p>Se agrega linea de planificación de visita a la orden de venta</p></li>
+<li><p>Se agrega pestaña para asignar varias listas de precios a una planificación de visita</p></li>
+<li><p>Se agregan columnas para predeterminar dimensiones contables desde la planificación de visita y la linea de planificación de visita</p></li>
+</ul>
+</li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Requerimientos">
@@ -234,6 +249,21 @@
 
 <ul class="simple">
 <li><p>Aplicar binario de la aplicación</p></li>
+<li><p>Aplicar los XML’s:</p>
+<ul>
+<li><p>Point-Of-Sales-Improvements:</p>
+<ul>
+<li><p>09900_ECA14_Add_some_fields_of_control.xml</p></li>
+</ul>
+</li>
+<li><p>Sales-Force-Management:</p>
+<ul>
+<li><p>06610_SFM_Add_Price_List_for_Visit_Schedule.xml</p></li>
+<li><p>06620_Add_Process_for_Communication_With_API.xml</p></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Novedades">
@@ -247,6 +277,10 @@
 <li><p>Se agrega algoritmo de coincidencia para lotes de puntos de ventas de débito directo con coincidencia sólo por (Moneda, Pago / Cobro, Número de Lote exacto)</p></li>
 <li><p>Se corrige problema con monto cero en TXT de BANAVIH, referencia a <a class="reference external" href="http://www.sofitasa.com/portales/Sofitasa/uploads/file/guia_rapida_faov2.pdf">http://www.sofitasa.com/portales/Sofitasa/uploads/file/guia_rapida_faov2.pdf</a></p></li>
 <li><p>Se corrige problema con TXT del BNC en la última columna para enviar sólo números</p></li>
+<li><p>Se agrega configuración para bloquear órdenes por vendedor como “Información Confidencial”</p></li>
+<li><p>Se agrega configuración para permitir modificar clientes desde el POS</p></li>
+<li><p>Se agrega moneda para el monto de ajuste de documentos</p></li>
+<li><p>Se agrega configuración basada en porcentaje de ajuste de documento: Esto permitirá definir un porcentaje para ajustar documentos en lugar de un monto</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Contexto">
@@ -266,6 +300,13 @@
 <li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/309">TXT del Banco Nacional de Crédito</a></p></li>
 <li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/307">Ingresos se muestran en cero en el estado de cuenta de ADempiere</a></p></li>
 <li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/303">TXT BANAVIH</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/310">Comisiones de PDV Tiendas</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/312">Montos en TXT Banavih</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/295">Configuración de Correo Electrónico</a></p></li>
+<li><p><cite>Comisiones de PDV Tiendas`</cite></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/c/erpya/questions/330">¿Cual es la ruta de la clase del TXT de BNC?</a></p></li>
+<li><p><a href="#id2"><span class="problematic" id="id3">`</span></a>¿Cuál es la ruta del Cargador de Extracto del Banco del Tesoro?  - `</p></li>
+<li><p><a href="#id4"><span class="problematic" id="id5">`</span></a>¿Cuál es el algoritmo de coincidencia para Puntos de Ventas de Débito Directo?  - `</p></li>
 </ul>
 </dd></dl>
 

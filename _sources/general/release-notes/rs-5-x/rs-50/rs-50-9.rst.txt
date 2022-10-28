@@ -3,6 +3,14 @@
 .. _TXT del Banco Nacional de Crédito: https://github.com/erpcya/Control-PROSEIN/issues/309
 .. _Ingresos se muestran en cero en el estado de cuenta de ADempiere: https://github.com/erpcya/Control-PROSEIN/issues/307
 .. _TXT BANAVIH: https://github.com/erpcya/Control-PROSEIN/issues/303
+.. _Comisiones de PDV Tiendas: https://github.com/erpcya/Control-PROSEIN/issues/310
+.. _Montos en TXT Banavih: https://github.com/erpcya/Control-PROSEIN/issues/312
+.. _Configuración de Correo Electrónico: https://github.com/erpcya/Control-PROSEIN/issues/295
+.. _Comisiones de PDV Tiendas: https://github.com/erpcya/Control-PROSEIN/issues/310
+.. _¿Cual es la ruta de la clase del TXT de BNC?: https://stackoverflow.com/c/erpya/questions/330
+.. _¿Cuál es la ruta del Cargador de Extracto del Banco del Tesoro?: https://stackoverflow.com/c/erpya/questions/377
+.. _¿Cuál es el algoritmo de coincidencia para Puntos de Ventas de Débito Directo?: https://stackoverflow.com/c/erpya/questions/375
+
 
 **rs-50-9**
 ===========
@@ -23,7 +31,7 @@
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.6
 - Fiscal-Printer: 1.5.7
-- Sales-Force-Management: 1.1.5
+- Sales-Force-Management: 1.1.6
 - Delivery-Management-Service: 1.2.0
 - Travel-Agency-Management: 1.1.1
 - Withholding-Engine: 1.2.8
@@ -32,7 +40,7 @@
 - Performance-Analysis: 1.1.4
 - Queue-Manager: 1.0.7
 - Notification-Queue: 1.1.6
-- Point-Of-Sales-Improvements: 1.5.1
+- Point-Of-Sales-Improvements: 1.5.2
 - Kafka-Replicator-Client: 1.0.9
 - Kafka-Util: 1.0.2
 - Core-Tools: 1.4.7
@@ -76,9 +84,32 @@
   - Se corrige problema con monto cero en TXT de BANAVIH, referencia a http://www.sofitasa.com/portales/Sofitasa/uploads/file/guia_rapida_faov2.pdf
   - Se corrige problema con TXT del BNC en la última columna para enviar sólo números
 
+- Point-Of-Sales-Improvements:
+  
+  - Se agrega configuración para bloquear órdenes por vendedor como "Información Confidencial"
+  - Se agrega configuración para permitir modificar clientes desde el POS
+  - Se agrega moneda para el monto de ajuste de documentos
+  - Se agrega configuración basada en porcentaje de ajuste de documento: Esto permitirá definir un porcentaje para ajustar documentos en lugar de un monto
+
+- Sales-Force-Management:
+
+  - Se agrega linea de planificación de visita a la orden de venta
+  - Se agrega pestaña para asignar varias listas de precios a una planificación de visita
+  - Se agregan columnas para predeterminar dimensiones contables desde la planificación de visita y la linea de planificación de visita
+
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
+- Aplicar los XML's:
+  
+  - Point-Of-Sales-Improvements:
+
+    - 09900_ECA14_Add_some_fields_of_control.xml
+
+  - Sales-Force-Management:
+
+    - 06610_SFM_Add_Price_List_for_Visit_Schedule.xml
+    - 06620_Add_Process_for_Communication_With_API.xml
   
 .. data:: Novedades
 
@@ -88,6 +119,10 @@
 - Se agrega algoritmo de coincidencia para lotes de puntos de ventas de débito directo con coincidencia sólo por (Moneda, Pago / Cobro, Número de Lote exacto)
 - Se corrige problema con monto cero en TXT de BANAVIH, referencia a http://www.sofitasa.com/portales/Sofitasa/uploads/file/guia_rapida_faov2.pdf
 - Se corrige problema con TXT del BNC en la última columna para enviar sólo números
+- Se agrega configuración para bloquear órdenes por vendedor como "Información Confidencial"
+- Se agrega configuración para permitir modificar clientes desde el POS
+- Se agrega moneda para el monto de ajuste de documentos
+- Se agrega configuración basada en porcentaje de ajuste de documento: Esto permitirá definir un porcentaje para ajustar documentos en lugar de un monto
 
 .. data:: Contexto
 
@@ -101,3 +136,10 @@
   - `TXT del Banco Nacional de Crédito`_
   - `Ingresos se muestran en cero en el estado de cuenta de ADempiere`_
   - `TXT BANAVIH`_
+  - `Comisiones de PDV Tiendas`_
+  - `Montos en TXT Banavih`_
+  - `Configuración de Correo Electrónico`_
+  - `Comisiones de PDV Tiendas``
+  - `¿Cual es la ruta de la clase del TXT de BNC?`_
+  - `¿Cuál es la ruta del Cargador de Extracto del Banco del Tesoro?  - `
+  - `¿Cuál es el algoritmo de coincidencia para Puntos de Ventas de Débito Directo?  - `
