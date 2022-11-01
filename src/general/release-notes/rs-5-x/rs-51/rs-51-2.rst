@@ -1,6 +1,14 @@
 .. _documento/versión-51-2:
 
 .. _Depósito automático configurado por banco: https://github.com/erpcya/Control-HCIMPORT/issues/62
+.. _Agregar funcionalidad para bloquear la opción de modificar un cliente: https://github.com/erpcya/Control-PROSEIN/issues/316
+.. _Permitir Asignar Vendedor en el POS: https://github.com/erpcya/Control-PROSEIN/issues/315
+.. _Agregar Información confidencial al terminal: https://github.com/erpcya/Control-PROSEIN/issues/314
+.. _Pago Móvil, Transferencia y Punto de Venta no establecen el número: https://github.com/erpcya/Control-PROSEIN/issues/304
+.. _Límite de porcentaje de descuento por asignación de usuario: https://github.com/erpcya/Control-PROSEIN/issues/302
+.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.3
+.. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.2
+.. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.8.1
 
 
 **rs-51-2**
@@ -65,7 +73,7 @@
 
 .. data:: Servicios
 
-  - adempiere-customer-backend: 1.7.9
+  - adempiere-customer-backend: 1.8.1
   - gateway-customer-api: solop-rs-1.2.1
   - frontend-core: 1.7.9
 
@@ -76,6 +84,16 @@
   - Add support to Split Deposit by withdrawal definition
   - Fixed error with bank criteria for deposit
 
+- Point-Of-Sales-Improvements:
+
+  - Add Discount field for line of document
+
+- adempiere-customer-backend:
+
+  - Add support to POS reference for Cash closing
+  - Fixed error with organization for Cash closing
+  - Fixed error with discount of line
+
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
@@ -85,16 +103,38 @@
 
     - 07130_ECA16_Add_SplitDeposit_for_Withdrawal.xml
 
+  - Point-Of-Sales-Improvements:
+
+    - 09920_ECA14_Add_Line_discount_field.xml
+
 .. data:: Novedades
 
 - Se corrige criterio de búsqueda para configuración de depósito automático de caja basado en banco
 - Se agrega soporte para dividir depósitos en depósito automático
+- Se agrega referencia al punto de ventas en el cierre de caja
+- Se corrige error con organización en el cierre de caja generado desde el punto de ventas
+- Se agrega control de descuento a nivel de linea de orden de venta del POS
+- Se agrega control de descuento a nivel de documento del POS
+- Se agrega soporte para manejar pedidos únicos por usuarios que no puedan verlos otros usuarios
+- Se agrega bloqueo de modificación de cliente configurable
+- Se corrige problema con números de documentos cuando son registrados como transferencia o pago móvil
+- Se agrega funcionalidad para asignar vendedor
 
 .. data:: Contexto
 
 - Punto de Ventas, Cierre de Caja
 - Cierre de Caja con depósito automático configurado
+- Nueva UI de ADempiere en el Punto de Ventas
+- Descuento en Punto de Ventas
 
 .. data:: Reportes Relacionados
 
   - `Depósito automático configurado por banco`_
+  - `Agregar funcionalidad para bloquear la opción de modificar un cliente`_
+  - `Permitir Asignar Vendedor en el POS`_
+  - `Agregar Información confidencial al terminal`_
+  - `Pago Móvil, Transferencia y Punto de Venta no establecen el número`_
+  - `Límite de porcentaje de descuento por asignación de usuario`_
+  - `Versión de Backend`_
+  - `Versión de Gateway`_
+  - `Versión de FrontEnd`_
