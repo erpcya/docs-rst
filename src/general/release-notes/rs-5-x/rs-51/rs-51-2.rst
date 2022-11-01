@@ -73,9 +73,9 @@
 
 .. data:: Servicios
 
-  - adempiere-customer-backend: 1.8.1
-  - gateway-customer-api: solop-rs-1.2.1
-  - frontend-core: 1.7.9
+  - adempiere-customer-backend: 1.8.3
+  - gateway-customer-api: solop-rs-1.2.2
+  - frontend-core: 1.8.1
 
 .. data:: Detalle Técnico
 
