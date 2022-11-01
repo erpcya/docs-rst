@@ -7,7 +7,7 @@
 **rs-51-1**
 ===========
 
-**Fecha de Liberación:** 2022-10-28
+**Fecha de Liberación:** 2022-11-01
 -----------------------------------
 
 .. data:: Soporte a Versiones
@@ -86,8 +86,7 @@
 
 .. data:: Contexto
 
-- Punto de Ventas, operaciones
-- Punto de Ventas, cobro en otra moneda
+- Exportación de TXT, específicamente Bancaribe
 
 .. data:: Reportes Relacionados
 
