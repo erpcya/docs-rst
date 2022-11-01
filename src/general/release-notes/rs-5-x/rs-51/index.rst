@@ -11,5 +11,6 @@ Las notas de liberación muestran todo el histórico de cambios en las versiones
     :maxdepth: 2
 
 
+   rs-51-2
    rs-51-1
    rs-51-0

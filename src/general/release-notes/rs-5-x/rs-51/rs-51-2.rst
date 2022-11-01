@@ -1,10 +1,9 @@
-.. _documento/versión-51-1:
+.. _documento/versión-51-2:
 
-.. _TXT de Bancaribe Detallado: https://github.com/erpcya/Control-PROSEIN/issues/323
-.. _¿Cuál es la ruta de la clase del TXT de Bancaribe 2022?: https://stackoverflow.com/c/erpya/questions/326/380#380
+.. _Depósito automático configurado por banco: https://github.com/erpcya/Control-HCIMPORT/issues/62
 
 
-**rs-51-1**
+**rs-51-2**
 ===========
 
 **Fecha de Liberación:** 2022-11-01
@@ -17,7 +16,7 @@
 - Consigned-Material: 1.3.0
 - Exchange-Operation-System: 1.2.4
 - Cloud-Service-Management: 1.2.7
-- Cash-Management: 1.1.4
+- Cash-Management: 1.1.5
 - Currency-Convert-Documents: 1.1.6
 - Farmer-Assistance-Program: 1.5.1
 - RethinkDB-Replicator-Client: 1.1.5
@@ -72,23 +71,30 @@
 
 .. data:: Detalle Técnico
 
-- LVE:
+- Cash-Management:
 
-  - Se agrega soporte a TXT de pago detallado de Bancaribe
+  - Add support to Split Deposit by withdrawal definition
+  - Fixed error with bank criteria for deposit
 
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
-  
+- Aplicar los XML's:
+
+  - Cash-Management:
+
+    - 07130_ECA16_Add_SplitDeposit_for_Withdrawal.xml
+
 .. data:: Novedades
 
-- Se agrega soporte a TXT de pago detallado de Bancaribe
+- Se corrige criterio de búsqueda para configuración de depósito automático de caja basado en banco
+- Se agrega soporte para dividir depósitos en depósito automático
 
 .. data:: Contexto
 
-- Exportación de TXT, específicamente Bancaribe
+- Punto de Ventas, Cierre de Caja
+- Cierre de Caja con depósito automático configurado
 
 .. data:: Reportes Relacionados
 
-  - `TXT de Bancaribe Detallado`_
-  - `¿Cuál es la ruta de la clase del TXT de Bancaribe 2022?`_
+  - `Depósito automático configurado por banco`_
