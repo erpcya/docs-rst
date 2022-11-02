@@ -132,6 +132,9 @@
   - 09630_Add_Base_for_Tax_Column_on_Tax_Definition.xml
   - 09640_Changes_for_Based_And_Tax_on_SB_Generate_Tax.xml
   
+- Cloud-Service-Management:
+  
+  - 036_Add_App_Support_for_AppWrite.xml
 
 .. data:: Novedades
 
