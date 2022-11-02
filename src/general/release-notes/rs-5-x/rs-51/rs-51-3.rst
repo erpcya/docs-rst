@@ -1,7 +1,7 @@
 .. _documento/versión-51-3:
 
 .. _TXT de Bancaribe Detallado: https://github.com/erpcya/Control-PROSEIN/issues/323
-.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.3
+.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.4
 .. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.2
 .. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.8.1
 
@@ -89,6 +89,11 @@
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
+- Aplicar XML's:
+
+- Point-Of-Sales-Improvements:
+  
+  - 09930_ECA14_Add_error_message_for_Template_customer.xml
 
 .. data:: Novedades
 
