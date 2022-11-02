@@ -207,7 +207,7 @@
 <dt class="sig sig-object py" id="Servicios">
 <span class="sig-name descname"><span class="pre">Servicios</span></span><a class="headerlink" href="#Servicios" title="Permalink to this definition"></a></dt>
 <dd><ul class="simple">
-<li><p>adempiere-customer-backend: 1.7.9</p></li>
+<li><p>adempiere-customer-backend: 1.8.1</p></li>
 <li><p>gateway-customer-api: solop-rs-1.2.1</p></li>
 <li><p>frontend-core: 1.7.9</p></li>
 </ul>
@@ -225,6 +225,18 @@
 <li><p>Fixed error with bank criteria for deposit</p></li>
 </ul>
 </li>
+<li><p>Point-Of-Sales-Improvements:</p>
+<ul>
+<li><p>Add Discount field for line of document</p></li>
+</ul>
+</li>
+<li><p>adempiere-customer-backend:</p>
+<ul>
+<li><p>Add support to POS reference for Cash closing</p></li>
+<li><p>Fixed error with organization for Cash closing</p></li>
+<li><p>Fixed error with discount of line</p></li>
+</ul>
+</li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Requerimientos">
@@ -240,6 +252,11 @@
 <li><p>07130_ECA16_Add_SplitDeposit_for_Withdrawal.xml</p></li>
 </ul>
 </li>
+<li><p>Point-Of-Sales-Improvements:</p>
+<ul>
+<li><p>09920_ECA14_Add_Line_discount_field.xml</p></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -251,6 +268,14 @@
 <ul class="simple">
 <li><p>Se corrige criterio de búsqueda para configuración de depósito automático de caja basado en banco</p></li>
 <li><p>Se agrega soporte para dividir depósitos en depósito automático</p></li>
+<li><p>Se agrega referencia al punto de ventas en el cierre de caja</p></li>
+<li><p>Se corrige error con organización en el cierre de caja generado desde el punto de ventas</p></li>
+<li><p>Se agrega control de descuento a nivel de linea de orden de venta del POS</p></li>
+<li><p>Se agrega control de descuento a nivel de documento del POS</p></li>
+<li><p>Se agrega soporte para manejar pedidos únicos por usuarios que no puedan verlos otros usuarios</p></li>
+<li><p>Se agrega bloqueo de modificación de cliente configurable</p></li>
+<li><p>Se corrige problema con números de documentos cuando son registrados como transferencia o pago móvil</p></li>
+<li><p>Se agrega funcionalidad para asignar vendedor</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Contexto">
@@ -260,12 +285,22 @@
 <ul class="simple">
 <li><p>Punto de Ventas, Cierre de Caja</p></li>
 <li><p>Cierre de Caja con depósito automático configurado</p></li>
+<li><p>Nueva UI de ADempiere en el Punto de Ventas</p></li>
+<li><p>Descuento en Punto de Ventas</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Reportes</span> <span class="pre">Relacionados</span></span></dt>
 <dd><ul class="simple">
 <li><p><a class="reference external" href="https://github.com/erpcya/Control-HCIMPORT/issues/62">Depósito automático configurado por banco</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/316">Agregar funcionalidad para bloquear la opción de modificar un cliente</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/315">Permitir Asignar Vendedor en el POS</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/314">Agregar Información confidencial al terminal</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/304">Pago Móvil, Transferencia y Punto de Venta no establecen el número</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/Control-PROSEIN/issues/302">Límite de porcentaje de descuento por asignación de usuario</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.3">Versión de Backend</a></p></li>
+<li><p><a class="reference external" href="https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.2">Versión de Gateway</a></p></li>
+<li><p><a class="reference external" href="https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.8.1">Versión de FrontEnd</a></p></li>
 </ul>
 </dd></dl>
 
