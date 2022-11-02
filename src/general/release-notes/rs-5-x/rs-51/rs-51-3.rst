@@ -4,6 +4,10 @@
 .. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.4
 .. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.2
 .. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.8.1
+.. _Dar soporte a Copiar Tipo de conversión: https://github.com/erpcya/Control-ERPYA/issues/928
+.. _Al crear la planilla no establece Factura Relacionada: https://github.com/erpcya/Control-ERPYA/issues/927
+.. _Al crear una planilla Acumula el Monto Base: https://github.com/erpcya/Control-ERPYA/issues/926
+
 
 
 **rs-51-3**
@@ -18,14 +22,14 @@
 - CST-STD: Versión de Liberación: rs-35.8
 - Consigned-Material: 1.3.0
 - Exchange-Operation-System: 1.2.4
-- Cloud-Service-Management: 1.2.7
+- Cloud-Service-Management: 1.2.9
 - Cash-Management: 1.1.5
-- Currency-Convert-Documents: 1.1.6
+- Currency-Convert-Documents: 1.1.7
 - Farmer-Assistance-Program: 1.5.1
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.6
 - Fiscal-Printer: 1.5.7
-- Sales-Force-Management: 1.1.6
+- Sales-Force-Management: 1.1.7
 - Delivery-Management-Service: 1.2.0
 - Travel-Agency-Management: 1.1.1
 - Withholding-Engine: 1.2.8
@@ -44,7 +48,7 @@
 - Additional-Reports: 1.2.7
 - Material-Management-Improvements: 1.1.6
 - Warehouse-Management-System-Improvements: 1.1.6
-- Import-Export-Management: 1.0.5
+- Import-Export-Management: 1.0.6
 - Update-Management: 1.1.9
 - Mini-Retail: 1.1.7
 - Print-Queue: 1.1.4
@@ -85,7 +89,29 @@
 - adempiere-customer-backend:
 
   - Avoid change template business partner in POS
+  
+- Sales-Force-Management:
 
+  - Add Support to Response without content
+  - Add Support to Create Index
+  - Set PinCode for User Password
+  - Changes in Process for Send Data and Create Structure
+  - Add Support to Create Index for Sales Order Document
+
+- Currency-Convert-Documents:
+
+  - Add Support to Write Expedient on Conversion Type by Documents
+
+- Import-Export-Management:
+
+  - Add Field for Base Tax Calculation
+  - Add Tax Amount Generated for Expedient
+
+- Cloud-Service-Management:
+
+  - Add App Support to AppWrite
+  - Changes in Get Registry Data Process
+  
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
@@ -95,15 +121,39 @@
   
   - 09930_ECA14_Add_error_message_for_Template_customer.xml
 
+- Sales-Force-Management:
+
+  - 06630_Add_Parameters_to_Send_Data_to_AppWrite_Process.xml
+  
+- Import-Export-Management:
+
+  - 09610_Add_Relation_Type_for_Expedient_And_Currency_Type.xml
+  - 09620_Add_Tax_Generated_Amount_to_Expedient.xml
+  - 09630_Add_Base_for_Tax_Column_on_Tax_Definition.xml
+  - 09640_Changes_for_Based_And_Tax_on_SB_Generate_Tax.xml
+  
+
 .. data:: Novedades
 
 - Se corrige problema con espacios en blanco para nombres de proveedores en TXT de Bancaribe
 - Se agrega validación para que no se pueda modificar la plantilla de socio de negocio en el punto de ventas
+- Se agrega el PinCode como la contraseña de usuario en Aplicación Movil
+- Cambios en Procesos para enviar información al AppWrite
+- Se Agrega indice en Documento de Orden de Venta en Appwrite
+- Se Escribe el Expediente en tipo de Conversión
+- Se Agrega Campo para la configuración del calculo del Monto Base para los impuestos de importación
+- Se Agrega columna para el monto de imuestos Generados en Expediente de Importación
+- Se Agrega Soporte de Aplicación de AppWrite
+- Cambios en Proceso para Obtener Datos del Registro
 
 .. data:: Contexto
 
 - Exportación de TXT bancario para Bancaribe detallado
 - Nueva UI de ADempiere en el Punto de Ventas, modificación de cliente único
+- Proceso de Envío de Información de Fuerza de Ventas a AppWrite
+- Proceso de Tipo de Conversión Automatico en Expediente de Importación
+- Proceso de Generar Impuestos de Importación
+- Obtener Información de Registro de Contenedores
 
 .. data:: Reportes Relacionados
 
@@ -111,3 +161,7 @@
   - `Versión de Backend`_
   - `Versión de Gateway`_
   - `Versión de FrontEnd`_
+  - `Dar soporte a Copiar Tipo de conversión`_
+  - `Al crear la planilla no establece Factura Relacionada`_
+  - `Al crear una planilla Acumula el Monto Base`_
+  
