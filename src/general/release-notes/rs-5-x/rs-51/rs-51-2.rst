@@ -1,6 +1,7 @@
 .. _documento/versión-51-2:
 
 .. _Depósito automático configurado por banco: https://github.com/erpcya/Control-HCIMPORT/issues/62
+.. _Tilde de Dividir Depósito en la Definición de Diario de Caja: https://github.com/erpcya/Control-PROSEIN/issues/325
 .. _Agregar funcionalidad para bloquear la opción de modificar un cliente: https://github.com/erpcya/Control-PROSEIN/issues/316
 .. _Permitir Asignar Vendedor en el POS: https://github.com/erpcya/Control-PROSEIN/issues/315
 .. _Agregar Información confidencial al terminal: https://github.com/erpcya/Control-PROSEIN/issues/314
@@ -135,6 +136,7 @@
   - `Agregar Información confidencial al terminal`_
   - `Pago Móvil, Transferencia y Punto de Venta no establecen el número`_
   - `Límite de porcentaje de descuento por asignación de usuario`_
+  - `Tilde de Dividir Depósito en la Definición de Diario de Caja`_
   - `Versión de Backend`_
   - `Versión de Gateway`_
   - `Versión de FrontEnd`_
