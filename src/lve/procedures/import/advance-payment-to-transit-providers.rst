@@ -158,6 +158,22 @@ Realice el procedimiento regular para generar un documento por pagar explicado e
 
     Imagen 8. Documento por Pagar
 
+Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
+
+    |Expediente de Importación|
+
+    Imagen 9. Expediente de Importación
+
+.. note:: 
+
+    Al colocar el expediente se establece el **tipo de conversión negociado**.
+
+Asigne la factura relacionada en el campo **Factura Relacionada**, se refere a la factura de mercancía que da origen a la importación.
+
+    |Factura Relacionada|
+
+    Imagen 10. Factura Relacionada
+
     .. note::
 
         El cargo de la factura puede variar dependiendo del gasto con el cual se justifica el anticipo.
@@ -183,61 +199,61 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos P
 
     |Menú de ADempiere 4|
 
-    Imagen 9. Menú de ADempiere
+    Imagen 11. Menú de ADempiere
 
 Podrá visualizar la ventana "**Selección de Pago**", donde debe seleccionar el icono "**Registro Nuevo**" para crear una solicitud de pago en ADempiere.
 
     |Icono Registro Nuevo|
 
-    Imagen 10. Icono Registro Nuevo
+    Imagen 12. Icono Registro Nuevo
 
 Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Solicitud de Pago**".
 
     |Campo Organización|
     
-    Imagen 11. Campo Organización
+    Imagen 13. Campo Organización
 
 Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Solicitud de Pagos de Cuentas por Pagar**". 
 
     |Campo Tipo de Documento|
 
-    Imagen 12. Campo Tipo de Documento 
+    Imagen 14. Campo Tipo de Documento 
 
 Seleccione en el campo "**Cuenta Bancaria**", la cuenta caja creada al socio del negocio proveedor en tránsito al cual se le realizó la transferencia bancaria.
 
     |Campo Cuenta Bancaria|
     
-    Imagen 13. Campo Cuenta Bancaria
+    Imagen 15. Campo Cuenta Bancaria
 
 Introduzca en el campo "**Nombre de Referencia**", una breve descripción de la solicitud de pago que esta realizando.
 
     |Campo Nombre de Referencia|
 
-    Imagen 14. Campo Nombre de Referencia
+    Imagen 16. Campo Nombre de Referencia
 
 Seleccione el icono "**Guardar Cambios**", para guardar el registro de los campos en la ventana.
 
     |Icono Guardar Cambios|
 
-    Imagen 15. Icono Guardar Cambios 
+    Imagen 17. Icono Guardar Cambios 
 
 Seleccione el proceso "**Crear Desde Factura**", para crear la solicitud de pago desde el documento por pagar.
 
     |Crear Desde Factura 1|
 
-    Imagen 14. Proceso Crear Desde Factura
+    Imagen 18. Proceso Crear Desde Factura
 
     Podrá visualizar la ventana del proceso "**Crear Desde Factura**", donde debe seleccionar la opción "**Comenzar Búsqueda**" para buscar los registros de documentos por pagar.
 
         |Opción Comenzar Búsqueda|
 
-        Imagen 15. Opción Comenzar Búsqueda
+        Imagen 19. Opción Comenzar Búsqueda
 
     Seleccione el documento por pagar y la opción "**OK**" para cargar los datos del documento seleccionado a la ventana "**Selección de Pago**".
 
         |Selección de Factura y Opción OK|
 
-        Imagen 16. Selección de Factura y Opción OK
+        Imagen 20. Selección de Factura y Opción OK
 
     .. note:: 
 
@@ -247,13 +263,13 @@ Seleccione la opción "**Completar**" ubicado en la parte inferior derecha del d
 
     |Opción Completar 1|
 
-    Imagen 17. Opción Completar
+    Imagen 21. Opción Completar
 
 Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Solicitud de Pago**".
 
     |Acción Completar y Opción OK|
 
-    Imagen 18. Acción Completar y Opción OK
+    Imagen 22. Acción Completar y Opción OK
 
 .. _paso/cancelacion-factura-anticipo-transito:
 
@@ -269,19 +285,19 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos P
 
     |Menú de ADempiere 5|
 
-    Imagen 12. Menú de ADempiere
+    Imagen 23. Menú de ADempiere
 
 Seleccione en el campo "**Selección de Pago**", la solicitud de pago "**SOP-1000342**" realizada anteriormente.
 
     |Campo Selección de Pago|
 
-    Imagen 13. Campo Selección de Pago
+    Imagen 24. Campo Selección de Pago
 
 Seleccione la opción "**Imprimir**" si la regla de pago corresponde a "**Cheque**", de lo contrario debe seleccionar la opción "**Exportar Registros**" para que sea generado el documento en formato "**.txt**". Para ejemplificar el registro es utilizada la opción "**Exportar Registros**".
 
     |Opción Exportar Registros|
 
-    Imagen 15. Opción Exportar Registros
+    Imagen 25. Opción Exportar Registros
 
     .. note:: 
 
@@ -291,13 +307,13 @@ Podrá visualizar el siguiente mensaje de confirmación donde debe seleccionar l
 
     |Mensaje de Confirmación|
 
-    Imagen 16. Mensaje de Confirmación
+    Imagen 26. Mensaje de Confirmación
 
 Luego de revisar el documento generado en formato "**.txt**", puede seleccionar la opción "**OK**" en el mensaje.
 
     |Mensaje para Confirmar Documento|
 
-    Imagen 17. Mensaje para Confirmar Documento
+    Imagen 27. Mensaje para Confirmar Documento
 
 Al seleccionar la opción "**OK**, se genera un documento en "**Caja**" que representa el egreso en la caja seleccionada y un documento en "**Consulta de Asignación**".
 
