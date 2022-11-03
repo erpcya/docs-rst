@@ -38,7 +38,7 @@
 **Registro de Pedido**
 ======================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Grstión de Ventas**", por último seleccione la ventana "**Punto de Ve0000000000nta**".
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Orden de Ventas**", por último seleccione la ventana "**Punto de Venta**".
 
     |Menú de ADempiere|
 
