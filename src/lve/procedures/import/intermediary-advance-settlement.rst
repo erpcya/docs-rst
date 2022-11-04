@@ -20,6 +20,9 @@
 .. |Pestaña Línea de Cierre de Caja| image:: resources/linea4.png
 .. |Icono Informe| image:: resources/cierrecaja2.png
 .. |Reporte de Balance| image:: resources/reporte.png
+.. |Expediente Factura CXP| image:: resources/expfacturaimport.png
+.. |Factura Relacionada| image:: resources/facturarelacionimport.png
+
 
 .. _documento/liquidación-anticipo-intermeiario:
 
@@ -123,7 +126,7 @@ A continuación se presenta un ejemplo de la ventana "**Transferencia Bancaria**
 
 .. _paso/carga-factura-cxp:
 
-**Carga de Factura de Cuentas por Pagar**
+**Factura de Cuentas por Pagar de Costos FOB**
 *****************************************
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
@@ -134,41 +137,58 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras*
 
 Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material :ref:`documento/documento-por-pagar` elaborado por `ERPyA`_. Para ejemplificar el registro se realizan tres facturas como relación entregada por el intermediario gestor de la importacióncon.
 
+Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
+
+    |Expediente Factura CXP|
+
+    Imagen 4. Expediente de Importación
+
+Asigne la factura relacionada o factura de la mercacía creada anteriormente en el campo **Factura Relacionada**.
+
+    |Factura Relacionada|
+
+    Imagen 5. Factura Relacionada
+
+.. note:: 
+
+    Al colocar el expediente se establece el **tipo de conversión negociado**.
+
+
 Factura "**1000020**", con socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" y moneda "**VES**".
 
     |Documento por Pagar 1|
 
-    Imagen 4. Documento por Pagar
+    Imagen 6. Documento por Pagar
 
-    Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Gastos Aduanales**" utilizado para generar el documento por pagar con el monto de "**1.550.000,00**".
+    Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Cargo de Gatos**" utilizado para generar el documento por pagar con el monto de "**1.550.000,00**".
 
         |Pestaña Línea de la Factura 1|
 
-        Imagen 5. Pestaña Línea de la Factura
+        Imagen 7. Pestaña Línea de la Factura
 
 Factura "**1000022**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
 
     |Documento por Pagar 2|
 
-    Imagen 6. Documento por Pagar
+    Imagen 8. Documento por Pagar
 
     Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Flete Aduanales**" utilizado para generar el documento por pagar con el monto de "**2.400.000,00**".
 
         |Pestaña Línea de la Factura 2|
 
-        Imagen 7. Pestaña Línea de la Factura
+        Imagen 9. Pestaña Línea de la Factura
 
 Factura "**1000023**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
 
     |Documento por Pagar 3|
 
-    Imagen 8. Documento por Pagar
+    Imagen 10. Documento por Pagar
 
     Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Honorarios Profesionales**" utilizado para generar el documento por pagar con el monto de "**27.000.000,00**".
 
         |Pestaña Línea de la Factura 3|
 
-        Imagen 9. Pestaña Línea de la Factura
+        Imagen 11. Pestaña Línea de la Factura
 
 .. note::
 
@@ -187,7 +207,7 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos P
 
     |Menú de ADempiere 3|
 
-    Imagen 10. Menú de ADempiere
+    Imagen 12. Menú de ADempiere
 
     .. note::
 
@@ -197,19 +217,19 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos P
 
         |Campo Organización 1|
 
-        Imagen 11. Campo Organización
+        Imagen 13. Campo Organización
 
     Seleccione en el campo "**Cuenta Bancaria**" la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Intermediarios - --_OCI-1000024_Estandar**".
 
         |Campo Cuenta Bancaria 1|
 
-        Imagen 12. Campo Cuenta Bancaria
+        Imagen 14. Campo Cuenta Bancaria
         
     Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Pago Nacional**".
 
         |Campo Tipo de Documento 1|
 
-        Imagen 13. Campo Tipo de Documento
+        Imagen 15. Campo Tipo de Documento
 
     Seleccione en el campo "**Factura**", la factura que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la factura "**1000023**" creada anteriormente.
 
@@ -225,13 +245,13 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos P
 
         |Opción Completar 2|
 
-        Imagen 15. Opción Completar
+        Imagen 16. Opción Completar
 
     Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
 
         |Acción Completar|
 
-        Imagen 16. Acción Completar
+        Imagen 17. Acción Completar
 
 .. note::
 
@@ -281,28 +301,28 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos P
 
     |Menú de ADempiere 4|
 
-    Imagen 17. Menú de ADempiere
+    Imagen 18. Menú de ADempiere
 
 Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja intermediario creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el gestor intermediario.
 
     |Cierre de Caja|
 
-    Imagen 18. Cierre de Caja
+    Imagen 19. Cierre de Caja
 
     Podrá apreciar en la pestaña "**Línea de Cierre de Caja**", los diferentes registros creados desde el proceso "**Crear a Partir de Pagos**".
 
         |Pestaña Línea de Cierre de Caja|
 
-        Imagen 19. Pestaña Línea de Cierre de Caja
+        Imagen 20. Pestaña Línea de Cierre de Caja
 
     Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario, seleccione en la ventana "**Cierre de Caja**" el icono "**Informe**", que se encuentra ubicado en la barra de herramientas de ADempiere.
 
         |Icono Informe|
 
-        Imagen 20. Icono Informe
+        Imagen 21. Icono Informe
 
     Podrá visualizar el balance de caja de la siguiente manera.
 
         |Reporte de Balance|
 
-        Imagen 21. Reporte de Balance
+        Imagen 22. Reporte de Balance
