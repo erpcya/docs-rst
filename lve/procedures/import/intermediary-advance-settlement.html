@@ -21,7 +21,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="Gestión de Consignación" href="../consignment-management/index.html" />
-    <link rel="prev" title="Creación de Planillas Tributarias" href="taxliability.html" /> 
+    <link rel="prev" title="Planillas Tributarias" href="taxliability.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -85,10 +85,10 @@
 <li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Importación</strong></a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="import.html"><strong>Importación</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="advance-payment-to-transit-providers.html"><strong>Anticipo a Proveedores en Tránsito</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="taxliability.html"><strong>Creación de Planillas Tributarias</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="taxliability.html"><strong>Planillas Tributarias</strong></a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Liquidación Anticipo Intermediario</strong></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#carga-de-anticipo"><strong>Carga de Anticipo</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#carga-de-factura-de-cuentas-por-pagar"><strong>Carga de Factura de Cuentas por Pagar</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#factura-de-cuentas-por-pagar-de-costos-fob"><strong>Factura de Cuentas por Pagar de Costos FOB</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cancelacion-o-cruce-de-anticipo-con-cuentas-por-pagar"><strong>Cancelación ó Cruce de Anticipo con Cuentas por Pagar</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#conciliacion-de-liquidacion"><strong>Conciliación de Liquidación</strong></a></li>
 </ul>
@@ -270,42 +270,56 @@
 <p>Imagen 2. Ejemplo de Transferencia Bancaria</p>
 </div></blockquote>
 </section>
-<section id="carga-de-factura-de-cuentas-por-pagar">
-<span id="paso-carga-factura-cxp"></span><h2><strong>Carga de Factura de Cuentas por Pagar</strong><a class="headerlink" href="#carga-de-factura-de-cuentas-por-pagar" title="Permalink to this headline"></a></h2>
+<section id="factura-de-cuentas-por-pagar-de-costos-fob">
+<span id="paso-carga-factura-cxp"></span><h2><strong>Factura de Cuentas por Pagar de Costos FOB</strong><a class="headerlink" href="#factura-de-cuentas-por-pagar-de-costos-fob" title="Permalink to this headline"></a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 2" src="../../../_images/menufactura.png" /></p>
 <p>Imagen 3. Menú de ADempiere</p>
 </div></blockquote>
 <p>Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro se realizan tres facturas como relación entregada por el intermediario gestor de la importacióncon.</p>
+<p>Asigne el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
+<blockquote>
+<div><p><img alt="Expediente Factura CXP" src="../../../_images/expfacturaimport.png" /></p>
+<p>Imagen 4. Expediente de Importación</p>
+</div></blockquote>
+<p>Asigne la factura relacionada o factura de la mercacía creada anteriormente en el campo <strong>Factura Relacionada</strong>.</p>
+<blockquote>
+<div><p><img alt="Factura Relacionada" src="../../../_images/facturarelacionimport.png" /></p>
+<p>Imagen 5. Factura Relacionada</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al colocar el expediente se establece el <strong>tipo de conversión negociado</strong>.</p>
+</div>
 <p>Factura “<strong>1000020</strong>”, con socio del negocio “<strong>Bolivariana de Puertos  ( Bolipuertos)  S A</strong>” y moneda “<strong>VES</strong>”.</p>
 <blockquote>
 <div><p><img alt="Documento por Pagar 1" src="../../../_images/doc1.png" /></p>
-<p>Imagen 4. Documento por Pagar</p>
-<p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el cargo “<strong>Gastos Aduanales</strong>” utilizado para generar el documento por pagar con el monto de “<strong>1.550.000,00</strong>”.</p>
+<p>Imagen 6. Documento por Pagar</p>
+<p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el cargo “<strong>Cargo de Gatos</strong>” utilizado para generar el documento por pagar con el monto de “<strong>1.550.000,00</strong>”.</p>
 <blockquote>
 <div><p><img alt="Pestaña Línea de la Factura 1" src="../../../_images/linea13.png" /></p>
-<p>Imagen 5. Pestaña Línea de la Factura</p>
+<p>Imagen 7. Pestaña Línea de la Factura</p>
 </div></blockquote>
 </div></blockquote>
 <p>Factura “<strong>1000022</strong>”, con socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” y moneda “<strong>VES</strong>”.</p>
 <blockquote>
 <div><p><img alt="Documento por Pagar 2" src="../../../_images/doc2.png" /></p>
-<p>Imagen 6. Documento por Pagar</p>
+<p>Imagen 8. Documento por Pagar</p>
 <p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el cargo “<strong>Flete Aduanales</strong>” utilizado para generar el documento por pagar con el monto de “<strong>2.400.000,00</strong>”.</p>
 <blockquote>
 <div><p><img alt="Pestaña Línea de la Factura 2" src="../../../_images/linea21.png" /></p>
-<p>Imagen 7. Pestaña Línea de la Factura</p>
+<p>Imagen 9. Pestaña Línea de la Factura</p>
 </div></blockquote>
 </div></blockquote>
 <p>Factura “<strong>1000023</strong>”, con socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” y moneda “<strong>VES</strong>”.</p>
 <blockquote>
 <div><p><img alt="Documento por Pagar 3" src="../../../_images/doc3.png" /></p>
-<p>Imagen 8. Documento por Pagar</p>
+<p>Imagen 10. Documento por Pagar</p>
 <p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el cargo “<strong>Honorarios Profesionales</strong>” utilizado para generar el documento por pagar con el monto de “<strong>27.000.000,00</strong>”.</p>
 <blockquote>
 <div><p><img alt="Pestaña Línea de la Factura 3" src="../../../_images/linea31.png" /></p>
-<p>Imagen 9. Pestaña Línea de la Factura</p>
+<p>Imagen 11. Pestaña Línea de la Factura</p>
 </div></blockquote>
 </div></blockquote>
 <div class="admonition note">
@@ -320,7 +334,7 @@
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Caja</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 3" src="../../../_images/menucaja.png" /></p>
-<p>Imagen 10. Menú de ADempiere</p>
+<p>Imagen 12. Menú de ADempiere</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>El requerimiento principal para realizar el proceso de gestión de caja de intermediario es tener una definición de caja creada.</p>
@@ -328,17 +342,17 @@
 <p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Caja</strong>”.</p>
 <blockquote>
 <div><p><img alt="Campo Organización 1" src="../../../_images/org31.png" /></p>
-<p>Imagen 11. Campo Organización</p>
+<p>Imagen 13. Campo Organización</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>” la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción “<strong>Caja Intermediarios - –_OCI-1000024_Estandar</strong>”.</p>
 <blockquote>
 <div><p><img alt="Campo Cuenta Bancaria 1" src="../../../_images/cuenta3.png" /></p>
-<p>Imagen 12. Campo Cuenta Bancaria</p>
+<p>Imagen 14. Campo Cuenta Bancaria</p>
 </div></blockquote>
 <p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizada la opción “<strong>Pago Nacional</strong>”.</p>
 <blockquote>
 <div><p><img alt="Campo Tipo de Documento 1" src="../../../_images/tipodoc31.png" /></p>
-<p>Imagen 13. Campo Tipo de Documento</p>
+<p>Imagen 15. Campo Tipo de Documento</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Factura</strong>”, la factura que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la factura “<strong>1000023</strong>” creada anteriormente.</p>
 <blockquote>
@@ -352,12 +366,12 @@
 <p>Seleccione la opción “<strong>Completar</strong>”, ubicada en la parte inferior del documento.</p>
 <blockquote>
 <div><p><img alt="Opción Completar 2" src="../../../_images/completar41.png" /></p>
-<p>Imagen 15. Opción Completar</p>
+<p>Imagen 16. Opción Completar</p>
 </div></blockquote>
 <p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>Ok</strong>” para completar el documento “<strong>Caja</strong>”.</p>
 <blockquote>
 <div><p><img alt="Acción Completar" src="../../../_images/accion11.png" /></p>
-<p>Imagen 16. Acción Completar</p>
+<p>Imagen 17. Acción Completar</p>
 </div></blockquote>
 </div></blockquote>
 <div class="admonition note">
@@ -453,26 +467,26 @@
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Cierre de Caja</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 4" src="../../../_images/menucierre1.png" /></p>
-<p>Imagen 17. Menú de ADempiere</p>
+<p>Imagen 18. Menú de ADempiere</p>
 </div></blockquote>
 <p>Realice el procedimiento regular para generar el cierre de caja, explicado en la <span class="xref std std-ref">paso/cierre-caja-importación</span> del documento “<strong>Importación</strong>”, seleccionando la caja intermediario creada. Luego de completar el procedimiento podrá apreciar en el campo “<strong>Saldo Final</strong>”, el saldo abierto que posee el gestor intermediario.</p>
 <blockquote>
 <div><p><img alt="Cierre de Caja" src="../../../_images/cierrecaja.png" /></p>
-<p>Imagen 18. Cierre de Caja</p>
+<p>Imagen 19. Cierre de Caja</p>
 <p>Podrá apreciar en la pestaña “<strong>Línea de Cierre de Caja</strong>”, los diferentes registros creados desde el proceso “<strong>Crear a Partir de Pagos</strong>”.</p>
 <blockquote>
 <div><p><img alt="Pestaña Línea de Cierre de Caja" src="../../../_images/linea41.png" /></p>
-<p>Imagen 19. Pestaña Línea de Cierre de Caja</p>
+<p>Imagen 20. Pestaña Línea de Cierre de Caja</p>
 </div></blockquote>
 <p>Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario, seleccione en la ventana “<strong>Cierre de Caja</strong>” el icono “<strong>Informe</strong>”, que se encuentra ubicado en la barra de herramientas de ADempiere.</p>
 <blockquote>
 <div><p><img alt="Icono Informe" src="../../../_images/cierrecaja2.png" /></p>
-<p>Imagen 20. Icono Informe</p>
+<p>Imagen 21. Icono Informe</p>
 </div></blockquote>
 <p>Podrá visualizar el balance de caja de la siguiente manera.</p>
 <blockquote>
 <div><p><img alt="Reporte de Balance" src="../../../_images/reporte.png" /></p>
-<p>Imagen 21. Reporte de Balance</p>
+<p>Imagen 22. Reporte de Balance</p>
 </div></blockquote>
 </div></blockquote>
 </section>
@@ -482,7 +496,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="taxliability.html" class="btn btn-neutral float-left" title="Creación de Planillas Tributarias" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="taxliability.html" class="btn btn-neutral float-left" title="Planillas Tributarias" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="../consignment-management/index.html" class="btn btn-neutral float-right" title="Gestión de Consignación" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

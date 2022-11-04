@@ -86,13 +86,13 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Importación</strong></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#expediente-de-importacion"><strong>Expediente de Importación</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#orden-de-compra-de-importacion"><strong>Orden de Compra de Importación</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#crear-documento-por-pagar-de-mercancia"><strong>Crear Documento por Pagar de Mercancía</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#crear-documento-por-pagar-de-costos-cif"><strong>Crear Documento por Pagar de Costos CIF</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#documento-por-pagar-de-mercancia"><strong>Documento por Pagar de Mercancía</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#documento-por-pagar-de-costos-cif"><strong>Documento por Pagar de Costos CIF</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cancelacion-de-factura"><strong>Cancelación de Factura</strong></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="advance-payment-to-transit-providers.html"><strong>Anticipo a Proveedores en Tránsito</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="taxliability.html"><strong>Creación de Planillas Tributarias</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="taxliability.html"><strong>Planillas Tributarias</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="intermediary-advance-settlement.html"><strong>Liquidación Anticipo Intermediario</strong></a></li>
 </ul>
 </li>
@@ -145,8 +145,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <p>ocexpgeneradoimport.png</p>
-<section id="importacion">
+  <section id="importacion">
 <span id="documento-importacion"></span><h1><strong>Importación</strong><a class="headerlink" href="#importacion" title="Permalink to this headline"></a></h1>
 <p>Dicha importación tiene como consecuencia para la empresa nacional la generación de gastos aduanales, sujetos al pago de tributos o al amparo de las franquicias correspondientes.</p>
 <section id="expediente-de-importacion">
@@ -188,7 +187,7 @@
 </div>
 <p>Vaya a la siguiente pestaña <strong>Tipo de Conversión Negociada</strong>, para establecer la tasa asignada al expediente de importación.</p>
 <blockquote>
-<div><p><img alt="Tasa de Cambio de Documento Import" src="../../../_images/tasacambioimport.png" /></p>
+<div><p><img alt="Pestaña Tasa de Conversión" src="../../../_images/pestanatcimport.png" /></p>
 <p>Imagen 7. Tipo de Cambio de Documento</p>
 </div></blockquote>
 <p>Indique el monto de la tasa de cambio asignada al expediente de importación.</p>
@@ -198,7 +197,7 @@
 </div></blockquote>
 <p>Vea el expediente generado en el campo <strong>Expediente Generado</strong>, este registro es el valor utilizado para consultar los registros en reportes administrativos y contables.</p>
 <blockquote>
-<div><p><img alt="Tasa de Cambio de Documento Import" src="../../../_images/tasacambioimport.png" /></p>
+<div><p><img alt="Expediente Generado" src="../../../_images/expgeneradoimport.png" /></p>
 <p>Imagen 9. Tipo de Cambio de Documento</p>
 </div></blockquote>
 <div class="admonition note">
@@ -259,8 +258,8 @@
 <p>Imagen 15. Orden de Compra Completa</p>
 </div></blockquote>
 </section>
-<section id="crear-documento-por-pagar-de-mercancia">
-<span id="paso-crear-factura-importacion"></span><h2><strong>Crear Documento por Pagar de Mercancía</strong><a class="headerlink" href="#crear-documento-por-pagar-de-mercancia" title="Permalink to this headline"></a></h2>
+<section id="documento-por-pagar-de-mercancia">
+<span id="paso-crear-factura-importacion"></span><h2><strong>Documento por Pagar de Mercancía</strong><a class="headerlink" href="#documento-por-pagar-de-mercancia" title="Permalink to this headline"></a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 4" src="../../../_images/menu42.png" /></p>
@@ -273,38 +272,35 @@
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Al crear desde la orden de compra establecerá el expediente asociado a la orden de compra, y establece el <strong>tipo de conversión negociado</strong>.</p>
+<p>Al crear desde la orden de compra establecerá el <strong>expediente de Importación</strong> asociado a la orden de compra, y establece el <strong>tipo de conversión negociado</strong>.</p>
 </div>
-<p>Asigne el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
+<p>Vea el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
 <blockquote>
-<div><p><img alt="Expediente de Importación" src="../../../_images/fechadocimport.png" /></p>
+<div><p><img alt="Expediente Factura CXP" src="../../../_images/expfacturaimport.png" /></p>
 <p>Imagen 18. Expediente de Importación</p>
 </div></blockquote>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Al colocar el expediente se establece el <strong>tipo de conversión negociado</strong>.</p>
-</div>
 </section>
-<section id="crear-documento-por-pagar-de-costos-cif">
-<h2><strong>Crear Documento por Pagar de Costos CIF</strong><a class="headerlink" href="#crear-documento-por-pagar-de-costos-cif" title="Permalink to this headline"></a></h2>
+<section id="documento-por-pagar-de-costos-cif">
+<h2><strong>Documento por Pagar de Costos CIF</strong><a class="headerlink" href="#documento-por-pagar-de-costos-cif" title="Permalink to this headline"></a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 4" src="../../../_images/menu42.png" /></p>
-<p>Imagen 16. Menú de ADempiere</p>
+<p>Imagen 19. Menú de ADempiere</p>
 </div></blockquote>
 <p>Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a>.</p>
 <blockquote>
 <div><p><img alt="Factura de Importación" src="../../../_images/facturaimpor.png" /></p>
-<p>Imagen 17. Factura de Cuentas por Pagar Importación</p>
+<p>Imagen 20. Factura de Cuentas por Pagar Importación</p>
 </div></blockquote>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Al crear desde la orden de compra establecerá el expediente asociado a la orden de compra, y establece el <strong>tipo de conversión negociado</strong>.</p>
-</div>
 <p>Asigne el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
 <blockquote>
-<div><p><img alt="Expediente de Importación" src="../../../_images/fechadocimport.png" /></p>
-<p>Imagen 18. Expediente de Importación</p>
+<div><p><img alt="Expediente Factura CXP" src="../../../_images/expfacturaimport.png" /></p>
+<p>Imagen 21. Expediente de Importación</p>
+</div></blockquote>
+<p>Asigne la factura relacionada o factura de la mercacía creada anteriormente en el campo <strong>Factura Relacionada</strong>.</p>
+<blockquote>
+<div><p><img alt="Factura Relacionada" src="../../../_images/facturarelacionimport.png" /></p>
+<p>Imagen 22. Factura Relacionada</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>

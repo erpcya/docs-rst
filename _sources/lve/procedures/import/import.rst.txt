@@ -37,11 +37,10 @@
 .. |Expediente Generado| image:: resources/expgeneradoimport.png
 .. |Expediente de OC| image:: resources/ocexpgeneradoimport.png
 .. |Monto Ordenado Expediente| image:: resources/montoordenadoexp.png
-.. |Fecha de Documento Import| image:: resources/fechadocimport.png
-.. |Fecha de Documento Import| image:: resources/fechadocimport.png
+.. |Expediente Factura CXP| image:: resources/expfacturaimport.png
+.. |Factura Relacionada| image:: resources/facturarelacionimport.png
 .. |Fecha de Documento Import| image:: resources/fechadocimport.png
 
-ocexpgeneradoimport.png
 
 .. _documento/importación:
 
@@ -96,7 +95,7 @@ Introduzca el tipo de conversión en la cuál gestionará el expediente, recuerd
 
 Vaya a la siguiente pestaña **Tipo de Conversión Negociada**, para establecer la tasa asignada al expediente de importación.
 
-    |Tasa de Cambio de Documento Import|
+    |Pestaña Tasa de Conversión|
 
     Imagen 7. Tipo de Cambio de Documento
 
@@ -108,7 +107,7 @@ Indique el monto de la tasa de cambio asignada al expediente de importación.
 
 Vea el expediente generado en el campo **Expediente Generado**, este registro es el valor utilizado para consultar los registros en reportes administrativos y contables.
 
-    |Tasa de Cambio de Documento Import|
+    |Expediente Generado|
 
     Imagen 9. Tipo de Cambio de Documento
 
@@ -181,7 +180,7 @@ Podrá visualizar en la parte inferior de la orden de compra, el campo en estado
 
 .. _paso/crear-factura-importación:
 
-**Crear Documento por Pagar de Mercancía**
+**Documento por Pagar de Mercancía**
 ******************************************
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
@@ -198,44 +197,41 @@ Realice el procedimiento regular para realizar un documento por pagar desde una 
 
 .. note:: 
 
-    Al crear desde la orden de compra establecerá el expediente asociado a la orden de compra, y establece el **tipo de conversión negociado**.
+    Al crear desde la orden de compra establecerá el **expediente de Importación** asociado a la orden de compra, y establece el **tipo de conversión negociado**.
 
 
-Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
+Vea el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
 
-    |Expediente de Importación|
+    |Expediente Factura CXP|
 
     Imagen 18. Expediente de Importación
 
-.. note:: 
-
-    Al colocar el expediente se establece el **tipo de conversión negociado**.
-
-**Crear Documento por Pagar de Costos CIF**
+**Documento por Pagar de Costos CIF**
 *******************************************
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
     |Menú de ADempiere 4|
 
-    Imagen 16. Menú de ADempiere
+    Imagen 19. Menú de ADempiere
 
 Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material :ref:`documento/documento-por-pagar`.
 
     |Factura de Importación|
 
-    Imagen 17. Factura de Cuentas por Pagar Importación
-
-.. note:: 
-
-    Al crear desde la orden de compra establecerá el expediente asociado a la orden de compra, y establece el **tipo de conversión negociado**.
-
+    Imagen 20. Factura de Cuentas por Pagar Importación
 
 Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
 
-    |Expediente de Importación|
+    |Expediente Factura CXP|
 
-    Imagen 18. Expediente de Importación
+    Imagen 21. Expediente de Importación
+
+Asigne la factura relacionada o factura de la mercacía creada anteriormente en el campo **Factura Relacionada**.
+
+    |Factura Relacionada|
+
+    Imagen 22. Factura Relacionada
 
 .. note:: 
 
