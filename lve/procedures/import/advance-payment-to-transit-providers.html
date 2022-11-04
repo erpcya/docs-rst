@@ -283,7 +283,7 @@
 <div><p><img alt="Menú de ADempiere 2" src="../../../_images/menucierre1.png" /></p>
 <p>Imagen 5. Menú de ADempiere</p>
 </div></blockquote>
-<p>Realice el procedimiento regular para generar el cierre de caja, explicado en la <a class="reference internal" href="import.html#paso-cierre-caja-importacion"><span class="std std-ref">Conciliación de Pagos</span></a> del documento “<strong>Importación</strong>”, seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo “<strong>Saldo Final</strong>”, el saldo abierto que posee el socio del negocio proveedor.</p>
+<p>Realice el procedimiento regular para generar el cierre de caja, explicado en la <span class="xref std std-ref">paso/cierre-caja-importación</span> del documento “<strong>Importación</strong>”, seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo “<strong>Saldo Final</strong>”, el saldo abierto que posee el socio del negocio proveedor.</p>
 <blockquote>
 <div><p><img alt="Cierre de Caja" src="../../../_images/cierrecaja3.png" /></p>
 <p>Imagen 6. Cierre de Caja</p>
@@ -301,6 +301,20 @@
 <blockquote>
 <div><p><img alt="Documento por Pagar 1" src="../../../_images/docpagar1.png" /></p>
 <p>Imagen 8. Documento por Pagar</p>
+</div></blockquote>
+<p>Asigne el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
+<blockquote>
+<div><p><a href="#id2"><span class="problematic" id="id3">|Expediente de Importación|</span></a></p>
+<p>Imagen 9. Expediente de Importación</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al colocar el expediente se establece el <strong>tipo de conversión negociado</strong>.</p>
+</div>
+<p>Asigne la factura relacionada en el campo <strong>Factura Relacionada</strong>, se refere a la factura de mercancía que da origen a la importación.</p>
+<blockquote>
+<div><p><a href="#id4"><span class="problematic" id="id5">|Factura Relacionada|</span></a></p>
+<p>Imagen 10. Factura Relacionada</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>El cargo de la factura puede variar dependiendo del gasto con el cual se justifica el anticipo.</p>
@@ -347,51 +361,51 @@
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, por último seleccione la ventana “<strong>Selección de Pago</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 4" src="../../../_images/menusolicitud.png" /></p>
-<p>Imagen 9. Menú de ADempiere</p>
+<p>Imagen 11. Menú de ADempiere</p>
 </div></blockquote>
 <p>Podrá visualizar la ventana “<strong>Selección de Pago</strong>”, donde debe seleccionar el icono “<strong>Registro Nuevo</strong>” para crear una solicitud de pago en ADempiere.</p>
 <blockquote>
 <div><p><img alt="Icono Registro Nuevo" src="../../../_images/nuevasoli.png" /></p>
-<p>Imagen 10. Icono Registro Nuevo</p>
+<p>Imagen 12. Icono Registro Nuevo</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Solicitud de Pago</strong>”.</p>
 <blockquote>
 <div><p><img alt="Campo Organización" src="../../../_images/org41.png" /></p>
-<p>Imagen 11. Campo Organización</p>
+<p>Imagen 13. Campo Organización</p>
 </div></blockquote>
 <p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizada la opción “<strong>Solicitud de Pagos de Cuentas por Pagar</strong>”.</p>
 <blockquote>
 <div><p><img alt="Campo Tipo de Documento" src="../../../_images/tipodoc41.png" /></p>
-<p>Imagen 12. Campo Tipo de Documento</p>
+<p>Imagen 14. Campo Tipo de Documento</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta caja creada al socio del negocio proveedor en tránsito al cual se le realizó la transferencia bancaria.</p>
 <blockquote>
 <div><p><img alt="Campo Cuenta Bancaria" src="../../../_images/cuentab1.png" /></p>
-<p>Imagen 13. Campo Cuenta Bancaria</p>
+<p>Imagen 15. Campo Cuenta Bancaria</p>
 </div></blockquote>
 <p>Introduzca en el campo “<strong>Nombre de Referencia</strong>”, una breve descripción de la solicitud de pago que esta realizando.</p>
 <blockquote>
 <div><p><img alt="Campo Nombre de Referencia" src="../../../_images/nombre23.png" /></p>
-<p>Imagen 14. Campo Nombre de Referencia</p>
+<p>Imagen 16. Campo Nombre de Referencia</p>
 </div></blockquote>
 <p>Seleccione el icono “<strong>Guardar Cambios</strong>”, para guardar el registro de los campos en la ventana.</p>
 <blockquote>
 <div><p><img alt="Icono Guardar Cambios" src="../../../_images/iconoguardar1.png" /></p>
-<p>Imagen 15. Icono Guardar Cambios</p>
+<p>Imagen 17. Icono Guardar Cambios</p>
 </div></blockquote>
 <p>Seleccione el proceso “<strong>Crear Desde Factura</strong>”, para crear la solicitud de pago desde el documento por pagar.</p>
 <blockquote>
 <div><p><img alt="Crear Desde Factura 1" src="../../../_images/creardesde2.png" /></p>
-<p>Imagen 14. Proceso Crear Desde Factura</p>
+<p>Imagen 18. Proceso Crear Desde Factura</p>
 <p>Podrá visualizar la ventana del proceso “<strong>Crear Desde Factura</strong>”, donde debe seleccionar la opción “<strong>Comenzar Búsqueda</strong>” para buscar los registros de documentos por pagar.</p>
 <blockquote>
 <div><p><img alt="Opción Comenzar Búsqueda" src="../../../_images/vent3.png" /></p>
-<p>Imagen 15. Opción Comenzar Búsqueda</p>
+<p>Imagen 19. Opción Comenzar Búsqueda</p>
 </div></blockquote>
 <p>Seleccione el documento por pagar y la opción “<strong>OK</strong>” para cargar los datos del documento seleccionado a la ventana “<strong>Selección de Pago</strong>”.</p>
 <blockquote>
 <div><p><img alt="Selección de Factura y Opción OK" src="../../../_images/selecfacturas1.png" /></p>
-<p>Imagen 16. Selección de Factura y Opción OK</p>
+<p>Imagen 20. Selección de Factura y Opción OK</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -401,12 +415,12 @@
 <p>Seleccione la opción “<strong>Completar</strong>” ubicado en la parte inferior derecha del documento.</p>
 <blockquote>
 <div><p><img alt="Opción Completar 1" src="../../../_images/completar51.png" /></p>
-<p>Imagen 17. Opción Completar</p>
+<p>Imagen 21. Opción Completar</p>
 </div></blockquote>
 <p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento “<strong>Solicitud de Pago</strong>”.</p>
 <blockquote>
 <div><p><img alt="Acción Completar y Opción OK" src="../../../_images/accion11.png" /></p>
-<p>Imagen 18. Acción Completar y Opción OK</p>
+<p>Imagen 22. Acción Completar y Opción OK</p>
 </div></blockquote>
 </section>
 <section id="cancelacion-de-factura">
@@ -416,17 +430,17 @@
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, por último seleccione la ventana “<strong>Imprimir/Exportar Pagos</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 5" src="../../../_images/menuimprimir.png" /></p>
-<p>Imagen 12. Menú de ADempiere</p>
+<p>Imagen 23. Menú de ADempiere</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Selección de Pago</strong>”, la solicitud de pago “<strong>SOP-1000342</strong>” realizada anteriormente.</p>
 <blockquote>
 <div><p><img alt="Campo Selección de Pago" src="../../../_images/selecpagos2.png" /></p>
-<p>Imagen 13. Campo Selección de Pago</p>
+<p>Imagen 24. Campo Selección de Pago</p>
 </div></blockquote>
 <p>Seleccione la opción “<strong>Imprimir</strong>” si la regla de pago corresponde a “<strong>Cheque</strong>”, de lo contrario debe seleccionar la opción “<strong>Exportar Registros</strong>” para que sea generado el documento en formato “<strong>.txt</strong>”. Para ejemplificar el registro es utilizada la opción “<strong>Exportar Registros</strong>”.</p>
 <blockquote>
 <div><p><img alt="Opción Exportar Registros" src="../../../_images/exportareg1.png" /></p>
-<p>Imagen 15. Opción Exportar Registros</p>
+<p>Imagen 25. Opción Exportar Registros</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>El documento generado por ADempiere en formato “<strong>.txt</strong>” es utilizado por el usuario para importarlo al banco correspondiente.</p>
@@ -435,12 +449,12 @@
 <p>Podrá visualizar el siguiente mensaje de confirmación donde debe seleccionar la opción “<strong>OK</strong>”.</p>
 <blockquote>
 <div><p><img alt="Mensaje de Confirmación" src="../../../_images/confirmacion1.png" /></p>
-<p>Imagen 16. Mensaje de Confirmación</p>
+<p>Imagen 26. Mensaje de Confirmación</p>
 </div></blockquote>
 <p>Luego de revisar el documento generado en formato “<strong>.txt</strong>”, puede seleccionar la opción “<strong>OK</strong>” en el mensaje.</p>
 <blockquote>
 <div><p><img alt="Mensaje para Confirmar Documento" src="../../../_images/confirmacion2.png" /></p>
-<p>Imagen 17. Mensaje para Confirmar Documento</p>
+<p>Imagen 27. Mensaje para Confirmar Documento</p>
 </div></blockquote>
 <p>Al seleccionar la opción “<strong>OK</strong>, se genera un documento en “<strong>Caja</strong>” que representa el egreso en la caja seleccionada y un documento en “<strong>Consulta de Asignación</strong>”.</p>
 <blockquote>
@@ -547,7 +561,7 @@
 <div><p><img alt="Menú de ADempiere 2" src="../../../_images/menucierre1.png" /></p>
 <p>Imagen 5. Menú de ADempiere</p>
 </div></blockquote>
-<p>Realice el procedimiento regular para generar el cierre de caja, explicado en la <a class="reference internal" href="import.html#paso-cierre-caja-importacion"><span class="std std-ref">Conciliación de Pagos</span></a> del documento “<strong>Importación</strong>”, seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo “<strong>Saldo Final</strong>”, el saldo abierto que posee el socio del negocio proveedor.</p>
+<p>Realice el procedimiento regular para generar el cierre de caja, explicado en la <span class="xref std std-ref">paso/cierre-caja-importación</span> del documento “<strong>Importación</strong>”, seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo “<strong>Saldo Final</strong>”, el saldo abierto que posee el socio del negocio proveedor.</p>
 <blockquote>
 <div><p><img alt="Cierre de Caja 2" src="../../../_images/cierrecaja4.png" /></p>
 <p>Imagen 6. Cierre de Caja</p>

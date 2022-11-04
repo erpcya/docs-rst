@@ -43,7 +43,7 @@
 ===============
 Dicha importación tiene como consecuencia para la empresa nacional la generación de gastos aduanales, sujetos al pago de tributos o al amparo de las franquicias correspondientes.
 
-**Expdiente de de Importación**
+**Expediente de de Importación**
 *******************************
 El expediente de importación representa la agrupación fiscal para un proceso de importación y es quién da paso al proceso de importación.
  
@@ -173,37 +173,6 @@ Asigne el expediente creaado anteriormente en el campo **Expediente Importación
 
     Al colocar el expediente se establece el **tipo de conversión negociado**.
 
-**Crear Documento por Pagar de Gastos**
-***************************************
-
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
-
-    |Menú de ADempiere 4|
-
-    Imagen 17. Menú de ADempiere
-
-Realice el procedimiento regular para realizar un documento por pagar, explicado en el material :ref:`documento/documento-por-pagar`.
-
-    |Factura de Importación|
-
-    Imagen 18. Factura de Cuentas por Pagar Importación
-
-Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
-
-    |Expediente de Importación|
-
-    Imagen 19. Expediente de Importación
-
-.. note:: 
-
-    Al colocar el expediente se establece el **tipo de conversión negociado**.
-
-Asigne la factura relacionada en el campo **Factura Relacionada**, se refere a la factura de mercancía que da origen a la importación.
-
-    |Factura Relacionada|
-
-    Imagen 20. Factura Relacionada
-
 .. _paso/crear-caja-importación:
 
 **Cancelación de Factura**
@@ -254,78 +223,3 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos P
             |Acción Completar|
 
             Imagen 27. Acción Completar
-
-.. _paso/cierre-caja-importación:
-
-**Conciliación de Pagos**
-*************************
-
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
-
-    |Menú de ADempiere 6|
-
-    Imagen 28. Menú de ADempiere
-
-    Seleccione el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere, para realizar un nuevo registro del documento "**Cierre de Caja**".
-
-        |Icono Registro Nuevo 3|
-
-        Imagen 29. Icono Registro Nuevo 
-
-    Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Cierre de Caja**".
-
-        |Campo Organización 2|
-
-        Imagen 30. Campo Organización
-
-    Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Cierre de Caja**".
-
-        |Campo Tipo de Documento 2|
-
-        Imagen 31. Campo Tipo de Documento
-
-    Seleccione en el campo "**Cuenta Bancaria**", la misma caja seleccionada en el documento "**Caja**" creado. Para ejemplificar el registro es utilizada la opción "**Caja Importación - --_PAGO USD**".
-
-        |Campo Cuenta Bancaria 2|
-
-        Imagen 32. Campo Cuenta Bancaria
-
-    Seleccione el proceso "**Crear a Partir de Pagos**" para crear el cierre de caja a partir de los pagos.
-
-        |Opción Crear Desde|
-
-        Imagen 33. Proceso Crear a Partir de Pagos
-
-        Podrá visualizar la ventana "**Crear extracto bancario a partir de pagos**", con los campos necesarios para filtrar la búsqueda.
-
-            |Ventana del Proceso Crear Desde|
-
-            Imagen 34. Ventana del Proceso Crear a Partir de Pagos
-
-        Seleccione la opción "**Comenzar Búsqueda**" para buscar los documentos creados al socio del negocio intermediario.
-
-            |Opción Comenzar Búsqueda|
-
-            Imagen 35. Opción Comenzar Búsqueda
-
-        Seleccione el pago con monto en negativo creado anteriormente desde el documento "**Caja**" y la opción "**OK**" para cargar la información a la ventana "**Cierre de Caja**".
-
-            |Seleccionar Pagos 1|
-
-            Imagen 36. Seleccionar Pagos 
-
-            .. note::
-
-                Recuerde seleccionar el icono "**Refrescar**" en la barra de herramientas de ADempiere, para refrescar el registro en la ventana "**Cierre de Caja**".
-
-        Seleccione la opción "**Completar**", para completar el documento "**Cierre de Caja**".
-
-            |Opción Completar 3|
-
-            Imagen 37. Opción Completar
-
-        Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
-
-            |Acción Completar|
-
-            Imagen 38. Acción Completar
