@@ -33,21 +33,21 @@ La importación consiste en ingresar al país los productos comprados procedente
         - Guía Aérea
         - Carta de porte relacionada al medio de transporte en la cual se importó la mercancía
         - Declaración jurada del valor en aduana
-        - Poliza de seguros
+        - Póliza de seguros
         - Certificación de origen de mercancía (de ser necesario)
         - Certificación o autorizaciones previas (de ser necesario)
         - Otros documentos necesarios por la aduana
 
     Luego, en un periodo no mayor a tres(3) días habiles el importador debe realizar el pago de los tributos aduaneros, una vez sea efectivo el pago, la aduana asigna un canal de control a la declaración única:
     
-        - Canal Verde: La mercancí es retirada inmediatamente, sin ser necesario examén o reconocimiento.
-        - Canal Amarillo: La mercancía es sometida a examén documental, de no tener observaciones es liberada en un plazo no mayor a 24 horas.
-        - Canal Rojo: La mercancía es sometida a reconocimiento físico y examén documental, de no tener observaciones es liberada en un plazo no mayor a 48 horas.
+        - **Canal Verde:** La mercancía es retirada inmediatamente, sin ser necesario examén o reconocimiento.
+        - **Canal Amarillo:** La mercancía es sometida a examén documental, de no tener observaciones es liberada en un plazo no mayor a 24 horas.
+        - **Canal Rojo:** La mercancía es sometida a reconocimiento físico y examén documental, de no tener observaciones es liberada en un plazo no mayor a 48 horas.
 
     
-    Finalmente, se para retirar la mercancía se cancela el servicio de almacenaje en zona franca, posteriormente, el agente aduanal entrega la documentación completa al importador una vez haya culminado en su totalidad la nacionalización, y se haya completado los derechos de tasas portuaria y tarifas por servicios portuarios establecidos según sea el caso en la :download:`Ley Orgánica de Aduanas <LEY_ORGANICA_DE_ADUANAS.pdf>`.
-
-    Junto a la documentación del expediente el agente aduanal consigna la relación de gastos de nacionalización, tales como:
+    Finalmente, para retirar la mercancía se cancela el servicio de almacenaje en zona franca para culminar la liquidación en aduana del(os) conterdor(es).
+    
+    Posteriormente, el agente aduanal entrega la documentación completa al importador una vez haya culminado en su totalidad la nacionalización, y se haya completado los derechos de tasas portuaria y tarifas por servicios portuarios establecidos según sea el caso en la :download:`Ley Orgánica de Aduanas <LEY_ORGANICA_DE_ADUANAS.pdf>`, junto a la documentación del expediente el agente aduanal consigna la relación de gastos de nacionalización, tales como:
 
         - Planilla Forma 79084
         - Planilla Forma 99086
