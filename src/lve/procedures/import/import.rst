@@ -96,7 +96,7 @@ Introduzca el tipo de conversión en la cuál gestionará el expediente, recuerd
 
 Vaya a la siguiente pestaña **Tipo de Conversión Negociada**, para establecer la tasa asignada al expediente de importación.
 
-    |Tasa de Cambio de Documento Import|
+    |Pestaña Tasa de Conversión|
 
     Imagen 7. Tipo de Cambio de Documento
 
@@ -108,7 +108,7 @@ Indique el monto de la tasa de cambio asignada al expediente de importación.
 
 Vea el expediente generado en el campo **Expediente Generado**, este registro es el valor utilizado para consultar los registros en reportes administrativos y contables.
 
-    |Tasa de Cambio de Documento Import|
+    |Expediente Generado|
 
     Imagen 9. Tipo de Cambio de Documento
 
