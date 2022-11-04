@@ -1,5 +1,11 @@
 .. _ERPyA: http://erpya.com
 .. |Menú de ADempiere 1| image:: resources/menutransf.png
+.. |Menú de ADempiere 11| image:: resources/menutransf.png
+.. |Transferencia Bancaria| image:: resources/transferencia2.png
+.. |Documento Pago Cobro| image:: resources/pagocobro1.png
+.. |Documento Caja| image:: resources/docaja1.png
+.. |Menú de ADempiere 2| image:: resources/menucierre1.png
+.. |Cierre de Caja| image:: resources/cierrecaja3.png
 .. |Ejemplo de Transferencia Bancaria| image:: resources/transferencia.png
 .. |Menú de ADempiere 2| image:: resources/menufactura.png
 .. |Documento por Pagar 1| image:: resources/doc1.png
@@ -38,91 +44,6 @@ La operación de anticipos a terceros está compuesta por cinco fases u operacio
 - Relación de Pasivos(Gestor)
 - Incremento de anticipo a terceros(Gestor)
 - Liquidación de Anticipos y CxP
-
-.. _paso/carga-anticipo:
-
-**Carga de Anticipo**
-*********************
-
-La transferencia representa un proceso en el cual se generan los pagos por concepto de anticipos al gestor(s), el mismo requiere conocimientos básicos en el proceso actual de tesorería en ADempiere. 
-
-.. note::
-
-    Se requiere la definición de una caja intermediario para la liquidación de anticipo, para esto contacte a un consultor de **E.R.P. Consultores y Asociados**.
-
-El traslado de fondo reflejará en la cuenta de banco un egreso por el anticipo (Pago a Conciliar) y genera un ingreso en la cuenta puente (Caja Intermediario _NumOrden_Proveedor) que será utilizado para gestionar los pagos de terceros, cuando a un gestor se le conceda un anticipo, el mismo se gestionará a través de la caja creada previamente.
-
-En primer lugar se creará el anticipo gestionando un traslado de fondos mediante el proceso de transferencia  a la caja (Caja Intermediario _NumOrden_Proveedor)  y se paga desde el banco en el cual sale realmente el pago. 
-
-Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas (Banco Real a Caja Intermediario _NumOrden_Proveedor), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere. 
-
-Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
-
-    |Menú de ADempiere 1|
-
-    Imagen 1. Menú de ADempiere
-
-Realizar una transferencia bancaria con las siguientes condiciones:
-
-    **Banco Desde**: Banco desde la cual se cancelará el anticipo
-
-    **Banco a Transferir**: Cuenta caja de importación definida anteriormente.
-
-    **Socio del Negocio**: Socio del Negocio al cual se le cancelará el anticipo.
-
-    **Moneda**: Moneda en la cual se cancelará la transferencia
-
-    **Cargo**: Cargo correspondiente al anticipo "**Anticipo a Tercero**".
-        
-    **Número del Documento**: Referencia correspondiente a la transferencia bancaria.
-
-    **Monto**: Monto del anticipo.
-
-    **Descripción**: Breve descripción sobre la transferencia.
-
-    **Fecha de Estado de Cuenta**: Fecha de la transferencia realizada.
-
-    **Fecha Contable**: Fecha de la transferencia realizada.
-
-Resultados:
-
-    **Egreso**:
-
-        - **Resultado**: Se realiza un egreso en banco por el monto a cancelar.
-
-        - **Resultado Contable**: A continuación se presenta un ejemplo de un resultado contable.
-
-        +--------------+------------------------------------------------------------+----------------------+-----------------------+
-        | Organización |                         Cuenta                             | Débito Contabilizado | Crédito Contabilizado |
-        +==============+============================================================+======================+=======================+
-        | Organización |1.1.2.4.1.003 - TRANSITO ANTICIPO INTERMEDIARIOS            |         64.000.000,00|                   0,00|
-        +--------------+------------------------------------------------------------+----------------------+-----------------------+
-        | Organización | 1.1.1.1.2.1.011.002 - TRANSITO BANESCO BANCO UNIVERSAL C.A.|                  0,00|          64.000.000,00|
-        +--------------+------------------------------------------------------------+----------------------+-----------------------+
-        |              |                                                            |         64.000.000,00|          64.000.000,00|
-        +--------------+------------------------------------------------------------+----------------------+-----------------------+
-
-    **Ingreso**:
-
-        - **Resultado**: Se realiza un ingreso en caja por el monto a cancelar
-
-        - **Resultado Contable**: A continuación se presenta un ejemplo de un resultado contable.
-
-        +--------------+-------------------------------------------------------------------+----------------------+-----------------------+
-        | Organización |                             Cuenta                                | Débito Contabilizado | Crédito Contabilizado |
-        +==============+===================================================================+======================+=======================+
-        | Organización |1.1.2.4.1.002 - ANTICIPOS A INTERMEDIARIOS PENDIENTES POR CONCILIAR|         64.000.000,00|                   0,00|
-        +--------------+-------------------------------------------------------------------+----------------------+-----------------------+
-        | Organización |1.1.2.4.1.003 - TRANSITO ANTICIPO INTERMEDIARIOS                   |                  0,00|          64.000.000,00|
-        +--------------+-------------------------------------------------------------------+----------------------+-----------------------+
-        |              |                                                                   |         64.000.000,00|          64.000.000,00|
-        +--------------+-------------------------------------------------------------------+----------------------+-----------------------+
-
-A continuación se presenta un ejemplo de la ventana "**Transferencia Bancaria**".
-
-    |Ejemplo de Transferencia Bancaria|
-
-    Imagen 2. Ejemplo de Transferencia Bancaria
 
 .. _paso/carga-factura-cxp:
 
