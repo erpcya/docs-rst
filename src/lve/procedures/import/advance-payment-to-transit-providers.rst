@@ -143,7 +143,7 @@ Realice el procedimiento regular para generar el cierre de caja, explicado en la
 
 .. _paso/carga-factura-anticipo-transito:
 
-**Carga de Facturas**
+**Carga de Facturas de Gastos**
 ---------------------
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
