@@ -87,7 +87,6 @@
 <li class="toctree-l3"><a class="reference internal" href="advance-payment-to-transit-providers.html"><strong>Anticipo a Proveedores en Tránsito</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="taxliability.html"><strong>Planillas Tributarias</strong></a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Liquidación Anticipo Intermediario</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#carga-de-anticipo"><strong>Carga de Anticipo</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#factura-de-cuentas-por-pagar-de-costos-fob"><strong>Factura de Cuentas por Pagar de Costos FOB</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cancelacion-o-cruce-de-anticipo-con-cuentas-por-pagar"><strong>Cancelación ó Cruce de Anticipo con Cuentas por Pagar</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#conciliacion-de-liquidacion"><strong>Conciliación de Liquidación</strong></a></li>
@@ -155,121 +154,6 @@
 <li><p>Incremento de anticipo a terceros(Gestor)</p></li>
 <li><p>Liquidación de Anticipos y CxP</p></li>
 </ul>
-<section id="carga-de-anticipo">
-<span id="paso-carga-anticipo"></span><h2><strong>Carga de Anticipo</strong><a class="headerlink" href="#carga-de-anticipo" title="Permalink to this headline"></a></h2>
-<p>La transferencia representa un proceso en el cual se generan los pagos por concepto de anticipos al gestor(s), el mismo requiere conocimientos básicos en el proceso actual de tesorería en ADempiere.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Se requiere la definición de una caja intermediario para la liquidación de anticipo, para esto contacte a un consultor de <strong>E.R.P. Consultores y Asociados</strong>.</p>
-</div>
-<p>El traslado de fondo reflejará en la cuenta de banco un egreso por el anticipo (Pago a Conciliar) y genera un ingreso en la cuenta puente (Caja Intermediario _NumOrden_Proveedor) que será utilizado para gestionar los pagos de terceros, cuando a un gestor se le conceda un anticipo, el mismo se gestionará a través de la caja creada previamente.</p>
-<p>En primer lugar se creará el anticipo gestionando un traslado de fondos mediante el proceso de transferencia  a la caja (Caja Intermediario _NumOrden_Proveedor)  y se paga desde el banco en el cual sale realmente el pago.</p>
-<p>Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas (Banco Real a Caja Intermediario _NumOrden_Proveedor), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere.</p>
-<p>Ubique y seleccione en el menú de ADempiere la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione el proceso “<strong>Transferencia Bancaria</strong>”.</p>
-<blockquote>
-<div><p><img alt="Menú de ADempiere 1" src="../../../_images/menutransf.png" /></p>
-<p>Imagen 1. Menú de ADempiere</p>
-</div></blockquote>
-<p>Realizar una transferencia bancaria con las siguientes condiciones:</p>
-<blockquote>
-<div><p><strong>Banco Desde</strong>: Banco desde la cual se cancelará el anticipo</p>
-<p><strong>Banco a Transferir</strong>: Cuenta caja de importación definida anteriormente.</p>
-<p><strong>Socio del Negocio</strong>: Socio del Negocio al cual se le cancelará el anticipo.</p>
-<p><strong>Moneda</strong>: Moneda en la cual se cancelará la transferencia</p>
-<p><strong>Cargo</strong>: Cargo correspondiente al anticipo “<strong>Anticipo a Tercero</strong>”.</p>
-<p><strong>Número del Documento</strong>: Referencia correspondiente a la transferencia bancaria.</p>
-<p><strong>Monto</strong>: Monto del anticipo.</p>
-<p><strong>Descripción</strong>: Breve descripción sobre la transferencia.</p>
-<p><strong>Fecha de Estado de Cuenta</strong>: Fecha de la transferencia realizada.</p>
-<p><strong>Fecha Contable</strong>: Fecha de la transferencia realizada.</p>
-</div></blockquote>
-<p>Resultados:</p>
-<blockquote>
-<div><p><strong>Egreso</strong>:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><strong>Resultado</strong>: Se realiza un egreso en banco por el monto a cancelar.</p></li>
-<li><p><strong>Resultado Contable</strong>: A continuación se presenta un ejemplo de un resultado contable.</p></li>
-</ul>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 50%" />
-<col style="width: 18%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Organización</p></th>
-<th class="head"><p>Cuenta</p></th>
-<th class="head"><p>Débito Contabilizado</p></th>
-<th class="head"><p>Crédito Contabilizado</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Organización</p></td>
-<td><p>1.1.2.4.1.003 - TRANSITO ANTICIPO INTERMEDIARIOS</p></td>
-<td><p>64.000.000,00</p></td>
-<td><p>0,00</p></td>
-</tr>
-<tr class="row-odd"><td><p>Organización</p></td>
-<td><p>1.1.1.1.2.1.011.002 - TRANSITO BANESCO BANCO UNIVERSAL C.A.</p></td>
-<td><p>0,00</p></td>
-<td><p>64.000.000,00</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td></td>
-<td><p>64.000.000,00</p></td>
-<td><p>64.000.000,00</p></td>
-</tr>
-</tbody>
-</table>
-</div></blockquote>
-<p><strong>Ingreso</strong>:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><strong>Resultado</strong>: Se realiza un ingreso en caja por el monto a cancelar</p></li>
-<li><p><strong>Resultado Contable</strong>: A continuación se presenta un ejemplo de un resultado contable.</p></li>
-</ul>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 53%" />
-<col style="width: 17%" />
-<col style="width: 18%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Organización</p></th>
-<th class="head"><p>Cuenta</p></th>
-<th class="head"><p>Débito Contabilizado</p></th>
-<th class="head"><p>Crédito Contabilizado</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Organización</p></td>
-<td><p>1.1.2.4.1.002 - ANTICIPOS A INTERMEDIARIOS PENDIENTES POR CONCILIAR</p></td>
-<td><p>64.000.000,00</p></td>
-<td><p>0,00</p></td>
-</tr>
-<tr class="row-odd"><td><p>Organización</p></td>
-<td><p>1.1.2.4.1.003 - TRANSITO ANTICIPO INTERMEDIARIOS</p></td>
-<td><p>0,00</p></td>
-<td><p>64.000.000,00</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td></td>
-<td><p>64.000.000,00</p></td>
-<td><p>64.000.000,00</p></td>
-</tr>
-</tbody>
-</table>
-</div></blockquote>
-</div></blockquote>
-<p>A continuación se presenta un ejemplo de la ventana “<strong>Transferencia Bancaria</strong>”.</p>
-<blockquote>
-<div><p><img alt="Ejemplo de Transferencia Bancaria" src="../../../_images/transferencia.png" /></p>
-<p>Imagen 2. Ejemplo de Transferencia Bancaria</p>
-</div></blockquote>
-</section>
 <section id="factura-de-cuentas-por-pagar-de-costos-fob">
 <span id="paso-carga-factura-cxp"></span><h2><strong>Factura de Cuentas por Pagar de Costos FOB</strong><a class="headerlink" href="#factura-de-cuentas-por-pagar-de-costos-fob" title="Permalink to this headline"></a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>

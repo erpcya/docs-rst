@@ -85,10 +85,9 @@
 <li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Importación</strong></a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="import.html"><strong>Importación</strong></a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Anticipo a Proveedores en Tránsito</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#transferencia-bancaria"><strong>Transferencia Bancaria</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#carga-de-facturas-de-gastos"><strong>Carga de Facturas de Gastos</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#solicitud-de-pago"><strong>Solicitud de Pago</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#cancelacion-de-factura"><strong>Cancelación de Factura</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#carga-de-anticipo"><strong>Carga de Anticipo</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cierre-de-caja"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#paso-cierre-caja-final-anticipo-transito"><strong>Cierre de Caja</strong></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="taxliability.html"><strong>Planillas Tributarias</strong></a></li>
@@ -148,14 +147,128 @@
 <span id="documento-anticipo-a-proveedores-en-transito"></span><h1><strong>Anticipo a Proveedores en Tránsito</strong><a class="headerlink" href="#anticipo-a-proveedores-en-transito" title="Permalink to this headline"></a></h1>
 <p>Un anticipo a proveedor es el pago de una parte o un porcentaje del monto total de una compra o venta, realizado por adelantado. El mismo tiene la finalidad de asegurar los productos o servicios que el comprador requiere y por los cuales el vendedor amerita un anticipo para cubrir diferentes gastos.</p>
 <p>En ADempiere es posible reflejar los anticipos realizados a proveedores en tránsito, permitiendo por medio de este, el control de los saldos abiertos que tienen los proveedores.</p>
+<section id="carga-de-anticipo">
+<span id="paso-carga-anticipo"></span><h2><strong>Carga de Anticipo</strong><a class="headerlink" href="#carga-de-anticipo" title="Permalink to this headline"></a></h2>
+<p>La transferencia representa un proceso en el cual se generan los pagos por concepto de anticipos al gestor(s), el mismo requiere conocimientos básicos en el proceso actual de tesorería en ADempiere.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se requiere la definición de una caja intermediario para la liquidación de anticipo, para esto contacte a un consultor de <strong>E.R.P. Consultores y Asociados</strong>.</p>
+</div>
+<p>El traslado de fondo reflejará en la cuenta de banco un egreso por el anticipo (Pago a Conciliar) y genera un ingreso en la cuenta puente (Caja Intermediario _NumOrden_Proveedor) que será utilizado para gestionar los pagos de terceros, cuando a un gestor se le conceda un anticipo, el mismo se gestionará a través de la caja creada previamente.</p>
+<p>En primer lugar se creará el anticipo gestionando un traslado de fondos mediante el proceso de transferencia  a la caja (Caja Intermediario _NumOrden_Proveedor)  y se paga desde el banco en el cual sale realmente el pago.</p>
+<p>Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas (Banco Real a Caja Intermediario _NumOrden_Proveedor), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere.</p>
+<p>Ubique y seleccione en el menú de ADempiere la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione el proceso “<strong>Transferencia Bancaria</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 11" src="../../../_images/menutransf.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Realizar una transferencia bancaria con las siguientes condiciones:</p>
+<blockquote>
+<div><p><strong>Banco Desde</strong>: Banco desde la cual se cancelará el anticipo</p>
+<p><strong>Banco a Transferir</strong>: Cuenta caja de importación definida anteriormente.</p>
+<p><strong>Socio del Negocio</strong>: Socio del Negocio al cual se le cancelará el anticipo.</p>
+<p><strong>Moneda</strong>: Moneda en la cual se cancelará la transferencia</p>
+<p><strong>Cargo</strong>: Cargo correspondiente al anticipo “<strong>Anticipo a Tercero</strong>”.</p>
+<p><strong>Número del Documento</strong>: Referencia correspondiente a la transferencia bancaria.</p>
+<p><strong>Monto</strong>: Monto del anticipo.</p>
+<p><strong>Descripción</strong>: Breve descripción sobre la transferencia.</p>
+<p><strong>Fecha de Estado de Cuenta</strong>: Fecha de la transferencia realizada.</p>
+<p><strong>Fecha Contable</strong>: Fecha de la transferencia realizada.</p>
+</div></blockquote>
+<p>Resultados:</p>
+<blockquote>
+<div><p><strong>Egreso</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Resultado</strong>: Se realiza un egreso en banco por el monto a cancelar.</p></li>
+<li><p><strong>Resultado Contable</strong>: A continuación se presenta un ejemplo de un resultado contable.</p></li>
+</ul>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 50%" />
+<col style="width: 18%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Organización</p></th>
+<th class="head"><p>Cuenta</p></th>
+<th class="head"><p>Débito Contabilizado</p></th>
+<th class="head"><p>Crédito Contabilizado</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Organización</p></td>
+<td><p>1.1.2.4.1.003 - TRANSITO ANTICIPO INTERMEDIARIOS</p></td>
+<td><p>64.000.000,00</p></td>
+<td><p>0,00</p></td>
+</tr>
+<tr class="row-odd"><td><p>Organización</p></td>
+<td><p>1.1.1.1.2.1.011.002 - TRANSITO BANESCO BANCO UNIVERSAL C.A.</p></td>
+<td><p>0,00</p></td>
+<td><p>64.000.000,00</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>64.000.000,00</p></td>
+<td><p>64.000.000,00</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p><strong>Ingreso</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Resultado</strong>: Se realiza un ingreso en caja por el monto a cancelar</p></li>
+<li><p><strong>Resultado Contable</strong>: A continuación se presenta un ejemplo de un resultado contable.</p></li>
+</ul>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 53%" />
+<col style="width: 17%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Organización</p></th>
+<th class="head"><p>Cuenta</p></th>
+<th class="head"><p>Débito Contabilizado</p></th>
+<th class="head"><p>Crédito Contabilizado</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Organización</p></td>
+<td><p>1.1.2.4.1.002 - ANTICIPOS A INTERMEDIARIOS PENDIENTES POR CONCILIAR</p></td>
+<td><p>64.000.000,00</p></td>
+<td><p>0,00</p></td>
+</tr>
+<tr class="row-odd"><td><p>Organización</p></td>
+<td><p>1.1.2.4.1.003 - TRANSITO ANTICIPO INTERMEDIARIOS</p></td>
+<td><p>0,00</p></td>
+<td><p>64.000.000,00</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>64.000.000,00</p></td>
+<td><p>64.000.000,00</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div></blockquote>
+<p>A continuación se presenta un ejemplo de la ventana “<strong>Transferencia Bancaria</strong>”.</p>
+<blockquote>
+<div><p><img alt="Ejemplo de Transferencia Bancaria" src="../../../_images/transferencia.png" /></p>
+<p>Imagen 2. Ejemplo de Transferencia Bancaria</p>
+</div></blockquote>
 <section id="transferencia-bancaria">
-<span id="paso-transferencia-anticipo-transito"></span><h2><strong>Transferencia Bancaria</strong><a class="headerlink" href="#transferencia-bancaria" title="Permalink to this headline"></a></h2>
+<span id="paso-transferencia-anticipo-transito"></span><h3><strong>Transferencia Bancaria</strong><a class="headerlink" href="#transferencia-bancaria" title="Permalink to this headline"></a></h3>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione el proceso “<strong>Transferencia Bancaria</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 1" src="../../../_images/menutransf.png" /></p>
 <p>Imagen 1. Menú de ADempiere</p>
 </div></blockquote>
-<p>Realice el procedimiento regular de transferencia bancaria explicado en la <a class="reference internal" href="intermediary-advance-settlement.html#paso-carga-anticipo"><span class="std std-ref">Carga de Anticipo</span></a> del documento “<strong>Liquidación Anticipo Intermediario</strong>”, para transferir desde un banco determinado de la empresa a la caja del proveedor en tránsito al cual se le aplicará el anticipo.</p>
+<p>Realice el procedimiento regular de transferencia bancaria explicado en la <a class="reference internal" href="#paso-carga-anticipo"><span class="std std-ref">Carga de Anticipo</span></a> del documento “<strong>Liquidación Anticipo Intermediario</strong>”, para transferir desde un banco determinado de la empresa a la caja del proveedor en tránsito al cual se le aplicará el anticipo.</p>
 <blockquote>
 <div><p>Para realizar el procedimiento se debe tomar en cuenta lo siguiente:</p>
 <blockquote>
@@ -276,8 +389,10 @@
 </div></blockquote>
 </div></blockquote>
 </div></blockquote>
+</section>
+</section>
 <section id="cierre-de-caja">
-<span id="paso-cierre-caja-anticipo-transito"></span><h3><strong>Cierre de Caja</strong><a class="headerlink" href="#cierre-de-caja" title="Permalink to this headline"></a></h3>
+<span id="paso-cierre-caja-anticipo-transito"></span><h2><strong>Cierre de Caja</strong><a class="headerlink" href="#cierre-de-caja" title="Permalink to this headline"></a></h2>
 <p>El cierre de caja es realizado para indicar a ADempiere que al socio del negocio “<strong>Proveedor Estándar</strong>”, se le realizó una transferencia bancaria como anticipo a su caja “<strong>Proveedores en Tránsito - –_00000</strong>”, por el monto de “<strong>200.001.332,00</strong>”.</p>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Cierre de Caja</strong>”.</p>
 <blockquote>
@@ -290,273 +405,8 @@
 <p>Imagen 6. Cierre de Caja</p>
 </div></blockquote>
 </section>
-</section>
-<section id="carga-de-facturas-de-gastos">
-<span id="paso-carga-factura-anticipo-transito"></span><h2><strong>Carga de Facturas de Gastos</strong><a class="headerlink" href="#carga-de-facturas-de-gastos" title="Permalink to this headline"></a></h2>
-<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
-<blockquote>
-<div><p><img alt="Menú de ADempiere 3" src="../../../_images/menufactura.png" /></p>
-<p>Imagen 7. Menú de ADempiere</p>
-</div></blockquote>
-<p>Realice el procedimiento regular para generar un documento por pagar explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a>, utilizando el cargo “<strong>Transporte de Personal</strong>”.</p>
-<blockquote>
-<div><p><img alt="Documento por Pagar 1" src="../../../_images/docpagar1.png" /></p>
-<p>Imagen 8. Documento por Pagar</p>
-</div></blockquote>
-<p>Asigne el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
-<blockquote>
-<div><p><a href="#id2"><span class="problematic" id="id3">|Expediente de Importación|</span></a></p>
-<p>Imagen 9. Expediente de Importación</p>
-</div></blockquote>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Al colocar el expediente se establece el <strong>tipo de conversión negociado</strong>.</p>
-</div>
-<p>Asigne la factura relacionada en el campo <strong>Factura Relacionada</strong>, se refere a la factura de mercancía que da origen a la importación.</p>
-<blockquote>
-<div><p><a href="#id4"><span class="problematic" id="id5">|Factura Relacionada|</span></a></p>
-<p>Imagen 10. Factura Relacionada</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>El cargo de la factura puede variar dependiendo del gasto con el cual se justifica el anticipo.</p>
-</div>
-</div></blockquote>
-<p>El asiento contable del documento por pagar realizado quedaría de la siguiente manera:</p>
-<blockquote>
-<div><table class="docutils align-default">
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 50%" />
-<col style="width: 18%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Organización</p></th>
-<th class="head"><p>Cuenta</p></th>
-<th class="head"><p>Débito Contabilizado</p></th>
-<th class="head"><p>Crédito Contabilizado</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Organización</p></td>
-<td><p>6.1.1.1.2.006 - CUENTA DE GASTO O COSTO</p></td>
-<td><p>200.001.332,00</p></td>
-<td><p>0,00</p></td>
-</tr>
-<tr class="row-odd"><td><p>Organización</p></td>
-<td><p>2.1.1.1.1.001 - CUENTAS POR PAGAR PROVEEDORES NACIONALES</p></td>
-<td><p>0,00</p></td>
-<td><p>200.001.332,00</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td></td>
-<td><p>200.001.332,00</p></td>
-<td><p>200.001.332,00</p></td>
-</tr>
-</tbody>
-</table>
-</div></blockquote>
-</section>
-<section id="solicitud-de-pago">
-<span id="paso-solicitud-pago-anticipo-transito"></span><h2><strong>Solicitud de Pago</strong><a class="headerlink" href="#solicitud-de-pago" title="Permalink to this headline"></a></h2>
-<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, por último seleccione la ventana “<strong>Selección de Pago</strong>”.</p>
-<blockquote>
-<div><p><img alt="Menú de ADempiere 4" src="../../../_images/menusolicitud.png" /></p>
-<p>Imagen 11. Menú de ADempiere</p>
-</div></blockquote>
-<p>Podrá visualizar la ventana “<strong>Selección de Pago</strong>”, donde debe seleccionar el icono “<strong>Registro Nuevo</strong>” para crear una solicitud de pago en ADempiere.</p>
-<blockquote>
-<div><p><img alt="Icono Registro Nuevo" src="../../../_images/nuevasoli.png" /></p>
-<p>Imagen 12. Icono Registro Nuevo</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Solicitud de Pago</strong>”.</p>
-<blockquote>
-<div><p><img alt="Campo Organización" src="../../../_images/org41.png" /></p>
-<p>Imagen 13. Campo Organización</p>
-</div></blockquote>
-<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizada la opción “<strong>Solicitud de Pagos de Cuentas por Pagar</strong>”.</p>
-<blockquote>
-<div><p><img alt="Campo Tipo de Documento" src="../../../_images/tipodoc41.png" /></p>
-<p>Imagen 14. Campo Tipo de Documento</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta caja creada al socio del negocio proveedor en tránsito al cual se le realizó la transferencia bancaria.</p>
-<blockquote>
-<div><p><img alt="Campo Cuenta Bancaria" src="../../../_images/cuentab1.png" /></p>
-<p>Imagen 15. Campo Cuenta Bancaria</p>
-</div></blockquote>
-<p>Introduzca en el campo “<strong>Nombre de Referencia</strong>”, una breve descripción de la solicitud de pago que esta realizando.</p>
-<blockquote>
-<div><p><img alt="Campo Nombre de Referencia" src="../../../_images/nombre23.png" /></p>
-<p>Imagen 16. Campo Nombre de Referencia</p>
-</div></blockquote>
-<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, para guardar el registro de los campos en la ventana.</p>
-<blockquote>
-<div><p><img alt="Icono Guardar Cambios" src="../../../_images/iconoguardar1.png" /></p>
-<p>Imagen 17. Icono Guardar Cambios</p>
-</div></blockquote>
-<p>Seleccione el proceso “<strong>Crear Desde Factura</strong>”, para crear la solicitud de pago desde el documento por pagar.</p>
-<blockquote>
-<div><p><img alt="Crear Desde Factura 1" src="../../../_images/creardesde2.png" /></p>
-<p>Imagen 18. Proceso Crear Desde Factura</p>
-<p>Podrá visualizar la ventana del proceso “<strong>Crear Desde Factura</strong>”, donde debe seleccionar la opción “<strong>Comenzar Búsqueda</strong>” para buscar los registros de documentos por pagar.</p>
-<blockquote>
-<div><p><img alt="Opción Comenzar Búsqueda" src="../../../_images/vent3.png" /></p>
-<p>Imagen 19. Opción Comenzar Búsqueda</p>
-</div></blockquote>
-<p>Seleccione el documento por pagar y la opción “<strong>OK</strong>” para cargar los datos del documento seleccionado a la ventana “<strong>Selección de Pago</strong>”.</p>
-<blockquote>
-<div><p><img alt="Selección de Factura y Opción OK" src="../../../_images/selecfacturas1.png" /></p>
-<p>Imagen 20. Selección de Factura y Opción OK</p>
-</div></blockquote>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Recuerde seleccionar el icono “<strong>Refrescar</strong>” para actualizar la ventana y se pueda visualizar el registro creado desde el proceso “<strong>Crear Desde Factura</strong>”.</p>
-</div>
-</div></blockquote>
-<p>Seleccione la opción “<strong>Completar</strong>” ubicado en la parte inferior derecha del documento.</p>
-<blockquote>
-<div><p><img alt="Opción Completar 1" src="../../../_images/completar51.png" /></p>
-<p>Imagen 21. Opción Completar</p>
-</div></blockquote>
-<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento “<strong>Solicitud de Pago</strong>”.</p>
-<blockquote>
-<div><p><img alt="Acción Completar y Opción OK" src="../../../_images/accion11.png" /></p>
-<p>Imagen 22. Acción Completar y Opción OK</p>
-</div></blockquote>
-</section>
-<section id="cancelacion-de-factura">
-<span id="paso-cancelacion-factura-anticipo-transito"></span><h2><strong>Cancelación de Factura</strong><a class="headerlink" href="#cancelacion-de-factura" title="Permalink to this headline"></a></h2>
-<section id="imprimir-exportar-pagos">
-<span id="paso-imprimir-exportar-anticipo-transito"></span><h3><strong>Imprimir/Exportar Pagos</strong><a class="headerlink" href="#imprimir-exportar-pagos" title="Permalink to this headline"></a></h3>
-<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, por último seleccione la ventana “<strong>Imprimir/Exportar Pagos</strong>”.</p>
-<blockquote>
-<div><p><img alt="Menú de ADempiere 5" src="../../../_images/menuimprimir.png" /></p>
-<p>Imagen 23. Menú de ADempiere</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Selección de Pago</strong>”, la solicitud de pago “<strong>SOP-1000342</strong>” realizada anteriormente.</p>
-<blockquote>
-<div><p><img alt="Campo Selección de Pago" src="../../../_images/selecpagos2.png" /></p>
-<p>Imagen 24. Campo Selección de Pago</p>
-</div></blockquote>
-<p>Seleccione la opción “<strong>Imprimir</strong>” si la regla de pago corresponde a “<strong>Cheque</strong>”, de lo contrario debe seleccionar la opción “<strong>Exportar Registros</strong>” para que sea generado el documento en formato “<strong>.txt</strong>”. Para ejemplificar el registro es utilizada la opción “<strong>Exportar Registros</strong>”.</p>
-<blockquote>
-<div><p><img alt="Opción Exportar Registros" src="../../../_images/exportareg1.png" /></p>
-<p>Imagen 25. Opción Exportar Registros</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>El documento generado por ADempiere en formato “<strong>.txt</strong>” es utilizado por el usuario para importarlo al banco correspondiente.</p>
-</div>
-</div></blockquote>
-<p>Podrá visualizar el siguiente mensaje de confirmación donde debe seleccionar la opción “<strong>OK</strong>”.</p>
-<blockquote>
-<div><p><img alt="Mensaje de Confirmación" src="../../../_images/confirmacion1.png" /></p>
-<p>Imagen 26. Mensaje de Confirmación</p>
-</div></blockquote>
-<p>Luego de revisar el documento generado en formato “<strong>.txt</strong>”, puede seleccionar la opción “<strong>OK</strong>” en el mensaje.</p>
-<blockquote>
-<div><p><img alt="Mensaje para Confirmar Documento" src="../../../_images/confirmacion2.png" /></p>
-<p>Imagen 27. Mensaje para Confirmar Documento</p>
-</div></blockquote>
-<p>Al seleccionar la opción “<strong>OK</strong>, se genera un documento en “<strong>Caja</strong>” que representa el egreso en la caja seleccionada y un documento en “<strong>Consulta de Asignación</strong>”.</p>
-<blockquote>
-<div><p><strong>Egreso</strong>:</p>
-<blockquote>
-<div><ul>
-<li><p><strong>Resultado</strong>: Se realiza un egreso en caja.</p>
-<blockquote>
-<div><p><img alt="Documento Pago Nacional" src="../../../_images/docaja2.png" /></p>
-<p>Imagen 3. Documento de Egreso en Pago/Cobro</p>
-</div></blockquote>
-</li>
-<li><p><strong>Resultado Contable</strong>: A continuación se presenta un ejemplo de un resultado contable.</p>
-<blockquote>
-<div><table class="docutils align-default">
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 50%" />
-<col style="width: 18%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Organización</p></th>
-<th class="head"><p>Cuenta</p></th>
-<th class="head"><p>Débito Contabilizado</p></th>
-<th class="head"><p>Crédito Contabilizado</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Organización</p></td>
-<td><p>2.1.4.1.3.002 - SELECCIÓN DE PAGOS</p></td>
-<td><p>200.001.332,00</p></td>
-<td><p>0,00</p></td>
-</tr>
-<tr class="row-odd"><td><p>Organización</p></td>
-<td><p>1.1.2.2.001 - ANTICIPOS A PROVEEDORES NACIONALES</p></td>
-<td><p>0,00</p></td>
-<td><p>200.001.332,00</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td></td>
-<td><p>200.001.332,00</p></td>
-<td><p>200.001.332,00</p></td>
-</tr>
-</tbody>
-</table>
-</div></blockquote>
-</li>
-</ul>
-</div></blockquote>
-<p><strong>Asignación</strong>:</p>
-<blockquote>
-<div><ul>
-<li><p><strong>Resultado</strong>: Se realiza una asignación de pago.</p>
-<blockquote>
-<div><p><img alt="Documento Asignación" src="../../../_images/docasignacion1.png" /></p>
-<p>Imagen 4. Documento Asignación</p>
-</div></blockquote>
-</li>
-<li><p><strong>Resultado Contable</strong>: A continuación se presenta un ejemplo de un resultado contable.</p>
-<blockquote>
-<div><table class="docutils align-default">
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 50%" />
-<col style="width: 18%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Organización</p></th>
-<th class="head"><p>Cuenta</p></th>
-<th class="head"><p>Débito Contabilizado</p></th>
-<th class="head"><p>Crédito Contabilizado</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Organización</p></td>
-<td><p>2.1.1.1.1.001 - CUENTAS POR PAGAR PROVEEDORES NACIONALES</p></td>
-<td><p>200.001.332,00</p></td>
-<td><p>0,00</p></td>
-</tr>
-<tr class="row-odd"><td><p>Organización</p></td>
-<td><p>2.1.4.1.3.002 - SELECCIÓN DE PAGOS</p></td>
-<td><p>0,00</p></td>
-<td><p>200.001.332,00</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td></td>
-<td><p>200.001.332,00</p></td>
-<td><p>200.001.332,00</p></td>
-</tr>
-</tbody>
-</table>
-</div></blockquote>
-</li>
-</ul>
-</div></blockquote>
-</div></blockquote>
-</section>
 <section id="paso-cierre-caja-final-anticipo-transito">
-<span id="id1"></span><h3><strong>Cierre de Caja</strong><a class="headerlink" href="#paso-cierre-caja-final-anticipo-transito" title="Permalink to this headline"></a></h3>
+<span id="id1"></span><h2><strong>Cierre de Caja</strong><a class="headerlink" href="#paso-cierre-caja-final-anticipo-transito" title="Permalink to this headline"></a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Cierre de Caja</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 2" src="../../../_images/menucierre1.png" /></p>
@@ -567,7 +417,6 @@
 <div><p><img alt="Cierre de Caja 2" src="../../../_images/cierrecaja4.png" /></p>
 <p>Imagen 6. Cierre de Caja</p>
 </div></blockquote>
-</section>
 </section>
 </section>
 
