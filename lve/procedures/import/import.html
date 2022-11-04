@@ -84,9 +84,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Importación</strong></a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Importación</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#expediente-de-de-importacion"><strong>Expediente de de Importación</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#expediente-de-importacion"><strong>Expediente de Importación</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#orden-de-compra-de-importacion"><strong>Orden de Compra de Importación</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#crear-documento-por-pagar-de-mercancia"><strong>Crear Documento por Pagar de Mercancía</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crear-documento-por-pagar-de-costos-cif"><strong>Crear Documento por Pagar de Costos CIF</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cancelacion-de-factura"><strong>Cancelación de Factura</strong></a></li>
 </ul>
 </li>
@@ -144,11 +145,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="importacion">
+  <p>ocexpgeneradoimport.png</p>
+<section id="importacion">
 <span id="documento-importacion"></span><h1><strong>Importación</strong><a class="headerlink" href="#importacion" title="Permalink to this headline"></a></h1>
 <p>Dicha importación tiene como consecuencia para la empresa nacional la generación de gastos aduanales, sujetos al pago de tributos o al amparo de las franquicias correspondientes.</p>
-<section id="expediente-de-de-importacion">
-<h2><strong>Expediente de de Importación</strong><a class="headerlink" href="#expediente-de-de-importacion" title="Permalink to this headline"></a></h2>
+<section id="expediente-de-importacion">
+<h2><strong>Expediente de Importación</strong><a class="headerlink" href="#expediente-de-importacion" title="Permalink to this headline"></a></h2>
 <p>El expediente de importación representa la agrupación fiscal para un proceso de importación y es quién da paso al proceso de importación.</p>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Importación y Exportación</strong>” y luego seleccione la ventana “<strong>Expediente de Importación/Exportación</strong>”.</p>
 <blockquote>
@@ -157,7 +159,7 @@
 </div></blockquote>
 <p>Seleccione el tipo de documento <a href="#id1"><span class="problematic" id="id2">**</span></a>”Expediente de Importación”.</p>
 <blockquote>
-<div><p><img alt="Tipo de Documento Import" src="../../../_images/Tipodocimport.png" /></p>
+<div><p><img alt="Tipo de Documento Import" src="../../../_images/tipodocimport.png" /></p>
 <p>Imagen 2. Tipo de Documento</p>
 </div></blockquote>
 <p>Introduzca la fecha del expediente.</p>
@@ -167,70 +169,94 @@
 </div></blockquote>
 <p>Introduzca el número del expediente asignado en el campo <strong>Número de Documento</strong>.</p>
 <blockquote>
-<div><p><img alt="Número de Documento Import" src="../../../_images/fechadocimport.png" /></p>
+<div><p><img alt="Número de Documento Import" src="../../../_images/ndocumentoimport.png" /></p>
 <p>Imagen 4. Fecha de Documento</p>
 </div></blockquote>
 <p>Introduzca la moneda en la cuál gestionará el expediente, es decir, la moneda de la compra de la mercancía.</p>
 <blockquote>
-<div><p><img alt="Moneda de Documento Import" src="../../../_images/fechadocimport.png" /></p>
+<div><p><img alt="Moneda de Documento Import" src="../../../_images/monedaimport.png" /></p>
 <p>Imagen 5. Moneda de Documento</p>
 </div></blockquote>
 <p>Introduzca el tipo de conversión en la cuál gestionará el expediente, recuerde que generalmente es el tipo de cambio de curso legal.</p>
 <blockquote>
-<div><p><img alt="Tipo de Cambio de Documento Import" src="../../../_images/fechadocimport.png" /></p>
+<div><p><img alt="Tipo de Cambio de Documento Import" src="../../../_images/tipoconvimport.png" /></p>
 <p>Imagen 6. Tipo de Cambio de Documento</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>El campo <strong>moneda de cambio</strong> es la moneda de curso legal y es cargada automáticamente.</p>
+<p>El campo <strong>Moneda de Fiscal</strong> es la moneda de curso legal y es cargada automáticamente.</p>
 </div>
 <p>Vaya a la siguiente pestaña <strong>Tipo de Conversión Negociada</strong>, para establecer la tasa asignada al expediente de importación.</p>
 <blockquote>
-<div><p>Indique el monto de la tasa de cambio asignada al expediente de importación.</p>
-<p><img alt="Tasa de Cambio de Documento Import" src="../../../_images/fechadocimport.png" /></p>
+<div><p><img alt="Tasa de Cambio de Documento Import" src="../../../_images/tasacambioimport.png" /></p>
 <p>Imagen 7. Tipo de Cambio de Documento</p>
+</div></blockquote>
+<p>Indique el monto de la tasa de cambio asignada al expediente de importación.</p>
+<blockquote>
+<div><p><img alt="Tasa de Cambio de Documento Import" src="../../../_images/tasacambioimport.png" /></p>
+<p>Imagen 8. Tipo de Cambio de Documento</p>
+</div></blockquote>
+<p>Vea el expediente generado en el campo <strong>Expediente Generado</strong>, este registro es el valor utilizado para consultar los registros en reportes administrativos y contables.</p>
+<blockquote>
+<div><p><img alt="Tasa de Cambio de Documento Import" src="../../../_images/tasacambioimport.png" /></p>
+<p>Imagen 9. Tipo de Cambio de Documento</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Tome en cuenta que esta <strong>tasa de cambio</strong> será tasa con la que cada documento será convertido en los reportes administrativos y contables.</p>
+<p>Tome en cuenta que esta <strong>tasa de cambio</strong> será tasa con la que cada documento imputado en la importación es convertido, es decir al establecer el expediente en un documento, automáticamente será establecida la tasa negociada.</p>
 </div>
-<p>Proceda a completar el documento para que su expediente tenga validez en las facturas que fungen como costo CIF o costo FOB.</p>
+<p>Proceda a completar el documento para que su expediente tenga validez en los documentos que fungen como costo CIF o costo FOB.</p>
+<p>A continuación se detalla los campos que son actualizados de manera automática:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Monto Base Ordenado:</strong> El campo aumenta al completar una orden de compra asociada al <strong>Expediente</strong>, al igual que actualiza la pestaña <strong>Ordenes Relacionadas</strong>.</p></li>
+<li><p><strong>Cantidad de Ordenes:</strong>  El campo aumenta al completar una orden de compra asociada al <strong>Expediente</strong>.</p></li>
+<li><p><strong>Monto Neto Ordenado:</strong> El campo aumenta al completar una orden de compra asociada al <strong>Expediente</strong>.</p></li>
+<li><p><strong>Impuesto Ordenado:</strong> El campo aumenta al completar una orden de compra asociada al <strong>Expediente</strong>, al igual que actualiza la pestaña <strong>Facturas Relacionadas</strong>.</p></li>
+<li><p><strong>Cantidad de facturas:</strong> El campo aumenta al completar las facturas asociadas al <strong>Expediente</strong>.</p></li>
+<li><p><strong>Monto Neto Facturado:</strong> El campo aumenta al completar las facturas asociadas al <strong>Expediente</strong>.</p></li>
+<li><p><strong>Impuesto Facturado:</strong> El campo aumenta al completar las facturas asociadas al <strong>Expediente</strong>.</p></li>
+<li><p><strong>Total del Impuesto:</strong> El campo aumenta al completar los pagos asociados al <strong>Expediente</strong>, al igual que actualiza la pestaña <strong>Pagos Relacionados</strong>.</p></li>
+<li><p><strong>Cantidad de pagos:</strong> El campo aumenta al completar los pagos asociados al <strong>Expediente</strong></p></li>
+<li><p><strong>Monto Pagado:</strong> El campo aumenta al completar los pagos asociados al <strong>Expediente</strong></p></li>
+</ul>
+</div></blockquote>
 </section>
 <section id="orden-de-compra-de-importacion">
 <span id="paso-crear-orden-importacion"></span><h2><strong>Orden de Compra de Importación</strong><a class="headerlink" href="#orden-de-compra-de-importacion" title="Permalink to this headline"></a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Órdenes de Compra</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 1" src="../../../_images/menu15.png" /></p>
-<p>Imagen 8. Menú de ADempiere</p>
+<p>Imagen 10. Menú de ADempiere</p>
 </div></blockquote>
 <p>Realice el procedimiento regular para realizar una orden de compra, explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/purchase-order/direct-order/purchase-order.html#documento-orden-de-compra"><span class="std std-ref">Registro de Orden de Compra Directa</span></a>.</p>
 <blockquote>
 <div><p><img alt="Orden de Compra sin Completar" src="../../../_images/orden1.png" /></p>
-<p>Imagen 9. Orden de Compra Importación sin Completar</p>
+<p>Imagen 11. Orden de Compra Importación sin Completar</p>
 </div></blockquote>
-<p>Asigne el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
+<p>Asigne el expediente creado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
 <blockquote>
-<div><p><img alt="Expediente de Importación" src="../../../_images/fechadocimport.png" /></p>
-<p>Imagen 10. Expediente de Importación</p>
+<div><p><img alt="Expediente de OC" src="../../../_images/ocexpgeneradoimport.png" /></p>
+<p>Imagen 12. Expediente de Importación</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Al colocar el expediente se establece el <strong>tipo de conversión negociado</strong>.</p>
+<p>Al colocar el expediente se establece el <strong>tipo de conversión negociado</strong> y el <strong>Expediente Generado</strong>.</p>
 </div>
 <p>Seleccione la opción “<strong>Completar</strong>”, ubicada en la parte inferior derecha del documento.</p>
 <blockquote>
 <div><p><img alt="Opción Completar 1" src="../../../_images/completar15.png" /></p>
-<p>Imagen 11. Opción Completar Documento</p>
+<p>Imagen 13. Opción Completar Documento</p>
 </div></blockquote>
 <p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento “<strong>Orden de Compra</strong>”.</p>
 <blockquote>
 <div><p><img alt="Acción Completar" src="../../../_images/accion11.png" /></p>
-<p>Imagen 12. Acción Completar</p>
+<p>Imagen 14. Acción Completar</p>
 </div></blockquote>
 <p>Podrá visualizar en la parte inferior de la orden de compra, el campo en estado “<strong>Completo</strong>” y el resultado de la conversión configurada anteriormente.</p>
 <blockquote>
 <div><p><img alt="Orden de Compra Completa" src="../../../_images/resultado1.png" /></p>
-<p>Imagen 13. Orden de Compra Completa</p>
+<p>Imagen 15. Orden de Compra Completa</p>
 </div></blockquote>
 </section>
 <section id="crear-documento-por-pagar-de-mercancia">
@@ -238,17 +264,47 @@
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 4" src="../../../_images/menu42.png" /></p>
-<p>Imagen 14. Menú de ADempiere</p>
+<p>Imagen 16. Menú de ADempiere</p>
 </div></blockquote>
 <p>Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a>.</p>
 <blockquote>
 <div><p><img alt="Factura de Importación" src="../../../_images/facturaimpor.png" /></p>
-<p>Imagen 15. Factura de Cuentas por Pagar Importación</p>
+<p>Imagen 17. Factura de Cuentas por Pagar Importación</p>
 </div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al crear desde la orden de compra establecerá el expediente asociado a la orden de compra, y establece el <strong>tipo de conversión negociado</strong>.</p>
+</div>
 <p>Asigne el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
 <blockquote>
 <div><p><img alt="Expediente de Importación" src="../../../_images/fechadocimport.png" /></p>
-<p>Imagen 16. Expediente de Importación</p>
+<p>Imagen 18. Expediente de Importación</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al colocar el expediente se establece el <strong>tipo de conversión negociado</strong>.</p>
+</div>
+</section>
+<section id="crear-documento-por-pagar-de-costos-cif">
+<h2><strong>Crear Documento por Pagar de Costos CIF</strong><a class="headerlink" href="#crear-documento-por-pagar-de-costos-cif" title="Permalink to this headline"></a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 4" src="../../../_images/menu42.png" /></p>
+<p>Imagen 16. Menú de ADempiere</p>
+</div></blockquote>
+<p>Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a>.</p>
+<blockquote>
+<div><p><img alt="Factura de Importación" src="../../../_images/facturaimpor.png" /></p>
+<p>Imagen 17. Factura de Cuentas por Pagar Importación</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al crear desde la orden de compra establecerá el expediente asociado a la orden de compra, y establece el <strong>tipo de conversión negociado</strong>.</p>
+</div>
+<p>Asigne el expediente creaado anteriormente en el campo <strong>Expediente Importación/Exportación</strong>.</p>
+<blockquote>
+<div><p><img alt="Expediente de Importación" src="../../../_images/fechadocimport.png" /></p>
+<p>Imagen 18. Expediente de Importación</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -257,45 +313,7 @@
 </section>
 <section id="cancelacion-de-factura">
 <span id="paso-crear-caja-importacion"></span><h2><strong>Cancelación de Factura</strong><a class="headerlink" href="#cancelacion-de-factura" title="Permalink to this headline"></a></h2>
-<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Caja</strong>”.</p>
-<blockquote>
-<div><p><img alt="Menú de ADempiere 5" src="../../../_images/menucaja.png" /></p>
-<p>Imagen 21. Menú de ADempiere</p>
-<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Caja</strong>”.</p>
-<blockquote>
-<div><p><img alt="Campo Organización 1" src="../../../_images/org16.png" /></p>
-<p>Imagen 22. Campo Organización</p>
-</div></blockquote>
-<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizada la opción “<strong>Pago Internacional</strong>”.</p>
-<blockquote>
-<div><p><img alt="Campo Tipo de Documento" src="../../../_images/tipodoc12.png" /></p>
-<p>Imagen 23. Campo Tipo de Documento</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la caja correspondiente al registro que esta realizando. Para ejemplificar el registro es utilizada la opción “<strong>Caja Importación - –_PAGO USD</strong>”.</p>
-<blockquote>
-<div><p><img alt="Campo Cuenta Bancaria" src="../../../_images/cuenta1.png" /></p>
-<p>Imagen 24. Campo Cuenta Bancaria</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Factura</strong>”, la factura de cuenta por pagar correspondiente a la importacipón que esta realizando. Para ejemplificar el registro es utilizada la factura “<strong>1000024</strong>”.</p>
-<blockquote>
-<div><p><img alt="Campo Factura" src="../../../_images/factura11.png" /></p>
-<p>Imagen 25. Campo Factura</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
-</div>
-</div></blockquote>
-<p>Seleccione la opción “<strong>Completar</strong>” ubicada en la parte inferior del documento.</p>
-<blockquote>
-<div><p><img alt="Opción Completar 2" src="../../../_images/completar23.png" /></p>
-<p>Imagen 26. Opción Completar</p>
-<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento “<strong>Orden de Compra</strong>”.</p>
-<blockquote>
-<div><p><img alt="Acción Completar" src="../../../_images/accion11.png" /></p>
-<p>Imagen 27. Acción Completar</p>
-</div></blockquote>
-</div></blockquote>
-</div></blockquote>
+<p>Realice el procedimiento regular para realizar un documento de selección de pagos desde una factura de cuentas por pagar, explicado en el material <a class="reference internal" href="../../../adempiere/open-items/payment-selection/payment-selection-cxp.html#documento-seleccion-de-pago"><span class="std std-ref">Registro desde Selección de Pago</span></a>, esto cancelará el pasivo con el proveedor de mercancía.</p>
 </section>
 </section>
 
