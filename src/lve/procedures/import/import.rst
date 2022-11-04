@@ -26,16 +26,22 @@
 .. |Seleccionar Pagos 1| image:: resources/selecpagos1.png
 .. |Opción Completar 3| image:: resources/completar3.png
 .. |Menu Import| image:: resources/menuimport.png
-.. |Tipo de Documento Import| image:: resources/Tipodocimport.png
+.. |Tipo de Documento Import| image:: resources/tipodocimport.png
 .. |Fecha de Documento Import| image:: resources/fechadocimport.png
-.. |Moneda de Documento Import| image:: resources/fechadocimport.png
-.. |Tipo de Cambio de Documento Import| image:: resources/fechadocimport.png
-.. |Número de Documento Import| image:: resources/fechadocimport.png
-.. |Tasa de Cambio de Documento Import| image:: resources/fechadocimport.png
+.. |Moneda de Documento Import| image:: resources/monedaimport.png
+.. |Tipo de Cambio de Documento Import| image:: resources/tipoconvimport.png
+.. |Número de Documento Import| image:: resources/ndocumentoimport.png
+.. |Tasa de Cambio de Documento Import| image:: resources/tasacambioimport.png
 .. |Expediente de Importación| image:: resources/fechadocimport.png
-.. |Factura Relacionada| image:: resources/fechadocimport.png
+.. |Pestaña Tasa de Conversión| image:: resources/pestanatcimport.png
+.. |Expediente Generado| image:: resources/expgeneradoimport.png
+.. |Expediente de OC| image:: resources/ocexpgeneradoimport.png
+.. |Monto Ordenado Expediente| image:: resources/montoordenadoexp.png
 .. |Fecha de Documento Import| image:: resources/fechadocimport.png
 .. |Fecha de Documento Import| image:: resources/fechadocimport.png
+.. |Fecha de Documento Import| image:: resources/fechadocimport.png
+
+ocexpgeneradoimport.png
 
 .. _documento/importación:
 
@@ -43,8 +49,9 @@
 ===============
 Dicha importación tiene como consecuencia para la empresa nacional la generación de gastos aduanales, sujetos al pago de tributos o al amparo de las franquicias correspondientes.
 
-**Expediente de de Importación**
-*******************************
+**Expediente de Importación**
+*****************************
+
 El expediente de importación representa la agrupación fiscal para un proceso de importación y es quién da paso al proceso de importación.
  
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Expediente de Importación/Exportación**".
@@ -85,21 +92,45 @@ Introduzca el tipo de conversión en la cuál gestionará el expediente, recuerd
 
 .. note:: 
 
-    El campo **moneda de cambio** es la moneda de curso legal y es cargada automáticamente.
+    El campo **Moneda de Fiscal** es la moneda de curso legal y es cargada automáticamente.
 
 Vaya a la siguiente pestaña **Tipo de Conversión Negociada**, para establecer la tasa asignada al expediente de importación.
-
-    Indique el monto de la tasa de cambio asignada al expediente de importación.
 
     |Tasa de Cambio de Documento Import|
 
     Imagen 7. Tipo de Cambio de Documento
 
+Indique el monto de la tasa de cambio asignada al expediente de importación.
+
+    |Tasa de Cambio de Documento Import|
+
+    Imagen 8. Tipo de Cambio de Documento
+
+Vea el expediente generado en el campo **Expediente Generado**, este registro es el valor utilizado para consultar los registros en reportes administrativos y contables.
+
+    |Tasa de Cambio de Documento Import|
+
+    Imagen 9. Tipo de Cambio de Documento
+
 .. note:: 
 
-    Tome en cuenta que esta **tasa de cambio** será tasa con la que cada documento será convertido en los reportes administrativos y contables.
+    Tome en cuenta que esta **tasa de cambio** será tasa con la que cada documento imputado en la importación es convertido, es decir al establecer el expediente en un documento, automáticamente será establecida la tasa negociada.
 
-Proceda a completar el documento para que su expediente tenga validez en las facturas que fungen como costo CIF o costo FOB.
+Proceda a completar el documento para que su expediente tenga validez en los documentos que fungen como costo CIF o costo FOB.
+
+A continuación se detalla los campos que son actualizados de manera automática:
+
+    - **Monto Base Ordenado:** El campo aumenta al completar una orden de compra asociada al **Expediente**, al igual que actualiza la pestaña **Ordenes Relacionadas**.
+    - **Cantidad de Ordenes:**  El campo aumenta al completar una orden de compra asociada al **Expediente**.
+    - **Monto Neto Ordenado:** El campo aumenta al completar una orden de compra asociada al **Expediente**.
+    - **Impuesto Ordenado:** El campo aumenta al completar una orden de compra asociada al **Expediente**, al igual que actualiza la pestaña **Facturas Relacionadas**.
+    - **Cantidad de facturas:** El campo aumenta al completar las facturas asociadas al **Expediente**.
+    - **Monto Neto Facturado:** El campo aumenta al completar las facturas asociadas al **Expediente**.
+    - **Impuesto Facturado:** El campo aumenta al completar las facturas asociadas al **Expediente**.
+    - **Total del Impuesto:** El campo aumenta al completar los pagos asociados al **Expediente**, al igual que actualiza la pestaña **Pagos Relacionados**.
+    - **Cantidad de pagos:** El campo aumenta al completar los pagos asociados al **Expediente**
+    - **Monto Pagado:** El campo aumenta al completar los pagos asociados al **Expediente**
+
 
 .. _paso/crear-orden-importación:
  
@@ -110,41 +141,43 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras*
 
     |Menú de ADempiere 1|
 
-    Imagen 8. Menú de ADempiere
+    Imagen 10. Menú de ADempiere
 
 Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref:`documento/orden-de-compra`.
 
     |Orden de Compra sin Completar|
 
-    Imagen 9. Orden de Compra Importación sin Completar
+    Imagen 11. Orden de Compra Importación sin Completar
 
-Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
+Asigne el expediente creado anteriormente en el campo **Expediente Importación/Exportación**.
 
-    |Expediente de Importación|
+    |Expediente de OC|
 
-    Imagen 10. Expediente de Importación
+    Imagen 12. Expediente de Importación
 
 .. note:: 
 
-    Al colocar el expediente se establece el **tipo de conversión negociado**.
+    Al colocar el expediente se establece el **tipo de conversión negociado** y el **Expediente Generado**.
 
 Seleccione la opción "**Completar**", ubicada en la parte inferior derecha del documento.
 
     |Opción Completar 1|
 
-    Imagen 11. Opción Completar Documento
+    Imagen 13. Opción Completar Documento
 
 Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
 
     |Acción Completar|
 
-    Imagen 12. Acción Completar
+    Imagen 14. Acción Completar
 
 Podrá visualizar en la parte inferior de la orden de compra, el campo en estado "**Completo**" y el resultado de la conversión configurada anteriormente.
 
     |Orden de Compra Completa|
 
-    Imagen 13. Orden de Compra Completa
+    Imagen 15. Orden de Compra Completa
+
+
 
 .. _paso/crear-factura-importación:
 
@@ -155,19 +188,54 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras*
 
     |Menú de ADempiere 4|
 
-    Imagen 14. Menú de ADempiere
+    Imagen 16. Menú de ADempiere
 
 Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material :ref:`documento/documento-por-pagar`.
 
     |Factura de Importación|
 
-    Imagen 15. Factura de Cuentas por Pagar Importación
+    Imagen 17. Factura de Cuentas por Pagar Importación
+
+.. note:: 
+
+    Al crear desde la orden de compra establecerá el expediente asociado a la orden de compra, y establece el **tipo de conversión negociado**.
+
 
 Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
 
     |Expediente de Importación|
 
-    Imagen 16. Expediente de Importación
+    Imagen 18. Expediente de Importación
+
+.. note:: 
+
+    Al colocar el expediente se establece el **tipo de conversión negociado**.
+
+**Crear Documento por Pagar de Costos CIF**
+*******************************************
+
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
+
+    |Menú de ADempiere 4|
+
+    Imagen 16. Menú de ADempiere
+
+Realice el procedimiento regular para realizar un documento por pagar desde una Orden de Compra, explicado en el material :ref:`documento/documento-por-pagar`.
+
+    |Factura de Importación|
+
+    Imagen 17. Factura de Cuentas por Pagar Importación
+
+.. note:: 
+
+    Al crear desde la orden de compra establecerá el expediente asociado a la orden de compra, y establece el **tipo de conversión negociado**.
+
+
+Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
+
+    |Expediente de Importación|
+
+    Imagen 18. Expediente de Importación
 
 .. note:: 
 
@@ -178,48 +246,5 @@ Asigne el expediente creaado anteriormente en el campo **Expediente Importación
 **Cancelación de Factura**
 **************************
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
+Realice el procedimiento regular para realizar un documento de selección de pagos desde una factura de cuentas por pagar, explicado en el material :ref:`documento/selección-de-pago`, esto cancelará el pasivo con el proveedor de mercancía.
 
-    |Menú de ADempiere 5|
-
-    Imagen 21. Menú de ADempiere
-
-    Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
-
-        |Campo Organización 1|
-
-        Imagen 22. Campo Organización
-
-    Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Pago Internacional**".
-
-        |Campo Tipo de Documento|
-
-        Imagen 23. Campo Tipo de Documento
-
-    Seleccione en el campo "**Cuenta Bancaria**", la caja correspondiente al registro que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Importación - --_PAGO USD**".
-
-        |Campo Cuenta Bancaria|
-
-        Imagen 24. Campo Cuenta Bancaria
-
-    Seleccione en el campo "**Factura**", la factura de cuenta por pagar correspondiente a la importacipón que esta realizando. Para ejemplificar el registro es utilizada la factura "**1000024**".
-
-        |Campo Factura|
-
-        Imagen 25. Campo Factura
-
-        .. note::
-
-            Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
-    
-    Seleccione la opción "**Completar**" ubicada en la parte inferior del documento.
-
-        |Opción Completar 2|
-
-        Imagen 26. Opción Completar
-
-        Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
-
-            |Acción Completar|
-
-            Imagen 27. Acción Completar
