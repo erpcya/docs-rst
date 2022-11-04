@@ -1,16 +1,17 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere 1| image:: resources/menutransf.png
-.. |Ejemplo de Transferencia Bancaria| image:: resources/transferencia.png
-.. |Menú de ADempiere 2| image:: resources/menufactura.png
-.. |Documento por Pagar 1| image:: resources/doc1.png
-.. |Pestaña Línea de la Factura 1| image:: resources/linea1.png
-.. |Documento por Pagar 2| image:: resources/doc2.png
-.. |Pestaña Línea de la Factura 2| image:: resources/linea2.png
-.. |Documento por Pagar 3| image:: resources/doc3.png
-.. |Pestaña Línea de la Factura 3| image:: resources/linea3.png
-.. |Menú de ADempiere 3| image:: resources/menucaja.png
-.. |Campo Organización 1| image:: resources/org3.png
-.. |Campo Cuenta Bancaria 1| image:: resources/cuenta3.png
+.. |Menú de ADempiere 1| image:: resources/procgenerartasas.png
+.. |Menú de ADempiere| image:: resources/confimpuestos.png
+.. |Expediente| image:: resources/expgenerartasas.png
+.. |Nombre de Impuestos| image:: resources/nombreconfimpuestos.png
+.. |Tasa de Impuesto| image:: resources/tasaconfigimpuestos.png
+.. |Tipo de Base| image:: resources/tipodebaseimpuestos.png
+.. |Cargo para Planilla| image:: resources/cargoconfigtasas.png
+.. |Socio de Negocio| image:: resources/snplanilla.png
+.. |Comenzar Búsqueda| image:: resources/comenzarbimpuestos.png
+.. |Selección Tasa| image:: resources/SeleccionImp.png
+.. |Tipo Documento| image:: resources/tipdocgentasas.png
+.. |Número Planilla| image:: resources/ndocgenplanilla.png
+.. |Moneda Planilla| image:: resources/mongenplanilla.png
 .. |Campo Tipo de Documento 1| image:: resources/tipodoc3.png
 .. |Campo Factura 1| image:: resources/factura2.png
 .. |Opción Completar 2| image:: resources/completar4.png
@@ -23,43 +24,93 @@
 
 .. _documento/planillas-tributarias:
 
-**Creación de Planillas Tributarias**
-======================================
+**Planillas Tributarias**
+=========================
 
-En Venezuela para importar bienes o productos se generan tasas de impuestos sobre el precio CIF de la mercancía, además de aranceles que normalmente oscila entre el 10% y el 20% del precio del producto, más la tasa aduanera, más el 16% de IVA.
+En Venezuela para importar bienes o productos se generan tasas de impuestos sobre el precio CIF de la mercancía,además de un arancel ad valorem que normalmente está entre el 10% y el 20% del precio del producto, más la tasa aduanera, más el 16% de IVA.
+
+**Configuración Escencial**
+***************************
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Impuestos Importación/Exportación**".
+
+    |Menú de ADempiere|
+
+    Imagen 1. Menú de ADempiere
+
+Indique el nombre del impuesto o tasa arancelaria ejemplo: **Tasas Servicio Seniat (TSS)**
+
+    |Nombre de Impuestos|
+
+    Imagen 2. Nombre de Impuesto
+
+Indique la tasa del impuesto o tasa arancelaria ejemplo: **Tasas Servicio Seniat (TSS)** será **0,5%**
+
+    |Tasa de Impuesto|
+
+    Imagen 2. Tasa de Impuesto
+
+Indique con qué base deseas que el impuesto o tasa arancelaria sea calculada ejemplo: **Tasas Servicio Seniat (TSS)** será **Base Facturado** y para **IVA** será **Base Facturado+Impuestos Generados**
+
+    |Tipo de Base|
+
+    Imagen 2. Base para Impuesto
+
+Indique el cargo con el que generará la planilla de impuesto o tasa arancelaria sea calculada ejemplo: **Tasas Servicio Seniat (TSS)** será **Aranceles y Otros Gastos Legales**
+
+    |Cargo para Planilla|
+
+    Imagen 2. Cargo de Impuesto
+
+Indique el socio del negocio con el que generará la planilla de impuesto o tasa arancelaria sea calculada ejemplo: **Tasas Servicio Seniat (TSS)** será **Tesoro Nacional**
+
+    |Socio de Negocio|
+
+    Imagen 2. Cargo de Impuesto
 
 **Generar Planillas de Gastos Arancelarios/Impuestos**
 ******************************************************
 
 Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Importación y Exportación**" y luego seleccione la ventana "**Generar Impuestos Importación/Exportación**".
 
-    |Menu Import|
+    |Menú de ADempiere 1|
 
-    Imagen 1. Menú de ADempiere
+    Imagen . Menú de ADempiere
 
 Indique el expediente de Importación, a continuación se despliega los impuestos que son opción para generar, esto siempre dependerá de la declaración única de importación y el resultado en planillas físicas.
 
-    |Menu Import|
+    |Expediente|
 
-    Imagen 2. Menú de ADempiere
+    Imagen 2. Expediente de Importación
 
-Seleccione el impuesto a generar.
+Seleccione la Opción **Comenzar Búsquedad**
 
-    |Menu Import|
+    |Comenzar Búsqueda|
 
-    Imagen 1. Menú de ADempiere
+    Imagen 1. Comenzar Búsqueda
+
+Seleccione el impuesto a generar, acorde a las planillas que son resultantes de la declaración única.
+
+    |Selección Tasa|
+
+    Imagen 1. Tasa a Aplicar
 
 Seleccione el Tipo de Documento para la planilla correspondiente generalmente es la **Forma 79084** o la **Forma 99086**.
 
-    |Menu Import|
+    |Tipo Documento|
 
-    Imagen 1. Menú de ADempiere
+    Imagen 1. Tipo de Documento
+
+Indique el número de la planilla en el campo **Número de Documento**.
+
+    |Número Planilla|
+
+    Imagen 1. Número de Documento
 
 Seleccione la moneda para la planilla aduanera.
 
-    |Menu Import|
+    |Moneda Planilla|
 
-    Imagen 1. Menú de ADempiere
+    Imagen 1. Moneda de Planilla
 
 Al ejecutar el proceso su planilla quedará cargada de manera automática en **ADempiere**, y dependiendo de la naturaleza computará como base para el IVA.
 
@@ -78,4 +129,4 @@ Repita los paso anteriores para la generación del IVA, sabiendo que su base ser
 
     Imagen 1. Menú de ADempiere
 
-Este último paso dará paso a la revisión del libro de compras.
+Repita este procedimiento hasta concluir la totalidad de las planillas, este último paso dará paso a la revisión del libro de compras.
