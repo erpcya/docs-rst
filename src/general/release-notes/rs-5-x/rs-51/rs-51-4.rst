@@ -1,6 +1,6 @@
 .. _documento/versión-51-4:
 
-.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.6
+.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.7
 .. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.3
 .. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.8.2
 
@@ -127,6 +127,7 @@
 
   - Se corrige error de refresh al actualizar cliente
   - Se corrige error de refresh al actualizar datos de la linea de orden de ventas
+  - Se agrega opción para buscar ventas de vendedores de pasillo por facturar
 
 .. data:: Contexto
 
