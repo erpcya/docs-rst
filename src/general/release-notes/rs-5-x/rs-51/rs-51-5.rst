@@ -1,0 +1,132 @@
+.. _documento/versión-51-5:
+
+.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.7
+.. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.3
+.. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.8.3
+
+
+.. _Base por Tipo de Documento: https://github.com/erpcya/Control-ERPYA/issues/934
+.. _Referencia de Monto Base: https://github.com/erpcya/Control-ERPYA/issues/931
+.. _Al crear la planilla no establece Factura Relacionada: https://github.com/erpcya/Control-ERPYA/issues/927
+.. _Planilla de IVA: https://github.com/erpcya/Control-ERPYA/issues/930
+.. _Caso de Acuerdo Mercosur: https://github.com/erpcya/Control-ERPYA/issues/932
+
+
+
+**rs-51-5**
+===========
+
+**Fecha de Liberación:** 2022-11-07
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-36.1
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.4
+- Cloud-Service-Management: 1.2.9
+- Cash-Management: 1.1.6
+- Currency-Convert-Documents: 1.1.7
+- Farmer-Assistance-Program: 1.5.1
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.6
+- Fiscal-Printer: 1.5.7
+- Sales-Force-Management: 1.1.7
+- Delivery-Management-Service: 1.2.0
+- Travel-Agency-Management: 1.1.1
+- Withholding-Engine: 1.2.8
+- Migration-Tools: 1.0.4
+- LVE: 2.1.2
+- Performance-Analysis: 1.1.4
+- Queue-Manager: 1.0.7
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.5.2
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.4.7
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.7
+- Additional-Reports: 1.2.7
+- Material-Management-Improvements: 1.1.6
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.7
+- Update-Management: 1.1.9
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.1.4
+- ERP-Payroll-Definition: 1.0.6
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.1.5
+- Vue-StoreFront-API: 1.0.9
+- Mercado-Libre-Venezuela-API: 1.0.8
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.1.2
+- LVE-AdditionalTax: 1.2.3
+- Time-Control: 1.0.2
+
+.. data:: Servicios
+
+  - adempiere-customer-backend: 1.8.6
+  - gateway-customer-api: solop-rs-1.2.3
+  - frontend-core: 1.8.2
+
+.. data:: Detalle Técnico
+
+- CST-STD:
+
+  - Fixed error with WHERE clause for view of Commission
+
+- Import-Export-Management:
+
+  - Add Affects Expedient Check on Document Type And Invoice
+  - Add Support Base And Tax Detail Generated on Invoice Line Description
+  - Add Invoice Affected on Generate Tax Process
+  - Add Support to Accumulated Tax Amount in Same Document Tax Generated
+  - Add Optional Project Parameter at Generated Tax Process
+    
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+- Aplicar XML's:
+
+  - Import-Export-Management:
+
+    - 09650_Add_Parameters_to_Generate_Tax_Process.xml
+    - 09660_Add_Tax_Amount_to_Tax_Generated.xml
+    - 09670_Fix_Parameter_Validation.xml
+    - 09680_Add_Affects_Expedient_Check.xml
+
+
+.. data:: Novedades
+
+- Se corrige cláusula where en las comisiones calculadas en función de tipos de comisiones personalizadas
+- Se agrega Afecta Expediente en Tipo de Documento y Factura
+- Se agregar base en detalles de impuestos generados en la línea de factura
+- Se agrega Factura Afectada en Generar Proceso de Impuestos
+- Se agrega soporte al monto del impuesto acumulado en el mismo documento Impuesto generado
+- Se agregar parámetro de proyecto opcional en el proceso de generadar impuestos
+
+.. data:: Contexto
+
+- Cálculo de comisiones a vendedores
+- Cuentas por Pagar / Cobrar de Importación
+
+.. data:: Reportes Relacionados
+
+  - `Versión de Backend`_
+  - `Versión de Gateway`_
+  - `Versión de FrontEnd`_
+  - `Base por Tipo de Documento`_
+  - `Referencia de Monto Base`_
+  - `Al crear la planilla no establece Factura Relacionada`_
+  - `Planilla de IVA`_
+  - `Caso de Acuerdo Mercosur`_
