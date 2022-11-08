@@ -6,9 +6,9 @@
 
 
 .. _Consolidar por Tipo de Pago en el Depósito Automático PDV: https://github.com/erpcya/Control-PROSEIN/issues/329
-.. _Establecer referencia de Depósito desde la configuración del depósito automático: https://github.com/erpcya/Control-PROSEIN/issues/327
+.. _Establecer referencia de Depósito desde la configuración del depósito automático: https://github.com/erpcya/Control-PROSEIN/issues/325
 .. _Límite de porcentaje de descuento por asignación de usuario: https://github.com/erpcya/Control-PROSEIN/issues/302
-
+.. _Imágenes de los productos en el PDV: https://github.com/erpcya/Control-PROSEIN/issues/339
 
 
 **rs-51-4**
@@ -119,7 +119,7 @@
 .. data:: Novedades
 
 - Se agrega validación por monto al solicitar PIN en el punto de ventas, específicamente al otorgar descuentos
-- Se agrega referencia al punto de ventas en el cierre de caja, esto permite que los cierres de caja desde el punto de ventas se puedan identificar de manera áas sencilla
+- Se agrega referencia al punto de ventas en el cierre de caja, esto permite que los cierres de caja desde el punto de ventas se puedan identificar de manera más sencilla
 - Se predetermina tipo de pago configurado en los retiros de caja automáticos al momento de hacer la transferencia
 - Se agrega moneda para mostrar y notas del reporte en el reporte Detalle de Consignación
 - Se agrega moneda para mostrar y organización en el reporte Ventas por Proveedor
@@ -128,6 +128,7 @@
   - Se corrige error de refresh al actualizar cliente
   - Se corrige error de refresh al actualizar datos de la linea de orden de ventas
   - Se agrega opción para buscar ventas de vendedores de pasillo por facturar
+  - Se corrige error en visualización de imágenes del producto en información del producto
 
 .. data:: Contexto
 
@@ -147,4 +148,5 @@
   - `Consolidar por Tipo de Pago en el Depósito Automático PDV`_
   - `Establecer referencia de Depósito desde la configuración del depósito automático`_
   - `Límite de porcentaje de descuento por asignación de usuario`_
+  - `Imágenes de los productos en el PDV:`_
   
