@@ -227,20 +227,3 @@ Realice el procedimiento regular para generar el cierre de caja, explicado en la
     |Cierre de Caja|
 
     Imagen 6. Cierre de Caja
-
-.. _paso/cierre-caja-final-anticipo-transito:
-
-**Cierre de Caja**
-******************
-
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
-
-    |Menú de ADempiere 2|
-
-    Imagen 5. Menú de ADempiere
-
-Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el socio del negocio proveedor.
-
-    |Cierre de Caja 2|
-
-    Imagen 6. Cierre de Caja

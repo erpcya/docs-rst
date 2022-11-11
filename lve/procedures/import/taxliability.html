@@ -88,6 +88,7 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Planillas Tributarias</strong></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#configuracion-escencial"><strong>Configuración Escencial</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#generar-planillas-de-gastos-arancelarios-impuestos"><strong>Generar Planillas de Gastos Arancelarios/Impuestos</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#generar-planillas-de-iva"><strong>Generar Planillas de IVA</strong></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="intermediary-advance-settlement.html"><strong>Liquidación Anticipo Intermediario</strong></a></li>
@@ -160,22 +161,22 @@
 <p>Indique la tasa del impuesto o tasa arancelaria ejemplo: <strong>Tasas Servicio Seniat (TSS)</strong> será <strong>0,5%</strong></p>
 <blockquote>
 <div><p><img alt="Tasa de Impuesto" src="../../../_images/tasaconfigimpuestos.png" /></p>
-<p>Imagen 2. Tasa de Impuesto</p>
+<p>Imagen 3. Tasa de Impuesto</p>
 </div></blockquote>
 <p>Indique con qué base deseas que el impuesto o tasa arancelaria sea calculada ejemplo: <strong>Tasas Servicio Seniat (TSS)</strong> será <strong>Base Facturado</strong> y para <strong>IVA</strong> será <strong>Base Facturado+Impuestos Generados</strong></p>
 <blockquote>
 <div><p><img alt="Tipo de Base" src="../../../_images/tipodebaseimpuestos.png" /></p>
-<p>Imagen 2. Base para Impuesto</p>
+<p>Imagen 4. Base para Impuesto</p>
 </div></blockquote>
 <p>Indique el cargo con el que generará la planilla de impuesto o tasa arancelaria sea calculada ejemplo: <strong>Tasas Servicio Seniat (TSS)</strong> será <strong>Aranceles y Otros Gastos Legales</strong></p>
 <blockquote>
 <div><p><img alt="Cargo para Planilla" src="../../../_images/cargoconfigtasas.png" /></p>
-<p>Imagen 2. Cargo de Impuesto</p>
+<p>Imagen 5. Cargo de Impuesto</p>
 </div></blockquote>
 <p>Indique el socio del negocio con el que generará la planilla de impuesto o tasa arancelaria sea calculada ejemplo: <strong>Tasas Servicio Seniat (TSS)</strong> será <strong>Tesoro Nacional</strong></p>
 <blockquote>
 <div><p><img alt="Socio de Negocio" src="../../../_images/snplanilla.png" /></p>
-<p>Imagen 2. Cargo de Impuesto</p>
+<p>Imagen 6. Cargo de Impuesto</p>
 </div></blockquote>
 </section>
 <section id="generar-planillas-de-gastos-arancelarios-impuestos">
@@ -183,42 +184,47 @@
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Importación y Exportación</strong>” y luego seleccione la ventana “<strong>Generar Impuestos Importación/Exportación</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere 1" src="../../../_images/procgenerartasas.png" /></p>
-<p>Imagen . Menú de ADempiere</p>
+<p>Imagen 7. Menú de ADempiere</p>
 </div></blockquote>
 <p>Indique el expediente de Importación, a continuación se despliega los impuestos que son opción para generar, esto siempre dependerá de la declaración única de importación y el resultado en planillas físicas.</p>
 <blockquote>
 <div><p><img alt="Expediente" src="../../../_images/expgenerartasas.png" /></p>
-<p>Imagen 2. Expediente de Importación</p>
+<p>Imagen 8. Expediente de Importación</p>
 </div></blockquote>
 <p>Seleccione la Opción <strong>Comenzar Búsquedad</strong></p>
 <blockquote>
 <div><p><img alt="Comenzar Búsqueda" src="../../../_images/comenzarbimpuestos.png" /></p>
-<p>Imagen 1. Comenzar Búsqueda</p>
+<p>Imagen 9. Comenzar Búsqueda</p>
 </div></blockquote>
 <p>Seleccione el impuesto a generar, acorde a las planillas que son resultantes de la declaración única.</p>
 <blockquote>
 <div><p><img alt="Selección Tasa" src="../../../_images/SeleccionImp.png" /></p>
-<p>Imagen 1. Tasa a Aplicar</p>
+<p>Imagen 10. Tasa a Aplicar</p>
 </div></blockquote>
 <p>Seleccione el Tipo de Documento para la planilla correspondiente generalmente es la <strong>Forma 79084</strong> o la <strong>Forma 99086</strong>.</p>
 <blockquote>
 <div><p><img alt="Tipo Documento" src="../../../_images/tipdocgentasas.png" /></p>
-<p>Imagen 1. Tipo de Documento</p>
+<p>Imagen 11. Tipo de Documento</p>
 </div></blockquote>
 <p>Indique el número de la planilla en el campo <strong>Número de Documento</strong>.</p>
 <blockquote>
 <div><p><img alt="Número Planilla" src="../../../_images/ndocgenplanilla.png" /></p>
-<p>Imagen 1. Número de Documento</p>
+<p>Imagen 12. Número de Documento</p>
 </div></blockquote>
-<p>Seleccione la moneda para la planilla aduanera.</p>
+<p>Seleccione la <strong>Moneda</strong> para la planilla aduanera.</p>
 <blockquote>
 <div><p><img alt="Moneda Planilla" src="../../../_images/mongenplanilla.png" /></p>
-<p>Imagen 1. Moneda de Planilla</p>
+<p>Imagen 13. Moneda de Planilla</p>
 </div></blockquote>
-<p>Al ejecutar el proceso su planilla quedará cargada de manera automática en <strong>ADempiere</strong>, y dependiendo de la naturaleza computará como base para el IVA.</p>
+<p>Seleccione el <strong>Expediente Generado</strong> para la planilla aduanera.</p>
+<blockquote>
+<div><p><img alt="Moneda Planilla" src="../../../_images/mongenplanilla.png" /></p>
+<p>Imagen 14. Moneda de Planilla</p>
+</div></blockquote>
+<p>Al ejecutar el proceso su planilla quedará cargada de manera automática en <strong>ADempiere</strong> y computará como base para el <strong>IVA</strong>.</p>
 <blockquote>
 <div><p><a href="#id1"><span class="problematic" id="id2">|Menu Import|</span></a></p>
-<p>Imagen 1. Menú de ADempiere</p>
+<p>Imagen 15. Menú de ADempiere</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -230,9 +236,63 @@ Tome en cuenta la secuencia para generar sus planillas, la <strong>Forma 99086</
 <div><blockquote>
 <div><p><a href="#id3"><span class="problematic" id="id4">|Menu Import|</span></a></p>
 </div></blockquote>
-<p>Imagen 1. Menú de ADempiere</p>
+<p>Imagen 16. Menú de ADempiere</p>
 </div></blockquote>
-<p>Repita este procedimiento hasta concluir la totalidad de las planillas, este último paso dará paso a la revisión del libro de compras.</p>
+<p>Repita este procedimiento hasta concluir la totalidad de las planillas.</p>
+</section>
+<section id="generar-planillas-de-iva">
+<h2><strong>Generar Planillas de IVA</strong><a class="headerlink" href="#generar-planillas-de-iva" title="Permalink to this headline"></a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Importación y Exportación</strong>” y luego seleccione la ventana “<strong>Generar Impuestos Importación/Exportación</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../_images/procgenerartasas.png" /></p>
+<p>Imagen 17. Menú de ADempiere</p>
+</div></blockquote>
+<p>Indique el expediente de Importación, a continuación se despliega los impuestos que son opción para generar, esto siempre dependerá de la declaración única de importación y el resultado en planillas físicas.</p>
+<blockquote>
+<div><p><img alt="Expediente" src="../../../_images/expgenerartasas.png" /></p>
+<p>Imagen 18. Expediente de Importación</p>
+</div></blockquote>
+<p>Seleccione la Opción <strong>Comenzar Búsquedad</strong></p>
+<blockquote>
+<div><p><img alt="Comenzar Búsqueda" src="../../../_images/comenzarbimpuestos.png" /></p>
+<p>Imagen 19. Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Seleccione el impuesto a generar, acorde a las planillas que son resultantes de la declaración única.</p>
+<blockquote>
+<div><p><img alt="Selección Tasa" src="../../../_images/SeleccionImp.png" /></p>
+<p>Imagen 20. Tasa a Aplicar</p>
+</div></blockquote>
+<p>Seleccione el <strong>Tipo de Documento:Planillas de Nacionalización</strong> para la planilla correspondiente a las planillas que generalmente es la <strong>Forma 79084</strong> o la <strong>Forma 99086</strong>.</p>
+<blockquote>
+<div><p><img alt="Tipo Documento" src="../../../_images/tipdocgentasas.png" /></p>
+<p>Imagen 21. Tipo de Documento</p>
+</div></blockquote>
+<p>Indique el número de la planilla en el campo <strong>Número de Documento</strong>.</p>
+<blockquote>
+<div><p><img alt="Número Planilla" src="../../../_images/ndocgenplanilla.png" /></p>
+<p>Imagen 22. Número de Documento</p>
+</div></blockquote>
+<p>Seleccione la <strong>Moneda</strong> para la planilla aduanera.</p>
+<blockquote>
+<div><p><img alt="Moneda Planilla" src="../../../_images/mongenplanilla.png" /></p>
+<p>Imagen 23. Moneda de Planilla</p>
+</div></blockquote>
+<p>Seleccione el <strong>Expediente Generado</strong> para la planilla aduanera.</p>
+<blockquote>
+<div><p><img alt="Moneda Planilla" src="../../../_images/mongenplanilla.png" /></p>
+<p>Imagen 24. Moneda de Planilla</p>
+</div></blockquote>
+<p>Seleccione el <strong>Factura Relacionada</strong> para la planilla aduanera, en este caso debe ser la <strong>Factura de Mercancía</strong>.</p>
+<blockquote>
+<div><p><img alt="Moneda Planilla" src="../../../_images/mongenplanilla.png" /></p>
+<p>Imagen 25. Moneda de Planilla</p>
+</div></blockquote>
+<p>Al ejecutar el proceso su planilla quedará cargada de manera automática en <strong>ADempiere</strong> y computará como base para el <strong>IVA</strong>.</p>
+<blockquote>
+<div><p><a href="#id5"><span class="problematic" id="id6">|Menu Import|</span></a></p>
+<p>Imagen 26. Menú de ADempiere</p>
+</div></blockquote>
+<p>Finalmente, podrá ejecutar el <strong>Libro de Compras</strong> de manera regular, validando así que la base, impuesto y factura queden de manera correcta.</p>
 </section>
 </section>
 
