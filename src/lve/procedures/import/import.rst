@@ -197,6 +197,18 @@ Realice el procedimiento regular para realizar un documento por pagar desde una 
 
 .. note:: 
 
+    **¡Importante!**
+
+    Seleccione el tipo de documento: **Factura de Cuentas por Pagar Importación**, para que este documento afecte la base del IVA.
+
+Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
+
+    |Expediente Factura CXP|
+
+    Imagen 18. Expediente de Importación
+
+.. note:: 
+
     Al crear desde la orden de compra establecerá el **expediente de Importación** asociado a la orden de compra, y establece el **tipo de conversión negociado**.
 
 
@@ -220,6 +232,13 @@ Realice el procedimiento regular para realizar un documento por pagar desde una 
     |Factura de Importación|
 
     Imagen 20. Factura de Cuentas por Pagar Importación
+
+.. note:: 
+
+    **¡Importante!**
+
+    Seleccione el tipo de documento: **Facturas Gastos Internacionales Importación**, para que este documento afecte la base del IVA.
+
 
 Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
 

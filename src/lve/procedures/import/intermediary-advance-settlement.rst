@@ -52,6 +52,12 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras*
 
 Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material :ref:`documento/documento-por-pagar` elaborado por `ERPyA`_. Para ejemplificar el registro se realizan tres facturas como relación entregada por el intermediario gestor de la importacióncon.
 
+.. note:: 
+
+    **¡Importante!**
+
+    Seleccione el tipo de documento: **Facturas Gastos Nacionales Importación**, para que este documento no afecte la base del IVA.
+
 Asigne el expediente creaado anteriormente en el campo **Expediente Importación/Exportación**.
 
     |Expediente Factura CXP|
