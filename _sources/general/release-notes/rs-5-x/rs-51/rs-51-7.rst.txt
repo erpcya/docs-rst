@@ -22,7 +22,7 @@
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.6
 - Fiscal-Printer: 1.5.7
-- Sales-Force-Management: 1.1.8
+- Sales-Force-Management: 1.2.0
 - Delivery-Management-Service: 1.2.0
 - Travel-Agency-Management: 1.1.1
 - Withholding-Engine: 1.2.8
@@ -72,6 +72,10 @@
 - CST-STD:
   
   - Fixed error with production reverse quantity
+  
+- Sales-Force-Management:
+
+  - Add Orders to Result
     
 .. data:: Requerimientos
 
@@ -86,6 +90,7 @@
 
 - Se corrige referencia a documentos y acciones en el proceo que copia roles desde una compañía
 - Corrección de Cantidad Planeada al reversar producción
+- Visualización de Ordenes Importadas desde AppWrite
 
 .. data:: Contexto
 
