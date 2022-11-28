@@ -1,0 +1,110 @@
+.. _documento/versión-52-0:
+
+.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.7
+.. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.3
+.. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.8.3
+
+.. _Algoritmo de Coincidencia por Día: https://stackoverflowteams.com/c/erpya/questions/375/385#385
+.. _Comisiones de PDV Tiendas: https://github.com/erpcya/Control-PROSEIN/issues/310
+.. _Cambio de Fecha de Orden de Venta: https://github.com/erpcya/Control-PROSEIN/issues/365
+.. _Cierre de Caja: https://github.com/erpcya/Control-PROSEIN/issues/364
+
+
+**rs-52-0**
+===========
+
+**Fecha de Liberación:** 2022-11-28
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-36.2
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.4
+- Cloud-Service-Management: 1.2.9
+- Cash-Management: 1.1.6
+- Currency-Convert-Documents: 1.1.7
+- Farmer-Assistance-Program: 1.5.1
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.6
+- Fiscal-Printer: 1.5.7
+- Sales-Force-Management: 1.2.2
+- Delivery-Management-Service: 1.2.0
+- Travel-Agency-Management: 1.1.1
+- Withholding-Engine: 1.2.8
+- Migration-Tools: 1.0.4
+- LVE: 2.1.3
+- Performance-Analysis: 1.1.4
+- Queue-Manager: 1.0.7
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.5.2
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.4.8
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.7
+- Additional-Reports: 1.2.7
+- Material-Management-Improvements: 1.1.6
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.8
+- Update-Management: 1.1.9
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.1.4
+- ERP-Payroll-Definition: 1.0.6
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.1.5
+- Vue-StoreFront-API: 1.0.9
+- Mercado-Libre-Venezuela-API: 1.0.8
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.1.2
+- LVE-AdditionalTax: 1.2.3
+- Time-Control: 1.0.2
+
+.. data:: Detalle Técnico
+  
+- LVE:
+
+  - Se agrega algoritmo de coincidencia por día y método de pago
+
+- Point-Of-Sales-Improvements:
+
+  - Add dictionary changes for Cash Closing Validation
+    
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+- Aplicar XML's:
+
+  - Point-Of-Sales-Improvements:
+
+    - 09950_ECA14_Add_Validation_for_Cash_Closing.xml
+
+.. data:: Novedades
+
+- Se agrega algoritmo de coincidencia por día y método de pago
+- Se agrega validación para que no se creen transacciones en el punto de ventas sin una apertura de caja
+- Se agrega validación para que no se puedan crear transacciones en el punto de ventas si el cierre de caja anterior no ha sido procesado
+
+
+.. data:: Contexto
+
+- Conciliación automática para puntos de ventas con comisiones incluidas dentro del extracto bancario como Provincial o Venezuela
+
+.. data:: Enlaces Relacionados
+
+  - `Algoritmo de Coincidencia por Día`_
+  - `Comisiones de PDV Tiendas`_
+  - `Cambio de Fecha de Orden de Venta`_
+  - `Versión de Backend`_
+  - `Versión de Gateway`_
+  - `Versión de FrontEnd`_
