@@ -11,6 +11,7 @@
 .. _Valor para el Ajuste: https://github.com/erpcya/Control-PROSEIN/issues/353
 .. _Devolución por el PDV cuando existe un Reembolso: https://github.com/erpcya/Control-PROSEIN/issues/331
 .. _PIN para cambiar precio: https://github.com/erpcya/Control-PROSEIN/issues/337
+.. _Cambio de precio en el PDV: https://github.com/erpcya/Control-PROSEIN/issues/336
 
 
 **rs-52-0**
