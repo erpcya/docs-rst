@@ -135,6 +135,9 @@
   - `Agregar Información confidencial al terminal`_
   - `Pago Móvil, Transferencia y Punto de Venta no establecen el número`_
   - `Límite de porcentaje de descuento por asignación de usuario`_
+
+ .. data:: Servicios Relacionados 
+
   - `Versión de Backend`_
   - `Versión de Gateway`_
   - `Versión de FrontEnd`_
