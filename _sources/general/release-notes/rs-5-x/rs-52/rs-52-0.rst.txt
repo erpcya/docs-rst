@@ -10,6 +10,7 @@
 .. _Cierre de Caja: https://github.com/erpcya/Control-PROSEIN/issues/364
 .. _Valor para el Ajuste: https://github.com/erpcya/Control-PROSEIN/issues/353
 .. _Devolución por el PDV cuando existe un Reembolso: https://github.com/erpcya/Control-PROSEIN/issues/331
+.. _PIN para cambiar precio: https://github.com/erpcya/Control-PROSEIN/issues/337
 
 
 **rs-52-0**
@@ -118,6 +119,7 @@
   - `Cambio de Fecha de Orden de Venta`_
   - `Valor para el Ajuste`_
   - `Devolución por el PDV cuando existe un Reembolso`_
+  - `PIN para cambiar precio`_
 
  .. data:: Servicios Relacionados 
 
