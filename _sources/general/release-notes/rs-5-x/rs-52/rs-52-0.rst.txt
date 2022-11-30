@@ -1,7 +1,7 @@
 .. _documento/versión-52-0:
 
 .. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.8.9
-.. _Versión de Gateway: https://github.com/solop-develop/proxy-adempiere-api/releases/tag/experimental-1.3.8
+.. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.4
 .. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.9.1
 
 .. _Algoritmo de Coincidencia por Día: https://stackoverflowteams.com/c/erpya/questions/375/385#385
@@ -118,6 +118,9 @@
   - `Cambio de Fecha de Orden de Venta`_
   - `Valor para el Ajuste`_
   - `Devolución por el PDV cuando existe un Reembolso`_
+
+ .. data:: Servicios Relacionados 
+
   - `Versión de Backend`_
   - `Versión de Gateway`_
   - `Versión de FrontEnd`_
