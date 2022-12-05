@@ -1,6 +1,6 @@
 .. _documento/versión-52-0:
 
-.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.9.0
+.. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.9.1
 .. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.5
 .. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.9.4
 
