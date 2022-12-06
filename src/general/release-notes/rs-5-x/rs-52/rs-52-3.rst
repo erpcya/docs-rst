@@ -16,6 +16,7 @@
 .. _Apertura de Caja sin Cerrar la Caja Anterior: https://github.com/erpcya/Control-PROSEIN/issues/382
 .. _Devolución desde el punto de Ventas cuando existe Entregas Parciales: https://github.com/erpcya/Control-PROSEIN/issues/328
 .. _Restricción de Usuarios con rol del POS, no puedan acceder a ADempiere: https://github.com/erpcya/Control-PROSEIN/issues/380
+.. _Release Interno: https://github.com/erpcya/Control-PROSEIN/milestone/8
 
 
 **rs-52-3**
@@ -120,6 +121,7 @@
   - `Apertura de Caja sin Cerrar la Caja Anterior`_
   - `Devolución desde el punto de Ventas cuando existe Entregas Parciales`_
   - `Restricción de Usuarios con rol del POS, no puedan acceder a ADempiere`_
+  - `Release Interno`_
 
 .. data:: Servicios Relacionados 
 
