@@ -5,7 +5,7 @@
 .. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.9.4
 
 
-**rs-52-1**
+**rs-52-2**
 ===========
 
 **Fecha de Liberación:** 2022-12-05
