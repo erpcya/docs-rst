@@ -1,8 +1,8 @@
 .. _ERPyA: http://erpya.com
 
-.. _documento/versión-14:
+.. _documento/versión-2:
 
-**rs-5.x**
+**rs-53**
 =========
 
 Las notas de liberación muestran todo el histórico de cambios en las versiones liberadas bajo autoría de `ERPyA`_. Para ver en detalle cada versión liberada solo seleccione uno de los siguientes índices:
@@ -10,7 +10,4 @@ Las notas de liberación muestran todo el histórico de cambios en las versiones
 .. toctree::
     :maxdepth: 2
 
-    rs-53/index
-    rs-52/index
-    rs-51/index
-    rs-50/index
+   rs-53-0
