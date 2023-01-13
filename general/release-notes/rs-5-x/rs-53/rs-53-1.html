@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>rs-53-0 &mdash; ERPYA 1.0 Documentation</title>
+  <title>rs-53-1 &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
@@ -20,8 +20,8 @@
     <script src="../../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="rs-52" href="../rs-52/index.html" />
-    <link rel="prev" title="rs-53-1" href="rs-53-1.html" /> 
+    <link rel="next" title="rs-53-0" href="rs-53-0.html" />
+    <link rel="prev" title="rs-53" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -55,8 +55,8 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Notas de Liberación ADempiere ERP</strong></a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>rs-5.x</strong></a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>rs-53</strong></a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="rs-53-1.html"><strong>rs-53-1</strong></a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>rs-53-0</strong></a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>rs-53-1</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="rs-53-0.html"><strong>rs-53-0</strong></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../rs-52/index.html"><strong>rs-52</strong></a></li>
@@ -132,9 +132,9 @@
           <li class="breadcrumb-item"><a href="../../index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
           <li class="breadcrumb-item"><a href="../index.html"><strong>rs-5.x</strong></a></li>
           <li class="breadcrumb-item"><a href="index.html"><strong>rs-53</strong></a></li>
-      <li class="breadcrumb-item active"><strong>rs-53-0</strong></li>
+      <li class="breadcrumb-item active"><strong>rs-53-1</strong></li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../../../_sources/general/release-notes/rs-5-x/rs-53/rs-53-0.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../../_sources/general/release-notes/rs-5-x/rs-53/rs-53-1.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -142,8 +142,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="rs-53-0">
-<h1><strong>rs-53-0</strong><a class="headerlink" href="#rs-53-0" title="Permalink to this headline"></a></h1>
+  <section id="rs-53-1">
+<h1><strong>rs-53-1</strong><a class="headerlink" href="#rs-53-1" title="Permalink to this headline"></a></h1>
 <section id="fecha-de-liberacion-2023-01-13">
 <h2><strong>Fecha de Liberación:</strong> 2023-01-13<a class="headerlink" href="#fecha-de-liberacion-2023-01-13" title="Permalink to this headline"></a></h2>
 <dl class="py data">
@@ -163,7 +163,7 @@
 <li><p>RethinkDB-Replicator-Client: 1.1.5</p></li>
 <li><p>Third-Party-Access: 1.0.6</p></li>
 <li><p>Fiscal-Printer: 1.5.7</p></li>
-<li><p>Sales-Force-Management: 1.2.4</p></li>
+<li><p>Sales-Force-Management: 1.2.5</p></li>
 <li><p>Delivery-Management-Service: 1.2.0</p></li>
 <li><p>Travel-Agency-Management: 1.1.1</p></li>
 <li><p>Withholding-Engine: 1.2.8</p></li>
@@ -210,14 +210,9 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>CST-STD:</p>
+<li><p>Sales-Force-Management:</p>
 <ul>
-<li><p>Fix Current Selection on Smart Browse</p></li>
-</ul>
-</li>
-<li><p>Currency-Convert-Documents:</p>
-<ul>
-<li><p>Fix bug with transaction at create conversion type</p></li>
+<li><p>Don’t Add Order Lines when Order is Processed</p></li>
 </ul>
 </li>
 </ul>
@@ -234,8 +229,7 @@
 <dt class="sig sig-object py" id="Novedades">
 <span class="sig-name descname"><span class="pre">Novedades</span></span><a class="headerlink" href="#Novedades" title="Permalink to this definition"></a></dt>
 <dd><ul class="simple">
-<li><p>Correccion de error en en seleccion de Smart Browse</p></li>
-<li><p>Correccion de error en transaccion de Creacion de Tipo de Conversion Automaticamente</p></li>
+<li><p>Validacion de Orden Procesada en Proceso de Importar Ordenes de Venta desde Tienda Web</p></li>
 </ul>
 </dd></dl>
 
@@ -245,8 +239,7 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Todas las Ventanas inteligentes</p></li>
-<li><p>Tipo de Conversion Automatico</p></li>
+<li><p>Importación de Pedidos en Tienda Web</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -270,8 +263,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="rs-53-1.html" class="btn btn-neutral float-left" title="rs-53-1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../rs-52/index.html" class="btn btn-neutral float-right" title="rs-52" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="rs-53" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rs-53-0.html" class="btn btn-neutral float-right" title="rs-53-0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
