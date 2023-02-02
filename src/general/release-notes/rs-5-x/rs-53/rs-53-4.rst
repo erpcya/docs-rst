@@ -1,5 +1,6 @@
-.. _documento/versión-53-3:
+.. _documento/versión-53-4:
 
+.. _ERPyA: http://erpya.com
 .. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.9.1
 .. _Versión de Gateway: https://github.com/erpcya/gateway-customer-api/releases/tag/solop-rs-1.2.5
 .. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.9.4
@@ -16,7 +17,7 @@
 - ADempiereBase: 3.9.3-rs-4.3
 - CST-STD: rs-37.0
 - Consigned-Material: 1.3.0
-- Exchange-Operation-System: 1.2.4
+- Exchange-Operation-System: 1.2.6
 - Cloud-Service-Management: 1.2.9
 - Cash-Management: 1.1.6
 - Currency-Convert-Documents: 1.1.8
@@ -67,51 +68,29 @@
 
 .. data:: Detalle Técnico
 
-- Sales-Force-Management:
+- Exchange-Operation-System:
 
-  - Add Visit
-  - Add Customer Inventory
-  - Add Customer Issue
-  - Add Customer Issue Type
+  - Add support to ERP Custom Exchange for currency rates
 
-- LVE:
-
-  - Se agrega columna para moneda de visualización
-
-- Fiscal-Printer:
-
-  - Add support to payment amount symbol
   
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
 - Aplicar XML's:
 
-- Sales-Force-Management:
+- Exchange-Operation-System:
 
-  - 06670_Add_Visit_entity.xml
-  - 06680_Add_Customer_Issue_and_Inventory.xml
-  - 06690_Add_Parameters_for_Visit_schedule_Process.xml
-  - 06700_Change_Windows_for_Sales_force.xml
+  - 07330_Add_ERP_Custom_API_for_Exchange_v1_and_v2.xml
   
 .. data:: Novedades
 
-  - Se agrega soporte a Visita, Reporte de Cliente, Toma de Inventario de Cliente y Bitácora de Visita
-  - Se agregan parámetros de búsqueda para proceso que crea líneas de planificación de visita desde los clientes
-  - Se agrega moneda para visualización de reportes en la información de organización
-  - Se agrega signo al cobro en impresión fiscal
+  - Se agrega interfaz de conexión al API de `ERPyA`_ para tasas de cambio de BCV. Los cambios se deben configurar mediante el setup:
+
+    - Create ERP Custom API v1 Rate Provider: Este se debe habilitar y usar por el momento
 
 .. data:: Contexto
 
-- Fuerza de Ventas y aplicación Play
-- Reportes de factura personalizados (Sólo los que requieran moneda para visualizar)
-- Impresión fiscal con vuelto desde el punto de ventas
-
-Cambios en el proceso para crear líneas de planificación de visita
-
-.. only:: html
-
-    .. figure:: resources/53-3-visit-schedule-create-from.gif
+- Tasas de cambio automáticas
 
 .. data:: Enlaces Relacionados
 
