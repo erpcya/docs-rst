@@ -21,7 +21,7 @@
 
 .. _documento/inventario-uso-interno:
 
-**Registo de Inventario de Uso Interno**
+**Registro de Inventario de Uso Interno**
 ========================================
 
 Para ejemplificar el inventario de uso interno, es generado el reporte "**Detalle de Almacenamiento**" del producto "**Bolígrafo**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera.
