@@ -21,7 +21,7 @@
 - Cloud-Service-Management: 1.2.9
 - Cash-Management: 1.1.6
 - Currency-Convert-Documents: 1.1.8
-- Farmer-Assistance-Program: 1.5.1
+- Farmer-Assistance-Program: 1.5.3
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.6
 - Fiscal-Printer: 11.5.8
@@ -80,6 +80,10 @@
 
   - Fixed error with commission based on custom definition
 
+- Farmer-Assistance-Program:
+
+  - Add warehouse reference to freight order
+
   
 .. data:: Requerimientos
 
@@ -89,6 +93,10 @@
 - CST-STD:
 
   - 10320_Increase_text_long_for_app_registration_parameter.xml
+
+- Farmer-Assistance-Program:
+
+  - 08060_FAP_Add_warehouse_reference_to_freight_order.xml
   
 .. data:: Novedades
 
@@ -98,6 +106,7 @@
 
   - Se agrega soporte a la nueva versión de exportación de archivo txt de Banesco
   - Se corrige error con comisiones para definiciones personalizadas
+  - Se agrega almacén de referencia y socio de negocio para orden de flete de cultivo
 
 .. data:: Contexto
 
