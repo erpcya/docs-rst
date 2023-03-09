@@ -177,7 +177,7 @@ Seleccione en el campo "**Agente Comercial**", asignado a la región donde se en
 
     Imagen 13. Campo Agente Comercial
 
-Seleccione en el campo "**Morosidad**", la regla de morocidad para facturas vencidas.
+Seleccione en el campo "**Morosidad**", la regla de morosidad para facturas vencidas.
 
     |Campo Morosidad|
 
