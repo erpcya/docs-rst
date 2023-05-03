@@ -1,4 +1,4 @@
-.. _documento/versión-54-1:
+.. _documento/versión-54-2:
 
 .. _ERPyA: http://erpya.com
 .. _Versión de Backend: https://github.com/erpcya/adempiere-customer-backend/releases/tag/rs-1.9.1
@@ -6,7 +6,7 @@
 .. _Versión de FrontEnd: https://github.com/solop-develop/frontend-core/releases/tag/experimental-1.9.4
 .. _Error en caso de Comisiones #427: https://github.com/erpcya/Control-FPLE/issues/427
 
-**rs-54-1**
+**rs-54-2**
 ===========
 
 **Fecha de Liberación:** 2023-04-27
